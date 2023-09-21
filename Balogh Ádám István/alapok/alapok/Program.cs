@@ -27,12 +27,13 @@ namespace alapok
             Console.WriteLine(egesz);
             double d = egesz;
             Console.WriteLine(d);*/
-            Console.WriteLine("add meg a négyzet oldalát");
+            /*Console.WriteLine("add meg a négyzet oldalát");
             int a =Convert.ToInt32(Console.ReadLine)();
             int kerulet = 4 * a;
             int kerulet = a * a;
-            Console.WriteLine("A négyzet kerülete" + kerulet);
-            Console.WriteLine("A négyzet területe" + terulet);
+            Console.WriteLine("A négyzet kerülete: " + kerulet);
+            Console.WriteLine("A négyzet terulete: " + terulet);*/
+
 
 
             Console.ReadKey();
