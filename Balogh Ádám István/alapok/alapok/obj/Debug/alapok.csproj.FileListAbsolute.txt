@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\obj\Debug\alapok.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\obj\Debug\alapok.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\obj\Debug\alapok.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\bin\Debug\alapok.exe.config
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\bin\Debug\alapok.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\bin\Debug\alapok.pdb
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\obj\Debug\alapok.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\alapok\alapok\obj\Debug\alapok.pdb
