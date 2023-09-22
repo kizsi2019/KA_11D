@@ -1,0 +1,8 @@
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\bin\Debug\Alapok.exe.config
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\bin\Debug\Alapok.exe
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\bin\Debug\Alapok.pdb
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\obj\Debug\Alapok.csproj.AssemblyReference.cache
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\obj\Debug\Alapok.csproj.SuggestedBindingRedirects.cache
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\obj\Debug\Alapok.csproj.CoreCompileInputs.cache
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\obj\Debug\Alapok.exe
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Alapok\Alapok\obj\Debug\Alapok.pdb
