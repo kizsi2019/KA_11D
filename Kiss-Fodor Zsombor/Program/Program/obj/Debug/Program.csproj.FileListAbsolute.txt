@@ -1,0 +1,7 @@
+C:\Users\zsomb\source\repos\Program\Program\bin\Debug\Program.exe.config
+C:\Users\zsomb\source\repos\Program\Program\bin\Debug\Program.exe
+C:\Users\zsomb\source\repos\Program\Program\bin\Debug\Program.pdb
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.exe
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.pdb
