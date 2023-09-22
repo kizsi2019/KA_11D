@@ -1,0 +1,8 @@
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\obj\Debug\Nemtudom.csproj.AssemblyReference.cache
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\obj\Debug\Nemtudom.csproj.SuggestedBindingRedirects.cache
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\obj\Debug\Nemtudom.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\bin\Debug\Nemtudom.exe.config
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\bin\Debug\Nemtudom.exe
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\bin\Debug\Nemtudom.pdb
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\obj\Debug\Nemtudom.exe
+C:\Users\MarcellSzollosy\Desktop\Github\22_10D2\Szöllőssy Marcell\Nemtudom\Nemtudom\obj\Debug\Nemtudom.pdb
