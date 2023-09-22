@@ -217,6 +217,7 @@ a = b = (10 + 1) * 2 - 2;
 console.log(a, b);
 */
 
+/*
 var sutanap = true;
 var joidovan = true;
 
@@ -226,4 +227,160 @@ if (sutanap || joidovan){
 
 else{
     console.log("Rossz kedvem van");
+}
+*/
+
+szam = 0;
+
+/*
+if (szam){
+    console.log("létezik");
+}
+
+else{
+    console.log("nem létezik");
+}
+*/
+
+/*
+if (szam || szam === 0){
+    console.log("létezik");
+}
+
+else{
+    console.log("nem létezik");
+}
+*/
+
+/*
+if (szam === '10'){
+    console.log("egyezik");
+}
+
+else{
+    console.log("nem egyezik");
+}
+*/
+
+/*
+function hello(nev){
+    return "Hello " + nev + "!"
+}
+
+console.log(hello("Géza"));
+*/
+
+/*
+function TerületKerület(a, b, funkcio){
+    var eredmeny;
+
+    if (funkcio == 'kerület'){
+        eredmeny = (a + b) * 2;
+    }
+
+    else if (funkcio == 'terület'){
+        eredmeny = a * b;
+    }
+
+    else{
+        return "Hibás funkció!"
+    }
+
+    return funkcio + ' = ' + eredmeny
+}
+
+console.log(TerületKerület(5, 4, 'kerület'))
+console.log(TerületKerület(5, 4, 'terület'))
+console.log(TerületKerület(5, 4, 'jfnjfdjf'))
+*/
+
+/*
+var eletszakaszok = function (nev, kor){
+    switch (true){
+        case kor < 13:
+            return nev + " gyerek";
+            break;
+
+        case kor >= 13 && kor <= 20:
+            return nev + " fiú";
+            break;
+
+        case kor > 30 && kor <= 50:
+            return 
+    }
+}
+*/
+
+/*
+var nevek = ["Ond", "Kond", "Tas"];
+var korok = new Array(35, 42, 38);
+
+console.log(korok[1]);
+console.log(nevek);
+console.log(nevek.length);
+
+nevek[1] = "Huba";
+console.log(nevek);
+
+nevek[nevek.length] = "Álmos";
+console.log(nevek);
+
+var huba = ["Huba", 38, "vezér", true]
+console.log(huba);
+
+huba.push(42);
+console.log(huba);
+
+huba.unshift("ifj");
+console.log(huba);
+
+huba.pop();
+console.log(huba);
+
+huba.shift();
+
+
+var szakacs = huba.indexOf("szakács") === -1 ? "Huba nem szakács" : "Huba szakács"
+console.log(szakacs);
+
+var h = {
+    nev: "Huba",
+    kor: 38,
+    foglalkozas: "vezér",
+    hazas: true,
+    baratok: ["Álmos", "Előd", "Ond"],
+    'családi állapot': "nős"
+}
+
+console.log(huba.foglalkozas);
+console.log(huba["nev"]);
+
+var h = "hazas";
+console.log(huba[h])
+
+console.log(huba["családi_állapot"]);
+
+huba["kor"] = 40;
+huba.foglalkozas = "ács";
+
+console.log(huba);
+
+var tas = new Object();
+
+tas.nev = "tas";
+tas.kor = "32";
+tas["foglalkozás"] = "vezér";
+console.log(tas);
+*/
+
+var huba = {
+    nev: "huba",
+    kor: 38,
+    foglalkozas: "vezér",
+    hazas: true,
+    baratok: ["Álmos", "Előd", "Ond"],
+    'családi állpot': 'nős',
+    sziletesiev: function(){
+        this.sziletesiev = 2020 - this.kor
+    }
 }
