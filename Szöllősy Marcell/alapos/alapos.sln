@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alapos", "alapos\alapos.csproj", "{79818EB9-42A9-4989-BA14-DF1E3F66CBEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alapos2", "alapos2\alapos2.csproj", "{457285AC-CB58-4A54-8688-BE0EECC84D44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79818EB9-42A9-4989-BA14-DF1E3F66CBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79818EB9-42A9-4989-BA14-DF1E3F66CBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79818EB9-42A9-4989-BA14-DF1E3F66CBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79818EB9-42A9-4989-BA14-DF1E3F66CBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457285AC-CB58-4A54-8688-BE0EECC84D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457285AC-CB58-4A54-8688-BE0EECC84D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457285AC-CB58-4A54-8688-BE0EECC84D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457285AC-CB58-4A54-8688-BE0EECC84D44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64D634EA-EEF1-4271-A6B8-DA0B47C95661}
+	EndGlobalSection
+EndGlobal
