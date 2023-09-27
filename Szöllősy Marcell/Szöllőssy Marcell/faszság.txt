@@ -1,0 +1,53 @@
+Természetesen, itt van a szöveg dióhéjban:
+
+A kilencvenes évek közepén a Sun kiadta a Java platform első verzióját. A Java gyorsan népszerűvé vált a platformfüggetlensége, nagyszerű osztálykönyvtára és könnyen tanulható nyelve miatt. Kezdetben a Microsoft és más cégek nem tudtak hatékonyan versenyezni a Sun termékével, de később fejlesztéseikkel sikerült felzárkózniuk. Először a Microsoft megpróbálta saját Java implementációját, de ezzel nem ért el nagy sikert.
+
+Később néhány .NET technológia eredetileg ezen fejlesztéseken alapult. Amikor 1998-ban a Microsoft úgy döntött, hogy nem használja tovább a Sun Microsystems Java technológiáját, a már létező Microsoft J++ (Java++) terméket használták alapul a .NET projektnek. A .NET CLR (Common Language Runtime) kódjának néhány része a Colusa Software OmniVM termékéből származik, amelyet a Microsoft vásárolt meg 1996-ban.
+
+A tényleges fejlesztés a kilencvenes évek végén, a Next Generation Windows Services munkacím alatt Bill Gates személyes felügyelete mellett kezdődött. 2000-ben a Microsoft, az Intel és a Hewlett-Packard már a C# nyelv szabványosításán dolgozott, amit az ECMA elfogadott 2001-ben.
+
+A .NET Framework első béta verziója 2000 végére készült el, majd 2002. január 5-én adták ki a 1.0 verziót a nagyközönség számára.
+
+A következő fontos mérföldkő 2005. november 7-én történt, amikor megjelent a 2.0-s verzió, ami jelentős fejlesztéseket hozott magával, és valódi népszerűséget hozott a .NET-nek.
+
+Egy évvel később, 2006-ban megjelent a 3.0 verzió, majd egy évvel később a 3.5 verzió. 2008 augusztusában kiadták az első szervizcsomagot a 3.5 verzióhoz. 2010 elején érkezett a 4.0 verzió, 2012-ben pedig a 4.5 verzió béta változata.
+
+A .NET Framework alapját a CLI, vagyis a Common Language Infrastructure képezi. Ez egy olyan szabályok halmaza, amelyek egy nyelvfüggetlen fejlesztői környezetet, futtatókörnyezetet, típusrendszert és más elemeket írnak le. A .NET Framework implementációját Common Language Runtime (CLR) néven ismerik.
+
+A CLI maga is négy fő részre oszlik:
+
+Common Language Specification (CLS): A CLS a CLI része, és olyan szabályokat határoz meg, amelyeket a CLI-kompatibilis nyelveknek be kell tartaniuk. Például a CLS nem engedi meg az ulong típusú paraméterek használatát, bár egyes .NET nyelvek, például a C#, engedik.
+
+Common Type System (CTS): A CTS a CLI egyik része, ami a típusokat, azok memóriabeli reprezentációját és azok egymással való interakcióját írja le. A .NET minden nyelve ugyanazt a típusrendszert használja, így az egyes típusok ugyanazok, bár a nevük nyelvfüggő lehet.
+
+Common Language Runtime (CLR): A CLR vagy VES (Virtual Execution System) felel a CLI nyelven írt programok betöltéséért és végrehajtásáért. Feladatai közé tartozik a memóriamenedzsment, a kivételkezelés és a kódbiztonság.
+
+Common Intermediate Language (CIL): A CIL (korábban MSIL) egy köztes kód, amire minden CLI nyelven írt program lefordul. Ezt a köztes kódot a tényleges futtatáskor egy Just-In-Time Compiler (JIT) fordítja le natív kóddá, amelyet a processzor képes kezelni. A CIL hasonlít a Java bytekódjához.
+
+Ezek a CLI elemek lehetővé teszik a .NET keretrendszerben írt programok nyelvfüggetlen fejlesztését és futtatását, valamint biztosítják, hogy az összes .NET nyelv ugyanazt a típusrendszert és azonos futtatási környezetet használja.
+
+A Java-t a .NET evolúciós előfutárának tartják. A Sun Microsystems, majd az Oracle, ragaszkodott a különböző Java kivitelezések összeférhetőségéhez és a platformfüggetlen működéshez.
+
+A Java eredetileg az "írd meg egyszer, futtasd bárhol" elv alapján készült, de a különböző rendszerek specialitásait kihagyva. Később lehetővé vált, hogy a Java az összes jelentős platformon fussa.
+
+A Microsoft próbált saját sajátságokat adni a Java-hoz, de ezzel a Sun perelte a Microsoftot, és a Microsoft kihagyta a Java-t a jövőbeli termékekből.
+
+Mind a Java, mind a .NET közös objektum modellt és osztálykönyvtárat használ, hogy támogassa a nyelvfüggetlen fejlesztést.
+
+A .NET keretrendszer támogat több mint 40 programozási nyelvet, melyek közül a C# a legnépszerűbb.
+
+Az ASP.NET és az ADO.NET olyan technológiák, amelyek a .NET keretrendszert használják webfejlesztéshez és adatbázis-kezeléshez.
+
+A .NET keretrendszer és a Java hasonlóak, de a .NET egy saját köztes kódot használ, amit a JIT fordít le natív kóddá futtatási időben. A Java is futásidejű fordítást használ.
+
+A .NET jelenleg csak Windows platformon érhető el teljes értékben, míg a Java több platformon is működik. Azonban léteznek megvalósítások, például a Mono, amelyek lehetővé teszik a .NET alkalmazások futtatását más operációs rendszereken is.
+
+Mind a .NET, mind a Java elérhetőek nyílt forráskódú megvalósításokban is (pl. Mono és OpenJDK).
+
+A .NET specifikációjának egy részét az ECMA és az ISO szabványosította.
+
+A CLI (Common Language Infrastructure), a CIL (Common Intermediate Language) és a C# nagy hasonlóságot mutatnak a Java JVM-jéhez és a Java nyelvhez képest, és versenyben állnak egymással.
+
+A .NET és a Java közötti verseny a Microsoft .NET Framework bevezetése óta folyamatos, és mindkét platform fejlődik és versenyez egymással.
+
+Ez a szöveg egy átfogó összehasonlítást nyújt a Java és a .NET keretrendszerek között, bemutatva azok hasonlóságait és különbségeit.
