@@ -1,0 +1,8 @@
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\bin\Debug\Alapos4.exe.config
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\bin\Debug\Alapos4.exe
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\bin\Debug\Alapos4.pdb
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\obj\Debug\Alapos4.csproj.AssemblyReference.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\obj\Debug\Alapos4.csproj.SuggestedBindingRedirects.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\obj\Debug\Alapos4.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\obj\Debug\Alapos4.exe
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Alapos4\Alapos4\obj\Debug\Alapos4.pdb
