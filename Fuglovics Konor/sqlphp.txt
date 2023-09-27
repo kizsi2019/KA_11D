@@ -1,1 +1,16 @@
-SELECT AVG(standard_cost) FROM products
+1. 
+SELECT AVG(standard_cost) FROM products;
+SELECT AVG(standard_cost) FROM products WHERE list_price < 30;
+SELECT AVG(standard_cost) FROM products WHERE category <> "Sauces";
+
+2.
+SELECT SUM(standard_cost) FROM products;
+SELECT SUM(standard_cost) FROM products WHERE list_price BETWEEN 20 AND 50;
+SELECT SUM(standard_cost) FROM products WHERE NOT category <> "Sauces";
+
+3.
+SELECT id FROM employees WHERE city = "Seattle";
+SELECT id, job_title FROM employees WHERE job_title = "Sales Representative";
+SELECT id, first_name FROM employees WHERE first_name LIKE "A%";
+
+4.
