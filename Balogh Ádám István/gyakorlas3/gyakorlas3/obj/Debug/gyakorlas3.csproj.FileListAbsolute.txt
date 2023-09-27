@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\bin\Debug\gyakorlas3.exe.config
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\bin\Debug\gyakorlas3.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\bin\Debug\gyakorlas3.pdb
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\obj\Debug\gyakorlas3.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\obj\Debug\gyakorlas3.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\obj\Debug\gyakorlas3.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\obj\Debug\gyakorlas3.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\gyakorlas3\gyakorlas3\obj\Debug\gyakorlas3.pdb
