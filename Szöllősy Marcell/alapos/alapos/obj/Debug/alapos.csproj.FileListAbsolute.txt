@@ -1,0 +1,8 @@
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\bin\Debug\alapos.exe.config
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\bin\Debug\alapos.exe
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\bin\Debug\alapos.pdb
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\obj\Debug\alapos.csproj.AssemblyReference.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\obj\Debug\alapos.csproj.SuggestedBindingRedirects.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\obj\Debug\alapos.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\obj\Debug\alapos.exe
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\alapos\alapos\obj\Debug\alapos.pdb
