@@ -1,0 +1,1 @@
+SELECT AVG(standard_cost) FROM products
