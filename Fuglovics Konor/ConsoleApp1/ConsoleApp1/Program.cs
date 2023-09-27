@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = Math.Abs(-3);
+            Console.WriteLine(a);
+            double b = Math.Ceiling(1.23);
+            Console.WriteLine(b);
+            Console.ReadKey();
+        }
+    }
+}
+=======
 ﻿namespace ConsoleApp1
 {
     internal class Program
@@ -104,3 +126,4 @@
         }
     }
 }
+>>>>>>> 17d0481b1d7ca1910b7d0bfe5d6fae1abf857471

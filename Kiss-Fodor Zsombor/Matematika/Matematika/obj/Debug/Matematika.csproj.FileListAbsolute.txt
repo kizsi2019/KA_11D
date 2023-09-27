@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\Matematika\Matematika\bin\Debug\Matematika.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\Matematika\Matematika\bin\Debug\Matematika.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\Matematika\Matematika\bin\Debug\Matematika.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\Matematika\Matematika\obj\Debug\Matematika.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\Matematika\Matematika\obj\Debug\Matematika.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\Matematika\Matematika\obj\Debug\Matematika.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\Matematika\Matematika\obj\Debug\Matematika.pdb
