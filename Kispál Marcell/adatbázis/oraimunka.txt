@@ -1,0 +1,16 @@
+1. SELECT DISTINCT ship_state_province FROM orders
+UNION
+SELECT DISTINCT state_province FROM customers;
+
+2.SELECT category, COUNT(*) AS termek_szam
+FROM products
+GROUP BY category;
+
+3.SELECT ship_city, COUNT(*) AS rendelesek_szama
+FROM orders
+GROUP BY ship_city;
+
+4.SELECT city, COUNT(*) AS ugyfelek_szama
+FROM customers
+GROUP BY city
+HAVING COUNT(*) >= 3;
