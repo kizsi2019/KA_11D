@@ -90,6 +90,7 @@ namespace gyakorlas4
             }
             */
 
+            /*
             try
             {
                 Console.Write("Add meg egy hatszög oldalát ");
@@ -103,6 +104,30 @@ namespace gyakorlas4
             catch(FormatException ex)
             {
                 Console.WriteLine("Hiba történt: {0}", ex.Message);
+            }
+            */
+            /*
+            Console.WriteLine("Goto példa. Kilépés: CTRL+C");
+            eleje:
+                Console.WriteLine("Add meg a neved");
+                var nev = Console.ReadLine();
+                Console.WriteLine($"Szia {nev}!");
+                goto eleje;
+                */
+
+
+            /*
+            for (int i = 100; i > 0; i -= 4)
+            {
+                Console.WriteLine(i);
+            }
+            */
+
+            int i = 5;
+            while (i <= 120) { 
+
+                Console.WriteLine(i);
+                i += 5;
             }
 
             Console.ReadKey();
