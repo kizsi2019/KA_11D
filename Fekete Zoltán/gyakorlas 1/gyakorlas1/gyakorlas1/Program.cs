@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hatszog
+namespace gyakorlas1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            /*
-            Console.WriteLine("Menü program");
+            /*Console.WriteLine("Menü program");
             Console.WriteLine("Opciók:");
             Console.WriteLine("A: Kis kávé, B: Nagy kávé");
             Console.WriteLine("C: Nem iszom semmit");
@@ -34,27 +33,22 @@ namespace Hatszog
             {
                 Console.WriteLine("Nem jó gombot nyomott!");
             }
-            */
-
-            /*
-            try
+            Console.ReadKey();*/
+            /*try
             {
-                string szöveg = "valami szöveg";
-                int szam = Convert.ToInt32(szöveg);
-
+                string szoveg = "valami szöveg";
+                int szam = Convert.ToInt32(szoveg);
                 Console.WriteLine(szam);
-            }
 
+            }
             catch (FormatException ex)
             {
-                Console.WriteLine("Valami történt: {0}", ex.Message);
+                Console.WriteLine("Valami hiba történt: {0}", ex.Message);
             }
-            */
 
-            /*
-            Console.WriteLine("Kettővel szorzó v. 1.0");
+            Console.ReadKey();*/
+            /*Console.WriteLine("Kettővel szorzó v. 1.0");
             Console.WriteLine("Adjon meg egy egész páros számot!");
-
             try
             {
                 var bevitel = Console.ReadLine();
@@ -75,71 +69,51 @@ namespace Hatszog
             finally
             {
                 Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez");
-
-            }
-            */
-
-            /*
-            int szam;
+                Console.ReadKey();
+            }*/
+            /*int szam;
             if (int.TryParse("123", out szam))
             {
-                Console.WriteLine(szam);
                 //sikeres volt a feldolgozás
                 //ebben a blokkban a szam változó
                 //biztos, hogy helytálló értékkel rendelkezik.
-            }
-            */
-
-            /*   try
-              {
-                   Console.Write("Add meg egy hatszög oldalát ");
-                   int oldal = Convert.ToInt32(Console.ReadLine());
-
-                   int kerület = oldal * 6;
-
-                   Console.WriteLine("A hatszög területe {0}", kerület + " cm");
-               }
-
-               catch (FormatException ex)
-               {
-                   Console.WriteLine("Hiba történt: {0}", ex.Message);
-               }
-               Console.ReadKey(); */
-
-            /*            Console.WriteLine("Goto példa. Kilépés: CTRL+C");
-                            eleje:
-                                Console.WriteLine("Add meg a neved");
-                                var nev = Console.ReadLine();
-                                Console.WriteLine($"Szia {nev}!");
-                                goto eleje;
-
-                                Console.ReadKey();
-                                 */
-
-       /*     for (int i = 100; i >= 0; i -= 4);
+            }*/
+            /*Console.WriteLine("Adja meg a hatszög oldalait!");
+            try
             {
-                Console.Write("{0}, ", i);
+                var kerulet = Console.ReadLine();
+                int szam = Convert.ToInt32(kerulet);
+
+                Console.WriteLine($"A hatszög kerülete: {szam * 6}");
             }
-            Console.ReadKey(); */
-
-
+            catch (Exception ex)
             {
-                int i = 5;
-                while (i > 120)
-                {
-                    Console.Write(i);
-                    i++;
-                }
+                Console.WriteLine("Hiba történt.");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program vége. Nyomjon egy gombot a kilépéshez.");
                 Console.ReadKey();
-
+            }*/
+            /*Console.WriteLine("Goto példa. Kilépés: CTRL+C");
+        eleje:
+            Console.WriteLine("Add meg a neved");
+            var nev = Console.ReadLine();
+            Console.WriteLine($"Szia {nev}!");
+            goto eleje;*/
+            /*for (int i = 100; i >= 0; i -= 4)
+            {
+                Console.WriteLine("{0}, ", i);
             }
-    }
+            Console.ReadKey();*/
+            int i = 5;
+            while (i <= 120)
+            {
+                Console.Write(i);
+                i += 5;
+            }
+            Console.ReadKey();
+        }
     }
 }
-
-
-
-
-
-
-

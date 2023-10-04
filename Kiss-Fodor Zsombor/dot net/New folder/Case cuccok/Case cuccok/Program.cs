@@ -83,7 +83,7 @@ namespace Case_cuccok
                 //biztos, hogy helytálló értékkel rendelkezik.
             }      
 
-            */
+            
             Console.WriteLine("kérek egy számocskát te csóró!!");
             try
             {
@@ -108,7 +108,19 @@ namespace Case_cuccok
                 Console.WriteLine(ex.Message);
             }
             
+            
+            Console.WriteLine("Goto példa. Kilépés: CTRL+C");
+            eleje:
+                Console.WriteLine("Add meg a neved");
+                var nev = Console.ReadLine();
+                Console.WriteLine($"Szia {nev}!");
+                goto eleje;
+            */
 
+            for (int i = 5; i <= 120; i+= 5) 
+            { 
+                Console.WriteLine(i);
+            }
 
             Console.ReadKey();
 
