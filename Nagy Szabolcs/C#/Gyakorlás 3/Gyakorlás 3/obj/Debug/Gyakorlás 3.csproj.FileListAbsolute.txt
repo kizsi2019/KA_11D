@@ -1,0 +1,8 @@
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\obj\Debug\Gyakorlás 3.csproj.AssemblyReference.cache
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\obj\Debug\Gyakorlás 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\obj\Debug\Gyakorlás 3.csproj.CoreCompileInputs.cache
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\bin\Debug\Gyakorlás 3.exe.config
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\bin\Debug\Gyakorlás 3.exe
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\bin\Debug\Gyakorlás 3.pdb
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\obj\Debug\Gyakorlás 3.exe
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás 3\Gyakorlás 3\obj\Debug\Gyakorlás 3.pdb
