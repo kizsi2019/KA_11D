@@ -1,0 +1,8 @@
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\bin\Debug\Gyakorlás2.exe.config
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\bin\Debug\Gyakorlás2.exe
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\bin\Debug\Gyakorlás2.pdb
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.csproj.AssemblyReference.cache
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.csproj.SuggestedBindingRedirects.cache
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.csproj.CoreCompileInputs.cache
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.exe
+C:\Users\KrisztianDunai\Desktop\programozás\KA_11D\Dunai Krisztián János\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.pdb
