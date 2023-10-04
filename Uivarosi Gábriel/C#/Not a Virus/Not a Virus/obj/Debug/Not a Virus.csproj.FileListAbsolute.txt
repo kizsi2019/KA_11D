@@ -1,0 +1,8 @@
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\bin\Debug\Not a Virus.exe.config
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\bin\Debug\Not a Virus.exe
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\bin\Debug\Not a Virus.pdb
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\obj\Debug\Not a Virus.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\obj\Debug\Not a Virus.csproj.SuggestedBindingRedirects.cache
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\obj\Debug\Not a Virus.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\obj\Debug\Not a Virus.exe
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Not a Virus\Not a Virus\obj\Debug\Not a Virus.pdb
