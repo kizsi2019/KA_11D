@@ -1,0 +1,33 @@
+1
+a
+SELECT AVG(standard_cost) FROM products;
+b
+SELECT AVG(standard_cost) FROM products WHERE list_price < 30;
+c
+SELECT AVG(standard_cost) FROM products WHERE category = "Sauces";
+
+2
+a
+SELECT COUNT(standard_cost) FROM products;
+b
+SELECT COUNT(standard_cost) FROM products WHERE list_price > 20 && list_price < 50;
+c
+SELECT COUNT(standard_cost) FROM products WHERE category != "Sauces";
+
+3
+a
+SELECT COUNT(city) FROM employees WHERE city = "Seattle";
+b
+SELECT COUNT(city) FROM employees WHERE city = "Seattle";
+c
+SELECT COUNT(first_name) FROM employees WHERE first_name LIKE "%A%";
+
+4
+a
+SELECT MIN(standard_cost) FROM products;
+b
+SELECT MAX(standard_cost) FROM products;
+c
+SELECT MAX(standard_cost) FROM products WHERE list_price > 30;
+d
+SELECT MAX(standard_cost) FROM products WHERE product_code LIKE "%CO%";

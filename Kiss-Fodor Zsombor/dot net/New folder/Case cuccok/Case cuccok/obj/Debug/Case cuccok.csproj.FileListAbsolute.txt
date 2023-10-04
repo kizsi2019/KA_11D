@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\New folder\Case cuccok\Case cuccok\bin\Debug\Case cuccok.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\New folder\Case cuccok\Case cuccok\bin\Debug\Case cuccok.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\New folder\Case cuccok\Case cuccok\bin\Debug\Case cuccok.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\New folder\Case cuccok\Case cuccok\obj\Debug\Case cuccok.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\New folder\Case cuccok\Case cuccok\obj\Debug\Case cuccok.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\New folder\Case cuccok\Case cuccok\obj\Debug\Case cuccok.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\New folder\Case cuccok\Case cuccok\obj\Debug\Case cuccok.pdb
