@@ -1,0 +1,14 @@
+C:\Users\zsomb\source\repos\Program\Program\bin\Debug\Program.exe.config
+C:\Users\zsomb\source\repos\Program\Program\bin\Debug\Program.exe
+C:\Users\zsomb\source\repos\Program\Program\bin\Debug\Program.pdb
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.exe
+C:\Users\zsomb\source\repos\Program\Program\obj\Debug\Program.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Program\Program\bin\Debug\Program.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Program\Program\bin\Debug\Program.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Program\Program\bin\Debug\Program.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Program\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Program\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Program\Program\obj\Debug\Program.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Program\Program\obj\Debug\Program.pdb
