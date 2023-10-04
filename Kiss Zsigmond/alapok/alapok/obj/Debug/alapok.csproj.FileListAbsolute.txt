@@ -1,0 +1,8 @@
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\bin\Debug\alapok.exe.config
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\bin\Debug\alapok.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\bin\Debug\alapok.pdb
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\obj\Debug\alapok.csproj.AssemblyReference.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\obj\Debug\alapok.csproj.SuggestedBindingRedirects.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\obj\Debug\alapok.csproj.CoreCompileInputs.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\obj\Debug\alapok.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\alapok\alapok\obj\Debug\alapok.pdb
