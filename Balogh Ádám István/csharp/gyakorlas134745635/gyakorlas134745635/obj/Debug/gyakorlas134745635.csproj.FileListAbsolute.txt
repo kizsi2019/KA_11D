@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\bin\Debug\gyakorlas134745635.exe.config
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\bin\Debug\gyakorlas134745635.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\bin\Debug\gyakorlas134745635.pdb
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\obj\Debug\gyakorlas134745635.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\obj\Debug\gyakorlas134745635.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\obj\Debug\gyakorlas134745635.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\obj\Debug\gyakorlas134745635.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\gyakorlas134745635\gyakorlas134745635\obj\Debug\gyakorlas134745635.pdb
