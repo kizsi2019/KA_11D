@@ -1,8 +1,0 @@
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\bin\Debug\gyakorlas4.exe.config
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\bin\Debug\gyakorlas4.exe
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\bin\Debug\gyakorlas4.pdb
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\obj\Debug\gyakorlas4.csproj.AssemblyReference.cache
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\obj\Debug\gyakorlas4.csproj.SuggestedBindingRedirects.cache
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\obj\Debug\gyakorlas4.csproj.CoreCompileInputs.cache
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\obj\Debug\gyakorlas4.exe
-C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\gyakorlas4\gyakorlas4\obj\Debug\gyakorlas4.pdb

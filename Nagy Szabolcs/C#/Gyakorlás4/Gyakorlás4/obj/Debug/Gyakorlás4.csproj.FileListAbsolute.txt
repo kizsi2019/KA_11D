@@ -1,0 +1,8 @@
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\obj\Debug\Gyakorlás4.csproj.AssemblyReference.cache
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\obj\Debug\Gyakorlás4.csproj.SuggestedBindingRedirects.cache
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\obj\Debug\Gyakorlás4.csproj.CoreCompileInputs.cache
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\bin\Debug\Gyakorlás4.exe.config
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\bin\Debug\Gyakorlás4.exe
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\bin\Debug\Gyakorlás4.pdb
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\obj\Debug\Gyakorlás4.exe
+C:\Users\NagySzabolcs\Desktop\github repo(k)\KA_11D\Nagy Szabolcs\C#\Gyakorlás4\Gyakorlás4\obj\Debug\Gyakorlás4.pdb
