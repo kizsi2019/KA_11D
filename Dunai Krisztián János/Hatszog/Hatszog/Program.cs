@@ -116,13 +116,30 @@ namespace Hatszog
                                 Console.ReadKey();
                                  */
 
-            for (int i = 100; i >= 0; i -= 4);
+       /*     for (int i = 100; i >= 0; i -= 4);
             {
-                Console.WriteLine();
+                Console.Write("{0}, ", i);
             }
-            Console.ReadKey();
+            Console.ReadKey(); */
 
-        }
+
+            {
+                int i = 5;
+                while (i > 120)
+                {
+                    Console.Write(i);
+                    i++;
+                }
+                Console.ReadKey();
+
+            }
+    }
     }
 }
+
+
+
+
+
+
 

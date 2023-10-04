@@ -1,0 +1,6 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

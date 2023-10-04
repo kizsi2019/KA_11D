@@ -90,22 +90,37 @@ namespace gyakorlas4
             }
             */
 
-            try
+            /* try
+             {
+                 Console.Write("Add meg egy hatszög oldalát ");
+                 int oldal = Convert.ToInt32(Console.ReadLine());
+
+                 int kerület = oldal * 6;
+
+                 Console.WriteLine("A hatszög területe {0}", kerület + " cm");
+             }
+
+             catch(FormatException ex)
+             {
+                 Console.WriteLine("Hiba történt: {0}", ex.Message);
+             }
+
+             Console.ReadKey();*/
+
+            /*Console.WriteLine("\n0 -> 60, minden 3.");
+            for (int i = 100; i >= 0; i -= 4)
             {
-                Console.Write("Add meg egy hatszög oldalát ");
-                int oldal = Convert.ToInt32(Console.ReadLine());
-
-                int kerület = oldal * 6;
-
-                Console.WriteLine("A hatszög területe {0}", kerület + " cm");
+                Console.Write("{0}, ", i);
             }
+            Console.ReadKey(); */
 
-            catch(FormatException ex)
+            Console.WriteLine("\n0 -> 60, minden 3.");
+            for (int i = 5; i <= 120; i += 5)
             {
-                Console.WriteLine("Hiba történt: {0}", ex.Message);
+                Console.Write("{0}, ", i);
             }
-
             Console.ReadKey();
         }
     }
-}
+    }
+
