@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS tulajdonosok;
+
+  CREATE TABLE tulajdonosok(
+	id INT,
+	nev VARCHAR(60),
+	lakhely VARCHAR(60)
