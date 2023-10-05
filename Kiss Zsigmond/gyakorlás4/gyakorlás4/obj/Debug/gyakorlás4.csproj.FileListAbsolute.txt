@@ -1,0 +1,8 @@
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\bin\Debug\gyakorlás4.exe.config
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\bin\Debug\gyakorlás4.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\bin\Debug\gyakorlás4.pdb
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\obj\Debug\gyakorlás4.csproj.AssemblyReference.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\obj\Debug\gyakorlás4.csproj.SuggestedBindingRedirects.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\obj\Debug\gyakorlás4.csproj.CoreCompileInputs.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\obj\Debug\gyakorlás4.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyakorlás4\gyakorlás4\obj\Debug\gyakorlás4.pdb
