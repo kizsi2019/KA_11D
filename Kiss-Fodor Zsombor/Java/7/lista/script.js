@@ -68,3 +68,26 @@ console.log(tas)
 
 */
 
+var tomb = ['Ond', 38, 'vezér', true, 1990];
+
+for (var i = 0; i < tomb.length; i++) {
+    console.log(tomb[i]);
+}
+
+
+
+var i = 0;
+while (i < tomb.length) {
+    console.log(tomb[i]);
+    i++;
+}
+
+
+
+
+for (var i = 0; < tomb.length; i++); {
+    if (typeof(tomb[i]) === 'boolean') {
+        break;
+    }
+    console.log(tomb[i]);
+}
