@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\do while\obj\Debug\do while.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\do while\obj\Debug\do while.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\do while\bin\Debug\do while.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\do while\bin\Debug\do while.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\do while\bin\Debug\do while.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\do while\obj\Debug\do while.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\do while\obj\Debug\do while.pdb
