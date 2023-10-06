@@ -345,19 +345,17 @@ var szakacs = huba.indexOf('szakacs') === -1 ? 'Huba nem szakács' : 'Huba szak�
 console.log(szakacs);
 
 */
-
 /*
-
 var huba = {
     nev: 'Huba',
     kor: 18,
     foglalkozas: 'vezér',
     hazas: true,
     baratok: ['Almos', 'Előd', 'Ond'],
-    'csalálo állapot': 'nős'
+    'csaladi allapot': 'nős',
 };
 
-console.log(huba.foglalkozas);
+console.log(huba.foglalkozas)
 console.log(huba['nev']);
 
 var h = 'hazas';
@@ -372,25 +370,54 @@ console.log(huba);
 
 var tas = new Object();
 
-tas.nev = 'fas';
+tas.new = 'Tas';
 tas.kor = 12;
-tas['foglalkozas'] = 'vezer';
+tas['foglalkozas'] = 'vezér';
 console.log(tas);
-
 */
 
+/*
 var huba = {
     nev: 'Huba',
     kor: 18,
     foglalkozas: 'vezér',
     hazas: true,
-    baratok: ['Almos', 'Előd', 'Ond'],
-    'csalálo állapot': 'nős',
+    baratok: ['Álmos', 'Előd', 'Ond'],
+    'csaladi állapot': 'nős',
     szuletesEvSzamitas: function() {
-        return 2020 - this.kor;
+        this.szuletesiEv - 2023 - this.kor;
     }
 };
 
 huba.szuletesEvSzamitas();
 
 console.log(huba);
+
+*/
+
+for (var i = 20; i >= 1; i--) {
+    console.log(i);
+}
+
+var tomb = ['Ond', 38, 'vezér', true, 1990];
+
+for (var i = 0; i < tomb.length; i++) {
+    console.log(tomb[i]);
+}
+
+// while
+
+var i = 0;
+while (i < tomb.length) {
+    console.log(tomb[i]);
+    i++
+}
+
+//break
+
+for (var i = 0; i < tomb.length; i++) {
+    if (typeof(tomb[i]) === 'boolean') {
+        break;
+    }
+    console.log(tomb[i]);
+}
