@@ -1,0 +1,8 @@
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\bin\Debug\alapok.exe.config
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\bin\Debug\alapok.exe
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\bin\Debug\alapok.pdb
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\obj\Debug\alapok.csproj.AssemblyReference.cache
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\obj\Debug\alapok.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\obj\Debug\alapok.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\obj\Debug\alapok.exe
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\alapok\alapok\obj\Debug\alapok.pdb
