@@ -1,0 +1,8 @@
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\bin\Debug\gyak3.exe.config
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\bin\Debug\gyak3.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\bin\Debug\gyak3.pdb
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\obj\Debug\gyak3.csproj.AssemblyReference.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\obj\Debug\gyak3.csproj.SuggestedBindingRedirects.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\obj\Debug\gyak3.csproj.CoreCompileInputs.cache
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\obj\Debug\gyak3.exe
+C:\Users\KissZsigmond\Desktop\Github\KA_11D\Kiss Zsigmond\gyak3\gyak3\obj\Debug\gyak3.pdb
