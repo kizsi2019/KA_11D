@@ -1,2 +1,0 @@
-C:\Users\Acer\OneDrive - BGéSZC Katona József Technikum\Asztal\visual studio\KA_11D\Jankovics Dávid\faszom bele\faszom bele\obj\Debug\faszom bele.csproj.AssemblyReference.cache
-C:\Users\Acer\OneDrive - BGéSZC Katona József Technikum\Asztal\visual studio\KA_11D\Jankovics Dávid\faszom bele\faszom bele\obj\Debug\faszom bele.csproj.CoreCompileInputs.cache
