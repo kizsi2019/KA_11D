@@ -217,7 +217,6 @@ a = b = (10 + 1) * 2 - 2;
 console.log(a, b);
 */
 
-
 /*
 var sutanap = true;
 var joidovan = true;
@@ -231,137 +230,165 @@ else{
 }
 */
 
-
-// var szam;
-
-// szam = '10';
+szam = 0;
 
 /*
-if (szam || szam === 0) {
-    console.log('Létezik');
-} else {
-    console.log('Nem létezik');
+if (szam){
+    console.log("létezik");
+}
+
+else{
+    console.log("nem létezik");
 }
 */
 
 /*
-if (szam === '10') {
+if (szam || szam === 0){
+    console.log("létezik");
+}
+
+else{
+    console.log("nem létezik");
+}
+*/
+
+/*
+if (szam === '10'){
     console.log("egyezik");
-} else {
-    console.log('nem egyezik');
+}
+
+else{
+    console.log("nem egyezik");
 }
 */
 
-
-/* function hello(nev) {
-    console.log('Hello ' + nev + '!');
+/*
+function hello(nev){
+    return "Hello " + nev + "!"
 }
-hello('Géza')
 
+console.log(hello("Géza"));
 */
 
-
-/* 
-function teglalapKeruletTerulet(a, b, funkcio) {
+/*
+function TerületKerület(a, b, funkcio){
     var eredmeny;
 
-    if (funkcio === 'kerulet') {
+    if (funkcio == 'kerület'){
         eredmeny = (a + b) * 2;
-    } else if (funkcio === 'terulet') {
-        eredmeny = a * b;
-    } else {
-        return 'Hibás funkció!';
     }
 
-    return funkcio + ' = ' + eredmeny;
+    else if (funkcio == 'terület'){
+        eredmeny = a * b;
+    }
+
+    else{
+        return "Hibás funkció!"
+    }
+
+    return funkcio + ' = ' + eredmeny
 }
 
-console.log(teglalapKeruletTerulet(5, 4, 'kerulet'));
-console.log(teglalapKeruletTerulet(5, 4, 'terulet'));
-console.log(teglalapKeruletTerulet(5, 4, 'ejhgh'));
-
-
+console.log(TerületKerület(5, 4, 'kerület'))
+console.log(TerületKerület(5, 4, 'terület'))
+console.log(TerületKerület(5, 4, 'jfnjfdjf'))
 */
 
 /*
-
-
-var eletSzakaszok = function(nev, kor) {
-    switch (true) {
+var eletszakaszok = function (nev, kor){
+    switch (true){
         case kor < 13:
-            return nev + ' gyerek';
+            return nev + " gyerek";
             break;
+
         case kor >= 13 && kor <= 20:
-            return nev + ' tinédzser';
+            return nev + " fiú";
             break;
-        case kor > 20 && kor <= 30:
-            return nev + ' ifjú';
-            break;
-        case kor > 20 && kor <= 50:
-            return nev + ' közép'
+
+        case kor > 30 && kor <= 50:
+            return 
     }
 }
-
 */
 
-
-/* 
-var nev1 = 'Ond';
-var nev2 = 'Kond';
-var nev3 = 'Tas';
-
-var nevek = ['Ond', 'Kond', 'Tas'];
-
+/*
+var nevek = ["Ond", "Kond", "Tas"];
 var korok = new Array(35, 42, 38);
 
 console.log(korok[1]);
 console.log(nevek);
 console.log(nevek.length);
 
-nevek[1] = 'Huba';
+nevek[1] = "Huba";
 console.log(nevek);
 
-nevek[nevek.length] = 'Álmos';
+nevek[nevek.length] = "Álmos";
 console.log(nevek);
 
-var huba = ['Huba', 38, 'vezér', true];
-console.log(huba)
+var huba = ["Huba", 38, "vezér", true]
+console.log(huba);
 
 huba.push(42);
-console.log(huba)
+console.log(huba);
 
-huba.unshift('ifj');
-console.log(huba)
+huba.unshift("ifj");
+console.log(huba);
 
 huba.pop();
 console.log(huba);
 
-huba.shift()
-console.log(huba);
+huba.shift();
 
-console.log(huba.indexOf(48));
 
-var szakacs = huba.indexOf('szakacs') === -1 ? 'Huba nem szakács' : 'Huba szakács'
+var szakacs = huba.indexOf("szakács") === -1 ? "Huba nem szakács" : "Huba szakács"
 console.log(szakacs);
 
-*/
-/*
-var huba = {
-    nev: 'Huba',
-    kor: 18,
-    foglalkozas: 'vezér',
+var h = {
+    nev: "Huba",
+    kor: 38,
+    foglalkozas: "vezér",
     hazas: true,
-    baratok: ['Almos', 'Előd', 'Ond'],
-    'csaladi allapot': 'nős',
-};
+    baratok: ["Álmos", "Előd", "Ond"],
+    'családi állapot': "nős"
+}
 
-console.log(huba.foglalkozas)
+console.log(huba.foglalkozas);
+console.log(huba["nev"]);
+
+var h = "hazas";
+console.log(huba[h])
+
+console.log(huba["családi_állapot"]);
+
+huba["kor"] = 40;
+huba.foglalkozas = "ács";
+
+console.log(huba);
+
+var tas = new Object();
+
+tas.nev = "tas";
+tas.kor = "32";
+tas["foglalkozás"] = "vezér";
+console.log(tas);
+*/
+
+/*var huba = {
+    nev: "huba",
+    kor: 38,
+    foglalkozas: "vezér",
+    hazas: true,
+    baratok: ["Álmos", "Előd", "Ond"],
+    'családi állpot': 'nős',
+    };
+
+console.log(huba.foglalkozas);
 console.log(huba['nev']);
 
 var h = 'hazas';
 console.log(huba[h]);
 
-console.log(huba['csaladi allapot']);
+console.log(huba['családi állpot']);
 
 huba['kor'] = 40;
 huba.foglalkozas = 'ács';
@@ -370,36 +397,31 @@ console.log(huba);
 
 var tas = new Object();
 
-tas.new = 'Tas';
-tas.kor = 12;
+tas.nev = 'Tas';
+tas.kor = 32;
 tas['foglalkozas'] = 'vezér';
-console.log(tas);
-*/
+console.log(tas);*/
 
-/*
-var huba = {
-    nev: 'Huba',
-    kor: 18,
-    foglalkozas: 'vezér',
-    hazas: true,
-    baratok: ['Álmos', 'Előd', 'Ond'],
-    'csaladi állapot': 'nős',
-    szuletesEvSzamitas: function() {
-        this.szuletesiEv - 2023 - this.kor;
+/*var huba = {
+    nev:  'Huba',
+    kor: 40,
+    foglalkozás: 'vezér',
+    baratok: ['Álmos', 'Elős', 'Ond'],
+    'családi állapot': 'nős',
+    szuletesiEvSzamitas: function() {
+        this.szuletesEv = 2020 - this.kor;
     }
 };
 
-huba.szuletesEvSzamitas();
+huba.szuletesiEvSzamitas();
 
-console.log(huba);
+console.log(huba);*/
 
-*/
-
-for (var i = 20; i >= 1; i--) {
+/*for (var i = 20; i >= 1; 1--){
     console.log(i);
 }
 
-var tomb = ['Ond', 38, 'vezér', true, 1990];
+var tomb = ['Ond', 38,'vezér', true, 1990 ]
 
 for (var i = 0; i < tomb.length; i++) {
     console.log(tomb[i]);
@@ -407,17 +429,17 @@ for (var i = 0; i < tomb.length; i++) {
 
 // while
 
-var i = 0;
+var i = 0
 while (i < tomb.length) {
     console.log(tomb[i]);
-    i++
+    i++;
 }
 
-//break
 
+// Break
 for (var i = 0; i < tomb.length; i++) {
-    if (typeof(tomb[i]) === 'boolean') {
+    if (typeoff(tomb[i]) === 'boolean'){
         break;
     }
     console.log(tomb[i]);
-}
+}*/
