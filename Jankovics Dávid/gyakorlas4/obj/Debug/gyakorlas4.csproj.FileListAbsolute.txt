@@ -13,3 +13,11 @@ C:\Users\Acer\OneDrive - BGéSZC Katona József Technikum\Asztal\visual studio\K
 C:\Users\Acer\OneDrive - BGéSZC Katona József Technikum\Asztal\visual studio\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.csproj.CoreCompileInputs.cache
 C:\Users\Acer\OneDrive - BGéSZC Katona József Technikum\Asztal\visual studio\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.exe
 C:\Users\Acer\OneDrive - BGéSZC Katona József Technikum\Asztal\visual studio\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.pdb
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\bin\Debug\gyakorlas4.exe.config
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\bin\Debug\gyakorlas4.exe
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\bin\Debug\gyakorlas4.pdb
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.csproj.AssemblyReference.cache
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.csproj.SuggestedBindingRedirects.cache
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.csproj.CoreCompileInputs.cache
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.exe
+C:\Users\JankovicsDavid\Desktop\faszom\KA_11D\Jankovics Dávid\gyakorlas4\obj\Debug\gyakorlas4.pdb

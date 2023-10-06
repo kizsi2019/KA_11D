@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\OneDrive - BGéSZC Katona József Technikum\\Asztal\\visual studio\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj": {}
+    "C:\\Users\\JankovicsDavid\\Desktop\\faszom\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\OneDrive - BGéSZC Katona József Technikum\\Asztal\\visual studio\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj": {
+    "C:\\Users\\JankovicsDavid\\Desktop\\faszom\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\OneDrive - BGéSZC Katona József Technikum\\Asztal\\visual studio\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj",
+        "projectUniqueName": "C:\\Users\\JankovicsDavid\\Desktop\\faszom\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj",
         "projectName": "Teszt",
-        "projectPath": "C:\\Users\\Acer\\OneDrive - BGéSZC Katona József Technikum\\Asztal\\visual studio\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\OneDrive - BGéSZC Katona József Technikum\\Asztal\\visual studio\\KA_11D\\Jankovics Dávid\\Teszt\\obj\\",
+        "projectPath": "C:\\Users\\JankovicsDavid\\Desktop\\faszom\\KA_11D\\Jankovics Dávid\\Teszt\\Teszt.csproj",
+        "packagesPath": "C:\\Users\\JankovicsDavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JankovicsDavid\\Desktop\\faszom\\KA_11D\\Jankovics Dávid\\Teszt\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\JankovicsDavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,12 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

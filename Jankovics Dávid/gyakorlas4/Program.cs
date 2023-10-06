@@ -114,11 +114,23 @@ namespace gyakorlas4
             }
             Console.ReadKey(); */
 
-            Console.WriteLine("\n0 -> 60, minden 3.");
-            for (int i = 5; i <= 120; i += 5)
+            int szam = -1;
+            do
             {
-                Console.Write("{0}, ", i);
+                try
+                {
+                    Console.WriteLine("Adjon meg egy 1 és 10 közötti páros számot!");
+                    string szoveg = Console.ReadLine();
+                    szam = Convert.ToInt32(szoveg);
+                }
+                catch (Exception)
+                {
+                    szam = -1;
+                }
             }
+            while ((szam < 1) || (szam > 10) || ((szam % 2) != 0));
+
+            Console.WriteLine("A megadott szám: {0}", szam);
             Console.ReadKey();
         }
     }
