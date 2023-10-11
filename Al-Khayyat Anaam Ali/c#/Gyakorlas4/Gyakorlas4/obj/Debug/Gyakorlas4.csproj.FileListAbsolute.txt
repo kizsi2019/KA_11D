@@ -1,0 +1,8 @@
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\bin\Debug\Gyakorlas4.exe.config
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\bin\Debug\Gyakorlas4.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\bin\Debug\Gyakorlas4.pdb
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\obj\Debug\Gyakorlas4.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\obj\Debug\Gyakorlas4.csproj.SuggestedBindingRedirects.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\obj\Debug\Gyakorlas4.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\obj\Debug\Gyakorlas4.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakorlas4\Gyakorlas4\obj\Debug\Gyakorlas4.pdb
