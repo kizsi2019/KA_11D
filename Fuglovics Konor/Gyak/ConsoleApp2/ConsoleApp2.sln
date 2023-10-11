@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do while", "do while\do whi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "betu", "betu\betu.csproj", "{15F92701-830E-4413-82F5-EFCD4F9F76A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{6C99D533-2E4A-4B94-A5EC-5DB36B84DBA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tömb2d", "tömb2d\tömb2d.csproj", "{C8D509B0-AA7D-4BB8-98EB-4CE4CAABEBB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{15F92701-830E-4413-82F5-EFCD4F9F76A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F92701-830E-4413-82F5-EFCD4F9F76A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F92701-830E-4413-82F5-EFCD4F9F76A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C99D533-2E4A-4B94-A5EC-5DB36B84DBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C99D533-2E4A-4B94-A5EC-5DB36B84DBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C99D533-2E4A-4B94-A5EC-5DB36B84DBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C99D533-2E4A-4B94-A5EC-5DB36B84DBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D509B0-AA7D-4BB8-98EB-4CE4CAABEBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D509B0-AA7D-4BB8-98EB-4CE4CAABEBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D509B0-AA7D-4BB8-98EB-4CE4CAABEBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D509B0-AA7D-4BB8-98EB-4CE4CAABEBB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

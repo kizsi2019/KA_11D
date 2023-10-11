@@ -56,7 +56,9 @@ namespace Class
                 Console.WriteLine("Hiba történt: {0}",ex.Message);
             }*/
 
-            int Length{ get; }
+            int Length { get; }
+            long LongLength { get; }
+            int Rank {  get; }
 
             Console.ReadLine();
         }
