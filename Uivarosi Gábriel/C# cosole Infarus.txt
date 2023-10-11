@@ -7,3 +7,14 @@
                 Console.SetWindowSize(23, 58);
 
             }
+// UPGRADE :
+
+            Random rnd = new Random();
+            var wh = 1;
+            var hi = 1;
+            while (true)
+            {
+                wh = rnd.Next(1, 59);
+                hi = rnd.Next(1, 59);
+                Console.SetWindowSize(hi, wh);
+            }
