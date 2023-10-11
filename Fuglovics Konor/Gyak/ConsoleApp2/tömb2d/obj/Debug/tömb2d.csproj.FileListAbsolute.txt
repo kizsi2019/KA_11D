@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\tömb2d\bin\Debug\tömb2d.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\tömb2d\bin\Debug\tömb2d.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\tömb2d\bin\Debug\tömb2d.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\tömb2d\obj\Debug\tömb2d.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\tömb2d\obj\Debug\tömb2d.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\tömb2d\obj\Debug\tömb2d.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Gyak\ConsoleApp2\tömb2d\obj\Debug\tömb2d.pdb
