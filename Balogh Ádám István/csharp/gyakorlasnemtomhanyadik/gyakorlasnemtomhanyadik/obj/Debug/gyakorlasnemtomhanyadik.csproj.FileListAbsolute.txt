@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\bin\Debug\gyakorlasnemtomhanyadik.exe.config
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\bin\Debug\gyakorlasnemtomhanyadik.exe
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\bin\Debug\gyakorlasnemtomhanyadik.pdb
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\obj\Debug\gyakorlasnemtomhanyadik.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\obj\Debug\gyakorlasnemtomhanyadik.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\obj\Debug\gyakorlasnemtomhanyadik.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\obj\Debug\gyakorlasnemtomhanyadik.exe
+C:\Users\AdamBalogh\source\repos\gyakorlasnemtomhanyadik\gyakorlasnemtomhanyadik\obj\Debug\gyakorlasnemtomhanyadik.pdb

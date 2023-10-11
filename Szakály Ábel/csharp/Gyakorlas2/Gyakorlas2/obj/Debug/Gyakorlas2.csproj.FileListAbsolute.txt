@@ -1,0 +1,8 @@
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\bin\Debug\Gyakorlas2.exe.config
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\bin\Debug\Gyakorlas2.exe
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\bin\Debug\Gyakorlas2.pdb
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\obj\Debug\Gyakorlas2.csproj.AssemblyReference.cache
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\obj\Debug\Gyakorlas2.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\obj\Debug\Gyakorlas2.csproj.CoreCompileInputs.cache
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\obj\Debug\Gyakorlas2.exe
+C:\Users\SzakalyAbel\Desktop\csharp\Gyakorlas2\Gyakorlas2\obj\Debug\Gyakorlas2.pdb

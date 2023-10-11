@@ -1,0 +1,8 @@
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\bin\Debug\alapok.exe.config
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\bin\Debug\alapok.exe
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\bin\Debug\alapok.pdb
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\obj\Debug\alapok.csproj.AssemblyReference.cache
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\obj\Debug\alapok.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\obj\Debug\alapok.csproj.CoreCompileInputs.cache
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\obj\Debug\alapok.exe
+C:\Users\SzakalyAbel\Desktop\csharp\alapok\alapok\obj\Debug\alapok.pdb
