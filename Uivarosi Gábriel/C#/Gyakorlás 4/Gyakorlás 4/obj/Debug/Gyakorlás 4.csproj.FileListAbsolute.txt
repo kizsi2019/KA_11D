@@ -1,0 +1,8 @@
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\bin\Debug\Gyakorlás 4.exe.config
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\bin\Debug\Gyakorlás 4.exe
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\bin\Debug\Gyakorlás 4.pdb
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\obj\Debug\Gyakorlás 4.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\obj\Debug\Gyakorlás 4.csproj.SuggestedBindingRedirects.cache
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\obj\Debug\Gyakorlás 4.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\obj\Debug\Gyakorlás 4.exe
+C:\Users\UivarosiGabriel\Desktop\git stuf 2\KA_11D\Uivarosi Gábriel\C#\Gyakorlás 4\Gyakorlás 4\obj\Debug\Gyakorlás 4.pdb
