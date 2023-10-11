@@ -1,0 +1,8 @@
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\bin\Debug\Gyakrolas5.exe.config
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\bin\Debug\Gyakrolas5.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\bin\Debug\Gyakrolas5.pdb
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\obj\Debug\Gyakrolas5.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\obj\Debug\Gyakrolas5.csproj.SuggestedBindingRedirects.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\obj\Debug\Gyakrolas5.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\obj\Debug\Gyakrolas5.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\Gyakrolas5\Gyakrolas5\obj\Debug\Gyakrolas5.pdb
