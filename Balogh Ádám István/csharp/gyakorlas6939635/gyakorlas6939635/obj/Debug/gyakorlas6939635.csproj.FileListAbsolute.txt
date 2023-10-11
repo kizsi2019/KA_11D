@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\bin\Debug\gyakorlas6939635.exe.config
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\bin\Debug\gyakorlas6939635.exe
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\bin\Debug\gyakorlas6939635.pdb
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\obj\Debug\gyakorlas6939635.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\obj\Debug\gyakorlas6939635.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\obj\Debug\gyakorlas6939635.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\obj\Debug\gyakorlas6939635.exe
+C:\Users\AdamBalogh\source\repos\gyakorlas6939635\gyakorlas6939635\obj\Debug\gyakorlas6939635.pdb
