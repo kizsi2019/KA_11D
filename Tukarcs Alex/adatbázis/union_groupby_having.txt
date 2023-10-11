@@ -3,3 +3,9 @@ FROM Customers
 GROUP BY Country
 HAVING COUNT (CustomerId) > 5
 ORDER BY COUNT(id) DESC;
+
+
+SELECT ship_state_province FROM Orders
+UNION
+SELECT state_province FROM Customers
+UNION ALL

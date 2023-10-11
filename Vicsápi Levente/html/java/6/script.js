@@ -30,8 +30,10 @@ console.log(vezeteknev + ' felnőtt? ' + felnott);*/
 
 //matematikai oparátorok
 
+/*
 var szam = 10;
 var osszeg = szam + 33;
+*/
 
 //logikai operátorok
 /*var szam1 = 100;
@@ -229,8 +231,9 @@ else{
     console.log("Rossz kedvem van");
 }
 */
-
+/*
 szam = 0;
+*/
 
 /*
 if (szam){
@@ -373,6 +376,7 @@ tas["foglalkozás"] = "vezér";
 console.log(tas);
 */
 
+/*
 var huba = {
     nev: "huba",
     kor: 38,
@@ -383,4 +387,34 @@ var huba = {
     sziletesiev: function(){
         this.sziletesiev = 2020 - this.kor
     }
+}
+*/
+
+var tomb = ['Ond', 30, 'vezér', true, 1990];
+
+/*
+for (var i = 20; i >= 1; i--){
+    console.log(i);
+}
+*/
+
+/*
+for (var i = 0; i < tomb.length; i++){
+    console.log(tomb[i]);
+}
+*/
+
+/*
+var i = 0;
+while (i < tomb.length){
+    console.log(tomb[i]);
+    i++;
+}
+*/
+
+for (var i = 0; i < tomb.length; i++){
+    if (typeof(tomb[i]) === 'boolean'){
+        break;
+    }
+    console.log(tomb[i]);
 }
