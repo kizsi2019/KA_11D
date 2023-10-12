@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\obj\Debug\tömb.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\obj\Debug\tömb.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\obj\Debug\tömb.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\bin\Debug\tömb.exe.config
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\bin\Debug\tömb.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\bin\Debug\tömb.pdb
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\obj\Debug\tömb.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\tömb\tömb\obj\Debug\tömb.pdb
