@@ -1,31 +1,25 @@
-DROP DATABASE IF EXISTS muhely
-CREATE DATABASE muhely
-USE muhely;
+DROP DATABASE IF EXISTS muhely;
+DROP DATABASE IF EXISTS szgk;
+CREATE TABLE muhely;
+CREATE TABLE szgk(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	tipus VARCHAR(20) DEFAULT 'Toyota',
+	modell VARCHAR(20) NOT NULL, 
+	rendszam VARCHAR(15), ,
+	gyartas_eve DATE
+);
+  
+INSERT INTO szgk (tipus, modell, rendszam, gyartas_eve)
+VALUES('Opel', 'Corsa C', 'AAA123', '2002-10-03'); 
 
 DROP TABLE IF EXISTS tulajdonosok;
-DROP TABLE IF EXISTS szgk;
-  
-  CREATE TABLE szgk(
-      tul_id INT, 
-      tipus VARCHAR(20), 
-      modell VARCHAR(20), 
-      rendszam VARCHAR(15), 
-      ajtok_szama INT,
-      gyartas_eve DATE
-  );
-  
-  INSERT INTO szgk (id, tipus, modell, rendszam, ajtok_szama, gyartas_eve)
-  VALUES(10, 'Opel', 'Corsa C', 'AAA123', 4, '2002-10-03'); 
-  
 CREATE TABLE tulajdonosok(
-    tul_id INT, 
+	tul_id INT, 
 	nev VARCHAR(60),
-    lakhely VARCHAR(60),
-    szgk_id INT,
-    PRIMARY KEY (tul_id),
-    CONSTRAINT FK_szgk_tulajdonosok
-    FOREIGN KEY (szgk_id) REFERENCES szgk (id)
+	lakhely VARCHAR(60),
+	id INT,
+	FOREIGN KEY (id) REFERENCES szgk (id)
 );
 
-INSERT INTO szgk (id, nev, lakhely)
+INSERT INTO tulajdonosok (tul_id, nev, lakhely)
 VALUES(1, 'Kovács István', 'Budapest'); 
