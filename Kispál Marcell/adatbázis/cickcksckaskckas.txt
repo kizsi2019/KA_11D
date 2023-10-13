@@ -1,0 +1,32 @@
+
+    DROP DATABASE IF EXISTS sakk;
+    CREATE DATABASE sakk;
+    USE sakk;
+  
+    CREATE TABLE class_10 (
+        id INT AUTO_INCREMENT,
+        name VARCHAR(20),
+        PRIMARY KEY (id)
+    );
+  
+    CREATE TABLE class_11 (
+        id INT AUTO_INCREMENT,
+        name VARCHAR(20),
+        PRIMARY KEY (id)
+    );
+  
+    INSERT INTO class_10 (name) VALUES ('Horvath Peter');
+    INSERT INTO class_10 (name) VALUES ('Kis Zalan');
+    INSERT INTO class_10 (name) VALUES ('Nemeth Virag');
+    INSERT INTO class_10 (name) VALUES ('Szabo Nora');
+  
+    INSERT INTO class_11 (name) VALUES ('Mester Luca');
+    INSERT INTO class_11 (name) VALUES ('Fuchs reka');
+    INSERT INTO class_11 (name) VALUES ('Toth Adam');
+  
+  
+    -- CROSS JOIN
+    SELECT class_10.name, class_11.name
+    FROM class_10
+    CROSS JOIN class_11;
+  

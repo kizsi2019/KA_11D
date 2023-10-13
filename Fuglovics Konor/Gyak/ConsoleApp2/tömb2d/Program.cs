@@ -23,7 +23,7 @@ namespace tömb2d
             {
                 for (int j=0; j<tömb2d.GetLength(1); j++)
                 {
-                    Console.Write("{0} ",tömb2d [i,j]);
+                    Console.Write("{0} ",tömb2d[i,j]);
                 }
                 Console.WriteLine();
             }

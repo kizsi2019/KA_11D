@@ -1,0 +1,8 @@
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\bin\Debug\gyakorlas5.exe.config
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\bin\Debug\gyakorlas5.exe
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\bin\Debug\gyakorlas5.pdb
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\obj\Debug\gyakorlas5.csproj.AssemblyReference.cache
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\obj\Debug\gyakorlas5.csproj.SuggestedBindingRedirects.cache
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\obj\Debug\gyakorlas5.csproj.CoreCompileInputs.cache
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\obj\Debug\gyakorlas5.exe
+C:\Users\SzakalyAbel\Desktop\csharp\gyakorlas5\gyakorlas5\obj\Debug\gyakorlas5.pdb
