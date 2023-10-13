@@ -10,3 +10,38 @@ Játék szabályok:
 - Az a játékos nyer, aki előbb eléri a 100 pontot.  
 
 */
+
+var Pontszamok, Korponszam, aktívjátékos, Kocka;
+/*
+ /[]\
+/|[]|\
+ \[]/
+*/
+Pontszamok  = [0,0];
+Korponszam = 0;
+aktívjátékos = 0;
+
+
+document.querySelector('#current-' + aktívjátékos).textContent = Kocka
+
+document.querySelector('.dice').style.display = 'none';
+document.getElementById('score-0').textContent = '0';
+document.getElementById('score-1').textContent = '0';
+document.getElementById('current-0').textContent = '0';
+document.getElementById('current-1').textContent = '0';
+
+
+document.querySelector('.btn-roll').addEventListener('click', function(){
+  Kocka = Math.floor(Math.random() * 6) + 1;
+  var kockaDOM = document.querySelector('.dice');
+  kockaDOM.style.display = 'block';
+  kockaDOM.src = 'img/dice-' + Kocka + ".png";
+ if (Kocka != 1) {
+ Korponszam += Kocka
+ document.querySelector('#current-' +aktívjátékos).textContent = Korponszam
+
+ } else {
+   aktívjátékos === 0 ? aktívjátékos = 1 : aktívjátékos = 0;
+   
+ }
+})

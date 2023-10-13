@@ -20,7 +20,10 @@ namespace gyakorlasnemtomhanyadik
 
                 Console.WriteLine(item);
             }
-            Console.ReadKey();
+           // Array.Sort(randomoltszamok_Vektor);
+           // Console.WriteLine("rendezve:");
+           // foreach (int item in randomoltszamok_Vektor)
+           // Console.ReadKey();
         }
     }
 }
