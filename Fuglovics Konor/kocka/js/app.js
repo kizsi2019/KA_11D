@@ -14,10 +14,13 @@ scores = [0,0];
 roundscore = 0;
 ActivePlayer = 1;
 
-block = Math.floor(Math.random() * 6) + 1;
-
-document.querySelector('#current-' + ActivePlayer).textContent = block;
+//document.querySelector('#current-' + ActivePlayer).textContent = block;
 
 document.querySelector('.dice').style.display = 'none';
 
-document.querySelector('.btn.roll').addEventListener("click");
+document.querySelector('.btn-roll').addEventListener("click", function(){
+  var block = Math.floor(Math.random() * 6) + 1;
+  var blockDOM = document.querySelector('.dice');
+  blockDOM.style.display = 'block';
+  blockDOM.src = "img/dice-" + block + ".png";
+});
