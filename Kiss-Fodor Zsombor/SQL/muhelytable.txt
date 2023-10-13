@@ -20,7 +20,7 @@ CREATE TABLE tulajdonosok(
     nev VARCHAR(60),
     lakhely VARCHAR(60),
     id INT,
-    FOREIGN KEY (id) REFERENCES szgk (di)
+    FOREIGN KEY (id) REFERENCES szgk (id)
 );
 
 INSERT INTO tulajdonosok (tul_id,nev, lakhely)
