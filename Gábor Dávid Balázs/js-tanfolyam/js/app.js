@@ -11,31 +11,30 @@ Játék szabályok:
 
 */
 
-var pontszamok, korpontszam, aktivjatekos, kocka;
+var pontszamok, korPontszam, aktivJatekos;
 
-var pontszamok = [0,0];
-korpontszam = 0;
-aktivjatekos = 0;
+pontszamok = [0,0];
+korPontszam = 0;
+
+aktivJatekos = 0;
+
+// document.querySelector('#current-' + aktivJatekos).textContent = kocka;
+// document.querySelector('#current-' + aktivJatekos).textContent = '<us>' + kocka + '</up';
 
 document.querySelector('.dice').style.display = 'none';
 document.getElementById('score-0').textContent = '0';
+document.getElementById('current-0').textContent = '0';
 document.getElementById('score-1').textContent = '0';
 document.getElementById('current-0').textContent = '0';
-document.getElementById('current-1').textContent = '0';
 
-
-//document.querySelector('#current-' + aktivjatekos).textContent = kocka;
-
-//var nev = document.querySelector('#name-1').textContent;
-
-
-document.querySelector('.btn-roll').addEventListener('click', function()
-{
+document.querySelector('.btn-roll').addEventListener('click', function(){
+  // kell egy véletlen szám
   var kocka = Math.floor(Math.random() * 6) + 1;
 
-  var kockadom = document.querySelector('.dice');
+  // eredmény megjelenítése
+  var kockaDOM = document.querySelector('.dice');
+  kockaDOM.style.display = 'block';
+  kockaDOM.src = 'img/dice-' + kocka + '.png'
 
-  kockadom.style.display = 'block';
-  kockadom.src = 'img/dice-' + kocka + '.png';
-  
+  // körben elért pontszám frissítése, ha nem 1-et dobunk
 });
