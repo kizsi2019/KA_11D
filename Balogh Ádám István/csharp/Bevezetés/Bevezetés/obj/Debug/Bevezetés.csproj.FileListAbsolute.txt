@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\bin\Debug\Bevezetés.exe.config
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\bin\Debug\Bevezetés.exe
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\bin\Debug\Bevezetés.pdb
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\obj\Debug\Bevezetés.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\obj\Debug\Bevezetés.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\obj\Debug\Bevezetés.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\obj\Debug\Bevezetés.exe
+C:\Users\AdamBalogh\Desktop\gethab\22_10D2\Balogh Ádám\vizualis kodolasocska\Bevezetés\Bevezetés\obj\Debug\Bevezetés.pdb
