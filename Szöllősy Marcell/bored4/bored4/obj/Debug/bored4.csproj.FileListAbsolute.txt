@@ -1,0 +1,8 @@
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\bin\Debug\bored4.exe.config
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\bin\Debug\bored4.exe
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\bin\Debug\bored4.pdb
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\obj\Debug\bored4.csproj.AssemblyReference.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\obj\Debug\bored4.csproj.SuggestedBindingRedirects.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\obj\Debug\bored4.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\obj\Debug\bored4.exe
+C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored4\bored4\obj\Debug\bored4.pdb
