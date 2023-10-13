@@ -1,0 +1,16 @@
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\bin\Debug\Gyakorlas6.exe.config
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\bin\Debug\Gyakorlas6.exe
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\bin\Debug\Gyakorlas6.pdb
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.csproj.AssemblyReference.cache
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.csproj.SuggestedBindingRedirects.cache
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.csproj.CoreCompileInputs.cache
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.exe
+C:\Users\KrisztianDunai\Desktop\programozás 11d\KA_11D\Dunai Krisztián János\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.pdb
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\bin\Debug\Gyakorlas6.exe.config
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\bin\Debug\Gyakorlas6.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\bin\Debug\Gyakorlas6.pdb
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.csproj.CoreCompileInputs.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Gyakorlas6\Gyakorlas6\obj\Debug\Gyakorlas6.pdb
