@@ -8,3 +8,16 @@
   pontszámához. Majd a dobás joga a másik játékosra száll.
 - Az a játékos nyer, aki előbb eléri a 100 pontot.*/
 
+var scores, roundscore, ActivePlayer;
+
+scores = [0,0];
+roundscore = 0;
+ActivePlayer = 1;
+
+block = Math.floor(Math.random() * 6) + 1;
+
+document.querySelector('#current-' + ActivePlayer).textContent = block;
+
+document.querySelector('.dice').style.display = 'none';
+
+document.querySelector('.btn.roll').addEventListener("click");
