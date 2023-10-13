@@ -11,26 +11,29 @@ Játék szabályok:
 
 */
 
-var pontszamok, korPontszam, aktivJatekos, kocka;
+// változók létrehozása és adatainak megadása
+var pontszamok, korponszam, aktivjatekos, kocka;
 
 pontszamok = [0,0];
-korPontszam = 0;
+korponszam = 0;
+aktivjatekos = 0;
 
-aktivJatekos = 1;
-kocka = Math.floor(Math.random() * 6) + 1;
-
-document.querySelector('#current-' + aktivJatekos).textContent = kocka;
-//document.querySelector('#current-' + aktivJatekos).textContent = '<u>' + kocka + '</u>';
-
+//kocka eltüntetése
 document.querySelector('.dice').style.display = 'none';
-document.getElementById('score-0').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-0').textContent = '0';
+//dolgokat keresünk meg lol
+document.getElementById('score-0').textContent = 0;
+document.getElementById('current-0').textContent = 0;
+document.getElementById('score-1').textContent = 0;
+document.getElementById('score-0').textContent = 0;
 
-document.querySelector('.btn-roll').addEventListener('click', funcion() {
-
+//kocka "dobás"
+document.querySelector('.btn-roll').addEventListener('click', function()
+{
+  //random kocka szám megadása
   var kocka = Math.floor(Math.random() * 6) + 1;
 
-  var kocka
-}
+  //kocka szám mutatása
+  var kockaDOM = document.querySelector('.dice');
+  kockaDOM.style.display = 'block';
+  kockaDOM.src = 'img/dice-' + kocka + '.png';
+});
