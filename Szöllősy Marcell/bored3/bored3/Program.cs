@@ -69,33 +69,46 @@ namespace bored3
             }
             Console.ReadLine();*/
 
-            /*string[] tesztek = { "1", "7", "0", "99", "Hetfo", "Szerda", "Pentek", "pentek", "Hiba" };
-            foreach (var teszt in tesztek)
-            {
-                try
-                {
-                    Hetnapjai nap = (Hetnapjai)Enum.Parse(typeof(Hetnapjai), teszt);
-                    Console.WriteLine(nap);
-                }
-                catch (ArgumentException ex)
-                {
-                    Console.WriteLine("Hiba: " + ex.Message);
-                }
-                Hetnapjai nap2 = Hetnapjai.Hetfo; //alap érték
-                Enum.TryParse(teszt, out nap2); //generikus tryparse hívás
-                Console.WriteLine(nap2);
-            }/*
-              
-
-
-            int[] randomoltszamok_Vektor = new int [10];
-            Random r = new Random();
-            for (int i = 0; i < randomoltszamok_Vektor.Length; i++) {
-            randomoltszamok_Vektor[i] = r.Next(0, 100);
-            } foreach (int item in randomoltszamok_Vektor) {
-            Console.Writelin(item);
-            }
-            Console.ReadKey();
-        }
+/*string[] tesztek = { "1", "7", "0", "99", "Hetfo", "Szerda", "Pentek", "pentek", "Hiba" };
+foreach (var teszt in tesztek)
+{
+    try
+    {
+        Hetnapjai nap = (Hetnapjai)Enum.Parse(typeof(Hetnapjai), teszt);
+        Console.WriteLine(nap);
     }
+    catch (ArgumentException ex)
+    {
+        Console.WriteLine("Hiba: " + ex.Message);
+    }
+    Hetnapjai nap2 = Hetnapjai.Hetfo; //alap érték
+    Enum.TryParse(teszt, out nap2); //generikus tryparse hívás
+    Console.WriteLine(nap2);
+}/*
+
+
+
+int[] randomoltszamok_Matrix = new int [5,5];
+Random r = new Random();
+for (int i = 0; i < randomoltszamok_Matrix.GetLength(0); i++) 
+{
+for (int j = 0; j < randomoltszamok_Matrix.GetLength(1); i++) 
+{
+    randomoltszamok_Matrix[i,j] = r.Next(0, 100);
+}
+
+} foreach (int item in randomoltszamok_Matrix)
+{
+    Console.Writelin(item);
+}
+    Array.Sort(randomoltszamok_Matrix);
+    Console.WriteLine(item)
+    foreach (int item in randomoltszamok
+{   
+
+    Console.ReadKey();
+
+
+}
+}
 }
