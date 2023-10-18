@@ -1,0 +1,8 @@
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\bin\Debug\parameteratadas.exe.config
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\bin\Debug\parameteratadas.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\bin\Debug\parameteratadas.pdb
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.csproj.SuggestedBindingRedirects.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.pdb
