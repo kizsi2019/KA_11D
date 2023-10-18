@@ -1,0 +1,8 @@
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\obj\Debug\Tömb.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\obj\Debug\Tömb.csproj.SuggestedBindingRedirects.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\obj\Debug\Tömb.csproj.CoreCompileInputs.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\bin\Debug\Tömb.exe.config
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\bin\Debug\Tömb.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\bin\Debug\Tömb.pdb
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\obj\Debug\Tömb.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\Tömb\Tömb\obj\Debug\Tömb.pdb

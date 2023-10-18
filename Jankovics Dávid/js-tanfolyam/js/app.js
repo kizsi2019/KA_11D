@@ -10,3 +10,12 @@ Játék szabályok:
 - Az a játékos nyer, aki előbb eléri a 100 pontot.  
 
 */
+/*var pontszam1 = 0;
+var pontszam2 = 0;*/
+
+var pontszamok, korpontszam, aktivjatekos;
+pontszamok = [0,0];
+korpontszam = 0;
+aktivjatekos = 0;
+
+kocka = (Math.random() * 6) + 1;

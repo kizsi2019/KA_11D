@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\bin\Debug\parameterek.exe.config
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\bin\Debug\parameterek.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\bin\Debug\parameterek.pdb
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\obj\Debug\parameterek.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\obj\Debug\parameterek.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\obj\Debug\parameterek.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\obj\Debug\parameterek.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\parameterek\parameterek\obj\Debug\parameterek.pdb
