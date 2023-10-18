@@ -75,10 +75,10 @@ namespace összetett
             */
           List<int> lista = new List<int>() { 20 ,31, 10};
             int[] tömb = lista.ToArray();
-            foreach ( item in tömb)
+            foreach (item in tömb)
            
             {
-                Console.WriteLine(item);
+                Console.WriteLine(tömb);
             }
             {
                 Console.ReadKey();
