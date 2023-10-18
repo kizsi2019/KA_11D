@@ -18,7 +18,13 @@ namespace parameter_transfering
             {
                 Console.Write($"{item}, ");
             }
-            Console.Write("\nC")
+            Console.Write("\nContents of the new list: ");
+            foreach (int item in newlist)
+            {
+                Console.Write($"{item}, ");
+            }
+
+            Console.ReadKey();
         }
     }
 }

@@ -7,7 +7,7 @@
     <ProjectGuid>{91BA3D14-CA0E-402B-BB6D-26F4C24E1494}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>parameter_transfering</RootNamespace>
-    <AssemblyName>parameter_transfering</AssemblyName>
+    <AssemblyName>parameter transfering</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
