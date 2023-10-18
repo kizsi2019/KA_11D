@@ -1,0 +1,8 @@
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\obj\Debug\2023.10.18.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\obj\Debug\2023.10.18.csproj.SuggestedBindingRedirects.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\obj\Debug\2023.10.18.csproj.CoreCompileInputs.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\bin\Debug\2023.10.18.exe.config
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\bin\Debug\2023.10.18.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\bin\Debug\2023.10.18.pdb
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\obj\Debug\2023.10.18.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\2023.10.18\2023.10.18\2023.10.18\obj\Debug\2023.10.18.pdb

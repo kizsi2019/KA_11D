@@ -65,7 +65,7 @@ namespace ConsoleApp1
                 Console.WriteLine(nap2);
             }
             Console.ReadKey();*/
-            int[,] randomoltszamok_Matrix = new int[3,3];
+            /*int[,] randomoltszamok_Matrix = new int[3,3];
             Random r = new Random();
             for (int i = 0; i < randomoltszamok_Matrix.GetLength(0); i++)
             {
@@ -75,6 +75,20 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(item);
             }
+            Array.Sort( randomoltszamok_Matrix);
+            Console.ReadKey();*/
+            int[] randomoltszamok_Matrix = new int[3];
+            Random r = new Random();
+            for (int i = 0; i < randomoltszamok_Matrix.GetLength(0); i++)
+            {
+                
+                    randomoltszamok_Matrix[i] = r.Next(0, 100);
+            }
+            foreach (int item in randomoltszamok_Matrix)
+            {
+                Console.WriteLine(item);
+            }
+            Array.Sort(randomoltszamok_Matrix);
             Console.ReadKey();
         }
     }
