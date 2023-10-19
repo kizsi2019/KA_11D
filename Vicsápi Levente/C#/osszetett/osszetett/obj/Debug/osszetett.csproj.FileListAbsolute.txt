@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\bin\Debug\osszetett.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\bin\Debug\osszetett.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\bin\Debug\osszetett.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\obj\Debug\osszetett.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\obj\Debug\osszetett.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\obj\Debug\osszetett.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\obj\Debug\osszetett.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\osszetett\osszetett\obj\Debug\osszetett.pdb
