@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\bin\Debug\halmaz.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\bin\Debug\halmaz.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\bin\Debug\halmaz.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\obj\Debug\halmaz.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\obj\Debug\halmaz.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\obj\Debug\halmaz.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\obj\Debug\halmaz.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz\halmaz\obj\Debug\halmaz.pdb

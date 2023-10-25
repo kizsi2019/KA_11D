@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\bin\Debug\lancolt_lista_hozzaadas.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\bin\Debug\lancolt_lista_hozzaadas.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\bin\Debug\lancolt_lista_hozzaadas.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\obj\Debug\lancolt_lista_hozzaadas.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\obj\Debug\lancolt_lista_hozzaadas.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\obj\Debug\lancolt_lista_hozzaadas.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\obj\Debug\lancolt_lista_hozzaadas.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_hozzaadas\lancolt_lista_hozzaadas\obj\Debug\lancolt_lista_hozzaadas.pdb
