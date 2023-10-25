@@ -45,7 +45,7 @@ ORDER BY mozinev ASC;
 10. feladat
 SELECT filmcim, szarmazas
 FROM Filmek
-WHERE szarmazas = 'angol';
+WHERE szarmazas LIKE '%angol%';
 
 11. feladat
 SELECT filmcim, hossz
