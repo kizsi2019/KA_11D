@@ -1,0 +1,15 @@
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.csproj.AssemblyReference.cache
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.AssemblyInfoInputs.cache
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.AssemblyInfo.cs
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.csproj.CoreCompileInputs.cache
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\bin\Debug\net6.0\osszetett.exe
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\bin\Debug\net6.0\osszetett.deps.json
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\bin\Debug\net6.0\osszetett.runtimeconfig.json
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\bin\Debug\net6.0\osszetett.dll
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\bin\Debug\net6.0\osszetett.pdb
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.dll
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\refint\osszetett.dll
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.pdb
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\osszetett.genruntimeconfig.cache
+C:\Users\Diak\Desktop\github\KA_11D\Fekete Zoltán\csharp\osszetett\osszetett\obj\Debug\net6.0\ref\osszetett.dll

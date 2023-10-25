@@ -1,0 +1,4 @@
+SELECT lista.ev, dalok.cim, eloadok.nev
+  FROM lista, dalok, eloadok
+  WHERE lista.ev dalok.cim LIKE 's%'
+      AND lista.dalid = dalok.dalid AND dalok.eloadoid = eloadok.eloadoid;  
