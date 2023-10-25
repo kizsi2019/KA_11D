@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Október 2023\parameter transfering\bin\Debug\parameter transfering.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Október 2023\parameter transfering\bin\Debug\parameter transfering.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Október 2023\parameter transfering\bin\Debug\parameter transfering.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Október 2023\parameter transfering\obj\Debug\parameter transfering.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Október 2023\parameter transfering\obj\Debug\parameter transfering.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Október 2023\parameter transfering\obj\Debug\parameter transfering.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Október 2023\parameter transfering\obj\Debug\parameter transfering.pdb

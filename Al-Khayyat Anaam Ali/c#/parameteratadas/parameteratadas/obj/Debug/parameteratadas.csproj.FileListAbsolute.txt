@@ -1,0 +1,3 @@
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\parameteratadas\parameteratadas\obj\Debug\parameteratadas.csproj.CoreCompileInputs.cache

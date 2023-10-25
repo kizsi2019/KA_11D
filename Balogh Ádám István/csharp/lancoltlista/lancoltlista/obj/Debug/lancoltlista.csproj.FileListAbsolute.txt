@@ -1,0 +1,8 @@
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\bin\Debug\lancoltlista.exe.config
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\bin\Debug\lancoltlista.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\bin\Debug\lancoltlista.pdb
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\obj\Debug\lancoltlista.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\obj\Debug\lancoltlista.csproj.SuggestedBindingRedirects.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\obj\Debug\lancoltlista.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\obj\Debug\lancoltlista.exe
+C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\lancoltlista\lancoltlista\obj\Debug\lancoltlista.pdb

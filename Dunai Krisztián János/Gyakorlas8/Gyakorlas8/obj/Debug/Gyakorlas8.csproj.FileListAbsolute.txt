@@ -1,0 +1,8 @@
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\bin\Debug\Gyakorlas8.exe.config
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\bin\Debug\Gyakorlas8.exe
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\bin\Debug\Gyakorlas8.pdb
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\obj\Debug\Gyakorlas8.csproj.AssemblyReference.cache
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\obj\Debug\Gyakorlas8.csproj.SuggestedBindingRedirects.cache
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\obj\Debug\Gyakorlas8.csproj.CoreCompileInputs.cache
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\obj\Debug\Gyakorlas8.exe
+C:\Users\KrisztianDunai\Desktop\yyyyyyyy\KA_11D\Dunai Krisztián János\Gyakorlas8\Gyakorlas8\obj\Debug\Gyakorlas8.pdb
