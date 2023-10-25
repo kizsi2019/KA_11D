@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lancolt_lista_metodusok", "lancolt_lista_metodusok\lancolt_lista_metodusok.csproj", "{A122A360-E3E3-4CCF-B395-6296C87077F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A122A360-E3E3-4CCF-B395-6296C87077F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A122A360-E3E3-4CCF-B395-6296C87077F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A122A360-E3E3-4CCF-B395-6296C87077F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A122A360-E3E3-4CCF-B395-6296C87077F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B73D471-BF72-43EA-9E16-9A21EA64B9FC}
+	EndGlobalSection
+EndGlobal

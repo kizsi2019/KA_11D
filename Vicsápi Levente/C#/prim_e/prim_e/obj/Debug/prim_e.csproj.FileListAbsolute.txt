@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\bin\Debug\prim_e.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\bin\Debug\prim_e.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\bin\Debug\prim_e.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\obj\Debug\prim_e.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\obj\Debug\prim_e.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\obj\Debug\prim_e.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\obj\Debug\prim_e.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prim_e\prim_e\obj\Debug\prim_e.pdb
