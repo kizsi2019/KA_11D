@@ -1,0 +1,7 @@
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\Applikacio\Applikacio\bin\Debug\Applikacio.exe.config
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\Applikacio\Applikacio\bin\Debug\Applikacio.exe
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\Applikacio\Applikacio\bin\Debug\Applikacio.pdb
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\Applikacio\Applikacio\obj\Debug\Applikacio.csproj.AssemblyReference.cache
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\Applikacio\Applikacio\obj\Debug\Applikacio.csproj.CoreCompileInputs.cache
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\Applikacio\Applikacio\obj\Debug\Applikacio.exe
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\Applikacio\Applikacio\obj\Debug\Applikacio.pdb

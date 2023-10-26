@@ -16,7 +16,7 @@
 
 9., SELECT DISTINCT mozinev FROM Vetites ORDER BY mozinev ASC;
 
-10., SELECT filmcim, szarmazas FROM Filmek WHERE szarmazas = 'angol';
+10., SELECT filmcim, szarmazas FROM Filmek WHERE szarmazas LIKE '%angol%';
 
 11., SELECT filmcim, hossz FROM Filmek WHERE filmcim LIKE 'B%' ORDER BY hossz ASC;
 
