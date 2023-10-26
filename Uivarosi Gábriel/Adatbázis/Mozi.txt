@@ -1,0 +1,28 @@
+1
+INSERT INTO vetites ( azon, mozinev, fkod)
+VALUES (356,"Művész" ,2)
+2
+UPDATE filmek
+set hossz = '110'
+WHERE filmcim = 'Álmodozók' ;
+3
+DELETE FROM filmek WHERE filmcim = 'film';
+4
+SELECT filmcim mufaj, hossz FROM `filmek` ;
+5
+SELECT filmcim, szarmazas FROM `filmek` ORDER BY filmcim;
+6
+SELECT filmcim, hossz FROM `filmek` WHERE mufaj = "dokumentum" ORDER by hossz DESC;
+7
+SELECT filmcim, hossz FROM `filmek` WHERE szarmazas = "amerikai";
+8
+SELECT filmcim, mufaj FROM `filmek` WHERE szarmazas = "magyar";
+9
+SELECT (filmcim)  FROM `filmek` ORDER BY filmcim ;
+10
+SELECT filmcim, szarmazas FROM filmek WHERE szarmazas ="angol";
+11
+SELECT filmcim, hossz FROM `filmek` WHERE filmcim LIKE "b%";
+12
+SELECT filmcim, hossz FROM `filmek` WHERE hossz BETWEEN 90 AND 120;
+13

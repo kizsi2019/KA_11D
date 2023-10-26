@@ -1,0 +1,49 @@
+1,FELADAT
+INSERT INTO vetites (fkod, mozinev, azon)
+VALUES (2, 'Művész mozi', 356);
+
+2,FELADAT
+UPDATE filmek
+SET hossz = 110
+WHERE filmcim = 'Álmodozók';
+
+3,FELADAT
+DELETE FROM filmek
+WHERE filmcim = 'Film';
+
+4,FELADAT
+SELECT filmcim, mufaj, hossz
+FROM filmek;
+
+5,FELADAT
+SELECT filmcim, szarmazas
+FROM filmek
+ORDER BY filmcim ASC;
+
+6,FEALADAT
+SELECT filmcim, hossz
+FROM filmek
+WHERE szarmazas = 'dokumentumfilm'
+ORDER BY hossz DESC;
+
+7,FELADAT
+SELECT filmcim, hossz
+FROM filmek
+WHERE szarmazas = 'amerikai';
+
+8,FELADAT
+SELECT filmcim, mufaj
+FROM filmek
+WHERE szinkron = 'magyar';
+
+9,FELADAT
+SELECT DISTINCT mozinev
+FROM vetites
+ORDER BY mozinev ASC;
+
+10,FELADAT
+SELECT filmcim, szarmazas
+FROM filmek
+WHERE szinkron = 'angol';
+
+11,FELADAT
