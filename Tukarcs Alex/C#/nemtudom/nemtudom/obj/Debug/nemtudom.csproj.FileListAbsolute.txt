@@ -1,0 +1,2 @@
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\nemtudom\nemtudom\obj\Debug\nemtudom.csproj.AssemblyReference.cache
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\nemtudom\nemtudom\obj\Debug\nemtudom.csproj.CoreCompileInputs.cache
