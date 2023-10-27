@@ -38,4 +38,27 @@ document.querySelector('.btn-roll').addEventListener('click', function()
   kockadom.style.display = 'block';
   kockadom.src = 'img/dice-' + kocka + '.png';
   
+
+  if (kocka !==1){
+    korpontszam += kocka;
+    document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
+  } else {
+    aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
+    korpontszam = 0;
+    
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '1';
+
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+
+    document.querySelector('.dice').style.display = 'none';
+  }
+
 });
+
+document.querySelector('.btn-hold').addEventListener('click', function() {
+  pontszamok[aktivjatekos] += korpontszam;
+
+  document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
+})
