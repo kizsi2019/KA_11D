@@ -56,4 +56,11 @@ document.querySelector('.btn-roll').addEventListener('click', function()
   }
 });
 
+document.querySelector('.btn-hold').addEventListener('click', function() {
+  pontszamok[aktivjatekos] += korpontszam;
+
+  document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
+
+});
+
 
