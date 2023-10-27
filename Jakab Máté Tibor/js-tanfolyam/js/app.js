@@ -10,27 +10,41 @@ Játék szabályok:
 - Az a játékos nyer, aki előbb eléri a 100 pontot.  
 
 */
-/*var pontszam1 = 0;
-var pontszam2 = 0;*/
 
-var pontszamok, korPontszam, aktivJatekos, kocka;
+var pontszamok, korPontszam, aktivJatekos;
 
-pontszamok = [0,0];
+pontszamok = [0, 0]
 korPontszam = 0;
 aktivJatekos = 0;
 
-kocka = Math.floor(Math.random() * 6) + 1;
+document.querySelector('.dice').style.display = 'none';
+document.getElementById('score-0').textContent = '0';
+document.getElementById('current-0').textContent = '0';
+document.getElementById('score-1').textContent = '0';
+document.getElementById('current-0').textContent = '0';
 
-document.querySelector('.dice').stlye.display = 'none';
+document.querySelector('.btn-roll').addEventListener('click', function(){
+  // véletlen  szám
+  var kocka = Math.floor(Math.random() * 6) + 1;
 
-document.querySelector('.brn-roll').addEventListener('click', function(){
-
-  var kocka = Math.floor (Math.random() * 6) + 1;
-
-  document.querySelector('.dice').stlye.display = 'block';
-
+  //eredmény megjelenítés
   var kockaDOM = document.querySelector('.dice');
-  kockaDOM.stlye.display = 'block';
+  kockaDOM.style.display = 'block';
   kockaDOM.src = 'img/dice-' + kocka + '.png';
 
-});
+
+
+  //pontszám frissítés ha nem 1et dobunk
+  if (kocka !== 1) {
+    // szám hozzáadása az aktuális ponthoz
+    korpontszam += kocka;
+    document.querySelector('#current-' + aktivJatekos).textContent = kocka;
+
+  } else {
+    // következő játékos
+    aktivJatekos === 0 ? aktivJatekos = 1 : aktivJatekos = 0;
+    korPontszam = 0;
+
+    document.getElementById('')
+}
+})
