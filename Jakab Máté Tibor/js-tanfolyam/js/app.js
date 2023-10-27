@@ -45,6 +45,14 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
     aktivJatekos === 0 ? aktivJatekos = 1 : aktivJatekos = 0;
     korPontszam = 0;
 
-    document.getElementById('')
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+
+    document.querySelector('.dice').style.display = 'none';
+
+    //ezel a koddal, ha 0-át dobsz oldalt cserél és le 0-dik a dobás
 }
 })
