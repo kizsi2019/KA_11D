@@ -43,16 +43,7 @@ document.querySelector('.btn-roll').addEventListener('click', function()
     korpontszam += kocka;
     document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
   } else {
-    aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
-    korpontszam = 0;
-    
-    document.getElementById('current-0').textContent = '0';
-    document.getElementById('current-1').textContent = '1';
-
-    document.querySelector('.player-0-panel').classList.toggle('active');
-    document.querySelector('.player-1-panel').classList.toggle('active');
-
-    document.querySelector('.dice').style.display = 'none';
+    kovetkezoJatekos();
   }
 });
 
@@ -61,6 +52,25 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 
   document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
 
+  //nyert a játékos?
+
+  if (pontszamok[aktivjatekos] >= 100) {
+    document.querySelector('#name-' + aktivjatekos).textContent = "Győztes";
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner');
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
+  } else {
+kovetkezoJatekos()
+  }
 });
+function kovetkezoJatekos(){
+  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
+    korpontszam = 0;
+    
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '1';
+
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+}
 
 
