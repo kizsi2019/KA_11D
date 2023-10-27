@@ -1,0 +1,8 @@
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\bin\Debug\gyakorlofeladat.exe.config
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\bin\Debug\gyakorlofeladat.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\bin\Debug\gyakorlofeladat.pdb
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.csproj.SuggestedBindingRedirects.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.exe
+C:\Users\GaborDavidBalazs\Desktop\C#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.pdb

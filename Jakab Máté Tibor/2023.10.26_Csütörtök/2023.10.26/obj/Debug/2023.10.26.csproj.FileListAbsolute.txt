@@ -1,0 +1,8 @@
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\bin\Debug\2023.10.26.exe.config
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\bin\Debug\2023.10.26.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\bin\Debug\2023.10.26.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\obj\Debug\2023.10.26.csproj.AssemblyReference.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\obj\Debug\2023.10.26.csproj.SuggestedBindingRedirects.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\obj\Debug\2023.10.26.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\obj\Debug\2023.10.26.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\2023.10.26\2023.10.26\obj\Debug\2023.10.26.pdb

@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\gyakorlo_feladat\gyakorlo_feladat\bin\Debug\gyakorlo_feladat.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\gyakorlo_feladat\gyakorlo_feladat\bin\Debug\gyakorlo_feladat.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\gyakorlo_feladat\gyakorlo_feladat\bin\Debug\gyakorlo_feladat.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.pdb
