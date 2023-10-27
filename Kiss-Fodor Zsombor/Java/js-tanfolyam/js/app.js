@@ -12,28 +12,84 @@ Játék szabályok:
 */
 
 // változók létrehozása és adatainak megadása
-var pontszamok, korponszam, aktivjatekos, kocka;
+var pontszamok, korpontszam, aktivjatekos, kocka;
 
-pontszamok = [0,0];
-korponszam = 0;
+var pontszamok = [0,0];
+korpontszam = 0;
 aktivjatekos = 0;
 
-//kocka eltüntetése
 document.querySelector('.dice').style.display = 'none';
-//dolgokat keresünk meg lol
-document.getElementById('score-0').textContent = 0;
-document.getElementById('current-0').textContent = 0;
-document.getElementById('score-1').textContent = 0;
-document.getElementById('score-0').textContent = 0;
+document.getElementById('score-0').textContent = '0';
+document.getElementById('score-1').textContent = '0';
+document.getElementById('current-0').textContent = '0';
+document.getElementById('current-1').textContent = '0';
 
-//kocka "dobás"
+
+//document.querySelector('#current-' + aktivjatekos).textContent = kocka;
+
+//var nev = document.querySelector('#name-1').textContent;
+
+
 document.querySelector('.btn-roll').addEventListener('click', function()
 {
-  //random kocka szám megadása
+  //
   var kocka = Math.floor(Math.random() * 6) + 1;
 
-  //kocka szám mutatása
-  var kockaDOM = document.querySelector('.dice');
-  kockaDOM.style.display = 'block';
-  kockaDOM.src = 'img/dice-' + kocka + '.png';
+
+  //
+  var kockadom = document.querySelector('.dice');
+
+  //
+  kockadom.style.display = 'block';
+  kockadom.src = 'img/dice-' + kocka + '.png';
+  
+  //ha a dobásunk nem 1
+  if (kocka !==1){
+    //dobásunkat hozza ádjuk az aktív játékos pontjaihoz
+    korpontszam += kocka;
+    document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
+  } 
+  //ha viszont 1 akkor ezt csinálja
+  else {
+    //
+    Kovetekzojatekos();
+  }
 });
+
+//megtartjuk a dobást
+document.querySelector('.btn-hold').addEventListener('click', function() {
+
+  //
+  pontszamok[aktivjatekos] += korpontszam;
+
+  //
+  document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
+
+  //
+  if (pontszamok[aktivjatekos] >= 30) {
+    document.querySelector('#name-' + aktivjatekos).textContent = "Győztes!";
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner')
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
+  }
+  else {
+    //
+  Kovetekzojatekos();
+  }
+
+  
+  
+});
+
+//
+function Kovetekzojatekos() {
+  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
+  korpontszam = 0;
+
+  document.getElementById('current-0').textContent = '0';
+  document.getElementById('current-1').textContent = '1';
+
+  document.querySelector('.player-0-panel').classList.toggle('active');
+  document.querySelector('.player-1-panel').classList.toggle('active');
+
+  document.querySelector('.dice').style.display = 'none';
+}
