@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\obj\Debug\lancolt_lista_metodusok.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\obj\Debug\lancolt_lista_metodusok.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\obj\Debug\lancolt_lista_metodusok.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\bin\Debug\lancolt_lista_metodusok.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\bin\Debug\lancolt_lista_metodusok.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\bin\Debug\lancolt_lista_metodusok.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\obj\Debug\lancolt_lista_metodusok.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_metodusok\lancolt_lista_metodusok\obj\Debug\lancolt_lista_metodusok.pdb

@@ -1,0 +1,8 @@
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\bin\Debug\gyakorlofeladat.exe.config
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\bin\Debug\gyakorlofeladat.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\bin\Debug\gyakorlofeladat.pdb
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.csproj.SuggestedBindingRedirects.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.csproj.CoreCompileInputs.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\gyakorlofeladat\gyakorlofeladat\obj\Debug\gyakorlofeladat.pdb

@@ -33,4 +33,22 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
   var kockaDOM = document.querySelector(".dice");
   kockaDOM.style.display = "block";
   kockaDOM.src = "img/dice-" + kocka + ".png";
+  
+  if (kocka !== 1) {
+    korPontszam += kocka;
+    document.querySelector('#current-' + aktívJatekos).textContent = korPontszam;
+  } else {
+    aktívJatekos === 0 ? aktívJatekos = 1 :
+    korPontszam = 0;
+
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+    document.querySelector('.dice').style.display = 'none';}
+  });
+
+document.querySelector('.btn-hold').addEventListener('click', function(){
+  pontszamok[aktívJatekos] += korPontszam;
+  document.querySelector('#score-' + aktívJatekos).textContent = pontszamok[aktívJatekos];
 })

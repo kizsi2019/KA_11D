@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\obj\Debug\sajat_fuggveny_iras.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\obj\Debug\sajat_fuggveny_iras.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\obj\Debug\sajat_fuggveny_iras.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\bin\Debug\sajat_fuggveny_iras.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\bin\Debug\sajat_fuggveny_iras.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\bin\Debug\sajat_fuggveny_iras.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\obj\Debug\sajat_fuggveny_iras.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras\sajat_fuggveny_iras\obj\Debug\sajat_fuggveny_iras.pdb

@@ -1,0 +1,8 @@
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\bin\Debug\tomb.exe.config
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\bin\Debug\tomb.exe
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\bin\Debug\tomb.pdb
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\obj\Debug\tomb.csproj.AssemblyReference.cache
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\obj\Debug\tomb.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\obj\Debug\tomb.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\obj\Debug\tomb.exe
+C:\iskola\info\aaf1\KA_11D\Vicsápi Levente\tomb\tomb\obj\Debug\tomb.pdb
