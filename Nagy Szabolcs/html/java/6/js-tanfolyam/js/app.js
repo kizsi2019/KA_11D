@@ -47,9 +47,15 @@ document.querySelector('.btn-roll').addEventListener('click', function()
   }
 });
 
+
+//megtartom gomb esemény kezelő
 document.querySelector('.btn-hold').addEventListener('click', function() {
+
+
+  //összes pontszám frissitése a kódban
   pontszamok[aktivjatekos] += korpontszam;
 
+//összes pontszám frissitése a felületen (UI)
   document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
 
   //nyert a játékos?
@@ -58,10 +64,13 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     document.querySelector('#name-' + aktivjatekos).textContent = "Győztes";
     document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner');
     document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
+
+    //következő játékos
   } else {
 kovetkezoJatekos()
   }
 });
+//következő játékos függvény
 function kovetkezoJatekos(){
   aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
     korpontszam = 0;
