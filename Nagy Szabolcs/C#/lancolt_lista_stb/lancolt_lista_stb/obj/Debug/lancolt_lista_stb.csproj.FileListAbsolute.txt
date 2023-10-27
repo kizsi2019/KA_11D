@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\bin\Debug\lancolt_lista_stb.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\bin\Debug\lancolt_lista_stb.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\bin\Debug\lancolt_lista_stb.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\obj\Debug\lancolt_lista_stb.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\obj\Debug\lancolt_lista_stb.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\obj\Debug\lancolt_lista_stb.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\obj\Debug\lancolt_lista_stb.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lancolt_lista_stb\lancolt_lista_stb\obj\Debug\lancolt_lista_stb.pdb
