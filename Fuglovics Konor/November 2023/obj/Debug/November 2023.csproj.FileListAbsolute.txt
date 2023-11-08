@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\November 2023\bin\Debug\November 2023.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\November 2023\bin\Debug\November 2023.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\November 2023\bin\Debug\November 2023.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\November 2023\obj\Debug\November 2023.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\November 2023\obj\Debug\November 2023.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\November 2023\obj\Debug\November 2023.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\November 2023\obj\Debug\November 2023.pdb
