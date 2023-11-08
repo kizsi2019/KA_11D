@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\dolgozat\dolgozat\obj\Debug\dolgozat.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\dolgozat\dolgozat\obj\Debug\dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\dolgozat\dolgozat\bin\Debug\dolgozat.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\dolgozat\dolgozat\bin\Debug\dolgozat.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\dolgozat\dolgozat\bin\Debug\dolgozat.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\dolgozat\dolgozat\obj\Debug\dolgozat.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\dolgozat\dolgozat\obj\Debug\dolgozat.pdb
