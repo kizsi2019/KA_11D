@@ -11,19 +11,38 @@ namespace dolgozat
         static void Main(string[] args)
         {
             //1 feladat
-            Console.WriteLine("kérem a diák nevét");
-            string diaknev = Console.ReadLine();
-            string valasz = "0";
-            List<double> list = new List<double>();
-            while (valasz != "") 
+            Console.WriteLine("Diák neve:");
+            string nev = Console.ReadLine();
+
+            // Jegyek bekérése és tárolása egy listában
+            List<double> jegyek = new List<double>();
+            string valasz ="";
+            while (valasz != "vége")
             {
-                Console.WriteLine("adjon meg egy jegyet");
+                Console.Write("Kérem adja meg a jegyét (vagy 'vége' a befejezéshez): ");
                 valasz = Console.ReadLine();
-                if (valasz != "")
+                if (valasz != "vége") 
                 {
-                    //wow ez rohadt jó! :D
+                    if (double.TryParse(valasz, out double jegy))
+                    {
+                        jegyek.Add(jegy);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hibás jegy, kérem adjon meg egy érvényes jegyet.");
+                    }
                 }
             }
+
+            double atlag = Math.Round(jegyek.Average(), 2);
+
+            double legjobb = jegyek.Max();
+            double szar = jegyek.Min();
+
+           Console.WriteLine($"{nev.ToUpper()} átlaga: {atlag}");
+           Console.WriteLine("legjobb jegye:" + legjobb);
+           Console.WriteLine($"legrosszabb jegye: " + szar);
+           
             //2 feladat
             var szoveg = new Stack<char>();
             string adat = Console.ReadLine();
