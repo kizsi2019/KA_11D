@@ -1,0 +1,7 @@
+C:\Users\Diak\Desktop\offrotty\KA_11D\Nagy Szabolcs\C#\dolgozat\dolgozat\obj\Debug\dolgozat.csproj.AssemblyReference.cache
+C:\Users\Diak\Desktop\offrotty\KA_11D\Nagy Szabolcs\C#\dolgozat\dolgozat\obj\Debug\dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\Diak\Desktop\offrotty\KA_11D\Nagy Szabolcs\C#\dolgozat\dolgozat\bin\Debug\dolgozat.exe.config
+C:\Users\Diak\Desktop\offrotty\KA_11D\Nagy Szabolcs\C#\dolgozat\dolgozat\bin\Debug\dolgozat.exe
+C:\Users\Diak\Desktop\offrotty\KA_11D\Nagy Szabolcs\C#\dolgozat\dolgozat\bin\Debug\dolgozat.pdb
+C:\Users\Diak\Desktop\offrotty\KA_11D\Nagy Szabolcs\C#\dolgozat\dolgozat\obj\Debug\dolgozat.exe
+C:\Users\Diak\Desktop\offrotty\KA_11D\Nagy Szabolcs\C#\dolgozat\dolgozat\obj\Debug\dolgozat.pdb
