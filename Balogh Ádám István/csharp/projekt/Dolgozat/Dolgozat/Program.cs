@@ -10,8 +10,8 @@ namespace Dolgozat
     {
         static void Main(string[] args)
         {
-            
-            Console.Write("Add meg a neved:");
+
+            /*Console.Write("Add meg a neved:");
             string nev = Console.ReadLine();
 
            
@@ -49,7 +49,39 @@ namespace Dolgozat
             }
             else
             {
-                Console.WriteLine("Nem adott meg érvényes jegyeket.");
+                Console.WriteLine("Nem adott meg érvényes jegyeket.");*/
+            Console.Write("Kérem, adjon meg egy szöveget: ");
+            string input = Console.ReadLine();
+
+            string reversedString = ReverseStringUsingStack(input);
+
+            Console.WriteLine("A fordított szöveg: " + reversedString);
+        }
+
+        static string ReverseStringUsingStack(string input)
+        {
+            Stack<char> stack = new Stack<char>();
+
+          
+            foreach (char character in input)
+            {
+                stack.Push(character);
             }
+
+            
+            char[] reversedChars = new char[input.Length];
+            int index = 0;
+
+            while (stack.Count > 0)
+            {
+                reversedChars[index++] = stack.Pop();
+            }
+
+            string reversedString = new string(reversedChars);
+
+            return reversedString;
+            Console.ReadLine();
+
+        }
         }
     }
