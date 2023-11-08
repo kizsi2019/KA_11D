@@ -1,0 +1,7 @@
+C:\Users\Diak\Desktop\jakuskam\KA_11D\Balogh Ádám István\csharp\projekt\Dolgozat\Dolgozat\bin\Debug\Dolgozat.exe.config
+C:\Users\Diak\Desktop\jakuskam\KA_11D\Balogh Ádám István\csharp\projekt\Dolgozat\Dolgozat\bin\Debug\Dolgozat.exe
+C:\Users\Diak\Desktop\jakuskam\KA_11D\Balogh Ádám István\csharp\projekt\Dolgozat\Dolgozat\bin\Debug\Dolgozat.pdb
+C:\Users\Diak\Desktop\jakuskam\KA_11D\Balogh Ádám István\csharp\projekt\Dolgozat\Dolgozat\obj\Debug\Dolgozat.csproj.AssemblyReference.cache
+C:\Users\Diak\Desktop\jakuskam\KA_11D\Balogh Ádám István\csharp\projekt\Dolgozat\Dolgozat\obj\Debug\Dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\Diak\Desktop\jakuskam\KA_11D\Balogh Ádám István\csharp\projekt\Dolgozat\Dolgozat\obj\Debug\Dolgozat.exe
+C:\Users\Diak\Desktop\jakuskam\KA_11D\Balogh Ádám István\csharp\projekt\Dolgozat\Dolgozat\obj\Debug\Dolgozat.pdb
