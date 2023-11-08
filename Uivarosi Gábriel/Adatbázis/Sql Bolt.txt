@@ -1,0 +1,109 @@
+6.1
+select * from movies 
+inner join boxoffice on id = Movie_id
+6.2
+select * from movies 
+inner join boxoffice on id = Movie_id
+where international_sales > domestic_sales
+6.3
+select * from movies 
+inner join boxoffice on id = Movie_id
+order by rating desc
+7.1
+SELECT DISTINCT building_name FROM employees
+left join buildings where building_name = building
+7.2
+SELECT  * from buildings
+7.3
+SELECT DISTINCT building_name, role 
+FROM buildings 
+  LEFT JOIN employees
+    ON building_name = building;
+8.1
+SELECT name, role FROM employees
+WHERE building IS NULL;
+8.2
+SELECT DISTINCT building_name
+FROM buildings 
+  LEFT JOIN employees
+    ON building_name = building
+WHERE role IS NULL;
+9.1
+SELECT title, (domestic_sales + international_sales) / 1000000 AS gross_sales_millions
+FROM movies
+  JOIN boxoffice
+    ON movies.id = boxoffice.movie_id;
+9.2
+SELECT title, rating * 10 AS rating_percent
+FROM movies
+  JOIN boxoffice
+    ON movies.id = boxoffice.movie_id;
+9.3
+SELECT title, year
+FROM movies
+WHERE year % 2 = 0;
+10.1
+SELECT 	MAX(years_employed) FROM employees;
+10.2
+SELECT role, AVG(years_employed) as Average_years_employed
+FROM employees
+GROUP BY role;
+10.3
+SELECT building ,SUM(years_employed) FROM employees GROUP by building
+11.1
+SELECT role, COUNT(*) as Number_of_artists
+FROM employees
+WHERE role = "Artist";
+11.2
+SELECT role, COUNT(*)
+FROM employees
+GROUP BY role;
+
+11.3
+select role ,	sum(years_employed) from employees where role = 'Engineer'
+12.1
+SELECT Count(Title) as "Number of Movies", director FROM movies Group by 	director
+12.2
+select 	Sum(domestic_sales	+international_sales) , director from movies left join boxoffice 
+on id = Movie_id
+group by 	director
+13.1
+INSERT INTO movies (id, title, director, 	year, 	length_minutes )
+VALUES (666, 'Toy Story 4', 'John Wick', 2300, 5)
+13.2
+INSERT INTO boxoffice VALUES (666, 8.7, 340000000, 270000000);
+14.1
+UPDATE movies
+SET director = "John Lasseter"
+WHERE id = 2;
+14.2
+UPDATE movies
+SET year = 1999
+WHERE id = 3;
+14.3
+UPDATE movies
+SET title = "Toy Story 3", director = "Lee Unkrich"
+WHERE id = 11;
+15.1
+DELETE FROM movies
+where year < 2005;
+15.2
+DELETE FROM movies
+where director = "Andrew Stanton";
+16.1
+CREATE TABLE Database (
+    Name TEXT,
+    Version FLOAT,
+    Download_count INTEGER
+);
+17.1
+ALTER TABLE Movies
+  ADD COLUMN Aspect_ratio FLOAT DEFAULT 2.39;
+WHERE id = 2;
+17.2
+ALTER TABLE Movies
+  ADD COLUMN Language TEXT DEFAULT "English";
+18.1
+DROP TABLE Movies;
+18.2
+DROP TABLE BoxOffice;

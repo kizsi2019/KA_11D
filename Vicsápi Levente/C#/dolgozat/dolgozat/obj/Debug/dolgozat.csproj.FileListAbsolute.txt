@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\bin\Debug\dolgozat.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\bin\Debug\dolgozat.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\bin\Debug\dolgozat.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\obj\Debug\dolgozat.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\obj\Debug\dolgozat.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\obj\Debug\dolgozat.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\obj\Debug\dolgozat.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\dolgozat\dolgozat\obj\Debug\dolgozat.pdb

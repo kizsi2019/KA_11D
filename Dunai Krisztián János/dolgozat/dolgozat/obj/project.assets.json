@@ -8,24 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/dunaikrisztian/.nuget/packages/": {}
+    "C:\\Users\\Diak\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/dolgozat/dolgozat/dolgozat.csproj",
+      "projectUniqueName": "C:\\Users\\Diak\\Desktop\\jakuskam\\KA_11D\\Dunai Krisztián János\\dolgozat\\dolgozat\\dolgozat.csproj",
       "projectName": "dolgozat",
-      "projectPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/dolgozat/dolgozat/dolgozat.csproj",
-      "packagesPath": "/Users/dunaikrisztian/.nuget/packages/",
-      "outputPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/dolgozat/dolgozat/obj/",
+      "projectPath": "C:\\Users\\Diak\\Desktop\\jakuskam\\KA_11D\\Dunai Krisztián János\\dolgozat\\dolgozat\\dolgozat.csproj",
+      "packagesPath": "C:\\Users\\Diak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diak\\Desktop\\jakuskam\\KA_11D\\Dunai Krisztián János\\dolgozat\\dolgozat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dunaikrisztian/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Diak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

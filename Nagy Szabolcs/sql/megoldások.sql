@@ -1,0 +1,95 @@
+6. 1,2
+SELECT title, domestic_sales, international_sales 
+FROM movies
+  JOIN boxoffice
+    ON movies.id = boxoffice.movie_id
+WHERE International_sales > Domestic_sales;
+
+3 SELECT title, rating FROM Movies
+JOIN boxoffice
+on movies.id = boxoffice.movie_id
+ORDER BY rating desc
+
+7. 1 SELECT DISTINCT building FROM employees;
+2:SELECT * FROM buildings 
+3: SELECT DISTINCT building_name, role 
+FROM buildings 
+  LEFT JOIN employees
+    ON building_name = building;
+
+
+8. 1: SELECT name, role FROM employees
+WHERE building IS NULL;
+2: SELECT building_name
+FROM buildings 
+  LEFT JOIN employees
+    ON building_name = building
+WHERE role IS NULL;
+
+9. 1:SELECT title, (domestic_sales + international_sales) / 1000000 AS gross_sales_millions
+FROM movies
+  JOIN boxoffice
+    ON movies.id = boxoffice.movie_id;
+2: SELECT title, rating * 10 AS rating_percent
+FROM movies
+  JOIN boxoffice
+    ON movies.id = boxoffice.movie_id;
+3:SELECT title, rating * 10 AS rating_percent
+FROM movies
+  JOIN boxoffice
+    ON movies.id = boxoffice.movie_id;
+
+10. 1.SELECT MAX(years_employed) FROM employees
+2.select role, AVG(years_employed) AS Average_years_employed
+FROM Employees
+GROUP BY Role;
+3. SELECT building, SUM(years_employed) as Total_years_employed
+FROM employees
+GROUP BY building;
+
+11. 1. SELECT building, SUM(years_employed) as Total_years_employed
+FROM employees
+GROUP BY building;
+2. SELECT Role, SUM(years_employed)
+FROM Employees
+WHERE Role = "Engineer"
+
+
+3.
+SELECT Role, SUM(years_employed)
+FROM Employees
+WHERE Role = "Engineer"
+ 12. 1. SELECT director, COUNT(id) as Num_movies_directed
+FROM movies
+GROUP BY director;
+
+2. SELECT Director, SUM(domestic_sales + international_sales) AS Total_Sales
+FROM Movies
+INNER JOIN boxoffice
+    on movies.id = boxoffice.movie_id
+GROUP BY Director;
+13. 1. INSERT INTO movies VALUES (15, "Toy Story 4", "John Lasseter", 2013, 90);
+2. INSERT INTO boxoffice VALUES (15, 8.7, 340000000, 270000000);
+
+14. 1. UPDATE movies
+SET director = "John Lasseter"
+WHERE id = 2;
+2. UPDATE Movies 
+SET Year = 1999
+WHERE id = 3;
+3. UPDATE movies
+SET title = "Toy Story 3", director = "Lee Unkrich"
+WHERE id = 11;
+
+15. 1. DELETE FROM Movies
+WHERE Year < 2005;
+2. DELETE FROM Movies 
+WHERE Director = "Andrew Stanton"
+
+16. CREATE TABLE Database (
+    Name TEXT,
+    Version FLOAT,
+    Download_count INTEGER
+);
+17. ALTER TABLE Movies 
+ADD Aspect_Ratio FLOAT
