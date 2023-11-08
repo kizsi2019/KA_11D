@@ -1,5 +1,3 @@
 SELECT lista.ev, dalok.cim, eloadok.nev
 FROM lista, dalok, eloadok
 WHERE lista.ev = '2001' AND lista.helyezes = 1
-
-  
