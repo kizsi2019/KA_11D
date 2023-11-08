@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace gyakorlo_feladat
     {
         static void Main(string[] args)
         {
+            /*
             //sor cuccos
             //létrehozunk egy sort
             Queue<int> sor = new Queue<int>();
@@ -78,6 +80,42 @@ namespace gyakorlo_feladat
 
             //
             alaphalmaz.IntersectWith(halmaz1);
+
+            //
+            */
+            var verem = new Stack<int>();
+
+            for (int i = 1; i <= 6; i++) {
+                verem.Push(i);    
+            }
+
+            int[] tömb = verem.ToArray();
+
+            foreach (int i in tömb)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("-------");
+            int piik = verem.Peek();
+            Console.WriteLine(piik);
+            Console.WriteLine("-------");
+
+            verem.Pop();
+
+            piik = verem.Peek();
+            Console.WriteLine(piik);
+            Console.WriteLine("-------");
+            while (verem.Count > 0)
+            {
+                verem.Pop() ;
+            }
+
+            tömb = verem.ToArray();
+
+            foreach (int i in tömb)
+            {
+                Console.WriteLine(i);
+            }
 
             Console.ReadLine();
         }
