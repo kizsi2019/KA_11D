@@ -14,15 +14,8 @@ Játék szabályok:
 // változók létrehozása és adatainak megadása
 var pontszamok, korpontszam, aktivjatekos, kocka;
 
-var pontszamok = [0,0];
-korpontszam = 0;
-aktivjatekos = 0;
+init();
 
-document.querySelector('.dice').style.display = 'none';
-document.getElementById('score-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('current-1').textContent = '0';
 
 
 //document.querySelector('#current-' + aktivjatekos).textContent = kocka;
@@ -92,4 +85,27 @@ function Kovetekzojatekos() {
   document.querySelector('.player-1-panel').classList.toggle('active');
 
   document.querySelector('.dice').style.display = 'none';
+}
+
+document.querySelector('.btn-new').addEventListener('click', init);
+
+function init()
+{
+  pontszamok = [0,0];
+  aktivjatekos = 0;
+  korpontszam = 0;
+
+  document.querySelector('.dice').style.display = 'none';
+document.getElementById('score-0').textContent = '0';
+document.getElementById('score-1').textContent = '0';
+document.getElementById('current-0').textContent = '0';
+document.getElementById('current-1').textContent = '0';
+
+document.querySelector('name-0').textContent = "Frodó"
+document.querySelector('name-1').textContent = "Samu"
+document.querySelector('.player-0-panel').classList.remove('winner');
+document.querySelector('.player-1-panel').classList.remove('winner');
+document.querySelector('.player-0-panel').classList.remove('active');
+document.querySelector('.player-1-panel').classList.add('active');
+
 }
