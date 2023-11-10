@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\bin\Debug\proba.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\bin\Debug\proba.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\bin\Debug\proba.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\obj\Debug\proba.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\obj\Debug\proba.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\obj\Debug\proba.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\obj\Debug\proba.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\proba\proba\obj\Debug\proba.pdb
