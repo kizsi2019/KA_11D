@@ -11,17 +11,11 @@ Játék szabályok:
 
 */
 
+// változók létrehozása és adatainak megadása
 var pontszamok, korpontszam, aktivjatekos, kocka;
 
-var pontszamok = [0,0];
-korpontszam = 0;
-aktivjatekos = 0;
+init();
 
-document.querySelector('.dice').style.display = 'none';
-document.getElementById('score-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('current-1').textContent = '0';
 
 
 //document.querySelector('#current-' + aktivjatekos).textContent = kocka;
@@ -31,44 +25,87 @@ document.getElementById('current-1').textContent = '0';
 
 document.querySelector('.btn-roll').addEventListener('click', function()
 {
+  //
   var kocka = Math.floor(Math.random() * 6) + 1;
 
+
+  //
   var kockadom = document.querySelector('.dice');
 
+  //
   kockadom.style.display = 'block';
   kockadom.src = 'img/dice-' + kocka + '.png';
   
-
+  //ha a dobásunk nem 1
   if (kocka !==1){
+    //dobásunkat hozza ádjuk az aktív játékos pontjaihoz
     korpontszam += kocka;
     document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
-  } else {
-    kovetkezoJatekos();
+  } 
+  //ha viszont 1 akkor ezt csinálja
+  else {
+    //
+    Kovetekzojatekos();
   }
 });
 
+//megtartjuk a dobást
 document.querySelector('.btn-hold').addEventListener('click', function() {
+
+  //
   pontszamok[aktivjatekos] += korpontszam;
 
+  //
   document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
 
-  //nyert a játékos?
-
-  if (pontszamok[aktivjatekos] >= 100) {
-    document.querySelector('#name-' + aktivjatekos).textContent = "Győztes";
-    document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner');
+  //
+  if (pontszamok[aktivjatekos] >= 30) {
+    document.querySelector('#name-' + aktivjatekos).textContent = "Győztes!";
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner')
     document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
-  } else {
-kovetkezoJatekos()
   }
-});
-function kovetkezoJatekos(){
-  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
-    korpontszam = 0;
-    
-    document.getElementById('current-0').textContent = '0';
-    document.getElementById('current-1').textContent = '1';
+  else {
+    //
+  Kovetekzojatekos();
+  }
 
-    document.querySelector('.player-0-panel').classList.toggle('active');
-    document.querySelector('.player-1-panel').classList.toggle('active');
+  
+  
+});
+
+//
+function Kovetekzojatekos() {
+  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
+  korpontszam = 0;
+
+  document.getElementById('current-0').textContent = '0';
+  document.getElementById('current-1').textContent = '1';
+
+  document.querySelector('.player-0-panel').classList.toggle('active');
+  document.querySelector('.player-1-panel').classList.toggle('active');
+
+  document.querySelector('.dice').style.display = 'none';
+}
+
+document.querySelector('.btn-new').addEventListener('click', init);
+
+function init()
+{
+  pontszamok = [0,0];
+  aktivjatekos = 0;
+  korpontszam = 0;
+
+  document.querySelector('.dice').style.display = 'none';
+  document.getElementById('score-0').textContent = '0';
+  document.getElementById('score-1').textContent = '0';
+  document.getElementById('current-0').textContent = '0';
+  document.getElementById('current-1').textContent = '0';
+
+  document.getElementById('name-0').textContent = "Frodó";
+  document.getElementById('name-1').textContent = "Samu";
+  document.querySelector('.player-0-panel').classList.remove('winner');
+  document.querySelector('.player-1-panel').classList.remove('winner');
+  document.querySelector('.player-0-panel').classList.remove('active');
+  document.querySelector('.player-1-panel').classList.add('active');
+
 }
