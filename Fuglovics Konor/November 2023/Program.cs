@@ -10,7 +10,7 @@ namespace November_2023
     {
         static void Main(string[] args)
         {
-            int count = 0;
+            List<int> grades = new List<int> { };
             Console.WriteLine("Add meg a neved!");
             string a = Console.ReadLine();
             if (a == "")
@@ -28,7 +28,7 @@ namespace November_2023
                 }
                 else
                 {
-                    count =+ 1;
+                    grades.Add(num);
                     Console.WriteLine("Add meg a legrosszab jegyed!");
                     var c = Console.ReadLine();
                     int num2 = Convert.ToInt32(c);
@@ -38,9 +38,8 @@ namespace November_2023
                     }
                     else
                     {
-                        count =+ 1;
-                        int d 
-                        var rnd = Math.FLoor(d);
+                        grades.Add(num2);
+                        var rnd = grades.Average();
                         Console.WriteLine($"{a} átlaga: {rnd}");
                         Console.WriteLine($"{a} legjobb jegye: {num}");
                         Console.WriteLine($"{a} legrosszabb jegye: {num2}");
