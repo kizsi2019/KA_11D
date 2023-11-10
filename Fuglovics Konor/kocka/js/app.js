@@ -10,21 +10,64 @@
 
 var scores, roundscore, ActivePlayer;
 
-scores = [0,0];
-roundscore = 0;
-ActivePlayer = 1;
+init();
 
 //document.querySelector('#current-' + ActivePlayer).textContent = block;
-
-document.querySelector('.dice').style.display = 'none';
-document.getElementById('score-0').textContent = "0";
-document.getElementById('current-0').textContent = "0";
-document.getElementById('score-1').textContent = "0";
-document.getElementById('current-1').textContent = "0";
 
 document.querySelector('.btn-roll').addEventListener("click", function(){
   var block = Math.floor(Math.random() * 6) + 1;
   var blockDOM = document.querySelector('.dice');
   blockDOM.style.display = 'block';
   blockDOM.src = "img/dice-" + block + ".png";
+
+  if (block !== 1){
+    roundscore += block;
+    document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
+  }else{
+    
+  }
 });
+
+document.querySelector('.btn-hold').addEventListener('click',
+function(){
+	scores[ActivePlayer] += roundscore;
+
+	document.querySelector('#score-' + ActivePlayer).textContent = scores[ActivePlayer];
+
+	if (scores[ActivePlayer] >= 15) {
+		document.querySelector('#name-' + ActivePlayer).textContent = 'Winner!';
+		document.querySelector('.player-' + ActivePlayer + '-panel').classList.add('winner');
+		document.querySelector('.player-' + ActivePlayer + '-panel').classList.remove('active');
+	}else{
+		nextplayer();
+	}
+});
+
+function nextplayer(){
+	 ActivePlayer === 0 ? ActivePlayer = 1 : ActivePlayer = 0;
+    roundscore = 0;
+
+    document.getElementById('#current-0').textContent = '0';
+    document.getElementById('#current-1').textContent = '0';
+
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+
+    document.querySelector('.dice').style.display = 'none';
+}
+
+document.querySelector('.btn-new').addEventListener('click', function(){
+	init();
+})
+
+function init(){
+	scores = [0,0];
+	roundscore = 0;
+	ActivePlayer = 1;
+
+	document.querySelector('.dice').style.display = 'none';
+	document.getElementById('score-0').textContent = "0";
+	document.getElementById('current-0').textContent = "0";
+	document.getElementById('score-1').textContent = "0";
+	document.getElementById('current-1').textContent = "0";
+}
