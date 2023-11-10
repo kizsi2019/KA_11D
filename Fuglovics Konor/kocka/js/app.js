@@ -27,4 +27,27 @@ document.querySelector('.btn-roll').addEventListener("click", function(){
   var blockDOM = document.querySelector('.dice');
   blockDOM.style.display = 'block';
   blockDOM.src = "img/dice-" + block + ".png";
+
+  if (block !== 1){
+    roundscore += block;
+    document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
+  }else{
+    ActivePlayer === 0 ? ActivePlayer = 1 : ActivePlayer = 0;
+    roundscore = 0;
+
+    document.getElementById('#current-0').textContent = '0';
+    document.getElementById('#current-1').textContent = '0';
+
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+
+    document.querySelector('.dice').style.display = 'none';
+  }
+});
+
+document.querySelector('.btn-hold').addEventListener('click',
+function(){
+	scores[ActivePlayer] += roundscore;
+
+	document.querySelector('#score-' + ActivePlayer).textContent = scores[ActivePlayer];
 });
