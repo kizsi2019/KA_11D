@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\bin\Debug\prezentáció_minta.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\bin\Debug\prezentáció_minta.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\bin\Debug\prezentáció_minta.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\obj\Debug\prezentáció_minta.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\obj\Debug\prezentáció_minta.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\obj\Debug\prezentáció_minta.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\obj\Debug\prezentáció_minta.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\prezentáció_minta\prezentáció_minta\obj\Debug\prezentáció_minta.pdb
