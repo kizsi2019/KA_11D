@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\bin\Debug\sajat_fuggveny_iras3.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\bin\Debug\sajat_fuggveny_iras3.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\bin\Debug\sajat_fuggveny_iras3.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\obj\Debug\sajat_fuggveny_iras3.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\obj\Debug\sajat_fuggveny_iras3.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\obj\Debug\sajat_fuggveny_iras3.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\obj\Debug\sajat_fuggveny_iras3.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_iras3\sajat_fuggveny_iras3\obj\Debug\sajat_fuggveny_iras3.pdb
