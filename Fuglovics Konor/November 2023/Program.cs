@@ -40,9 +40,9 @@ namespace November_2023
                     {
                         grades.Add(num2);
                         var rnd = grades.Average();
-                        Console.WriteLine($"{a} átlaga: {rnd}");
-                        Console.WriteLine($"{a} legjobb jegye: {num}");
-                        Console.WriteLine($"{a} legrosszabb jegye: {num2}");
+                        Console.WriteLine($"{a.ToUpper()} átlaga: {rnd}");
+                        Console.WriteLine($"{a.ToUpper()} legjobb jegye: {num}");
+                        Console.WriteLine($"{a.ToUpper()} legrosszabb jegye: {num2}");
                     }
                 }
             }
