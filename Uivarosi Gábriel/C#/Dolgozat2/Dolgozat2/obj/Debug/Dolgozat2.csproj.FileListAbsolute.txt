@@ -1,0 +1,7 @@
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Dolgozat2\Dolgozat2\bin\Debug\Dolgozat2.exe.config
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Dolgozat2\Dolgozat2\bin\Debug\Dolgozat2.exe
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Dolgozat2\Dolgozat2\bin\Debug\Dolgozat2.pdb
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Dolgozat2\Dolgozat2\obj\Debug\Dolgozat2.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Dolgozat2\Dolgozat2\obj\Debug\Dolgozat2.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Dolgozat2\Dolgozat2\obj\Debug\Dolgozat2.exe
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Dolgozat2\Dolgozat2\obj\Debug\Dolgozat2.pdb

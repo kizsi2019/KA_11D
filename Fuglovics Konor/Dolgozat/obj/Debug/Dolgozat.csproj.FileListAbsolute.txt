@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Dolgozat\obj\Debug\Dolgozat.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Dolgozat\obj\Debug\Dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Dolgozat\bin\Debug\Dolgozat.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Dolgozat\bin\Debug\Dolgozat.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Dolgozat\bin\Debug\Dolgozat.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Dolgozat\obj\Debug\Dolgozat.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Dolgozat\obj\Debug\Dolgozat.pdb
