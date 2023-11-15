@@ -1,0 +1,7 @@
+C:\Users\Al-KhayyatAnaamAli\Desktop\asd\KA_11D\Al-Khayyat Anaam Ali\2023.11.15\2023.11.15\obj\Debug\2023.11.15.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\asd\KA_11D\Al-Khayyat Anaam Ali\2023.11.15\2023.11.15\obj\Debug\2023.11.15.csproj.CoreCompileInputs.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\asd\KA_11D\Al-Khayyat Anaam Ali\2023.11.15\2023.11.15\bin\Debug\2023.11.15.exe.config
+C:\Users\Al-KhayyatAnaamAli\Desktop\asd\KA_11D\Al-Khayyat Anaam Ali\2023.11.15\2023.11.15\bin\Debug\2023.11.15.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\asd\KA_11D\Al-Khayyat Anaam Ali\2023.11.15\2023.11.15\bin\Debug\2023.11.15.pdb
+C:\Users\Al-KhayyatAnaamAli\Desktop\asd\KA_11D\Al-Khayyat Anaam Ali\2023.11.15\2023.11.15\obj\Debug\2023.11.15.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\asd\KA_11D\Al-Khayyat Anaam Ali\2023.11.15\2023.11.15\obj\Debug\2023.11.15.pdb
