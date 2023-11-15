@@ -10,15 +10,45 @@ namespace Dolgozat
     {
         static void Main(string[] args)
         {
-            int[] egyenleg = new int[31]; 
-            List<int> forint = new List<int>();
-            Random rng = new Random();
-            for (int i = 0; i<egyenleg.Count(); i++)
+            List<int> egyenleg = new List<int> { };
+            Random forint = new Random();
+            int rn = forint.Next(2500, 1000000);
+            Console.WriteLine("Add meg a neved!");
+            string a = Console.ReadLine();
+            if (a == "")
             {
-                egyenleg[i] = rng.Next(1, 1000);
-                forint.Add(egyenleg[i]);
+                Console.WriteLine("Név hiányzik!");
             }
-            Console.Write(egyenleg);
+            else
+            {
+                Console.WriteLine("Add meg a legnagyobb kiadásod!");
+                var b = Console.ReadLine();
+                int num = Convert.ToInt32(b);
+                if (num == 0)
+                {
+                    Console.WriteLine("A kiadás nem lehet 0!");
+                }
+                else
+                {
+                    egyenleg.Add(num);
+                    Console.WriteLine("Add meg a legkisebb kiadásod");
+                    var c = Console.ReadLine();
+                    int num2 = Convert.ToInt32(c);
+                    if (num2 == 0)
+                    {
+                        Console.WriteLine("A kiadás nem lehet 0!");
+                    }
+                    else
+                    {
+                        egyenleg.Add(num2);
+                        Console.WriteLine($"{a.ToUpper()} egyenlege: {num + num2 - rn}");
+                        Console.WriteLine($"{a.ToUpper()} legnagyobb kiadása: {num}");
+                        Console.WriteLine($"{a.ToUpper()} legkisebb kiadása: {num2}");
+                    }
+                }
+            }
+
+            Console.ReadKey();
 
             Console.ReadKey();
         }
