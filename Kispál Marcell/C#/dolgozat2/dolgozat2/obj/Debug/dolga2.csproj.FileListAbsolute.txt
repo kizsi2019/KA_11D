@@ -1,0 +1,4 @@
+C:\Users\KispalMarcell\source\repos\dolga2\dolga2\obj\Debug\dolga2.csproj.AssemblyReference.cache
+C:\Users\KispalMarcell\source\repos\dolga2\dolga2\obj\Debug\dolga2.csproj.CoreCompileInputs.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\dolgozat2\dolgozat2\obj\Debug\dolga2.csproj.AssemblyReference.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\dolgozat2\dolgozat2\obj\Debug\dolga2.csproj.CoreCompileInputs.cache
