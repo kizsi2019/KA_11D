@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\bin\Debug\sajat_fuggveny_gyak2.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\bin\Debug\sajat_fuggveny_gyak2.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\bin\Debug\sajat_fuggveny_gyak2.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\obj\Debug\sajat_fuggveny_gyak2.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\obj\Debug\sajat_fuggveny_gyak2.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\obj\Debug\sajat_fuggveny_gyak2.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\obj\Debug\sajat_fuggveny_gyak2.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_fuggveny_gyak2\sajat_fuggveny_gyak2\obj\Debug\sajat_fuggveny_gyak2.pdb

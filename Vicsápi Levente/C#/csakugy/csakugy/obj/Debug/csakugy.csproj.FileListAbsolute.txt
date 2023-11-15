@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\bin\Debug\csakugy.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\bin\Debug\csakugy.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\bin\Debug\csakugy.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\obj\Debug\csakugy.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\obj\Debug\csakugy.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\obj\Debug\csakugy.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\obj\Debug\csakugy.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csakugy\csakugy\obj\Debug\csakugy.pdb
