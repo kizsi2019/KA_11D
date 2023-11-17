@@ -12,7 +12,7 @@ Játék szabályok:
 */
 
 // változók létrehozása és adatainak megadása
-var pontszamok, korpontszam, aktivjatekos, kocka;
+var pontszamok, korpontszam, aktivjatekos, jatekFolyamatban;
 
 init();
 
@@ -25,6 +25,9 @@ init();
 
 document.querySelector('.btn-roll').addEventListener('click', function()
 {
+  //
+  if (jatekFolyamatban) 
+  {
   //
   var kocka = Math.floor(Math.random() * 6) + 1;
 
@@ -47,30 +50,30 @@ document.querySelector('.btn-roll').addEventListener('click', function()
     //
     Kovetekzojatekos();
   }
+  }
 });
 
 //megtartjuk a dobást
 document.querySelector('.btn-hold').addEventListener('click', function() {
-
-  //
+  if (jatekFolyamatban) {
+    //
   pontszamok[aktivjatekos] += korpontszam;
 
   //
   document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
 
   //
-  if (pontszamok[aktivjatekos] >= 30) {
+  if (pontszamok[aktivjatekos] >= 10) {
     document.querySelector('#name-' + aktivjatekos).textContent = "Győztes!";
     document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner')
     document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
+    jatekFolyamatban = false;
   }
   else {
     //
   Kovetekzojatekos();
   }
-
-  
-  
+  }
 });
 
 //
@@ -94,6 +97,7 @@ function init()
   pontszamok = [0,0];
   aktivjatekos = 0;
   korpontszam = 0;
+  jatekFolyamatban = true;
 
   document.querySelector('.dice').style.display = 'none';
   document.getElementById('score-0').textContent = '0';
@@ -107,5 +111,4 @@ function init()
   document.querySelector('.player-1-panel').classList.remove('winner');
   document.querySelector('.player-0-panel').classList.remove('active');
   document.querySelector('.player-1-panel').classList.add('active');
-
 }
