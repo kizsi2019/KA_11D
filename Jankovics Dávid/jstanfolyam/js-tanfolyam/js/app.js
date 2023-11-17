@@ -12,6 +12,7 @@ Játék szabályok:
 */
 
 var pontszamok, korpontszam, aktivjatekos, kocka;
+init();
 
 var pontszamok = [0,0];
 korpontszam = 0;
@@ -43,7 +44,36 @@ document.querySelector('.btn-roll').addEventListener('click', function()
     korpontszam += kocka;
     document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
   } else {
-    aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
+    kovetkezoJatekos();
+  }
+});
+
+
+//megtartom gomb esemény kezelő
+document.querySelector('.btn-hold').addEventListener('click', function() {
+
+
+  //összes pontszám frissitése a kódban
+  pontszamok[aktivjatekos] += korpontszam;
+
+//összes pontszám frissitése a felületen (UI)
+  document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
+
+  //nyert a játékos?
+
+  if (pontszamok[aktivjatekos] >= 100) {
+    document.querySelector('#name-' + aktivjatekos).textContent = "Győztes";
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner');
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
+
+    //következő játékos
+  } else {
+kovetkezoJatekos()
+  }
+});
+//következő játékos függvény
+function kovetkezoJatekos(){
+  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
     korpontszam = 0;
     
     document.getElementById('current-0').textContent = '0';
@@ -51,16 +81,10 @@ document.querySelector('.btn-roll').addEventListener('click', function()
 
     document.querySelector('.player-0-panel').classList.toggle('active');
     document.querySelector('.player-1-panel').classList.toggle('active');
-
+    
     document.querySelector('.dice').style.display = 'none';
-  }
-});
+    
+    
+}
 
-document.querySelector('.btn-hold').addEventListener('click', function() {
-  pontszamok[aktivjatekos] += korpontszam;
-
-  document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
-
-});
-
-
+document.queryselector('.btn-new').addEventListener 

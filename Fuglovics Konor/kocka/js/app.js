@@ -15,17 +15,17 @@ init();
 //document.querySelector('#current-' + ActivePlayer).textContent = block;
 
 document.querySelector('.btn-roll').addEventListener("click", function(){
-  var block = Math.floor(Math.random() * 6) + 1;
-  var blockDOM = document.querySelector('.dice');
-  blockDOM.style.display = 'block';
-  blockDOM.src = "img/dice-" + block + ".png";
+  	var block = Math.floor(Math.random() * 6) + 1;
+  	var blockDOM = document.querySelector('.dice');
+  	blockDOM.style.display = 'block';
+  	blockDOM.src = "img/dice-" + block + ".png";
 
-  if (block !== 1){
-    roundscore += block;
-    document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
-  }else{
-    
-  }
+  	if (block !== 1){
+		roundscore += block;
+    	document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
+  	}else{
+		nextplayer();
+  	}
 });
 
 document.querySelector('.btn-hold').addEventListener('click',
@@ -44,7 +44,7 @@ function(){
 });
 
 function nextplayer(){
-	 ActivePlayer === 0 ? ActivePlayer = 1 : ActivePlayer = 0;
+	ActivePlayer === 0 ? ActivePlayer = 1 : ActivePlayer = 0;
     roundscore = 0;
 
     document.getElementById('#current-0').textContent = '0';

@@ -1,0 +1,3 @@
+A HashSet egy olyan dinamikusan változtatható méretű tömböt (Lista) definiál, amelyben az elem indexét nem az határozza meg, hogy hányadik helyre írtuk be, hanem az elem értékéből képzett hash összeg. Ebből adódóan egy elemet nem tartalmazhat kétszer a kollekció, mivel két egyforma értékű elemnek biztosan azonos a hash értéke.
+
+Ennek az előnye, hogy nagyon gyorsan meg lehet mondani azt, hogy egy elem tagja-e a kollekciónak vagy sem. Kiválóan alkalmas olyan helyzetekben, amikor gyorsan és sokszor kell elemeket keresni.

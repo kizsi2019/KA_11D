@@ -13,6 +13,8 @@ Játék szabályok:
 
 var pontszamok, korPontszam, aktívJatekos, kocka;
 
+init();
+
 pontszamok = [0,0]
 korPontszam = 0;
 
@@ -25,7 +27,7 @@ document.querySelector(".dice").style.display = "none";
 document.getElementById("score-0").textContent = "0";
 document.getElementById("current-0").textContent = "0";
 document.getElementById("score-1").textContent = "0";
-document.getElementById("current-0").textContent = "0";
+document.getElementById("current-1").textContent = "0";
 
 document.querySelector(".btn-roll").addEventListener("click", function(){
   var kocka = Math.floor(Math.random() * 6) + 1;
@@ -63,3 +65,26 @@ function kovetkezoJatekos() {
   document.querySelector('.player-1-panel').classList.toggle('active');
   document.querySelector('.dice').style.display = 'none';
 }
+
+document.querySelector('.btn-new').addEventListener('click', init);
+
+function init() {
+    pontszamok = [0, 0];
+    aktívJatekos = 0;
+    korPontszam = 0;
+    
+    document.querySelector('.dice').style.display = 'none';
+    document.getElementById('score-0').textContent = '0';
+    document.getElementById('score-1').textContent = '0';
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-0').textContent = '0';
+
+    document.getElementById('name-0').textContent = "Frodó";
+    document.getElementById('name-1').textContent = "Samu";
+    document.querySelector('.player-0-panel').classList.remove('winner');
+    document.querySelector('.player-1-panel').classList.remove('winner');
+    document.querySelector('.player-0-panel').classList.remove('active');
+    document.querySelector('.player-1-panel').classList.remove('active');
+    document.querySelector('.player-0-panel').classList.add('active');
+}
+

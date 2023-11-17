@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\bin\Debug\meg_egy_pici_gyak.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\bin\Debug\meg_egy_pici_gyak.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\bin\Debug\meg_egy_pici_gyak.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\obj\Debug\meg_egy_pici_gyak.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\obj\Debug\meg_egy_pici_gyak.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\obj\Debug\meg_egy_pici_gyak.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\obj\Debug\meg_egy_pici_gyak.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\meg_egy_pici_gyak\meg_egy_pici_gyak\obj\Debug\meg_egy_pici_gyak.pdb
