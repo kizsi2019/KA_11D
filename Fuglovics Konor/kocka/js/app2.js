@@ -6,7 +6,7 @@ adni, hogy a győztesnek hány pontot kelljen elérni.
 - Legyen még egy kocka. Ha az egyik kockával 1-est dob, akkor veszítse el a körben elért pontszámát.
 */
 
-var scores, roundscore, ActivePlayer, alreadyplaying, recentthrow;
+var scores, roundscore, ActivePlayer, alreadyplaying, recentthrow, requiredscore;
 
 init();
 
@@ -38,6 +38,8 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 		scores[ActivePlayer] += roundscore;
 
 		document.querySelector('#score-' + ActivePlayer).textContent = scores[ActivePlayer];
+
+		var 
 
 		if (scores[ActivePlayer] >= 15) {
 			document.querySelector('#name-' + ActivePlayer).textContent = 'Winner!';
