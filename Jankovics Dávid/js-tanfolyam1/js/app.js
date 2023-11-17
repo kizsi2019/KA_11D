@@ -33,7 +33,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
   if (kocka !== 1) {
     // szám hozzáadása az aktuális ponthoz
     korPontszam += kocka;
-    document.querySelector('#current-' + aktivJatekos).textContent = kocka;
+    document.querySelector('#current-' + aktivJatekos).textContent = korPontszam;
 
   } else {
     // következő játékos

@@ -63,7 +63,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
   document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
 
   //
-  if (pontszamok[aktivjatekos] >= 30) {
+  if (pontszamok[aktivjatekos] >= 10) {
     document.querySelector('#name-' + aktivjatekos).textContent = "Győztes!";
     document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner')
     document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
