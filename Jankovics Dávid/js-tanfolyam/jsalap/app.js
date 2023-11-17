@@ -12,7 +12,7 @@ Játék szabályok:
 */
 
 // változók létrehozása és adatainak megadása
-var pontszamok, korpontszam, aktivjatekos, jatekFolyamatban, elozoDobas;
+var pontszamok, korpontszam, aktivjatekos, jatekFolyamatban;
 
 init();
 
@@ -38,16 +38,10 @@ document.querySelector('.btn-roll').addEventListener('click', function()
   //
   kockadom.style.display = 'block';
   kockadom.src = 'img/dice-' + kocka + '.png';
-      
-      if (kocka === 6 && elozoDobas === 6) {
-          pontszamok[aktivjatekos] = 0;
-          document.querySelector('#score-' + aktivjatekos).textContent = 0;
-        Kovetekzojatekos();
-          
-      } else if (kocka !==1){
   
   //ha a dobásunk nem 1
-
+  if (kocka !==1){
+    //dobásunkat hozza ádjuk az aktív játékos pontjaihoz
     korpontszam += kocka;
     document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
   } 
@@ -56,7 +50,6 @@ document.querySelector('.btn-roll').addEventListener('click', function()
     //
     Kovetekzojatekos();
   }
-      elozoDobas = kocka
   }
 });
 
