@@ -15,19 +15,20 @@ init();
 document.querySelector('.btn-roll').addEventListener("click", function(){
   	if (alreadyplaying){
 		var block = Math.floor(Math.random() * 6) + 1;
-  		var blockDOM = document.querySelector('.dice');
-  		blockDOM.style.display = 'block';
-  		blockDOM.src = "img/dice-" + block + ".png";
+		var blockDOM = document.querySelector('.dice');
+		blockDOM.style.display = 'block';
+		blockDOM.src = "img/dice-" + block + ".png";
 		
 		if (block === 6 && recentthrow === 6){
 			scores[ActivePlayer] = 0;
-			document.querySelector('#score-' + ActivePlayer).textContent = scores[ActivePlayer];
+			document.querySelector('#score-' + ActivePlayer).textContent = 0;
+			nextplayer();
 		}else if (block !== 1){
 			roundscore += block;
-    		document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
-  		}else{
+			document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
+		}else{
 			nextplayer();
-  		}
+		}
 		recentthrow = block;
 	}
 });
