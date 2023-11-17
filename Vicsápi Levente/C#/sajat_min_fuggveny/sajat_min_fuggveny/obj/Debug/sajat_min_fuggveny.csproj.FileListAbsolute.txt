@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\obj\Debug\sajat_min_fuggveny.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\obj\Debug\sajat_min_fuggveny.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\obj\Debug\sajat_min_fuggveny.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\bin\Debug\sajat_min_fuggveny.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\bin\Debug\sajat_min_fuggveny.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\bin\Debug\sajat_min_fuggveny.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\obj\Debug\sajat_min_fuggveny.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\sajat_min_fuggveny\sajat_min_fuggveny\obj\Debug\sajat_min_fuggveny.pdb

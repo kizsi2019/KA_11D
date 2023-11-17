@@ -11,7 +11,7 @@ Játék szabályok:
 
 */
 
-var pontszamok, korPontszam, aktivJatekos;
+var pontszamok, korPontszam, aktivJatekos, jatekFolyamatban;
 
 init();
 
@@ -24,17 +24,19 @@ init();
 // document.querySelector('#current-' + aktivJatekos).textContent = '<us>' + kocka + '</up';
 
 
-
+// DOBÁS gomb kezelője
 document.querySelector('.btn-roll').addEventListener('click', function(){
-  // kell egy véletlen szám
-  var kocka = Math.floor(Math.random() * 6) + 1;
 
-  // eredmény megjelenítése
-  var kockaDOM = document.querySelector('.dice');
-  kockaDOM.style.display = 'block';
-  kockaDOM.src = 'img/dice-' + kocka + '.png'
+  if (jatekFolyamatban) {
+    // kell egy véletlen szám
+    var kocka = Math.floor(Math.random() * 6) + 1;
 
-  // körben elért pontszám frissítése, ha nem 1-et dobunk
+    // eredmény megjelenítése
+    var kockaDOM = document.querySelector('.dice');
+    kockaDOM.style.display = 'block';
+    kockaDOM.src = 'img/dice-' + kocka + '.png'
+
+    // körben elért pontszám frissítése, ha nem 1-et dobunk
   if (kocka !== 1) {
     // itt adjuk hozza szamot az aktualis ponthoz
     korPontszam += kocka;
@@ -42,28 +44,31 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
   } else {
       // következő jatekos
       kovetkezoJatekos();
+    }
   }
 });
 
 // megtartom gomb eseménykezelője
 document.querySelector('.btn-hold').addEventListener('click', function() {
-    //összes pontszám frissítése a kódban
-    pontszamok[aktivJatekos] += korPontszam;
 
-    // összes pontszám frissítése a felületen (UI)
-    document.querySelector('#score-' + aktivJatekos).textContent = pontszamok[aktivJatekos];
+    if (jatekFolyamatban) {
+      //összes pontszám frissítése a kódban
+      pontszamok[aktivJatekos] += korPontszam;
 
-    // nyert a játékos?
-    if(pontszamok[aktivJatekos] >= 10) {
-      document.querySelector('#name-' + aktivJatekos).textContent = 'Győztes!';
-      document.querySelector('.player-' + aktivJatekos + '-panel').classList.add('winner');
-      document.querySelector('.player-' + aktivJatekos + '-panel').classList.remove('active');
-    } else {
-      // következő jatekos
-      kovetkezoJatekos();
+      // összes pontszám frissítése a felületen (UI)
+      document.querySelector('#score-' + aktivJatekos).textContent = pontszamok[aktivJatekos];
+
+      // nyert a játékos?
+      if(pontszamok[aktivJatekos] >= 10) {
+        document.querySelector('#name-' + aktivJatekos).textContent = 'Győztes!';
+        document.querySelector('.player-' + aktivJatekos + '-panel').classList.add('winner');
+        document.querySelector('.player-' + aktivJatekos + '-panel').classList.remove('active');
+        jatekFolyamatban = false;
+      } else {
+        // következő jatekos
+        kovetkezoJatekos();
     }
-
-    
+  }
 });
 
 // következő jatekos
@@ -88,6 +93,7 @@ function init() {
     pontszamok = [0, 0];
     aktivJatekos = 0;
     korPontszam = 0;
+    jatekFolyamatban = true;
     
     document.querySelector('.dice').style.display = 'none';
     document.getElementById('score-0').textContent = '0';
