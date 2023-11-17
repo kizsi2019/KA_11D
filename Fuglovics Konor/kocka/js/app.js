@@ -8,47 +8,51 @@
   pontszámához. Majd a dobás joga a másik játékosra száll.
 - Az a játékos nyer, aki előbb eléri a 100 pontot.*/
 
-var scores, roundscore, ActivePlayer;
+var scores, roundscore, ActivePlayer, alreadyplaying;
 
 init();
 
 //document.querySelector('#current-' + ActivePlayer).textContent = block;
 
 document.querySelector('.btn-roll').addEventListener("click", function(){
-  var block = Math.floor(Math.random() * 6) + 1;
-  var blockDOM = document.querySelector('.dice');
-  blockDOM.style.display = 'block';
-  blockDOM.src = "img/dice-" + block + ".png";
+  	if (alreadyplaying){
+		var block = Math.floor(Math.random() * 6) + 1;
+  		var blockDOM = document.querySelector('.dice');
+  		blockDOM.style.display = 'block';
+  		blockDOM.src = "img/dice-" + block + ".png";
 
-  if (block !== 1){
-    roundscore += block;
-    document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
-  }else{
-    
-  }
+  		if (block !== 1){
+			roundscore += block;
+    		document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
+  		}else{
+			nextplayer();
+  		}
+	}
 });
 
-document.querySelector('.btn-hold').addEventListener('click',
-function(){
-	scores[ActivePlayer] += roundscore;
+document.querySelector('.btn-hold').addEventListener('click', function(){
+	if (alreadyplaying){
+		scores[ActivePlayer] += roundscore;
 
-	document.querySelector('#score-' + ActivePlayer).textContent = scores[ActivePlayer];
+		document.querySelector('#score-' + ActivePlayer).textContent = scores[ActivePlayer];
 
-	if (scores[ActivePlayer] >= 15) {
-		document.querySelector('#name-' + ActivePlayer).textContent = 'Winner!';
-		document.querySelector('.player-' + ActivePlayer + '-panel').classList.add('winner');
-		document.querySelector('.player-' + ActivePlayer + '-panel').classList.remove('active');
-	}else{
-		nextplayer();
+		if (scores[ActivePlayer] >= 15) {
+			document.querySelector('#name-' + ActivePlayer).textContent = 'Winner!';
+			document.querySelector('.player-' + ActivePlayer + '-panel').classList.add('winner');
+			document.querySelector('.player-' + ActivePlayer + '-panel').classList.remove('active');
+			alreadyplaying = false;
+		}else{
+			nextplayer();
+		}
 	}
 });
 
 function nextplayer(){
-	 ActivePlayer === 0 ? ActivePlayer = 1 : ActivePlayer = 0;
+	ActivePlayer === 0 ? ActivePlayer = 1 : ActivePlayer = 0;
     roundscore = 0;
 
-    document.getElementById('#current-0').textContent = '0';
-    document.getElementById('#current-1').textContent = '0';
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
 
     document.querySelector('.player-0-panel').classList.toggle('active');
     document.querySelector('.player-1-panel').classList.toggle('active');
@@ -64,6 +68,7 @@ function init(){
 	scores = [0,0];
 	roundscore = 0;
 	ActivePlayer = 1;
+	alreadyplaying = true;
 
 	document.querySelector('.dice').style.display = 'none';
 	document.getElementById('score-0').textContent = "0";
