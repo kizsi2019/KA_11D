@@ -39,9 +39,18 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 
 		document.querySelector('#score-' + ActivePlayer).textContent = scores[ActivePlayer];
 
-		var 
+		var requiredscore = document.querySelector(".required-score").Value;
+		console.log(requiredscore);
 
-		if (scores[ActivePlayer] >= 15) {
+		if (requiredscore && !isNaN(requiredscore)){
+			requiredscore - requiredscore;
+		}else{
+			requiredscore = 15;
+		}
+
+		console.log(requiredscore);
+
+		if (scores[ActivePlayer] >= requiredscore) {
 			document.querySelector('#name-' + ActivePlayer).textContent = 'Winner!';
 			document.querySelector('.player-' + ActivePlayer + '-panel').classList.add('winner');
 			document.querySelector('.player-' + ActivePlayer + '-panel').classList.remove('active');
