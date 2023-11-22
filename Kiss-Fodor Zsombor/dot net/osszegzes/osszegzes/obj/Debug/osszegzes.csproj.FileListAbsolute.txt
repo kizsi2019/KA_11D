@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\osszegzes\osszegzes\bin\Debug\osszegzes.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\osszegzes\osszegzes\bin\Debug\osszegzes.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\osszegzes\osszegzes\bin\Debug\osszegzes.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\osszegzes\osszegzes\obj\Debug\osszegzes.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\osszegzes\osszegzes\obj\Debug\osszegzes.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\osszegzes\osszegzes\obj\Debug\osszegzes.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\osszegzes\osszegzes\obj\Debug\osszegzes.pdb
