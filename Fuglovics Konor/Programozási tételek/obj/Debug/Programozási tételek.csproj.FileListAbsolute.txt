@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Programozási tételek\bin\Debug\Programozási tételek.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Programozási tételek\bin\Debug\Programozási tételek.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Programozási tételek\bin\Debug\Programozási tételek.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Programozási tételek\obj\Debug\Programozási tételek.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Programozási tételek\obj\Debug\Programozási tételek.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Programozási tételek\obj\Debug\Programozási tételek.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Programozási tételek\obj\Debug\Programozási tételek.pdb
