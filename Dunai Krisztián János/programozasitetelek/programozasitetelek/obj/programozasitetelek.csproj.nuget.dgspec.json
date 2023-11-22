@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/programozasitetelek/programozasitetelek/programozasitetelek.csproj": {}
+  },
+  "projects": {
+    "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/programozasitetelek/programozasitetelek/programozasitetelek.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/programozasitetelek/programozasitetelek/programozasitetelek.csproj",
+        "projectName": "programozasitetelek",
+        "projectPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/programozasitetelek/programozasitetelek/programozasitetelek.csproj",
+        "packagesPath": "/Users/dunaikrisztian/.nuget/packages/",
+        "outputPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/programozasitetelek/programozasitetelek/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dunaikrisztian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
