@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 rész programozáso tételek", "5 rész programozáso tételek\5 rész programozáso tételek.csproj", "{FCAA6EFF-8580-4B95-B35E-A7802FDE7CEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCAA6EFF-8580-4B95-B35E-A7802FDE7CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAA6EFF-8580-4B95-B35E-A7802FDE7CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAA6EFF-8580-4B95-B35E-A7802FDE7CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAA6EFF-8580-4B95-B35E-A7802FDE7CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AE816DD-BF93-4045-81E7-8FCD9ADDE409}
+	EndGlobalSection
+EndGlobal
