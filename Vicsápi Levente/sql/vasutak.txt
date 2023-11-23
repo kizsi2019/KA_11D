@@ -1,0 +1,31 @@
+SELECT allomas.nev, allomas.orszag FROM allomas WHERE NOT orszag = "" ORDER BY allomas.nev;
+SELECT allomas.nev, allomas.tipus, hely.tav
+FROM allomas, hely
+WHERE hely.vonalid = 80
+and allomas.mukodo
+AND allomas.id = hely.allomasid
+ORDER BY hely.tav;
+SELECT hely.vonalid, MAX(hely.tav) as hossz
+FROM hely
+GROUP BY hely.vonalid;
+SELECT allomas.nev, hely.vonalid
+FROM allomas, hely
+WHERE allomas.id=hely.allomasid
+	AND vonalid IN (
+		SELECT hely.vonalid
+		FROM allomas, hely
+		WHERE allomas.id=hely.allomasid
+		AND nev="Hatvan"
+		)
+	AND allomas.nev<>"Hatvan";
+SELECT allomas.nev, COUNT(*)
+FROM allomas, hely
+WHERE allomas.id=hely.allomasid
+GROUP BY allomas.nev
+HAVING Count(*)>=5
+ORDER BY Count(*) DESC;
+SELECT allomas.nev, hely.tav
+FROM allomas, hely
+WHERE allomas.id = hely.allomasid
+AND hely.tav > 90 AND hely.tav <= 100
+AND hely.vonalid = 140;
