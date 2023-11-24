@@ -1,0 +1,7 @@
+C:\Users\JakabMateTibor\source\repos\Ugyan az csak mégsem\Ugyan az csak mégsem\bin\Debug\Ugyan az csak mégsem.exe.config
+C:\Users\JakabMateTibor\source\repos\Ugyan az csak mégsem\Ugyan az csak mégsem\bin\Debug\Ugyan az csak mégsem.exe
+C:\Users\JakabMateTibor\source\repos\Ugyan az csak mégsem\Ugyan az csak mégsem\bin\Debug\Ugyan az csak mégsem.pdb
+C:\Users\JakabMateTibor\source\repos\Ugyan az csak mégsem\Ugyan az csak mégsem\obj\Debug\Ugyan az csak mégsem.csproj.AssemblyReference.cache
+C:\Users\JakabMateTibor\source\repos\Ugyan az csak mégsem\Ugyan az csak mégsem\obj\Debug\Ugyan az csak mégsem.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\source\repos\Ugyan az csak mégsem\Ugyan az csak mégsem\obj\Debug\Ugyan az csak mégsem.exe
+C:\Users\JakabMateTibor\source\repos\Ugyan az csak mégsem\Ugyan az csak mégsem\obj\Debug\Ugyan az csak mégsem.pdb
