@@ -12,7 +12,8 @@ init();
 
 //document.querySelector('#current-' + ActivePlayer).textContent = block;
 
-document.querySelector('.btn-roll').addEventListener("click", function(){
+document.querySelector('.btn-roll').addEventListener("click",
+function(){
   	if (alreadyplaying){
 		var block1 = Math.floor(Math.random() * 6) + 1;
 		var block2 = Math.floor(Math.random() * 6) + 1;
@@ -27,20 +28,11 @@ document.querySelector('.btn-roll').addEventListener("click", function(){
 			document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
 		}else{
 			nextplayer();
-		
-		/*if (block === 6 && recentthrow === 6){
-			scores[ActivePlayer] = 0;
-			document.querySelector('#score-' + ActivePlayer).textContent = 0;
-			nextplayer();
-		}else if (block !== 1){
-			roundscore += block;
-			document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
-		}else{
-			nextplayer();
 		}
-		recentthrow = block;*/
 	}
-});
+}
+);
+
 
 document.querySelector('.btn-hold').addEventListener('click', function(){
 	if (alreadyplaying){
