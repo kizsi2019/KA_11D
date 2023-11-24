@@ -1,0 +1,5 @@
+SELECT film.ev, film.cim FROM film WHERE nyert ORDER BY ev;
+SELECT film.ev FROM film GROUP BY film.ev HAVING COUNT(id) >= 10;
+SELECT film.cim FROM film WHERE film.ev >= 1939 AND film.ev <= 1945 AND film.bemutato BETWEEN "1939-1-1" AND "1945-12-31";
+SELECT film.cim FROM film WHERE YEAR(film.bemutato)-film.ev >= 10 AND film.nyert;
+SELECT DISTINCT keszito.nev FROM keszito, kapcsolat WHERE keszito.id=kapcsolat.keszitoid AND kapcsolat.filmid IN (SELECT kapcsolat.filmid FROM kapcsolat, keszito WHERE kapcsolat.keszitoid=keszito.id AND keszito.nev="Clint Eastwood") AND nev<>"Clint Eastwood";
