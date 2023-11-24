@@ -25,13 +25,26 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 
   if (jatekFolyamatban) {
     // kell egy véletlen szám
-    var kocka = Math.floor(Math.random() * 6) + 1;
+    var kocka1 = Math.floor(Math.random() * 6) + 1;
+    var kocka2 = Math.floor(Math.random() * 6) + 1;
 
     // eredmény megjelenítése
-    var kockaDOM = document.querySelector('.dice');
-    kockaDOM.style.display = 'block';
-    kockaDOM.src = 'img/dice-' + kocka + '.png'
+    document.getElementById('dice-1').src = 'img/dice-' + kocka1 + '.png';
+    document.getElementById('dice-2').src = 'img/dice-' + kocka2 + '.png';
 
+    kockaKiBeKapcsolas('be');
+
+    if (kocka1 !== 1 && kocka1 !== 2) { // körben elért pontszám frissítése, ha nem 1-et dobunk
+
+      // itt adjuk hozza szamot az aktualis ponthoz
+      korPontszam += kocka1 + kocka2;
+      document.querySelector('#current-' + aktivJatekos).textContent = korPontszam;
+  
+    } else {
+        // következő jatekos
+        kovetkezoJatekos();
+      }
+/*
     if(kocka === 6 && elozoDobas === 6) {
       // A játékos elveszíti az összes pontszámát
       pontszamok[aktivJatekos] = 0;
@@ -52,7 +65,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
       // következő jatekos
       kovetkezoJatekos();
     }
-    elozoDobas = kocka;
+    elozoDobas = kocka;*/
   }
 });
 
@@ -107,7 +120,7 @@ function kovetkezoJatekos(){
   document.querySelector('.player-0-panel').classList.toggle('active');
   document.querySelector('.player-1-panel').classList.toggle('active');
 
-  document.querySelector('.dice').style.display = 'none';
+  kockaKiBeKapcsolas('ki');
 }
 
 // új játék indítása
@@ -120,7 +133,7 @@ function init() {
     korPontszam = 0;
     jatekFolyamatban = true;
     
-    document.querySelector('.dice').style.display = 'none';
+    kockaKiBeKapcsolas('ki');
     document.getElementById('score-0').textContent = '0';
     document.getElementById('current-0').textContent = '0';
     document.getElementById('score-1').textContent = '0';
@@ -134,4 +147,16 @@ function init() {
     document.querySelector('.player-0-panel').classList.remove('active');
     document.querySelector('.player-1-panel').classList.remove('active');
     document.querySelector('.player-0-panel').classList.add('active');
+}
+
+function kockaKiBeKapcsolas(funkcio) {
+  //funkcio = 'ki', 'be'
+
+  if (funkcio === 'ki') {
+      document.getElementById('dice-1').style.display = 'none';
+      document.getElementById('dice-2').style.display = 'none';
+  } else if (funkcio === 'be') {
+      document.getElementById('dice-1').style.display = 'block';
+      document.getElementById('dice-2').style.display = 'block';
+  }
 }
