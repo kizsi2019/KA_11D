@@ -86,6 +86,51 @@ namespace ProgramozasiTetelek
             Console.WriteLine("A legalacsonyabb hőmérséklet {0}.-án {1} fok volt!", legalacsonyabb_i + 1, homerseklet[legalacsonyabb_i]);
             */
 
+            /*
+            int[] Tomb = new int[] { 32, 12, 10, 9, 45, 90, 13, 8, 1, 42 };
+            //kiválastása tétele
+            int i = 0;
+            while (i < Tomb.Length && Tomb[i] != Feltetel)
+            {
+                i++;
+            }
+            Console.WriteLine("A 'Feltétel' feltételnek megfelelő elem sorszáma {0}", i);
+            */
+
+            /*
+            //Beolvasás
+            StreamReader sr = new StreamReader("vegeredmeny.txt");
+            List<string> eredmeny = new List<string>();
+            while (!sr.EndOfStream)
+            {
+                eredmeny.Add(sr.ReadLine());
+            }
+            sr.Close();
+            //kiválastás tétele
+            Console.Write("Adja meg a versenyző nevét: ");
+            string nev = Console.ReadLine();
+            int i = 0;
+            while (i < eredmeny.Count && eredmeny[i] != nev)
+            {
+                i++;
+            }
+            Console.WriteLine("{0} nevű versenyző {1}. lett", nev, i + 1);
+            */
+
+            int[] beolvasas = new int[20];
+            for (int i = 0; i < 20; i++)
+            { // bekérés a felhaszálótól
+                Console.WriteLine("Adja meg a {0}. számot: ", i + 1);
+                beolvasas[i] = int.Parse(Console.ReadLine());
+            }
+            // keresés tétele
+            int j = 0;
+            while (j < beolvasas.Length && beolvasas[j] % 3 != 0)
+            {
+                j++;
+            }
+            if (j < beolvasas.Length) Console.WriteLine("3mal osztható számot {0}.-ra vitt be!", j +1);
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
             Console.ReadKey();
         }
     }

@@ -1,0 +1,7 @@
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\faszom ebbe\faszom ebbe\bin\Debug\faszom ebbe.exe.config
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\faszom ebbe\faszom ebbe\bin\Debug\faszom ebbe.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\faszom ebbe\faszom ebbe\bin\Debug\faszom ebbe.pdb
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\faszom ebbe\faszom ebbe\obj\Debug\faszom ebbe.csproj.AssemblyReference.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\faszom ebbe\faszom ebbe\obj\Debug\faszom ebbe.csproj.CoreCompileInputs.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\faszom ebbe\faszom ebbe\obj\Debug\faszom ebbe.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\faszom ebbe\faszom ebbe\obj\Debug\faszom ebbe.pdb
