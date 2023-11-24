@@ -57,7 +57,7 @@ namespace Programozási_tételek
             Console.WriteLine($"A legnagyobb elem indexe: {highest_index}, értéke: {tomb[highest_index]}");
             Console.WriteLine($"A legkisebb elem indexe: {tiniest_index}, értéke: {tomb[tiniest_index]}");*/
 
-            StreamReader file = new StreamReader("July.txt");
+            /*StreamReader file = new StreamReader("July.txt");
             List<double> temperature = new List<double>();
             while (!file.EndOfStream)
             {
@@ -68,7 +68,45 @@ namespace Programozási_tételek
             {
                 if (temperature[i] < temperature[lowest_temp]) lowest_temp = i;
             }
-            Console.WriteLine($"A legalacsonyabb hômérséklet {lowest_temp + 1}-ik napon {temperature[lowest_temp]}°C volt.");
+            Console.WriteLine($"A legalacsonyabb hômérséklet {lowest_temp + 1}-ik napon {temperature[lowest_temp]}°C volt.");*/
+
+            /*StreamReader F1 = new StreamReader("RaceResults.txt");
+            List<string> results = new List<string> { };
+            while (!F1.EndOfStream)
+            {
+                results.Add(F1.ReadLine());
+            }
+            F1.Close();
+
+            Console.Write("Adja meg a versenyzô nevét!");
+            string name = Console.ReadLine();
+            int i = 0;
+            while ( i< results.Count && results[i] != name)
+            {
+                i++;
+            }
+            Console.WriteLine($"A versenyzô {name} {i + 1}. helyezet lett.");*/
+
+            int[] inner_reading = new int[20];
+            for (int i = 0; i < 20; i++)
+            {
+                Console.Write($"Adja meg a(z) {i + 1}.-ik számot!");
+                inner_reading[i] = int.Parse(Console.ReadLine());
+            }
+
+            int j = 0;
+            while (j < inner_reading.Length && inner_reading[j] % 3 != 0)
+            {
+                j++;
+            }
+            if (j < inner_reading.Length)
+            {
+                Console.WriteLine($"A 3-al osztható számot a {j + 1}.-ik re/ra vitte be!");
+            }
+            else
+            {
+                Console.WriteLine("Nem adott meg egy 3-al osztható számot!");
+            }
 
             Console.ReadKey();
         }
