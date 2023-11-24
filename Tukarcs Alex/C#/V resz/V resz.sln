@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V resz", "V resz\V resz.csproj", "{D9E6C198-6851-4EA1-841C-4690A8D6530B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E6C198-6851-4EA1-841C-4690A8D6530B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E6C198-6851-4EA1-841C-4690A8D6530B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E6C198-6851-4EA1-841C-4690A8D6530B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E6C198-6851-4EA1-841C-4690A8D6530B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1456F1A6-18A5-40AC-8551-B66691265D46}
+	EndGlobalSection
+EndGlobal
