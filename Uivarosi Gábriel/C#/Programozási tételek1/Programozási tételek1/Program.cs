@@ -62,7 +62,7 @@ for (int i = 0; i < Tömb.Length; i++)
 }
 Console.WriteLine("A legnagyobb elem indexe {0}, értéke {1}", legnagyobb_index, Tömb[legnagyobb_index]);
 Console.WriteLine("A legkisebb elem indexe {0}, értéke {1}", legkisebb_index, Tömb[legkisebb_index]);
-*/
+
 
             StreamReader sr = new StreamReader("július.txt");
             List<double> hőmérséklet = new List<double>();
@@ -79,7 +79,38 @@ Console.WriteLine("A legkisebb elem indexe {0}, értéke {1}", legkisebb_index, 
             }
 
             Console.WriteLine("A Legalacsonyabb Hőmérséklet {0}.-án {1} fok volt!", legalacsoabb_i + 1, hőmérséklet[legalacsoabb_i]);
+            
+            StreamReader sr = new StreamReader("Végeredmény.txt");
+            List<string> eredmény = new List<string>();
+            while (!sr.EndOfStream)
+            {
+                eredmény.Add(sr.ReadLine());
 
+            }
+            sr.Close();
+            Console.WriteLine("Adha meg a versenyző nevét: ");
+            string név = Console.ReadLine();
+            int i = 0;
+            while (i < eredmény.Count && eredmény[i] != név)
+            {
+                i++;
+            }
+            Console.WriteLine("{0} nevű versenyző {1}. kett", név, i + 1);
+            */
+            int[] beolvasás = new int[20];
+            for (int i = 0; i < 20;  i++)
+            {
+                Console.WriteLine("Adja meg a {0}. számot:", i + 1);
+                beolvasás[i] = int.Parse(Console.ReadLine());
+
+            }
+            int j = 0;
+            while (j < beolvasás.Length && beolvasás[j] % 3 != 0) {
+                j++;
+            
+            }
+            if (j < beolvasás.Length) Console.WriteLine("3mal osztható számott {0}. -ra vitt be", j + 1);
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
             Console.ReadKey();
             System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=9vCb_ZopT4A");
             Console.ReadLine();

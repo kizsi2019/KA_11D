@@ -73,7 +73,7 @@ namespace értelmetlen2
             }
             Console.WriteLine("A legalacsonyabb hőmérséklet {0}.-án {1} fo volt", legalacsonabb_i + 1, hőmérséklet[legalacsonabb_i]);*/
 
-            StreamReader sr = new StreamReader("végeredmény.txt");
+            /*StreamReader sr = new StreamReader("végeredmény.txt");
             List<string> eredmény = new List<string>();
             while (!sr.EndOfStream)
             {
@@ -87,7 +87,21 @@ namespace értelmetlen2
             {
                 i++;
             }
-            Console.WriteLine("{0}")
+            Console.WriteLine("{0} nevű versenyző {1}. lett", név, i + 1);*/
+
+            /*int[] beolvasás = new int[20];
+            for (int i = 0; i < 20; i++)
+            {
+                Console.Write("Adja me a {0}. számot:", i + 1);
+                beolvasás[i] = int.Parse(Console.ReadLine());
+            }
+            int j = 0;
+            while (j < beolvasás.Length && beolvasás[j] % 3 != 0)
+            {
+                j++;
+            }
+            if (j < beolvasás.Length) Console.WriteLine("3mal osztható számot {0}.-ra vitt be!", j + 1);
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");*/
         }
     }
 }
