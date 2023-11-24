@@ -16,6 +16,7 @@ document.querySelector('.btn-roll').addEventListener("click", function(){
   	if (alreadyplaying){
 		var block = Math.floor(Math.random() * 6) + 1;
 		var blockDOM = document.querySelector('.dice');
+		document.getElementById('dice-1').src = 'img/dice-' + block + '.png';
 		blockDOM.style.display = 'block';
 		blockDOM.src = "img/dice-" + block + ".png";
 		

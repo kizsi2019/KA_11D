@@ -1,4 +1,10 @@
-Max Verstappen 1
-Fernando Alonzo 2
-Kimi Räikönnen 3
-Lewis Hamilton 12
+Max_Verstappen
+Fernando_Alonzo
+Kimi_Räikönnen
+Sergio_Perez
+Sebastian_Vettel
+Nico_Hulkenberg
+Felipe_Massa
+Daniel_Ricciardo
+Valteri_Bottas
+Lewis_Hamilton
