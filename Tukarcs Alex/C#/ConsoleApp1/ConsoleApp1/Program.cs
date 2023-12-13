@@ -5,14 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kiválasztás_tétele
+namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            StreamReader sr = new StreamReader("vegeredmeny.txt");
+            StreamReader sr = new StreamReader("végerdemény.txt");
             List<string> eredmény = new List<string>();
             while (!sr.EndOfStream)
             {
@@ -28,11 +27,7 @@ namespace Kiválasztás_tétele
                 i++;
             }
             Console.WriteLine("{0} nevű versenyző {1}. lett", név, i + 1);
-
             Console.ReadKey();
-            
-
-            
         }
     }
 }
