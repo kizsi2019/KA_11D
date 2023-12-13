@@ -1,0 +1,7 @@
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\5 rész programozáso tételek\5 rész programozáso tételek\obj\Debug\5 rész programozáso tételek.csproj.AssemblyReference.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\5 rész programozáso tételek\5 rész programozáso tételek\obj\Debug\5 rész programozáso tételek.csproj.CoreCompileInputs.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\5 rész programozáso tételek\5 rész programozáso tételek\bin\Debug\5 rész programozáso tételek.exe.config
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\5 rész programozáso tételek\5 rész programozáso tételek\bin\Debug\5 rész programozáso tételek.exe
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\5 rész programozáso tételek\5 rész programozáso tételek\bin\Debug\5 rész programozáso tételek.pdb
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\5 rész programozáso tételek\5 rész programozáso tételek\obj\Debug\5 rész programozáso tételek.exe
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\5 rész programozáso tételek\5 rész programozáso tételek\obj\Debug\5 rész programozáso tételek.pdb
