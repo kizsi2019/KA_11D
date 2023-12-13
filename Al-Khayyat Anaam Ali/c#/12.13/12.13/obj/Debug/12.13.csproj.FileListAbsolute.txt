@@ -1,0 +1,7 @@
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\12.13\12.13\bin\Debug\12.13.exe.config
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\12.13\12.13\bin\Debug\12.13.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\12.13\12.13\bin\Debug\12.13.pdb
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\12.13\12.13\obj\Debug\12.13.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\12.13\12.13\obj\Debug\12.13.csproj.CoreCompileInputs.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\12.13\12.13\obj\Debug\12.13.exe
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\12.13\12.13\obj\Debug\12.13.pdb
