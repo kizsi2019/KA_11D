@@ -1,0 +1,7 @@
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Programozási Tételek 2\Programozási Tételek 2\bin\Debug\Programozási Tételek 2.exe.config
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Programozási Tételek 2\Programozási Tételek 2\bin\Debug\Programozási Tételek 2.exe
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Programozási Tételek 2\Programozási Tételek 2\bin\Debug\Programozási Tételek 2.pdb
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Programozási Tételek 2\Programozási Tételek 2\obj\Debug\Programozási Tételek 2.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Programozási Tételek 2\Programozási Tételek 2\obj\Debug\Programozási Tételek 2.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Programozási Tételek 2\Programozási Tételek 2\obj\Debug\Programozási Tételek 2.exe
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\Programozási Tételek 2\Programozási Tételek 2\obj\Debug\Programozási Tételek 2.pdb
