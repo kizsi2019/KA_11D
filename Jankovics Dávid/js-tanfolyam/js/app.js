@@ -11,111 +11,114 @@ Játék szabályok:
 
 */
 
-// változók létrehozása és adatainak megadása
-var pontszamok, korpontszam, aktivjatekos, jatekFolyamatban, elozoDobas;
+var Pontszamok, Korponszam, aktívjátékos, Kocka, JátékFolyamatban;
 
+/*
+ /[]\
+/|[]|\
+ \[]/
+*/
 init();
 
+document.querySelector('#current-' + aktívjátékos).textContent = Kocka
 
 
-//document.querySelector('#current-' + aktivjatekos).textContent = kocka;
+document.querySelector('.btn-roll').addEventListener('click', function(){
+    
+if (JátékFolyamatban) {
+    
+    
+  elerendo_pontszam = document.querySelector('.Eleredo_pontszam').value;
+  console.log(elerendo_pontszam);
+ if (!elerendo_pontszam) {
+  elerendo_pontszam = 15;
+ }
+ 
 
-//var nev = document.querySelector('#name-1').textContent;
+ var Kocka1 = Math.floor(Math.random() * 6) + 1;
+ var Kocka2 = Math.floor(Math.random() * 6) + 1;
+ 
+  document.getElementById('dice-1').src = 'img/dice-' + Kocka1 + '.png';
+  document.getElementById('dice-2').src = 'img/dice-' + Kocka2 + '.png';
+  Kockakapcsolas('Egy jó aszony mindent megbocsálttttt');
 
 
-document.querySelector('.btn-roll').addEventListener('click', function()
-{
-  //
-  if (jatekFolyamatban) 
-  {
-  //
-  var kocka = Math.floor(Math.random() * 6) + 1;
 
+ 
+ if (Kocka != 1 && Kocka2 !== 2) {
+ Korponszam += Kocka1 + Kocka2;
+ document.querySelector('#current-' +aktívjátékos).textContent = Korponszam
 
-  //
-  var kockadom = document.querySelector('.dice');
+ } else {
+kovetkezojatekos();
+     
+ } 
+    } 
+}) 
+// MEGTARTOM
 
-  //
-  kockadom.style.display = 'block';
-  kockadom.src = 'img/dice-' + kocka + '.png';
-      
-      if (kocka === 6 && elozoDobas === 6) {
-          pontszamok[aktivjatekos] = 0;
-          document.querySelector('#score-' + aktivjatekos).textContent = 0;
-        Kovetekzojatekos();
-          
-      } else if (kocka !==1){
-  
-  //ha a dobásunk nem 1
-
-    korpontszam += kocka;
-    document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
-  } 
-  //ha viszont 1 akkor ezt csinálja
-  else {
-    //
-    Kovetekzojatekos();
-  }
-      elozoDobas = kocka
-  }
-});
-
-//megtartjuk a dobást
 document.querySelector('.btn-hold').addEventListener('click', function() {
-  if (jatekFolyamatban) {
-    //
-  pontszamok[aktivjatekos] += korpontszam;
+    if (JátékFolyamatban) {
+    Pontszamok[aktívjátékos] += Korponszam;
+    document.querySelector('#score-' + aktívjátékos).textContent = Pontszamok[aktívjátékos];
 
-  //
-  document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
+    if(Pontszamok[aktívjátékos] >= elerendo_pontszam ){
+        document.querySelector('#name-' +  aktívjátékos).textContent = 'Győztes';
+        document.querySelector('.player-' + aktívjátékos + '-panel').classList.add('winner')
+        JátékFolyamatban = false
+    } else {
+         kovetkezojatekos(); 
+    }
+    
+                                                   
+                                                  }   })
+// kövi
+function kovetkezojatekos() {
+       aktívjátékos === 0 ? aktívjátékos = 1 : aktívjátékos = 0;
+   Korponszam = 0;
+     document.getElementById('current-0').textContent = '0';
+     document.getElementById('current-1').textContent = '0';
+     document.querySelector('.player-0-panel').classList.toggle('active');
+     document.querySelector('.player-1-panel').classList.toggle('active');
+    Kockakapcsolas('ki');
+     
+    
 
-  //
-  if (pontszamok[aktivjatekos] >= 30) {
-    document.querySelector('#name-' + aktivjatekos).textContent = "Győztes!";
-    document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner')
-    document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
-    jatekFolyamatban = false;
-  }
-  else {
-    //
-  Kovetekzojatekos();
-  }
-  }
-});
-
-//
-function Kovetekzojatekos() {
-  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
-  korpontszam = 0;
-
-  document.getElementById('current-0').textContent = '0';
-  document.getElementById('current-1').textContent = '1';
-
-  document.querySelector('.player-0-panel').classList.toggle('active');
-  document.querySelector('.player-1-panel').classList.toggle('active');
-
-  document.querySelector('.dice').style.display = 'none';
 }
 
-document.querySelector('.btn-new').addEventListener('click', init);
+document.querySelector('.btn-new').addEventListener('click', function(){
+    document.querySelector('.player-' + aktívjátékos + '-panel').classList.remove('winner')
 
-function init()
-{
-  pontszamok = [0,0];
-  aktivjatekos = 0;
-  korpontszam = 0;
-  jatekFolyamatban = true;
+    init();
+    
+    
+    
+})
 
-  document.querySelector('.dice').style.display = 'none';
-  document.getElementById('score-0').textContent = '0';
-  document.getElementById('score-1').textContent = '0';
-  document.getElementById('current-0').textContent = '0';
-  document.getElementById('current-1').textContent = '0';
+function init(){
+var  elerendo_pontszam = 15
+    Pontszamok  = [0,0];
+Korponszam = 0;
+aktívjátékos = 0;
+    JátékFolyamatban = true
+   Kockakapcsolas('ki');
+document.getElementById('score-0').textContent = '0';
+document.getElementById('score-1').textContent = '0';
+document.getElementById('current-0').textContent = '0';
+document.getElementById('current-1').textContent = '0';
+document.getElementById('name-0').textContent = 'Frodó';
+document.getElementById('name-1').textContent = 'Samu' ;
+    document.querySelector('.player-0-panel').classList.remove('active')
+    document.querySelector('.player-1-panel').classList.remove('active')
+     document.querySelector('.player-0-panel').classList.add('active')
+}
 
-  document.getElementById('name-0').textContent = "Frodó";
-  document.getElementById('name-1').textContent = "Samu";
-  document.querySelector('.player-0-panel').classList.remove('winner');
-  document.querySelector('.player-1-panel').classList.remove('winner');
-  document.querySelector('.player-0-panel').classList.remove('active');
-  document.querySelector('.player-1-panel').classList.add('active');
+function Kockakapcsolas(funkcio) {
+  if (funkcio === 'ki') {
+    document.getElementById('dice-1').style.display = 'none';
+    document.getElementById('dice-2').style.display = 'none';
+  } else {
+    document.getElementById('dice-1').style.display = 'block';
+    document.getElementById('dice-2').style.display = 'block';
+  }
 }
