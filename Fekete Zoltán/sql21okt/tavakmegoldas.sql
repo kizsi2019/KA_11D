@@ -35,3 +35,4 @@ AND gpsid in (
 SELECT gpsid
 FROM helykapcs
 GROUP BY gpsid
+HAVING Count(allovizid)=1);
