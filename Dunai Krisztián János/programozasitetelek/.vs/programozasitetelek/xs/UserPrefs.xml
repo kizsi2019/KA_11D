@@ -1,4 +1,25 @@
 ﻿<Properties StartupConfiguration="{6810F64F-7654-4FCB-A87C-C4F31FFA04E2}|Default">
-  <MonoDevelop.Ide.ItemProperties.programozasitetelek FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.programozasitetelek PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="programozasitetelek/Program.cs">
+    <Files>
+      <File FileName="programozasitetelek/Program.cs" Line="100" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="programozasitetelek">
+            <Node name="programozasitetelek">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
