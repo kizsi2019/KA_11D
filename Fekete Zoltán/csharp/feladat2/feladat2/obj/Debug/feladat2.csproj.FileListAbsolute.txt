@@ -1,0 +1,7 @@
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\feladat2\feladat2\bin\Debug\feladat2.exe.config
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\feladat2\feladat2\bin\Debug\feladat2.exe
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\feladat2\feladat2\bin\Debug\feladat2.pdb
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\feladat2\feladat2\obj\Debug\feladat2.csproj.AssemblyReference.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\feladat2\feladat2\obj\Debug\feladat2.csproj.CoreCompileInputs.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\feladat2\feladat2\obj\Debug\feladat2.exe
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\feladat2\feladat2\obj\Debug\feladat2.pdb

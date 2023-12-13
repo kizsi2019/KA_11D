@@ -1,0 +1,7 @@
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\V resz\V resz\obj\Debug\V resz.csproj.AssemblyReference.cache
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\V resz\V resz\obj\Debug\V resz.csproj.CoreCompileInputs.cache
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\V resz\V resz\bin\Debug\V resz.exe.config
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\V resz\V resz\bin\Debug\V resz.exe
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\V resz\V resz\bin\Debug\V resz.pdb
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\V resz\V resz\obj\Debug\V resz.exe
+C:\Users\aisys\Desktop\Suli\Programozás GIT\KA_11D\Tukarcs Alex\C#\V resz\V resz\obj\Debug\V resz.pdb

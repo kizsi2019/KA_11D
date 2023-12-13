@@ -1,0 +1,11 @@
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\játék projekt marci\szecska\szecska\obj\Debug\szecska.csproj.AssemblyReference.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\játék projekt marci\szecska\szecska\obj\Debug\szecska.csproj.CoreCompileInputs.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\játék projekt marci\szecska\szecska\bin\Debug\szecska.exe.config
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\játék projekt marci\szecska\szecska\bin\Debug\szecska.exe
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\játék projekt marci\szecska\szecska\bin\Debug\szecska.pdb
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\játék projekt marci\szecska\szecska\obj\Debug\szecska.exe
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\játék projekt marci\szecska\szecska\obj\Debug\szecska.pdb
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\szecska\szecska\obj\Debug\szecska.csproj.AssemblyReference.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\szecska\szecska\obj\Debug\szecska.csproj.CoreCompileInputs.cache
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\szecska\szecska\obj\Debug\szecska.exe
+C:\Users\KispalMarcell\Desktop\github\KA_11D\Kispál Marcell\C#\szecska\szecska\obj\Debug\szecska.pdb

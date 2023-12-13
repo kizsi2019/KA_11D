@@ -19,7 +19,7 @@ function(){
 		var block2 = Math.floor(Math.random() * 6) + 1;
 		var blockDOM = document.querySelector('.dice');
 		document.getElementById('dice-1').src = 'img/dice-' + block1 + '.png';
-		document.getElementById('dice-1').src = 'img/dice-' + block2 + '.png';
+		document.getElementById('dice-2').src = 'img/dice-' + block2 + '.png';
 		blockDOM.style.display = 'block';
 		BlockOnOffSwitch('be');
 

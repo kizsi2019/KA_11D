@@ -10,14 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            /*    LinkedList<string> láncoltlista = new LinkedList<string>();
+                LinkedList<string> láncoltlista = new LinkedList<string>();
                 láncoltlista.AddLast("vár");
                 láncoltlista.AddLast("kávé");
                 láncoltlista.AddFirst("autó");
                 foreach (string item in láncoltlista){
                     láncoltlista.RemoveFirst();
                     Console.WriteLine(item);
-                    */
+                    
             LinkedList<string> láncoltlista = new LinkedList<string>();
             láncoltlista.AddLast("vár");
             láncoltlista.AddLast("kávé");
