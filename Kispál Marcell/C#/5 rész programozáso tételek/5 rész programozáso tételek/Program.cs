@@ -80,29 +80,29 @@ namespace _5_rész_programozáso_tételek
             {
                 i++;
             }
-            Console.WriteLine("{0} nevű versenyző {1}. lett", név.Length is + 1);*/
+            Console.WriteLine("{0} nevű versenyző {1}. lett", név.Length is + 1);
             int[] beolvasas = new int[20];
             for (int i = 0; i < 20; i++)
-            { 
+            {
                 Console.WriteLine("adja meg a {0} számot: ", i + 1);
-            beolvasas[i] = int.Parse(Console.ReadLine());
-        }
+                beolvasas[i] = int.Parse(Console.ReadLine());
+            }
 
             int j = 0;
             while (j < beolvasas.Length && beolvasas[j] % 3 != 0)
             {
                 j++;
             }
-            if (j == beolvasas.Length) Console.WriteLine("3mal osztható számot {0} -ra vitt be", j + 1);
+            if (j < beolvasas.Length) Console.WriteLine("3mal osztható számot {0} -ra vitt be", j + 1);
             else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
 
 
 
+            Console.ReadKey();
 
 
-
-
-
-        }
+                }
+            }
+         }
 
 
