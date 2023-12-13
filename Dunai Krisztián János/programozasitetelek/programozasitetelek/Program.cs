@@ -66,27 +66,51 @@ namespace programozasitetelek
                 "A legnagyob elem indexe {0}, értéke {1}", legkisebb_index, Tömb[legkisebb_index]); */
 
 
-            StreamReader sr = new StreamReader("julius.txt");
-            List<double> hőmérséklet = new List<double>();
-            while (!sr.EndOfStream)
+            /*   StreamReader sr = new StreamReader("julius.txt");
+               List<double> hőmérséklet = new List<double>();
+               while (!sr.EndOfStream)
+               {
+                   hőmérséklet.Add(double.Parse(sr.ReadLine()));
+
+               }
+               int legalacsonyabb_i = 0;
+               for (int i = 0; i < hőmérséklet.Count; i++)
+               {
+                   if (hőmérséklet[i] < hőmérséklet[legalacsonyabb_i]) legalacsonyabb_i = i;
+               }
+               Console.WriteLine("A legalacsonyabb hőmérséklet {0}.-án {1} fok volt!", legalacsonyabb_i + 1, hőmérséklet[legalacsonyabb_i]);*/
+
+            /*  StreamReader sr = new StreamReader("végeredmény.txt");
+              List<string> eredmény = new List<string>();
+              while (!sr.EndOfStream)
+              {
+                  eredmény.Add(sr.ReadLine());
+              }
+              sr.Close();
+              Console.Write("Adja meg a versenyző nevét: ");
+              string név = Console.ReadLine();
+              int i = 0;
+              while (i < eredmény.Count && eredmény[i] != név)
+              {
+                  i++;
+              }
+              Console.WriteLine("{0} nevű versenyző {1}. lett", név, i + 1);*/
+
+            int[] beolvasas = new int[20];
+            for (int i = 0; i < 20; i++)
             {
-                hőmérséklet.Add(double.Parse(sr.ReadLine()));
+                Console.Write("Adja meg a {0}. számot: ", i + i);
 
+4                beolvasas[i] = int.Parse(Console.ReadLine());
             }
-            int legalacsonyabb_i = 0;
-            for (int i = 0; i < hőmérséklet.Count; i++)
+            int j = 0;
+            while (j < beolvasas.Length && beolvasas[j] % 3 != 0)
             {
-                if (hőmérséklet[i] < hőmérséklet[legalacsonyabb_i]) legalacsonyabb_i = i;
+                j++;
             }
-            Console.WriteLine("A legalacsonyabb hőmérséklet {0}.-án {1} fok volt!", legalacsonyabb_i + 1, hőmérséklet[legalacsonyabb_i]);
-
-
-
-
-
+            if (j < beolvasas.Length) Console.WriteLine("3mal osztható számot {0}.-ra vitte be!", j + 1);
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
         }
     }
 }
-
-
 

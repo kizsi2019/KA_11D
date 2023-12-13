@@ -102,7 +102,7 @@ namespace ProgramozasiTetelek
             }
             Console.WriteLine("{0} nevű versenyző {1}. lett", név, i + 1);
             */
-            /*
+
             int[] beolvasás = new int[20];
             for (int i = 0; i < 20; i++)
             { 
@@ -116,14 +116,11 @@ namespace ProgramozasiTetelek
             }
             if (j < beolvasás.Length) Console.WriteLine("3mal osztható számot {0}.-ra vitt be!", j + 1);
             else Console.WriteLine("Nem adott meg 3-mal osztható számot!");
-            */
-            int[] beolvasás = new int[20];
-            for (int i = 0; < 20; i++)
-            {
-                Console.WriteLine("Adja meg a {0}. számot", i + 1)
+            Console.ReadKey();
 
+          
             }
-            Console.ReadKey(); 
+            
         }
     }
 }
