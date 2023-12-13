@@ -1,0 +1,7 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\ProgramozasiTetelek_2\ProgramozasiTetelek_2\bin\Debug\ProgramozasiTetelek_2.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\ProgramozasiTetelek_2\ProgramozasiTetelek_2\bin\Debug\ProgramozasiTetelek_2.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\ProgramozasiTetelek_2\ProgramozasiTetelek_2\bin\Debug\ProgramozasiTetelek_2.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\ProgramozasiTetelek_2\ProgramozasiTetelek_2\obj\Debug\ProgramozasiTetelek_2.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\ProgramozasiTetelek_2\ProgramozasiTetelek_2\obj\Debug\ProgramozasiTetelek_2.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\ProgramozasiTetelek_2\ProgramozasiTetelek_2\obj\Debug\ProgramozasiTetelek_2.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\ProgramozasiTetelek_2\ProgramozasiTetelek_2\obj\Debug\ProgramozasiTetelek_2.pdb
