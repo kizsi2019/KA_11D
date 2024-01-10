@@ -1,0 +1,2 @@
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\Szöllőssy Marcell\OOP1\OOP1\obj\Debug\OOP1.csproj.AssemblyReference.cache
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\Szöllőssy Marcell\OOP1\OOP1\obj\Debug\OOP1.csproj.CoreCompileInputs.cache

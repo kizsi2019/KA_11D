@@ -1,4 +1,26 @@
 ﻿<Properties StartupConfiguration="{51078FBD-58D1-43C4-89D0-55FFEA60141D}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.OOP1 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.OOP1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOP1/Program.cs">
+    <Files>
+      <File FileName="OOP1/ember.cs" Line="11" Column="10" IsPinned="True" />
+      <File FileName="OOP1/Program.cs" Line="8" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OOP1" expanded="True">
+            <Node name="OOP1">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
