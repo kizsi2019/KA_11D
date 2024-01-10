@@ -12,26 +12,27 @@ init();
 
 //document.querySelector('#current-' + ActivePlayer).textContent = block;
 
-document.querySelector('.btn-roll').addEventListener("click", function(){
+document.querySelector('.btn-roll').addEventListener("click",
+function(){
   	if (alreadyplaying){
-		var block = Math.floor(Math.random() * 6) + 1;
+		var block1 = Math.floor(Math.random() * 6) + 1;
+		var block2 = Math.floor(Math.random() * 6) + 1;
 		var blockDOM = document.querySelector('.dice');
+		document.getElementById('dice-1').src = 'img/dice-' + block1 + '.png';
+		document.getElementById('dice-2').src = 'img/dice-' + block2 + '.png';
 		blockDOM.style.display = 'block';
-		blockDOM.src = "img/dice-" + block + ".png";
-		
-		if (block === 6 && recentthrow === 6){
-			scores[ActivePlayer] = 0;
-			document.querySelector('#score-' + ActivePlayer).textContent = 0;
-			nextplayer();
-		}else if (block !== 1){
-			roundscore += block;
+		BlockOnOffSwitch('be');
+
+		if (block1 !== 1 && block2 !== 2){
+			roundscore += block1 + block2;
 			document.querySelector('#current-' + ActivePlayer).textContent = roundscore;
 		}else{
 			nextplayer();
 		}
-		recentthrow = block;
 	}
-});
+}
+);
+
 
 document.querySelector('.btn-hold').addEventListener('click', function(){
 	if (alreadyplaying){
@@ -71,7 +72,7 @@ function nextplayer(){
     document.querySelector('.player-0-panel').classList.toggle('active');
     document.querySelector('.player-1-panel').classList.toggle('active');
 
-    document.querySelector('.dice').style.display = 'none';
+    BlockOnOffSwitch('ki');
 }
 
 document.querySelector('.btn-new').addEventListener('click', function(){
@@ -84,7 +85,7 @@ function init(){
 	ActivePlayer = 1;
 	alreadyplaying = true;
 
-	document.querySelector('.dice').style.display = 'none';
+	BlockOnOffSwitch('ki');
 	document.getElementById('score-0').textContent = "0";
 	document.getElementById('current-0').textContent = "0";
 	document.getElementById('score-1').textContent = "0";
@@ -97,4 +98,14 @@ function init(){
 	document.querySelector('.player-0-panel').classList.remove('active');
 	document.querySelector('.player-1-panel').classList.remove('active');
 	document.querySelector('.player-0-panel').classList.add('active');
+}
+
+function BlockOnOffSwitch(func){
+	if (func === 'ki'){
+		document.getElementById('dice-1').style.display = 'none';
+		document.getElementById('dice-2').style.display = 'none';
+	}else if (func === 'be'){
+		document.getElementById('dice-1').style.display = 'block';
+		document.getElementById('dice-2').style.display = 'block';
+	}
 }
