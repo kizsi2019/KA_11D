@@ -15,6 +15,10 @@ namespace OOP1
             Console.WriteLine(e.Név);
             Console.WriteLine(e.Életkor);
             Console.WriteLine(e.Irányítószám);
+            ember e2 = new ember("Pista", -22, 9457);
+            Console.WriteLine(e.Név);
+            Console.WriteLine(e.Életkor);
+            Console.WriteLine(e.Irányítószám);
             Console.ReadKey();
         }
     }
