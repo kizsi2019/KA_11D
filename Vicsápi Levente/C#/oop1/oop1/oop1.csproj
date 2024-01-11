@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A5A59C6B-F197-4866-BFEA-F046F7201601}</ProjectGuid>
+    <ProjectGuid>{20797C74-B47F-4221-9D33-DD7D69849F2C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>oop1</RootNamespace>
-    <AssemblyName>oop1</AssemblyName>
+    <RootNamespace>OOP1</RootNamespace>
+    <AssemblyName>OOP1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ember.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,21 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace oop1
+namespace OOP1
 {
-    public class ember
+    public class Ember
     {
-        public ember(string n, int é, int isz) 
+        public Ember(string n, int e, int isz)
         {
             Név = n;
-            Életkor = é;
-            Irányító_szám = isz;
+            Életkor = e;
+            Irányítószám = isz;
         }
-
         private string név;
         public string Név
         {
-           get
+            get
             {
                 return név;
             }
@@ -35,25 +34,23 @@ namespace oop1
             {
                 return életkor;
             }
-
             set
             {
-                if (value.Length >= 0) életkor = value;
-                else Exception("Az életkor mező nem lehet negatív");
+                if (value >= 0) életkor = value;
+                else Exception("Az életkor mező nem lehet negatív!");
             }
         }
         private int irányítószám;
-        public int Iránytószám
+        public int Irányítószám
         {
             get
             {
                 return irányítószám;
             }
-
             set
             {
                 if (value.ToString().Length == 4) irányítószám = value;
-                else Exception("Az irányítószám helytelen");
+                else Exception("Az irányítószám helytelen!");
             }
         }
         private void Exception(string s)
