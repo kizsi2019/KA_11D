@@ -1,0 +1,45 @@
+2,
+SELECT nev, tomeg, ar
+FROM keverek
+WHERE tomeg<>20
+ORDER BY 2 DESC;
+3,
+SELECT nev, ar*1000/tomeg AS Kilogrammonként
+FROM keverek
+ORDER BY Kilogrammonként DESC
+LIMIT 1;
+4,
+SELECT Count(keverekid) AS Darab
+FROM osszetevo, kapcsolat
+WHERE id = osszetevoid
+GROUP BY nev
+HAVING nev='bazsalikom';
+5,
+SELECT  nev, Count(osszetevoid) AS [Összetevők száma]
+FROM keverek, kapcsolat
+WHERE id = keverekid
+GROUP BY nev
+HAVING COUNT(osszetevoid) = (SELECT MAX(szam) FROM (SELECT COUNT(osszetevoid) AS szam FROM fuszerkeverek GROUP BY nev) AS counts)
+ORDER BY osszetevok_szama DESC;
+
+6,
+SELECT nev
+FROM keverek
+WHERE id not in (SELECT keverekid
+                              FROM osszetevo, kapcsolat
+                              WHERE id = osszetevoid AND nev Like "*bors");
+7,
+SELECT nev
+FROM keverek
+WHERE id in (SELECT keverekid 
+                     FROM osszetevo, kapcsolat 
+                     WHERE osszetevoid = id AND nev ="paradicsom") 
+AND 
+id in (SELECT keverekid 
+                    FROM osszetevo, kapcsolat 
+                    WHERE osszetevoid = id AND nev="chili");
+8,
+SELECT keverek.nev, osszetevo.nev
+FROM osszetevo, keverek, kapcsolat
+WHERE keverek.id = keverekid AND osszetevo.id = osszetevoid AND
+ajanlat like '*indiai*';
