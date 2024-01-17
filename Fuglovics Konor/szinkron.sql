@@ -20,3 +20,5 @@ SELECT film.filmaz, film.cim, film.eredeti, COUNT(szinkron.szinkid)
 FROM film, szinkron
 WHERE film.filmaz = szinkron.filmaz
 GROUP BY film.filmaz
+
+-- 7.
