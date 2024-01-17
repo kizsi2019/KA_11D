@@ -14,6 +14,13 @@ namespace BukkMarathon2019
         public string Egyesulet { get; private set; }
         public string Tav { get; private set; }
         public TimeSpan ido { get; private set; }
+        public bool NoiVersenyzo
+        {
+            get
+            {
+                return Kategoria.Last() == 'n';
+            }
+        }
         public Versenyzo(string sor) 
         {
             string[] m = sor.Split ( ',' );
