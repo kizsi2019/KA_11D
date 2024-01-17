@@ -18,7 +18,6 @@ namespace BükkMaraton2019
             }
             Console.WriteLine($"Versenytávot nem teljesítők: {(1 - versenyzok.Count / 691.0) * 100}%");
             Console.ReadKey();
-
         }
     }
 }
