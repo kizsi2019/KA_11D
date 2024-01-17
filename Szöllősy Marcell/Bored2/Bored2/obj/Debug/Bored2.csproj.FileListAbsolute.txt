@@ -1,8 +1,0 @@
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\bin\Debug\Bored2.exe.config
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\bin\Debug\Bored2.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\bin\Debug\Bored2.pdb
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\obj\Debug\Bored2.csproj.AssemblyReference.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\obj\Debug\Bored2.csproj.SuggestedBindingRedirects.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\obj\Debug\Bored2.csproj.CoreCompileInputs.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\obj\Debug\Bored2.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored2\Bored2\obj\Debug\Bored2.pdb
