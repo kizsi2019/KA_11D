@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,34 @@ namespace BükkMaraton2019
     {
         static void Main(string[] args)
         {
+            List<Versenyzo> versenyzok = new List<Versenyzo>();
+            foreach (var sor in File.ReadAllLines("bukkm2019.txt").Skip(1))
+            {
+                versenyzok.Add(new Versenyzo(sor));
+            }
+            Console.WriteLine($"Versenytávot nem teljesítők: {(1 - versenyzok.Count / 691.0) * 100}%");
 
+            int FemaleRacersOnShortTrack = 0;
+            foreach (var item in versenyzok)
+            {
+                if (item.FemaleRacer && item.Tav == "Rövid")
+                {
+                    FemaleRacersOnShortTrack++;
+                }
+            }
+            Console.WriteLine($"Női versenyző száma a rövidtávú versenyen: {FemaleRacersOnShortTrack} fő");
+
+            bool MoreThan6Hours = false;
+            foreach (var item in versenyzok)
+            {
+                if (item.MoreThan6Hours)
+                {
+                    MoreThan6Hours = true;
+                    break;
+                }
+            }
+            Console.WriteLine($"{MoreThan6Hours ? "Volt" : 'Nem Volt'}");
+            Console.ReadKey();
         }
     }
 }

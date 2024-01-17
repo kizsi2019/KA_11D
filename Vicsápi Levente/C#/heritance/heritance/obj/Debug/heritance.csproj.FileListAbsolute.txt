@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\bin\Debug\heritance.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\bin\Debug\heritance.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\bin\Debug\heritance.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\obj\Debug\heritance.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\obj\Debug\heritance.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\obj\Debug\heritance.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\obj\Debug\heritance.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\heritance\heritance\obj\Debug\heritance.pdb

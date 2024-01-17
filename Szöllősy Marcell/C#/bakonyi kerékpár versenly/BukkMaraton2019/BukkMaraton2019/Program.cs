@@ -1,29 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Ling;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BukkMaraton2019
 {
-    public class Versenyzo
+    internal class Program
     {
-        public string Rajtszam { get; private set; }
-        public string Kategoria { get; private set; }
-        public string Név { get; private set; }
-        public string Egyesulet { get; private set; }
-        public string Táv { get; private set; }
-
-        public Versenyzo(string sor)
+    static void Main(string[] args)
         {
-            string[] m = sor.Split(';');
-            Rajtszam = m[0];
-            Kategoria = m[1];
-            Nev = m[2];
-            Egyesulet = m[3];
-            int ora = int.Parse(m[4].Split(';')[0]);
-            int perc = int.Parse(m[4].Split(';')[1]);
-            int mp = int.Parse(m[4].Split(';')[2]);
-            Ido = new TimeSpan(ora, perc, mp);
-            Tav = m[4];
+            List<Versenyzo> versenyzok = new List<Versenyzo>();
+            foreach (var sor in File.ReadAllLines("bukkm2019.txt").Skip(1))
+            {
+                versenyzok.Add(new Versenyzo(sor));
+            }
+
+            Console.WriteLine($"4.feladat: Versenytávok nem teljesítők: {(1 - versenyzok.Count / 691.0) * 100}%");
+
+            int noiVersenyzokRovidTavon = 0;
+            foreach (var v in versenyzok) 
+            { 
+                if (v.NoiVersenyzo && v.Tav == "Rövid")
+                {
+                    noiVersenyzokRovidTavon++;
+                }
+                
+            }
+           
+            Console.WriteLine($"5. Feladat: Női versenyzők száma a rövidtávú versenyen: {noiVersenyzokRovidTavon} fő");
+            
+
+
         }
+    }
+}

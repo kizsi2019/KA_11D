@@ -1,8 +1,0 @@
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\bin\Debug\Brainfuck.exe.config
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\bin\Debug\Brainfuck.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\bin\Debug\Brainfuck.pdb
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\obj\Debug\Brainfuck.csproj.AssemblyReference.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\obj\Debug\Brainfuck.csproj.SuggestedBindingRedirects.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\obj\Debug\Brainfuck.csproj.CoreCompileInputs.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\obj\Debug\Brainfuck.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Brainfuck\Brainfuck\obj\Debug\Brainfuck.pdb
