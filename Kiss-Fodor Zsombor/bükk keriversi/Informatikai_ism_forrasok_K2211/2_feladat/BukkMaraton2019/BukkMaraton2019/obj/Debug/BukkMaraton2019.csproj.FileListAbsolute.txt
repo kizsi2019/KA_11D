@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.pdb
