@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{5D4FFD53-9E0A-4EC5-80B2-2CF07F1FFEA2}|Default">
-  <MonoDevelop.Ide.ItemProperties.BukkMaraton2019 FirstBuild="True" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="bukkmaraton2019/versenyzo.cs">
+    <Files>
+      <File FileName="BukkMaraton2019/Program.cs" Line="12" Column="21" />
+      <File FileName="BukkMaraton2019/versenyzo.cs" Line="25" Column="19" />
+      <File FileName="BukkMaraton2019/versenytav.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="bukkmaraton2019" expanded="True">
+            <Node name="BukkMaraton2019">
+              <Node name="versenyzo.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BukkMaraton2019 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
