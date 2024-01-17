@@ -18,7 +18,20 @@ namespace BukkMaraton2019
 
             Console.WriteLine($"4.feladat: Versenytávok nem teljesítők: {(1 - versenyzok.Count / 691.0) * 100}%");
 
-            Console.ReadKey();
+            int noiVersenyzokRovidTavon = 0;
+            foreach (var v in versenyzok) 
+            { 
+                if (v.NoiVersenyzo && v.Tav == "Rövid")
+                {
+                    noiVersenyzokRovidTavon++;
+                }
+                
+            }
+           
+            Console.WriteLine($"5. Feladat: Női versenyzők száma a rövidtávú versenyen: {noiVersenyzokRovidTavon} fő");
+            
+
+
         }
     }
 }

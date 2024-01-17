@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bukkmaraton2019
+namespace BukkMaraton2019
 {
     public class Versenytav
     {
         private string Rajtszam;
-        public string Tav 
+        public string Tav
         {
             get
             {
@@ -24,9 +24,8 @@ namespace Bukkmaraton2019
                 return "Hibás rajtszám";
             }
         }
-
-        public Versenytav(string rajtszam) 
-        { 
+        public Versenytav(string rajtszam)
+        {
             Rajtszam = rajtszam;
         }
     }
