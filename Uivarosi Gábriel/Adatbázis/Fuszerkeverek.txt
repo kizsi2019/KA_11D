@@ -1,0 +1,13 @@
+2 SELECT `nev`,`tomeg`,`ar` FROM `keverek` WHERE tomeg <> 20 ORDER BY tomeg DESC
+
+3 SELECT nev, ar / tomeg * 1000 as 'ár/kg' FROM keverek ORDER BY 'ár/kg' DESC LIMIT 1; 
+
+4 SELECT COUNT(`keverekid`) FROM kapcsolat WHERE keverekid = 7
+
+5 SELECT keverek.nev, COUNT( kapcsolat.osszetevoid) FROM keverek LEFT JOIN kapcsolat on keverek.id = kapcsolat.keverekid LEFT JOIN osszetevo on kapcsolat.osszetevoid = osszetevo.id GROUP BY keverek.nev ORDER BY COUNT(kapcsolat.osszetevoid) DESC LIMIT 3 
+
+6 SELECT DISTINCT keverek.nev FROM `keverek` JOIN kapcsolat on keverek.id = kapcsolat.keverekid JOIN osszetevo on kapcsolat.osszetevoid = osszetevo.id WHERE osszetevo.nev NOT LIKE "%bors"; 
+
+7
+
+8 SELECT keverek.nev as "Keverékek" ,osszetevo.nev as "Összetevők" FROM `keverek` JOIN kapcsolat on keverek.id = kapcsolat.keverekid JOIN osszetevo on kapcsolat.osszetevoid = osszetevo.id WHERE keverek.ajanlat LIKE "%Indiai%" ORDER BY keverek.nev ASC; 
