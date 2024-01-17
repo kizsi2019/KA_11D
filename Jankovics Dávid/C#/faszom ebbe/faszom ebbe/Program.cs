@@ -88,7 +88,7 @@ namespace faszom_ebbe
             Console.WriteLine("a legalacsonabb {0} án {1} fok", legalacsonyabb_i + 1, hőmérséklet[legalacsonyabb_i]);
 
 
-
+            
 
 
             StreamReader sr = new StreamReader("végeredmény.txt");
@@ -108,7 +108,7 @@ namespace faszom_ebbe
             Console.WriteLine("{0} nevű versenyző {1}. lett", név, i + 1);
 
 
-
+           
 
             int[] beolvasás = new int[20];
             for(int i = 0;i < 20; i++)
@@ -122,12 +122,23 @@ namespace faszom_ebbe
             {
                 j++;
             }
-            if (j < beolvasás.Length) Console.WriteLine("3-mal osztható számot {0}.-ra vitt be!", j + 1);
-            else Console.WriteLine("Nem adott meg 3-mal osztható számot");*/
+            if (j < beolvasás.Length) Console.WriteLine("3-mal osztható számot {0}.-ra vitt be!", j + 1 );
+            else Console.WriteLine("Nem adott meg 3-mal osztható számot");
+
+            */
+            int[] rendezettTömb = new int[] {10, 15, 18, 25, 31, };
+            int alsóhatár = 0;
+            int felsőhatár = rendezettTömb.Length - 1;
+            int közép = 0;
+
+            do
+            {
+                közép = (alsóhatár + felsőhatár) / 2;
+                if (rendezettTömb[közép] < 111) alsóhatár = közép + 1;
+                if (rendezettTömb[közép] > 111) alsóhatár = közép - 1;
+            } while (alsóhatár <= felsőhatár && rendezettTömb[közép] != 111)
 
 
-            s
-              
             Console.ReadKey();
         }
     }
