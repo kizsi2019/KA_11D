@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Versenytav
 {
     private string Rajtszam; 
@@ -21,3 +22,28 @@ class Versenytav
         Rajtszam = rajtszam;
     }
 }
+=======
+class Versenytav
+{
+    private string Rajtszam; 
+    public string Tav
+    {
+        get
+        {
+            switch (Rajtszam[0])
+            {
+                case 'M': return "Mini";
+                case 'R': return "Rövid";
+                case 'K': return "Közép";
+                case 'H': return "Hosszú";
+                case 'E': return "Pedelec";
+            }
+            return "Hibás rajtszám";
+        }
+    }
+    public Versenytav(string rajtszam)
+    {
+        Rajtszam = rajtszam;
+    }
+}
+>>>>>>> 0758e27e55a72f5ac8be1e4e1e816bf86f6b12b5

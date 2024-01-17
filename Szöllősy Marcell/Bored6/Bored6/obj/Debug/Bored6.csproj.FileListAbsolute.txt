@@ -1,8 +1,0 @@
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\bin\Debug\Bored6.exe.config
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\bin\Debug\Bored6.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\bin\Debug\Bored6.pdb
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\obj\Debug\Bored6.csproj.AssemblyReference.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\obj\Debug\Bored6.csproj.SuggestedBindingRedirects.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\obj\Debug\Bored6.csproj.CoreCompileInputs.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\obj\Debug\Bored6.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\Bored6\Bored6\obj\Debug\Bored6.pdb
