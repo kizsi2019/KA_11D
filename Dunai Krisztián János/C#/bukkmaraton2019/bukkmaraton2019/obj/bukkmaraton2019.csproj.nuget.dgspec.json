@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/bukkmaraton2019/bukkmaraton2019/bukkmaraton2019.csproj": {}
+    "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/BukkMaraton2019/BukkMaraton2019/BukkMaraton2019.csproj": {}
   },
   "projects": {
-    "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/bukkmaraton2019/bukkmaraton2019/bukkmaraton2019.csproj": {
+    "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/BukkMaraton2019/BukkMaraton2019/BukkMaraton2019.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/bukkmaraton2019/bukkmaraton2019/bukkmaraton2019.csproj",
-        "projectName": "bukkmaraton2019",
-        "projectPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/bukkmaraton2019/bukkmaraton2019/bukkmaraton2019.csproj",
+        "projectUniqueName": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/BukkMaraton2019/BukkMaraton2019/BukkMaraton2019.csproj",
+        "projectName": "BukkMaraton2019",
+        "projectPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/BukkMaraton2019/BukkMaraton2019/BukkMaraton2019.csproj",
         "packagesPath": "/Users/dunaikrisztian/.nuget/packages/",
-        "outputPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/bukkmaraton2019/bukkmaraton2019/obj/",
+        "outputPath": "/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/BukkMaraton2019/BukkMaraton2019/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dunaikrisztian/.nuget/NuGet/NuGet.Config"

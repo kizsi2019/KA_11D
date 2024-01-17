@@ -1,7 +1,12 @@
 ﻿using System;
-namespace bukkmaraton2019
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BukkMaraton2019
 {
-    class Versenytav
+    public class Versenytav
     {
         private string Rajtszam;
         public string Tav
@@ -25,6 +30,3 @@ namespace bukkmaraton2019
         }
     }
 }
-
-
-

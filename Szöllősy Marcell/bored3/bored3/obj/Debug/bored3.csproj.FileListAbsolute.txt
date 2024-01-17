@@ -1,3 +1,0 @@
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored3\bored3\obj\Debug\bored3.csproj.AssemblyReference.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored3\bored3\obj\Debug\bored3.csproj.SuggestedBindingRedirects.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored3\bored3\obj\Debug\bored3.csproj.CoreCompileInputs.cache
