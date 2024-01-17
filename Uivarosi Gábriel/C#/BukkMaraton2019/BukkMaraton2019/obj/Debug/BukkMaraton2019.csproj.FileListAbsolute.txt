@@ -1,0 +1,7 @@
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe.config
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.exe
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\BukkMaraton2019\BukkMaraton2019\bin\Debug\BukkMaraton2019.pdb
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.exe
+C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\BukkMaraton2019\BukkMaraton2019\obj\Debug\BukkMaraton2019.pdb
