@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8D2E4D1B-7B72-44F9-BE82-24FF047D8940}</ProjectGuid>
+    <ProjectGuid>{3AB2FA1A-1BBA-4671-99E0-74B3560610E2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Bukkmaraton2019</RootNamespace>
-    <AssemblyName>Bukkmaraton2019</AssemblyName>
+    <RootNamespace>BukkMaraton2019</RootNamespace>
+    <AssemblyName>BukkMaraton2019</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,7 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Versenytav.cs" />
-    <Compile Include="Versenyzo.cs" />
+    <Compile Include="Versenzyo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
