@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bukkmaraton2019
+namespace BukkMaraton2019
 {
     public class Versenzyo
     {
