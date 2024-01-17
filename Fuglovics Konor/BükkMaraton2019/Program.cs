@@ -27,6 +27,17 @@ namespace BükkMaraton2019
                 }
             }
             Console.WriteLine($"Női versenyző száma a rövidtávú versenyen: {FemaleRacersOnShortTrack} fő");
+
+            bool MoreThan6Hours = false;
+            foreach (var item in versenyzok)
+            {
+                if (item.MoreThan6Hours)
+                {
+                    MoreThan6Hours = true;
+                    break;
+                }
+            }
+            Console.WriteLine($"{MoreThan6Hours ? "Volt" : 'Nem Volt'}");
             Console.ReadKey();
         }
     }
