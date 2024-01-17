@@ -21,6 +21,13 @@ namespace BükkMaraton2019
                 return Kategoria.Last() == 'n';
             } 
         }
+        public bool MoreThan6Hours
+        {
+            get
+            {
+                return Ido > new TimeSpan(6, 0, 0);
+            }
+        }
 
         public Versenyzo(string sor)
         {
