@@ -11,7 +11,6 @@ namespace BükkMaraton2019
     {
         static void Main(string[] args)
         {
-            //3.
             List<Versenyzo> versenyzok = new List<Versenyzo>();
             foreach (var sor in File.ReadAllLines("bukkm2019.txt").Skip(1))
             {
