@@ -13,10 +13,10 @@ namespace BukkMaraton2019
         {
 
             //3. feladat
-            List<Versenzyo> versenyzok = new List<Versenzyo>();
+            List<Versenyzo> versenyzok = new List<Versenyzo>();
             foreach (var sor in File.ReadAllLines("bukkmaraton2019.txt").Skip(1)) 
             {
-                versenyzok.Add(new Versenzyo(sor));
+                versenyzok.Add(new Versenyzo(sor));
             }
 
             Console.WriteLine($"4.feladat: Versenytávot nem teljesítők: {(1 - versenyzok.Count / 691.0) * 100}%");
@@ -32,7 +32,13 @@ namespace BukkMaraton2019
 
             }
             Console.WriteLine($"5.feladat: Női versenyzők száma a rövidtávú versenyen: {noiVersenyzokRovidTavon} fő");
+            
+            // 6. feladat
+
+
+            
             Console.ReadKey();
+
         }
     }
 }
