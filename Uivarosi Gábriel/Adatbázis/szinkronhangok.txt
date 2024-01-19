@@ -1,0 +1,35 @@
+2
+SELECT `cim`, `eredeti` FROM `film` WHERE `magyarszoveg` = 'Heltai Olga'; 
+3
+SELECT DISTINCT `rendezo`, `szinkronrendezo` FROM `film` WHERE ev > 1999; 
+4
+SELECT DISTINCT `magyarszoveg` , `cim` FROM `film` WHERE `rendezo` = 'Christopher Nolan' AND `studio` = 'Mafilm Audio Kft.' ORDER BY `magyarszoveg`;  ORDER BY `magyarszoveg`; 
+5 
+SELECT cim, `eredeti`, szinkron.szerep, szinkron.szinesz FROM `film` JOIN szinkron on film.filmaz = szinkron.filmaz WHERE szinkron.hang = 'Anger Zsolt'
+6
+SELECT `cim`, `eredeti` , COUNT(szinkron.hang) FROM `film` JOIN szinkron on film.filmaz = szinkron.filmaz GROUP BY cim; 
+7
+SELECT * FROM `szinkron` WHERE `szerep` LIKE '%rab%'; 
+8
+SELECT DISTINCT `rendezo` as 'Színész-rendező'  FROM `film` JOIN szinkron on film.rendezo = szinkron.szinesz  
+9
+SELECT cim, szinkron.hang  FROM `film` JOIN szinkron on film.filmaz = szinkron.filmaz WHERE szinkron.fimaz IN (
+  SELECT szinkron.filmaz
+  FROM szinkron
+  WHERE szinkron.hang = "Pap Kati"
+    )  
+10
+SELECT szinkron.szinesz, szinkron.hang, count(szinkron.szinkid) AS FilmDB
+FROM szinkron
+GROUP BY szinkron.szinesz, szinkron.hang
+HAVING count(szinkron.szinkid) >= 3
+ORDER BY FilmDB DESC;
+11
+SELECT S1.hang, F1.ev, F1.studio, F1.cim, S2.hang, F2.ev, F2.studio, F2.cim
+FROM szinkron S1, szinkron S2, film F1, film F2
+WHERE F1.filmaz = S1.filmaz AND F2.filmaz = S2.filmaz
+AND S1.hang = S2.hang
+AND F1.studio = "Mafilm Audio Kft." AND F2.studio <> "Mafilm Audio Kft."
+AND F1.ev = F2.ev
+ORDER BY S1.hang;  
+  
