@@ -1,0 +1,67 @@
+SELECT csap.nev
+FROM csapat
+WHERE nev LIKE "#%";
+
+
+SELECT feladat.nevado
+FROM feladatsor
+WHERE nevado NOT LIKE "% % %"
+AND nevado LIKE "% %";
+
+
+SELECT nevado
+FROM feladatsor
+WHERE "2018-12-31" BETWEEN kituzes AND hatarido;
+
+SELECT csap.nev, SUM(meg.ptsz)
+FROM csapat, megoldas
+WHERE csap.id = csapatid
+GROUP BY csapatid
+ORDER BY 2 DESC;
+
+
+SELECT feladat.nevado, feladat.ag, SUM(feladat.pontszam)
+FROM feladatsor, feladat
+WHERE feladat.id = feladatsorid
+GROUP BY feladatsorid
+HAVING SUM(pontszam) <> 150;
+
+
+SELECT DISTINCT csap.nev
+FROM csapat, megoldas, feladat
+WHERE csap.id = meg.csapatid
+AND megoldas.feladatid = feladat.id
+AND megoldas.pontszam = feladat.pontszam;
+
+
+SELECT feladat.nevado, COUNT(*)
+FROM feladatsor, feladat
+WHERE feladatsor.id = feladat.feladatsorid
+AND feladat.id NOT IN
+    (
+        SELECT megoldas.feladatid
+        FROM megoldas, csapat
+        WHERE csapat.id = megoldas.csapatid
+        AND nev="#win"
+    )
+GROUP BY feladat.nevado;
+
+
+SELECT feladat.nevado 
+FROM feladatsor
+WHERE MONTH(feladatsor.kituzes) = MONTH(feladatsor.hatarido)
+AND feladatsor.ag = "irodalom";
+
+
+
+SELECT feladat.nevado
+FROM feladatsor
+ORDER BY DATEDIFF(feladatsor.hatarido, feladatsor.kituzes)
+LIMIT 1;
+
+
+SELECT kov.nevado, kovetkezo.kituzes
+FROM feladatsor AS kovetkezo, feladatsor AS elozo
+WHERE DATEDIFF(kovetkezo.kituzes, elozo.hatarido) = 1;
+    
+  

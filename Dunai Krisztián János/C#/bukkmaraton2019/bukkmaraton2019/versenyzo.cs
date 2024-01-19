@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BukkMaraton2019
 {
-    public class Versenzyo
+    public class Versenyzo
     {
         public string Rajtszam { get; private set; }
         public string Kategoria { get; private set; }
@@ -17,15 +17,17 @@ namespace BukkMaraton2019
         public string Egyesulet { get; private set; }
         public string Tav { get; private set; }
         public TimeSpan Ido { get; private set; }
+        public bool Noiversenyzo;
 
-        public Versenzyo(string sor)
+        public Versenyzo(string sor)
         {
             string[] m = sor.Split(';');
             Rajtszam m = m[0];
             Kategoria = m[1];
             Nev = m[2];
             Egyesulet = m[3];
-            int ora = int.Parse(m[4].Split(';')[0];
+            int v = int.Parse(m[4].Split(';')[0];
+            int ora = v;
             int perc = int.Parse(m[4].Split(';')[1];
             int mp = int.Parse(m[4].Split(';')[2];
             Ido = new TimeSpan(ora, perc, mp);
