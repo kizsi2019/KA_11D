@@ -1,8 +1,0 @@
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\bin\Debug\bored.exe.config
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\bin\Debug\bored.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\bin\Debug\bored.pdb
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\obj\Debug\bored.csproj.AssemblyReference.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\obj\Debug\bored.csproj.SuggestedBindingRedirects.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\obj\Debug\bored.csproj.CoreCompileInputs.cache
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\obj\Debug\bored.exe
-C:\Users\MarcellSzollosy\Desktop\Github\23_11D2\KA_11D\Szöllősy Marcell\bored\bored\obj\Debug\bored.pdb

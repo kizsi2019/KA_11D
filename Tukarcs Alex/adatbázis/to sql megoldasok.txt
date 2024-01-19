@@ -1,0 +1,50 @@
+2.
+
+SELECT nev, terulet
+FROM alloviz
+WHERE tipus LIKE '%morotva%'
+ORDER BY terulet DESC;
+
+3.
+
+SELECT SUM(terulet) / 93036 * 100 AS vizarany
+FROM alloviz;
+
+4.
+
+SELECT nev, tipus, terulet
+FROM alloviz
+WHERE terulet BETWEEN 3 AND 10
+  AND vizgyujto >= 10 * terulet;
+
+5.
+
+SELECT nev, Count(gpsid) AS Darab
+FROM alloviz, helykapcs
+WHERE id = alloviz
+GROUP BY id, nev
+HAVING Count(gpsid)>=3;
+
+6.
+
+SELECT TOP 1 alloviz.nev
+FROM telepulesgps, helykapcs, alloviz
+WHERE alloviz.id=allovizid AND telepulesgps.id=gpsid
+GROUP BY allovizid, alloviz.nev
+ORDER BY max(hosszusag)-min(hosszusag) DESC;
+
+7.
+
+SELECT alloviz.nev, alloviz.terulet, telepulesgps.nev
+FROM alloviz
+JOIN helykapcs ON alloviz.id = helykapcs.allovizid
+JOIN telepulesgps ON telepulesgps.id = helykapcs.gpsid
+WHERE (SELECT COUNT(*) FROM helykapcs WHERE alloviz.id = helykapcs.allovizid) = 1
+  AND (SELECT COUNT(*) FROM helykapcs WHERE telepulesgps.id = helykapcs.gpsid) = 1;
+
+8.
+
+SELECT tipus AS keletkezes_tipusa, nev AS tavi_nev, terulet AS tavi_terulet
+FROM alloviz
+WHERE tipus IS NOT NULL
+ORDER BY keletkezes_tipusa;

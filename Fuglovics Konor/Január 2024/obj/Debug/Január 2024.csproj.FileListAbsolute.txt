@@ -1,0 +1,14 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Január 2024\bin\Debug\Január 2024.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Január 2024\bin\Debug\Január 2024.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Január 2024\bin\Debug\Január 2024.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.pdb
+C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\Január 2024\bin\Debug\Január 2024.exe.config
+C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\Január 2024\bin\Debug\Január 2024.exe
+C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\Január 2024\bin\Debug\Január 2024.pdb
+C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.csproj.AssemblyReference.cache
+C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.csproj.CoreCompileInputs.cache
+C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.exe
+C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\Január 2024\obj\Debug\Január 2024.pdb

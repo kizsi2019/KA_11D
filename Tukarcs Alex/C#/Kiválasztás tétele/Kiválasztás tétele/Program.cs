@@ -11,8 +11,8 @@ namespace Kiválasztás_tétele
     {
         static void Main(string[] args)
         {
-            /*
-            StreamReader sr = new StreamReader("végeredmény.txt");
+
+            StreamReader sr = new StreamReader("vegeredmeny.txt");
             List<string> eredmény = new List<string>();
             while (!sr.EndOfStream)
             {
@@ -30,7 +30,7 @@ namespace Kiválasztás_tétele
             Console.WriteLine("{0} nevű versenyző {1}. lett", név, i + 1);
 
             Console.ReadKey();
-            */
+            
 
             
         }
