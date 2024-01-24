@@ -10,11 +10,11 @@ SELECT DISTINCT rendezo, szinkronrendezo FROM `film` where ev > 2000;
 4
 
 
-SELECT film.magyarszoveg, film.cim 
+SELECT magyarszoveg,cim 
 FROM film
-WHERE film.rendezo = "Christopher Nolan" 
-AND film.studio = "Mafilm Audio Kft."
-ORDER BY film.magyarszoveg;
+WHERE rendezo = "Christopher Nolan" 
+AND studio = "Mafilm Audio Kft."
+ORDER BY magyarszoveg;
 
 
 5
@@ -30,22 +30,23 @@ WHERE film.filmaz = szinkron.filmaz
 GROUP BY film.eredeti;
 
 7
-SELECT szinkron.szerep, szinkron.szinesz, szinkron.hang
+SELECT szerep, szinesz, szinkron.hang
 FROM szinkron
 WHERE szinkron.szerep LIKE "% rab%" or szinkron.szerep LIKE "rab%";
 
 
-8feladat INNER JOIN-nal
+8feladat 
 SELECT DISTINCT film.rendezo AS "Színész-rendező"
 FROM film
-INNER JOIN szinkron
+JOIN szinkron
 ON film.rendezo = szinkron.szinesz
+
 
 9
 SELECT film.cim, szinkron.hang
 FROM film, szinkron
 WHERE film.filmaz = szinkron.filmaz
-AND szinkron.fimaz IN (
+AND szinkron.filmaz IN (
   SELECT szinkron.filmaz
   FROM szinkron
   WHERE szinkron.hang = "Pap Kati"
