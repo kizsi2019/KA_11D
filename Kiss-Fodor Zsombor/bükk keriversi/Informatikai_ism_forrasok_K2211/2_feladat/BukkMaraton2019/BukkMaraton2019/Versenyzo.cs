@@ -14,11 +14,20 @@ namespace BukkMaraton2019
         public string Egyesulet { get; private set; }
         public string Tav {  get; private set; }
         public TimeSpan Ido { get; private set; }
+
         public bool NoiVersenyzo
         {
             get
             {
                 return Kategoria.Last() == 'n';
+            }
+        }
+
+        public bool TobbMintHat
+        {
+            get
+            {
+                return Ido > new TimeSpan(6, 0, 0);
             }
         }
 
@@ -35,6 +44,5 @@ namespace BukkMaraton2019
             Ido = new TimeSpan(ora, perc, mp);
             Tav = new Versenytav(Rajtszam).Tav;
         }
-
     }
 }

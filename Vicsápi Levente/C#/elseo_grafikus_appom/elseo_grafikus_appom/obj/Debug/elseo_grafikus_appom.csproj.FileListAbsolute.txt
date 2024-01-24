@@ -1,0 +1,11 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\bin\Debug\elseo_grafikus_appom.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\bin\Debug\elseo_grafikus_appom.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\bin\Debug\elseo_grafikus_appom.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.Form1.resources
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.Properties.Resources.resources
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.csproj.GenerateResource.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\elseo_grafikus_appom\elseo_grafikus_appom\obj\Debug\elseo_grafikus_appom.pdb
