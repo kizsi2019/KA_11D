@@ -19,7 +19,7 @@ namespace Bukkmaraton2019
             }
 
             Console.WriteLine($"4.feladat: Versenytávot nem teljesítők: {(1 - versenyzok.Count / 691.0) * 100}%");
-
+            
 
             int noiVersenyzokRovidTavon = 0;
             foreach (var v in versenyzok) 
@@ -37,11 +37,40 @@ namespace Bukkmaraton2019
                 if (v.TobbMintHat == true)
                 {
                     tobbMintHat = true;
+                    break;
                 }
             }
 
+
             Console.WriteLine($"5.feladat: Női versenyzők száma a rövidtávú versenyen: {noiVersenyzokRovidTavon} fő");
             Console.WriteLine($"6.feladat: {(tobbMintHat ? "Volt" : "Nem volt")} ilyen versenyzo");
+
+            Console.WriteLine("7.feladat: A felnőtt férfi (ff) kategória győztese rövid távon:");
+            Versenyzo gyoztesFerfiRovidTav = null;
+            foreach (var v in versenyzok) 
+            {
+                if (v.Tav == "Rövid" && v.Kategoria == "ff")
+                {
+                    if (gyoztesFerfiRovidTav == null)
+                    {
+                        gyoztesFerfiRovidTav = v;
+                    }
+
+                    else
+                    {
+                        if (v.Ido < gyoztesFerfiRovidTav.Ido)
+                        {
+                            gyoztesFerfiRovidTav = v;
+                        }
+                    }
+                }
+            }
+            Console.WriteLine($"\tRajtszám: {gyoztesFerfiRovidTav.Rajtszam}");
+            Console.WriteLine($"\tNév: {gyoztesFerfiRovidTav.Nev}");
+            Console.WriteLine($"\tEgyesület: {gyoztesFerfiRovidTav.Egyesulet}");
+            Console.WriteLine($"\tIdő: {gyoztesFerfiRovidTav.Ido}");
+            
+
             Console.ReadKey();
         }
     }
