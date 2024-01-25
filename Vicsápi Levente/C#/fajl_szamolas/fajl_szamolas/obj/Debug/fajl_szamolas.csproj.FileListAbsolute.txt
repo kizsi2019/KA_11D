@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\bin\Debug\fajl_szamolas.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\bin\Debug\fajl_szamolas.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\bin\Debug\fajl_szamolas.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\obj\Debug\fajl_szamolas.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\obj\Debug\fajl_szamolas.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\obj\Debug\fajl_szamolas.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\obj\Debug\fajl_szamolas.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\fajl_szamolas\fajl_szamolas\obj\Debug\fajl_szamolas.pdb
