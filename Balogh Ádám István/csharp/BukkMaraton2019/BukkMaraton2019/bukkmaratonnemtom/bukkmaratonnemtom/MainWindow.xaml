@@ -11,8 +11,17 @@
         <Label Content="Idő: [ó:p:m]" HorizontalAlignment="Left" Height="42" Margin="22,110,0,0" VerticalAlignment="Top" Width="101"/>
         <Label Content="Átlagsebesség: [km/h]" HorizontalAlignment="Left" Height="42" Margin="22,190,0,0" VerticalAlignment="Top" Width="136"/>
         <Label Content="Átlagsebesség: [m/s]" HorizontalAlignment="Left" Height="42" Margin="22,270,0,0" VerticalAlignment="Top" Width="136"/>
-        <ComboBox HorizontalAlignment="Left" Height="34" Margin="128,30,0,0" VerticalAlignment="Top" Width="115"/>
-        <TextBox HorizontalAlignment="Left" Height="36" Margin="128,110,0,0" TextWrapping="Wrap" Text="0:00:00" VerticalAlignment="Top" Width="115" TextChanged="TextBox_TextChanged"/>
+        <ComboBox Name ="cbTav"  HorizontalAlignment="Left" Height="34" Margin="128,30,0,0" VerticalAlignment="Top" Width="115">
+            <ComboBoxItem Content="Mini - 16km"/>
+            <ComboBoxItem Content="Rövid - 38km"/>
+            <ComboBoxItem Content="Pedelec - 54km"/>
+            <ComboBoxItem Content="Közép - 57km"/>
+            <ComboBoxItem Content="Hosszú - 94km"/>
+        </ComboBox>
+        <TextBox Name="tbIdo" HorizontalAlignment="Left" Height="36" Margin="128,110,0,0" TextWrapping="Wrap" Text="0:00:00" VerticalAlignment="Top" Width="115" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name="tbAtlagSebessegKmPH" HorizontalAlignment="Left" Height="42" Margin="158,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="148"/>
+        <TextBox Name ="tbAtlagSebessegMPS" HorizontalAlignment="Left" Height="42" Margin="158,270,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="148"/>
+        <Button Name="btnSzamol" Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Számol" HorizontalAlignment="Left" Height="137" Margin="445,119,0,0" VerticalAlignment="Top" Width="134"/>
 
     </Grid>
 </Window>
