@@ -31,19 +31,67 @@ namespace BukkMaraton2019
                 }
             }
 
-            Console.WriteLine($"5. feladat: Női versenyzők száma a rövidtávú versenyen: {noiversenzokRovidTavon}");
+            Console.WriteLine($"5. feladat: Női versenyzők száma a rövidtávú versenyen: {noiversenzokRovidTavon} fő");
 
             //6. feladat
             bool tobbMintHat = false;
             foreach (var v in versenyzok)
             {
-                if (v.tobbMintHat)
+                if (v.TobbMintHat)
                 {
                     tobbMintHat = true;
                     break;
                 }
             }
             Console.WriteLine($"6. feladat: {(tobbMintHat ? "Volt" : "Nem Volt")} Ilyen versenyző");
+
+            //7. feladat
+            Console.WriteLine("7. feladat: A felnőtt férfi (ff) kategória győztese rövid távon:");
+            Versenyzo gyoztestFerfiRovidTavon = null;
+            foreach (var v in versenyzok)
+            {
+                if (v.Tav == "Rövid" && v.Kategoria == "ff")
+                {
+                    if (gyoztestFerfiRovidTavon == null)
+                    {
+                        gyoztestFerfiRovidTavon = v;
+                    }
+                    else
+                    {
+                        if (v.Ido < gyoztestFerfiRovidTavon.Ido)
+                        {
+                            gyoztestFerfiRovidTavon = v;
+                        }
+                    }
+                }
+                
+            }
+            Console.WriteLine($"\tRajtszám: {gyoztestFerfiRovidTavon.Rajtszam}");
+            Console.WriteLine($"\tNév: {gyoztestFerfiRovidTavon.Nev}");
+            Console.WriteLine($"\tEgeyesület: {gyoztestFerfiRovidTavon.Egyesulet}");
+            Console.WriteLine($"\tIdő: {gyoztestFerfiRovidTavon.Ido}");
+
+            //8. feladat
+            Console.WriteLine("8. feladat: Statisztika");
+            Dictionary<string, int> stat = new Dictionary<string, int>();
+            foreach (var v in versenyzok)
+            {
+                if(!v.NoiVersenyzo)
+                {
+                    if (stat.ContainsKey(v.Kategoria))
+                    {
+                        stat[v.Kategoria]++;
+                    }
+                    else
+                    {
+                        stat.Add(v.Kategoria, 1);
+                    }
+                }
+            }
+            foreach (var s in stat)
+            {
+                Console.WriteLine($"\t{s.Key} - {s.Value} fő");
+            }
 
             Console.ReadKey();
         }
