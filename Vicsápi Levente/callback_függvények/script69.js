@@ -8,16 +8,21 @@ var odon = {
 };
 */
 
+/*
 var Szemely = function(nev, szuletesiev, foglalkozas){
     this.nev = nev;
     this.szuletesiev = szuletesiev;
     this.foglalkozas = foglalkozas;
 }
+*/
 
+/*
 Szemely.prototype.korszamitas = function(){
     console.log(2024 - this.szuletesiev);
 }
+*/
 
+/*
 Szemely.prototype.teszt = 'teszt';
 
 var odon = new Szemely('Ödön', 1978, 'grafikus');
@@ -29,3 +34,28 @@ erzsi.korszamitas()
 console.log(Szemely);
 console.log(odon);
 console.log(odon.teszt);
+*/
+
+//Object.create
+
+var szemelyProto = {
+    korszamitas: function(){
+        console.log(2024 - this.szuletesiev)
+    }
+}
+
+var odon = Object.create(szemelyProto);
+
+odon.nev = 'Ödön';
+odon.szuletesiev = 1960;
+odon.foglalkozas = 'pék';
+
+
+
+var kati = Object.create(szemelyProto, {
+    nev : {value: 'Kati'},
+    szuletesiev: {value: 1990},
+    foglalkozas: {value: 'kozmetikus'}
+})
+
+console.log(kati);

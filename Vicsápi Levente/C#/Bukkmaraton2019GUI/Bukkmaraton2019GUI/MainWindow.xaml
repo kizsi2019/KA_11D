@@ -20,8 +20,8 @@
         </ComboBox>
         <TextBox Name="tbIdo" HorizontalAlignment="Left" Height="26" Margin="204,110,0,0" TextWrapping="Wrap" Text="1:00:00" VerticalAlignment="Top" Width="163"/>
         <TextBlock Name="tbAtlagSebessegKmPH" HorizontalAlignment="Left" Margin="204,190,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" Height="24"/>
-        <TextBlock Name="tbAtlagSebessegKmPS" HorizontalAlignment="Left" Margin="204,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" Height="24"/>
-        <Button Name="btnSzamol" Content="Számol" HorizontalAlignment="Left" Height="171" Margin="593,54,0,0" VerticalAlignment="Top" Width="156"/>
+        <TextBlock Name="tbAtlagSebessegMPS" HorizontalAlignment="Left" Margin="204,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" Height="24"/>
+        <Button Name="btnSzamol" Content="Számol" HorizontalAlignment="Left" Height="171" Margin="593,54,0,0" VerticalAlignment="Top" Width="156" Click="btnSzamol_Click"/>
         
     </Grid>
 </Window>
