@@ -24,5 +24,25 @@ namespace bukkmaratonnemtom
         {
             InitializeComponent();
         }
+
+        private void cbTav_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void btnSzamol_Click(object sender, RoutedEventArgs e)
+        {
+            int[] tav = { 16000, 38000, 54000, 57000, 94000 };
+            string[] m = tbIdo.Text.Split(';');
+            int ora = int.Parse(m[0]);
+            int perc = int.Parse(m[1]);
+            int mp = int.Parse(m[2]);
+            int osszIdo = ora = 3600 + perc * 60 + mp;
+            int tavolsag = tav[cbTav.SelectedIndex];
+            double atlagkmph = Math.Round(((1.0) * tavolsag / osszIdo) * 3.6, 2);
+            double atlagkmps = Math.Round(((1.0) * tavolsag / osszIdo) , 2);
+            tbAtlagSebessegKmPH.Text = atlagkmph.ToString();
+            tbAtlagSebessegMPS.Text = atlagkmps.ToString();
+        }
     }
 }
