@@ -26,4 +26,7 @@ var Erzsi = new Person('Erzsi', 1950, 'retired');
 Erzsi.AgeCalculate();
 
 console.log(Person);
-console.log(Ödön);
+console.log(Ödön); 
+console.log(Ödön.test);
+console.log(Person.prototype);
+console.log(Ödön.hasOwnProperty('name'));
