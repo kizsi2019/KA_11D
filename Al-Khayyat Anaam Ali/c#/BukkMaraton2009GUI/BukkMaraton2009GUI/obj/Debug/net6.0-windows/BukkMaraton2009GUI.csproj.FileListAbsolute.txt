@@ -1,2 +1,0 @@
-C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\BukkMaraton2009GUI\BukkMaraton2009GUI\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\c#\BukkMaraton2009GUI\BukkMaraton2009GUI\obj\Debug\net6.0-windows\BukkMaraton2009GUI_MarkupCompile.cache
