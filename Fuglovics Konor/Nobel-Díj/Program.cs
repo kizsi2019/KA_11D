@@ -17,7 +17,7 @@ namespace Nobel_Díj
                 awarded_people.Add(new Awarded(i));
             }
             Console.WriteLine($"The number of awarded people: {awarded_people.Count()}");
-            Console.ReadKey();                                                                                                                                                                                                                                                              
+            Console.ReadKey();                                                                                                                                                                                                                                                           
         }
     }
 }
