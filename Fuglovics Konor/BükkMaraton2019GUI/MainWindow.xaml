@@ -5,22 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BükkMaraton2019GUI"
         mc:Ignorable="d"
-        Title="BükkMaraton2019" Height="450" Width="800">
-  <Grid>
-    <Label Content="Táv:" HorizontalAlignment="Left" Height="30" Margin="50,30,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.5,0.5" FontFamily="Segoe UI" FontWeight="Normal"/>
-    <Label Content="Idő [ó:p:mp]:" HorizontalAlignment="Left" Height="30" Margin="50,60,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.5,0.5"/>
-    <Label Content="Átlagsebesség [km/h]:" HorizontalAlignment="Left" Height="30" Margin="50,90,0,0" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.5,0.5"/>
-    <Label Content="Átlagsebesség [m/s]:" HorizontalAlignment="Left" Height="30" Margin="50,120,0,0" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.5,0.5"/>
-    <ComboBox Name="cbTav" HorizontalAlignment="Left" Height="22" Margin="151,34,0,0" VerticalAlignment="Top" Width="186">
-      <ComboBoxItem Content="Mini - 16km"/>
-      <ComboBoxItem Content="Rövid - 38km"/>
-      <ComboBoxItem Content="Pedelec - 54km"/>
-      <ComboBoxItem Content="Közép - 57km" IsSelected="True"/>
-      <ComboBoxItem Content="Hosszú - 94km"/>
-    </ComboBox>
-    <TextBox Name="tbIdo" HorizontalAlignment="Left" Height="22" Margin="151,64,0,0" Text="1:00:00" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
-    <TextBlock Name="tbAtlagSebessegKmPh" HorizontalAlignment="Left" Height="21" Margin="193,95,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
-    <TextBlock Name="tbAtlagSebessegMPS" HorizontalAlignment="Left" Height="21" Margin="193,125,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
-    <Button Name="btnCalculate" Content="Calculate!" HorizontalAlignment="Left" Height="22" Margin="366,34,0,0" VerticalAlignment="Top" Width="74"/>
-  </Grid>
+        Title="BükkMaraton2019" Height="208" Width="353">
+    <Grid>
+        <Label Content="Táv:" HorizontalAlignment="Left" Height="30" Margin="19,7,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.5,0.5" FontFamily="Segoe UI" FontWeight="Normal"/>
+        <Label Content="Idő [ó:p:mp]:" HorizontalAlignment="Left" Height="30" Margin="19,37,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="Átlagsebesség [km/h]:" HorizontalAlignment="Left" Height="30" Margin="19,67,0,0" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="Átlagsebesség [m/s]:" HorizontalAlignment="Left" Height="30" Margin="19,97,0,0" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.5,0.5"/>
+        <ComboBox Name="cbTav" HorizontalAlignment="Left" Height="24" Margin="120,8,0,0" VerticalAlignment="Top" Width="129">
+            <ComboBoxItem Content="Mini - 16km"/>
+            <ComboBoxItem Content="Rövid - 38km"/>
+            <ComboBoxItem Content="Pedelec - 54km"/>
+            <ComboBoxItem Content="Közép - 57km" IsSelected="True"/>
+            <ComboBoxItem Content="Hosszú - 94km"/>
+        </ComboBox>
+        <TextBox Name="tbIdo" HorizontalAlignment="Left" Height="24
+                 " Margin="120,39,0,0" Text="1:00:00" TextWrapping="Wrap" VerticalAlignment="Top" Width="56"/>
+        <TextBlock Name="tbAtlagSebessegKmPh" HorizontalAlignment="Left" Height="21" Margin="162,72,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
+        <TextBlock Name="tbAtlagSebessegMPS" HorizontalAlignment="Left" Height="21" Margin="162,102,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
+        <Button Name="btnCalculate" Content="Calculate!" HorizontalAlignment="Center" Height="24" Margin="0,129,0,0" VerticalAlignment="Top" Width="80" Click="btnCalculate_Click"/>
+    </Grid>
 </Window>

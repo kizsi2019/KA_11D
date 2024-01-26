@@ -24,5 +24,20 @@ namespace BükkMaraton2019GUI
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            int[] length = { 16000, 38000, 54000, 57000, 94000 };
+            string[] m = tbIdo.Text.Split(':');
+            int hour = int.Parse(m[0]);
+            int minute = int.Parse(m[1]);
+            int second = int.Parse(m[2]);
+            int TotalTime = hour * 3600 + minute * 60 + second;
+            int distance = length[cbTav.SelectedIndex];
+            double AverageKmpH = Math.Round(((1.0) * distance / TotalTime) * 3.6, 2);
+            double AverageMpS = Math.Round(((1.0) * distance / TotalTime), 2);
+            tbAtlagSebessegKmPh.Text = AverageKmpH.ToString();
+            tbAtlagSebessegMPS.Text = AverageMpS.ToString();
+        }
     }
 }
