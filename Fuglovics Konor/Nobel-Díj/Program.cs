@@ -65,7 +65,7 @@ namespace Nobel_Díj
                 }
                 else
                 {
-                    stats,Add(i.CountryCode, 1);
+                    stats.Add(i.CountryCode, 1);
                 }
             }
             foreach (var i in stats)
@@ -75,6 +75,19 @@ namespace Nobel_Díj
                     Console.WriteLine($"\t{i.Key} - {i.Value}");
                 }
             }
+
+            int TotalLifeLength = 0;
+            int KnownLifeLengths = 0;
+            foreach (var i in awarded_people)
+            {
+                LifeLength ActiveAwardedPeopleAge = new LifeLength(i.BirthDeath);
+                if (ActiveAwardedPeopleAge.KnownLifeLength)
+                {
+                    TotalLifeLength += ActiveAwardedPeopleAge.LifeLengthInYears;
+                    KnownLifeLengths++;
+                }
+            }
+            Console.WriteLine($"The found average age: {(double)TotalLifeLength / KnownLifeLengths:F1}");
             Console.ReadKey();
         }
     }
