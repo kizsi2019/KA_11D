@@ -5,3 +5,10 @@ C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\De
 C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\Debug\BükkMaraton2019.csproj.CoreCompileInputs.cache
 C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\Debug\BükkMaraton2019.exe
 C:\Users\FuglovicsKonor\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\Debug\BükkMaraton2019.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\bin\Debug\BükkMaraton2019.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\bin\Debug\BükkMaraton2019.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\bin\Debug\BükkMaraton2019.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\Debug\BükkMaraton2019.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\Debug\BükkMaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\Debug\BükkMaraton2019.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\BükkMaraton2019\obj\Debug\BükkMaraton2019.pdb

@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\bin\Debug\book_oop.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\bin\Debug\book_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\bin\Debug\book_oop.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\obj\Debug\book_oop.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\obj\Debug\book_oop.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\obj\Debug\book_oop.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\obj\Debug\book_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\book_oop\book_oop\obj\Debug\book_oop.pdb
