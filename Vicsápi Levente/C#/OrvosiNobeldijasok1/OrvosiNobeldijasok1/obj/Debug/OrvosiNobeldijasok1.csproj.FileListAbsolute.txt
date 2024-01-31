@@ -1,7 +1,0 @@
-C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\OrvosiNobeldijasok1\OrvosiNobeldijasok1\obj\Debug\OrvosiNobeldijasok1.csproj.AssemblyReference.cache
-C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\OrvosiNobeldijasok1\OrvosiNobeldijasok1\obj\Debug\OrvosiNobeldijasok1.csproj.CoreCompileInputs.cache
-C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\OrvosiNobeldijasok1\OrvosiNobeldijasok1\bin\Debug\OrvosiNobeldijasok1.exe.config
-C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\OrvosiNobeldijasok1\OrvosiNobeldijasok1\bin\Debug\OrvosiNobeldijasok1.exe
-C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\OrvosiNobeldijasok1\OrvosiNobeldijasok1\bin\Debug\OrvosiNobeldijasok1.pdb
-C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\OrvosiNobeldijasok1\OrvosiNobeldijasok1\obj\Debug\OrvosiNobeldijasok1.exe
-C:\Users\UivarosiGabriel\Desktop\git\KA_11D\Uivarosi Gábriel\C#\OrvosiNobeldijasok1\OrvosiNobeldijasok1\obj\Debug\OrvosiNobeldijasok1.pdb
