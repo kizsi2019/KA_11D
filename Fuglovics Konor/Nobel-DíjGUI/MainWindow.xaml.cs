@@ -39,7 +39,7 @@ namespace Nobel_DíjGUI
                     List<string> output = new List<string>();
                     output.Add("Year;Name;BornDeath;CountryCode");
                     output.Add($"{tbYear.Text};{tbName.Text};{tbBornDth.Text};{tbCountry.Text}");
-                    File.WriteAllLines("uj_dijjazott.txt", output);
+                    File.WriteAllLines("uj_dijazott.txt", output);
                     tbYear.Text = "";
                     tbName.Text = "";
                     tbBornDth.Text = "";
