@@ -55,7 +55,29 @@ namespace OrvosiNobeldijasok1
             {
                 Console.WriteLine($"\tA megadott országból {inputOrszagDíazottjai.Count} fő díjazott volt");
             }
+            // 6. feladat
+            Console.WriteLine("6. feladat: Statisztika");
+            Dictionary<string, int> stat = new Dictionary<string, int>();
+            foreach (var i in dijazottak)
+            {
+                if (stat.ContainsKey(i.Orszagkod))
+                {
+                    stat[i.Orszagkod]++;
+                }
+                else
+                {
+                    stat.Add(i.Orszagkod, 1);
+                }
+            }
+            foreach (var i in stat)
+            {
+                if (i.Value > 5) 
+                {
+                    Console.WriteLine($"\t{i.Key} - {i.Value} fő");
+                }
+            }
             Console.ReadKey();
+            
         }
         }
     }
