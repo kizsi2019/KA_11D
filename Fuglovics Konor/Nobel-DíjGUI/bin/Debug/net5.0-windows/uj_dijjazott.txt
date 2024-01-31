@@ -1,0 +1,2 @@
+Year;Name;BornDeath;CountryCode
+1988;Konor;1896-1989;H
