@@ -1,0 +1,2 @@
+Év;Név;SzületésHalálozás;Országkód
+2000; Gábor Dávid; 1989; H

@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bükkmaraton2019GUI", "..\B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nobel-Díj", "..\Nobel-Díj\Nobel-Díj.csproj", "{3CC1C387-67C8-45DD-B851-81E3D0995761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nobel-DíjGUI", "..\Nobel-DíjGUI\Nobel-DíjGUI.csproj", "{8BFD2046-84A7-42CA-B594-50CCD55D34BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3CC1C387-67C8-45DD-B851-81E3D0995761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC1C387-67C8-45DD-B851-81E3D0995761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC1C387-67C8-45DD-B851-81E3D0995761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFD2046-84A7-42CA-B594-50CCD55D34BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFD2046-84A7-42CA-B594-50CCD55D34BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFD2046-84A7-42CA-B594-50CCD55D34BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFD2046-84A7-42CA-B594-50CCD55D34BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
