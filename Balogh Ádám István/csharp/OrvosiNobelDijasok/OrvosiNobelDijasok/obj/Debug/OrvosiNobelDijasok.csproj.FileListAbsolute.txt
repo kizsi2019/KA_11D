@@ -1,0 +1,7 @@
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.exe.config
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.exe
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\OrvosiNobelDijasok\OrvosiNobelDijasok\bin\Debug\OrvosiNobelDijasok.pdb
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.exe
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\OrvosiNobelDijasok\OrvosiNobelDijasok\obj\Debug\OrvosiNobelDijasok.pdb

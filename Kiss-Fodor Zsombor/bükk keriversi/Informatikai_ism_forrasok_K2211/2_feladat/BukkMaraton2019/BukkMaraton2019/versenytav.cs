@@ -29,12 +29,6 @@ namespace BukkMaraton2019
             Rajtszam = rajtszam;
         }
 
-        public bool tobbMintHat
-        {
-            get 
-            {
-                return Ido > new TimeSpan(6, 0, 0);
-            }
-        }
+        
     }
 }

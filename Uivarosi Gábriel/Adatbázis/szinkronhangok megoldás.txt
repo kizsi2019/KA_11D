@@ -1,7 +1,7 @@
 2
 SELECT `cim`, `eredeti` FROM `film` WHERE `magyarszoveg` = 'Heltai Olga'; 
 3
-SELECT DISTINCT `rendezo`, `szinkronrendezo` FROM `film` WHERE ev > 1999; 
+SELECT DISTINCT `rendezo`, `szinkronrendezo` FROM `film` WHERE ev > 2000; 
 4
 SELECT DISTINCT `magyarszoveg` , `cim` FROM `film` WHERE `rendezo` = 'Christopher Nolan' AND `studio` = 'Mafilm Audio Kft.' ORDER BY `magyarszoveg`;  ORDER BY `magyarszoveg`; 
 5 

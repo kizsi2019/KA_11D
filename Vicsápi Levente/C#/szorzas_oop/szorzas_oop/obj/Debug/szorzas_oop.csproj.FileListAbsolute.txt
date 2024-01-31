@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\bin\Debug\szorzas_oop.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\bin\Debug\szorzas_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\bin\Debug\szorzas_oop.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\obj\Debug\szorzas_oop.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\obj\Debug\szorzas_oop.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\obj\Debug\szorzas_oop.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\obj\Debug\szorzas_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szorzas_oop\szorzas_oop\obj\Debug\szorzas_oop.pdb

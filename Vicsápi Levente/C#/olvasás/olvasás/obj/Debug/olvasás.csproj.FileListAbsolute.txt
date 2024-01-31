@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\bin\Debug\olvasás.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\bin\Debug\olvasás.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\bin\Debug\olvasás.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\obj\Debug\olvasás.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\obj\Debug\olvasás.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\obj\Debug\olvasás.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\obj\Debug\olvasás.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasás\olvasás\obj\Debug\olvasás.pdb

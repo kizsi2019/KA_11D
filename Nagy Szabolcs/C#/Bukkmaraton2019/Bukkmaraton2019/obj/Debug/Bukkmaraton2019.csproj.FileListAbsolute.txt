@@ -1,0 +1,15 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\bin\Debug\Bukkmaraton2019.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\bin\Debug\Bukkmaraton2019.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\bin\Debug\Bukkmaraton2019.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.pdb
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Bukkmaraton2019\Bukkmaraton2019\bin\Debug\Bukkmaraton2019.exe.config
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Bukkmaraton2019\Bukkmaraton2019\bin\Debug\Bukkmaraton2019.exe
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Bukkmaraton2019\Bukkmaraton2019\bin\Debug\Bukkmaraton2019.pdb
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.csproj.AssemblyReference.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.exe
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Bukkmaraton2019\Bukkmaraton2019\obj\Debug\Bukkmaraton2019.pdb
