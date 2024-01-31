@@ -90,8 +90,14 @@ namespace OrvosiNobeldijasok
             int ismertElethosszFo = 0;
             foreach(var i in dijazottak)
             {
-
+                Elethossz aktivDijazottakEletkora = new Elethossz(i.SzuletesHalalozas);
+                if (aktivDijazottakEletkora.IsmertAzElethossz)
+                {
+                    elethosszOsszeg += aktivDijazottakEletkora.ElethosszEvekben;
+                    ismertElethosszFo++;
+                }
             }
+            Console.WriteLine($"7.feladat: A keresett átlag {(double) elethosszOsszeg / ismertElethosszFo:F1} év");
 
             Console.ReadKey();
         }
