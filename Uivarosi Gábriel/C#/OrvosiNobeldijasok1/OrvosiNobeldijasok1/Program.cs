@@ -76,8 +76,24 @@ namespace OrvosiNobeldijasok1
                     Console.WriteLine($"\t{i.Key} - {i.Value} fő");
                 }
             }
+
+            // 7. feladat
+            int élethosszÖszeg = 0;
+            int ismertÉlethosszFő = 0;
+            foreach (var i in dijazottak)
+            {
+                Elethossz aktivDijazottakEletkora = new Elethossz(i.SzuletesHalalozas);
+                if (aktivDijazottakEletkora.IsmertAzElethossz)
+                {
+                    élethosszÖszeg += aktivDijazottakEletkora.ElethosszEvekben;
+                    ismertÉlethosszFő++;
+
+                }
+            }
+            Console.WriteLine($"7. feladat: A keresett átlag: {(double)élethosszÖszeg / ismertÉlethosszFő:F1} év");
             Console.ReadKey();
-            
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=9vCb_ZopT4A");
+            Console.ReadKey();
         }
         }
     }
