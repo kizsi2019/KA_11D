@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Nobel-Díj\bin\Debug\Nobel-Díj.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Nobel-Díj\bin\Debug\Nobel-Díj.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Nobel-Díj\bin\Debug\Nobel-Díj.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Nobel-Díj\obj\Debug\Nobel-Díj.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Nobel-Díj\obj\Debug\Nobel-Díj.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Nobel-Díj\obj\Debug\Nobel-Díj.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Nobel-Díj\obj\Debug\Nobel-Díj.pdb

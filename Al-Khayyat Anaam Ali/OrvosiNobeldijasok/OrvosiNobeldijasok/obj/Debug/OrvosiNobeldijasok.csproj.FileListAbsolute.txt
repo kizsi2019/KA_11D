@@ -1,0 +1,7 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.pdb
