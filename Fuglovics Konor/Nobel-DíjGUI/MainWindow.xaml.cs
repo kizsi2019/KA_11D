@@ -30,7 +30,7 @@ namespace Nobel_DíjGUI
         {
             if (tbYear.Text != "" && tbName.Text != "" && tbBornDth.Text != "" && tbCountry.Text != "")
             {
-                if (int.Parse(tbYear.Text) >= 1989)
+                if (int.Parse(tbYear.Text) <= 1989)
                 {
                     MessageBox.Show("The specified year is bigger than 1989!", "Error");
                 }
