@@ -92,7 +92,7 @@ namespace OrvosiNobeldijasok
                     ismertÉlethosszFő++;
                 }
             }
-            Console.WriteLine($"7. feladat: A keresett átlag: {élethosszÖszeg / ismertÉlethosszFő} ");
+            Console.WriteLine($"7. feladat: A keresett átlag: {(double)élethosszÖszeg / ismertÉlethosszFő:F1} év");
             Console.ReadKey();
         }
     }
