@@ -1,0 +1,20 @@
+﻿<Window x:Class="OrvosiNobeldijasokGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OrvosiNobeldijasokGUI"
+        mc:Ignorable="d"
+        Title="Orvosi Nóbel-díjasok" Height="391" Width="424">
+    <Grid>
+        <Label Content="Év:" HorizontalAlignment="Left" Height="26" Margin="62,50,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Név:" HorizontalAlignment="Left" Height="26" Margin="62,100,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="SZ/H:" HorizontalAlignment="Left" Height="26" Margin="62,150,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Ország:" HorizontalAlignment="Left" Height="26" Margin="62,200,0,0" VerticalAlignment="Top" Width="74"/>
+        <TextBox Name="tbEv" HorizontalAlignment="Left" Height="28" Margin="168,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62"/>
+        <TextBox Name="tbNev" HorizontalAlignment="Left" Height="28" Margin="168,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212"/>
+        <TextBox Name="tbSzulHal" HorizontalAlignment="Left" Height="28" Margin="168,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="124"/>
+        <TextBox Name="tbOrszag" HorizontalAlignment="Left" Height="28" Margin="168,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62"/>
+        <Button Name="tbMentes" Content="Adatok mentése" HorizontalAlignment="Center" Height="27" Margin="0,296,0,0" VerticalAlignment="Top" Width="112" Click="tbMentes_Click"/>
+    </Grid>
+</Window>
