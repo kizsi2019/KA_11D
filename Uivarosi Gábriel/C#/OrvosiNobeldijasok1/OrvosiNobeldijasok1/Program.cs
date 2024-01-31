@@ -55,6 +55,44 @@ namespace OrvosiNobeldijasok1
             {
                 Console.WriteLine($"\tA megadott országból {inputOrszagDíazottjai.Count} fő díjazott volt");
             }
+            // 6. feladat
+            Console.WriteLine("6. feladat: Statisztika");
+            Dictionary<string, int> stat = new Dictionary<string, int>();
+            foreach (var i in dijazottak)
+            {
+                if (stat.ContainsKey(i.Orszagkod))
+                {
+                    stat[i.Orszagkod]++;
+                }
+                else
+                {
+                    stat.Add(i.Orszagkod, 1);
+                }
+            }
+            foreach (var i in stat)
+            {
+                if (i.Value > 5) 
+                {
+                    Console.WriteLine($"\t{i.Key} - {i.Value} fő");
+                }
+            }
+
+            // 7. feladat
+            int élethosszÖszeg = 0;
+            int ismertÉlethosszFő = 0;
+            foreach (var i in dijazottak)
+            {
+                Elethossz aktivDijazottakEletkora = new Elethossz(i.SzuletesHalalozas);
+                if (aktivDijazottakEletkora.IsmertAzElethossz)
+                {
+                    élethosszÖszeg += aktivDijazottakEletkora.ElethosszEvekben;
+                    ismertÉlethosszFő++;
+
+                }
+            }
+            Console.WriteLine($"7. feladat: A keresett átlag: {(double)élethosszÖszeg / ismertÉlethosszFő:F1} év");
+            Console.ReadKey();
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=9vCb_ZopT4A");
             Console.ReadKey();
         }
         }
