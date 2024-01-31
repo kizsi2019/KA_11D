@@ -10,7 +10,6 @@ namespace OrvosiNobeldijasok
     {
         public int Ev { get; private set; }
         public string Nev { get; private set; }
-        
         public string SzuletesHalalozas { get; private set; }
         public string Orszagkod { get; private set; }
 
