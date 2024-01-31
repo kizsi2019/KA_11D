@@ -1,0 +1,7 @@
+C:\Users\SzakalyAbel\source\repos\orvosi nobeldijasok\orvosi nobeldijasok\bin\Debug\orvosi nobeldijasok.exe.config
+C:\Users\SzakalyAbel\source\repos\orvosi nobeldijasok\orvosi nobeldijasok\bin\Debug\orvosi nobeldijasok.exe
+C:\Users\SzakalyAbel\source\repos\orvosi nobeldijasok\orvosi nobeldijasok\bin\Debug\orvosi nobeldijasok.pdb
+C:\Users\SzakalyAbel\source\repos\orvosi nobeldijasok\orvosi nobeldijasok\obj\Debug\orvosi nobeldijasok.csproj.AssemblyReference.cache
+C:\Users\SzakalyAbel\source\repos\orvosi nobeldijasok\orvosi nobeldijasok\obj\Debug\orvosi nobeldijasok.csproj.CoreCompileInputs.cache
+C:\Users\SzakalyAbel\source\repos\orvosi nobeldijasok\orvosi nobeldijasok\obj\Debug\orvosi nobeldijasok.exe
+C:\Users\SzakalyAbel\source\repos\orvosi nobeldijasok\orvosi nobeldijasok\obj\Debug\orvosi nobeldijasok.pdb
