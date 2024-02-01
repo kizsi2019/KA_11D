@@ -1,0 +1,2 @@
+Év;Név;SzületésHalálozás;Országkód
+2006; Szakály Ábel; 2006/3000; H
