@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\KarácsonyCLI\bin\Debug\KarácsonyCLI.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\KarácsonyCLI\bin\Debug\KarácsonyCLI.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\KarácsonyCLI\bin\Debug\KarácsonyCLI.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\KarácsonyCLI\obj\Debug\KarácsonyCLI.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\KarácsonyCLI\obj\Debug\KarácsonyCLI.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\KarácsonyCLI\obj\Debug\KarácsonyCLI.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\KarácsonyCLI\obj\Debug\KarácsonyCLI.pdb
