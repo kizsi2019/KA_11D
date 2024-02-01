@@ -1,0 +1,21 @@
+﻿<Window x:Class="nobeldijasok.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nobeldijasok"
+        mc:Ignorable="d"
+        Title="Orvosi Nobel-Dijasok" Height="450" Width="800">
+    <Grid>
+        <Label Content="Év:" Margin="71,64,647,323"/>
+        <Label Content="Név:" Margin="71,141,647,246"/>
+        <Label Content="Sz/H:" Margin="71,217,647,170"/>
+        <Label Content="Ország:" Margin="71,305,647,82"/>
+        <TextBox Name="tbEv" HorizontalAlignment="Left" Margin="112,70,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbNev" HorizontalAlignment="Left" Margin="112,147,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbSzulHal" HorizontalAlignment="Left" Margin="112,223,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbOrszag" HorizontalAlignment="Left" Margin="126,311,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" />
+        <Button Name="btnMentes" Content="Button" HorizontalAlignment="Left" Margin="240,367,0,0" VerticalAlignment="Top" Width="298" Height="43" Click="btnMentes_Click"/>
+
+    </Grid>
+</Window>
