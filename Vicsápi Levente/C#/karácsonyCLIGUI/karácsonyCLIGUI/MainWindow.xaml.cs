@@ -33,7 +33,7 @@ namespace karácsonyCLIGUI
 
                 if(elkeszitett  < 0 || eladott < 0)
                 {
-                    errorText.Text = "Egyik szám se lehet negatív!";
+                    errorText.Text = "Negatív számot nem adhat meg!";
                     errorText.Visibility = Visibility.Visible;
                 }
 

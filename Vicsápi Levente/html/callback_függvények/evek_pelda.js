@@ -1,3 +1,4 @@
+/*
 var evek = [1954, 1990, 1963, 2000, 2010];
 
 function tombMuvelet(tomb, fv){
@@ -22,6 +23,7 @@ console.log(korok);
 
 var felnottek = tombMuvelet(korok, felnott);
 console.log(felnottek);
+*/
 
 //Visszaadott függvények
 
