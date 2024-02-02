@@ -29,6 +29,9 @@ namespace karácsonyCLIGUI
                     eredmenyek.Add(new Angyalka(nap.ToString(), elkeszitett.ToString(), eladott.ToString(), maradt.ToString()));
                     UpdateEredmenyekTextBox();
                     errorText.Text = "";
+                    cbNapszam.Text = "";
+                    tbEladott.Text = "0";
+                    tbElkeszitett.Text = "0";
                 }
 
                 if(elkeszitett  < 0 || eladott < 0)
@@ -58,7 +61,7 @@ namespace karácsonyCLIGUI
 
             foreach (var item in eredmenyek)
             {
-                tbEredmeny.Text += item.Nap + "\t" + item.Elkeszitett + "\t" + "-" + item.Eladott + "\t" + "=" + "\t" + item.Maradt + Environment.NewLine;
+                tbEredmeny.Text += item.Nap+ ".nap:" + "\t" + "+" + item.Elkeszitett + "\t" + "-" + item.Eladott + "\t" + "=" + "\t" + item.Maradt + Environment.NewLine;
             }
         }
     }
