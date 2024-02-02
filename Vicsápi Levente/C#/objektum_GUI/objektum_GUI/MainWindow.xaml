@@ -1,0 +1,15 @@
+﻿<Window x:Class="objektum_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:objektum_GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="tbBevitel" HorizontalAlignment="Left" Height="41" Margin="108,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="128"/>
+        <TextBox Name="tbTartalom" HorizontalAlignment="Left" Height="232" Margin="108,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="602"/>
+        <Button Content="Bevitel" HorizontalAlignment="Left" Height="41" Margin="305,62,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click"/>
+        <TextBlock Name="errorText" HorizontalAlignment="Center" Height="25" Margin="0,121,0,0" TextWrapping="Wrap" Text="" Foreground="Red" VerticalAlignment="Top" Width="572"/>
+    </Grid>
+</Window>

@@ -49,8 +49,7 @@ namespace karacsonyCLI
             //6.feladat
             Console.WriteLine("6.feladat:");
 
-            List<NapiMunka> napok = new List<NapiMunka>();
-
+           
             int napSzama;
 
             do
@@ -58,17 +57,21 @@ namespace karacsonyCLI
                 Console.Write("Adja meg a keresett napot[1 ... 40]: ");
                 napSzama = Convert.ToInt32(Console.ReadLine());
 
-                foreach (var item in lista)
-                {
-                    if (item.Nap == napSzama)
-                    {
-                        napok.Add(item);
-                    }
-                }  
             }
             while (1 > napSzama || napSzama > 40);
 
-            Console.WriteLine($"A(z) {napok[0].Nap}. nap végén {napok[0].HarangKesz} harang, {napok[0].AngyalkaKesz} angyalka és {napok[0].FenyofaKesz} fenyőfa maradt a készleten.");
+            int harangok = 0;
+            int angyalok = 0;
+            int fenyofak = 0;
+
+            for(int i = 0; i < napSzama; i++)
+            {
+                harangok += lista[i].HarangKesz + lista[i].HarangEladott;
+                angyalok += lista[i].AngyalkaKesz + lista[i].AngyalkaEladott;
+                fenyofak += lista[i].FenyofaKesz + lista[i].FenyofaEladott;
+            }
+
+            Console.WriteLine($"\t A {napSzama} nap végén {harangok} harang, {angyalok} angyal és {fenyofak} fenyőfa maradt készleten.");
 
             Console.ReadKey();
         }
