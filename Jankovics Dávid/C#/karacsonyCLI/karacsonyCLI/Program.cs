@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Net.Http.Headers;
 
 namespace karacsonyCLI
 {
@@ -49,8 +50,7 @@ namespace karacsonyCLI
             //6.feladat
             Console.WriteLine("6.feladat:");
 
-            List<NapiMunka> napok = new List<NapiMunka>();
-
+           
             int napSzama;
 
             do
@@ -58,21 +58,61 @@ namespace karacsonyCLI
                 Console.Write("Adja meg a keresett napot[1 ... 40]: ");
                 napSzama = Convert.ToInt32(Console.ReadLine());
 
-               
             }
             while (1 > napSzama || napSzama > 40);
+
             int harangok = 0;
             int angyalok = 0;
             int fenyofak = 0;
-            for (int i = 0; i < napSzama; i++)
+
+            for(int i = 0; i < napSzama; i++)
             {
                 harangok += lista[i].HarangKesz + lista[i].HarangEladott;
                 angyalok += lista[i].AngyalkaKesz + lista[i].AngyalkaEladott;
                 fenyofak += lista[i].FenyofaKesz + lista[i].FenyofaEladott;
             }
-            Console.Write($"\tA(z) {nap}. nap végén) ;
 
+            
 
+            Console.WriteLine($"\t A {napSzama} nap végén {harangok} harang, {angyalok} angyal és {fenyofak} fenyőfa maradt készleten.");
+
+            //7.feladat
+            Console.Write("7.feladat: a legtöbbet eladott dísz: ");
+            Dictionary<string, int> eladottak = new Dictionary<string, int>();
+            eladottak.Add("Harang", 0);
+            eladottak.Add("Angyalka", 0);
+            eladottak.Add("Fenyőfa", 0);
+            foreach(var disz in lista)
+            {
+                eladottak["Harang"] -= disz.HarangEladott;
+                eladottak["Angyalka"] -= disz.AngyalkaEladott;
+                eladottak["Fenyőfa"] -= disz.FenyofaEladott;
+            }
+            int max = eladottak.Values.Max();
+            Console.WriteLine($"{max} darab");
+
+            foreach(var item in eladottak) 
+            {
+                if (item.Value == max)
+                {
+                    Console.WriteLine($"\t{item.Key}");
+                }
+            }
+            Console.WriteLine();
+
+            //8.feladat
+            StreamWriter sw = new StreamWriter("bevétel.txt");
+            int legalabb10000 = 0;
+            foreach (var disz in lista)
+            {
+                if (disz.NapiBevetel() >= 10000)
+                {
+                    sw.WriteLine($"{disz.Nap} - {disz.NapiBevetel()}");
+                    legalabb10000++;
+                }
+            }
+            sw.WriteLine($"{legalabb10000} napon volt legalább 10000 Ft a bevétel.\n");
+            sw.Close();
 
             Console.ReadKey();
         }
