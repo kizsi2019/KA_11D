@@ -54,8 +54,40 @@ namespace KarácsonyCLI
                 trees += DailyJobList[i].DoneTree + DailyJobList[i].SoldTree;
             }
             Console.WriteLine($"\tThere were {bells} bells, {angels} angels and {trees} trees in storage on the {day}. day");
-            
 
+            Console.Write("The most sold decoration: ");
+            Dictionary<string, int> sold = new Dictionary<string, int>();
+            sold.Add("Bell", 0);
+            sold.Add("Angel", 0);
+            sold.Add("Tree", 0);
+            foreach (DailyJob decor in DailyJobList)
+            {
+                sold["Bell"] -= decor.SoldBell;
+                sold["Angel"] -= decor.SoldAngel;
+                sold["Tree"] -= decor.SoldTree;
+            }
+            int max = sold.Values.Max();
+            Console.WriteLine($"{max} pcs");
+            foreach (var i in sold)
+            {
+                if (i.Value == max)
+                {
+                    Console.WriteLine($"\t{i.Key}");
+                }
+            }
+
+            StreamWriter write = new StreamWriter("income.txt");
+            int atleastTenThousand = 0;
+            foreach (DailyJob i in DailyJobList)
+            {
+                if (i.DailyIncome() >= 10000)
+                {
+                    write.WriteLine($"{i.Day} - {i.DailyIncome()}");
+                    atleastTenThousand++;
+                }
+            }
+            write.WriteLine($"There was atleast 10000 HUF at day {atleastTenThousand} \n");
+            write.Close();
             Console.ReadKey();
         }
     }
