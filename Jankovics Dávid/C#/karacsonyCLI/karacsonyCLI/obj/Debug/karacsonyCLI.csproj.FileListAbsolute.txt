@@ -6,3 +6,10 @@ C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\bin\Deb
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.pdb
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.exe
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.pdb
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.exe.config
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.pdb
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.AssemblyReference.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.CoreCompileInputs.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.pdb
