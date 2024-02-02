@@ -19,6 +19,43 @@ namespace KarácsonyCLI
 
             Console.WriteLine($"{DailyJob.DonePcs} decorations were made in total.");
 
+            bool NotMadeDecors = false;
+            foreach (DailyJob i in DailyJobList)
+            {
+                if (i.DoneBell == 0 && i.DoneAngel == 0 && i.DoneTree == 0)
+                {
+                    NotMadeDecors = true;
+                    break;
+                }
+            }
+            if (NotMadeDecors)
+            {
+                Console.WriteLine($"There was a day when she didn't make any decorations");
+            }
+            else
+            {
+                Console.WriteLine("There was no day when she didn't make any decorations");
+            }
+
+            int day = 0;
+            do
+            {
+                Console.Write("Enter the specified day between the 1st and the 40th day: ");
+                day = int.Parse(Console.ReadLine());
+            }
+            while (day < 1 || day > 40);
+            int bells = 0;
+            int angels = 0;
+            int trees = 0;
+            for (int i = 0; i < day; i++)
+            {
+                bells += DailyJobList[i].DoneBell + DailyJobList[i].SoldBell;
+                angels += DailyJobList[i].DoneAngel + DailyJobList[i].SoldAngel;
+                trees += DailyJobList[i].DoneTree + DailyJobList[i].SoldTree;
+            }
+            Console.WriteLine($"\tThere were {bells} bells, {angels} angels and {trees} trees in storage on the {day}. day");
+            
+
             Console.ReadKey();
         }
     }
