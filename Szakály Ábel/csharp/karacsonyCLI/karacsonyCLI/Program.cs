@@ -57,7 +57,19 @@ namespace karacsonyCLI
             Console.WriteLine($"\t A(z) {nap}. nap végén{harangok} harang, {angyalok} angyal, {fenyofak} fenyőfa maradt készleten");
 
 
-
+            Console.Write("7. Feladat: a legtobbet eladott dísz");
+            Dictionary<string, int> eladottak = new Dictionary<string, int>();
+            eladottak.Add("harang", 0);
+            eladottak.Add("Angyalka", 0);
+            eladottak.Add("Fenyőfa", 0);
+            foreach(Napimunka dísz in napiMunkaLista)
+            {
+                eladottak["Harang"] -= dísz.HarangEladott;
+                eladottak["Angyalka"] -= dísz.AngyalkaEladott;
+                eladottak["Fenyőfa"] -= dísz.FenyofaEladott;
+            }
+            int max = eladottak.Values.Max();
+            Console.WriteLine();
 
 
             Console.ReadKey();
