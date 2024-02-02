@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:karácsonyCLIGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Angyalka" Height="450" Width="800">
     <Grid>
         <Label Content="Nap száma:" HorizontalAlignment="Left" Height="24" Margin="60,50,0,0" VerticalAlignment="Top" Width="93"/>
         <Label Content="Elkészített:" HorizontalAlignment="Left" Height="24" Margin="255,50,0,0" VerticalAlignment="Top" Width="93"/>
