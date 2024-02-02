@@ -6,3 +6,7 @@ C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\bin\Deb
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\bin\Debug\karacsonyCLI.pdb
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.exe
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.AssemblyReference.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karacsonyCLI\karacsonyCLI\obj\Debug\karacsonyCLI.pdb
