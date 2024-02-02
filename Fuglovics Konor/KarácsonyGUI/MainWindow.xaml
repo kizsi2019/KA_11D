@@ -1,0 +1,20 @@
+﻿<Window x:Class="KarácsonyGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KarácsonyGUI"
+        mc:Ignorable="d"
+        Title="Angel" Height="271" Width="463">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="32,10,0,0" Text="Number of days:" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="206,10,0,0" Text="Pieces made:" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="358,10,0,0" Text="Sold:" TextWrapping="Wrap" VerticalAlignment="Top" Width="29"/>
+        <TextBox Name="tbMade" HorizontalAlignment="Left" Height="24" Margin="279,7,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="43"/>
+        <TextBox Name="tbSold" HorizontalAlignment="Left" Height="24" Margin="389,7,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="43"/>
+        <ComboBox Name="cbDay" HorizontalAlignment="Left" Height="24" Margin="125,7,0,0" VerticalAlignment="Top" Width="63"/>
+        <Button Name="btnAdd" Content="Add" HorizontalAlignment="Left" Height="24" Margin="184,200,0,0" VerticalAlignment="Top" Width="79" Click="Button_Click"/>
+        <TextBox Name="tbOutput" HorizontalAlignment="Center" Height="158" Margin="0,37,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" RenderTransformOrigin="0.5,0.5" ScrollViewer.PanningMode="VerticalOnly" ScrollViewer.VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+        <Label Name="lblError" Content="" Foreground="Red" HorizontalAlignment="Left" Height="28" Margin="32,199,0,0" VerticalAlignment="Top" Width="135"/>
+    </Grid>
+</Window>
