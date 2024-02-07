@@ -57,6 +57,38 @@ namespace karacsonyCLI
             }
             Console.WriteLine($"\tA(z) {nap}. nap végén {harangok} harang, {angyalok} angyal, és {fenyofak} fenyőfa maradt készleten.");
 
+            //7. feladat
+            Console.Write("7. feladat: a legtöbbet eladott dísz: ");
+            Dictionary<string, int> eladottak = new Dictionary<string, int>();
+            eladottak.Add("Harang", 0);
+            eladottak.Add("Angyalka", 0);
+            eladottak.Add("Fenyőfa", 0);
+            foreach (NapiMunka dísz in diszek)
+            {
+                eladottak["Harang"] -= dísz.HarangEladott;
+                eladottak["Angyalka"] -= dísz.AngyalkaEladott;
+                eladottak["Fenyőfa"] -= dísz.FenyofaEladott;
+            }
+            int max = eladottak.Values.Max();
+            Console.WriteLine($"{max} darab");
+            foreach (var item in eladottak)
+            {
+                if (item.Value == max)
+                {
+                    Console.WriteLine($"\t{item.Key}");
+                }
+            }
+            Console.WriteLine();
+
+            //8. feladat
+            StreamWriter sw = new StreamWriter("bevétel.txt");
+            int legalabb10000 = 0;
+            foreach (NapiMunka dísz in diszek)
+            {
+                if (dísz.NapiBevetel() >= 10000)
+            }
+
+
             Console.ReadKey();
         }
     }

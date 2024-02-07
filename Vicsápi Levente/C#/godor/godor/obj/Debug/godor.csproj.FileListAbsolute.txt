@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\bin\Debug\godor.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\bin\Debug\godor.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\bin\Debug\godor.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\obj\Debug\godor.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\obj\Debug\godor.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\obj\Debug\godor.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\obj\Debug\godor.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\godor\godor\obj\Debug\godor.pdb
