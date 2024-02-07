@@ -28,9 +28,9 @@ namespace karacsonyCLI
             bool.nemKeszultDisz = false;
             foreach (NapiMunka dísz in NapiMunkaLista)
             {
-                if (dísz.HarangKesz == 0 && dísz.AngyalkaKesz) 
+                if (dísz.HarangKesz == 0 && dísz.AngyalkaKesz)
                 {
-                    if (dísz.HarangKesz == 0 && dísz.AngyalkaKesz == 0 && dísz.FenyofaKesz == 0)j
+                    if (dísz.HarangKesz == 0 && dísz.AngyalkaKesz == 0 && dísz.FenyofaKesz == 0) j
                     {
                         nemKeszultDisz = true;
                         break;
@@ -51,8 +51,8 @@ namespace karacsonyCLI
                 do
                 {
                     Console.WriteLine("Adja meg a keresett napot [1...40]");
-                    nap = int.Parse( Console.ReadLine() );
-                } while ( nap > 1 ) (nap > 40) ;
+                    nap = int.Parse(Console.ReadLine());
+                } while (nap > 1) (nap > 40);
                 int harangok = 0;
                 int angyalok = 0;
                 int faangyalok = 0;
@@ -72,8 +72,32 @@ namespace karacsonyCLI
                 foreach (NapiMunka disz in NapiMunkaLista)
                 {
                     eladottak["Harang"] -= disz.HarangEladott;
-
+                    eladottak["Angyalka"] -= disz.HarangEladott;
+                    eladottak["Fenyőfa"] -= disz.HarangEladott;
                 }
+                int max = eladottak.Values.Max();
+                Console.WriteLine($"(max) darab");
+                foreach (var item in eladottak)
+                {
+                    if item(item Value == max)
+                    {
+                        Console.WriteLine();
+                    }
+                }
+                Console.WriteLine();
+
+                // 8. feladat
+                StreamWriter sw = new StreamWriter("bevétel.txt");
+                int legalabb 10000 = 0;
+                foreach (var item in NapiMunkaLista)
+                {
+                    sw.WriteLine($"{dísz.Nap} - {dísz.NapiBevetel()}");
+                    legalabb10000++;
+                }
+            }
+            sw.Writeline($"{legalabb10000} napon volt legalább 10000Ft a bevétel. \n");
+            sw.Close();
+            Console.ReadKey
 
                 Console.WriteLine($"\ta(z) {nap}. nap végén {harangok} harang, {angyalok} angyal, {fenyofak} fenyőfa maradt készleten");
             Console.ReadKey();
