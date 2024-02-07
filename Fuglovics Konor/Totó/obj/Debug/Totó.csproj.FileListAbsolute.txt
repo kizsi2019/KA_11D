@@ -1,0 +1,7 @@
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Totó\obj\Debug\Totó.csproj.AssemblyReference.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Totó\obj\Debug\Totó.csproj.CoreCompileInputs.cache
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Totó\bin\Debug\Totó.exe.config
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Totó\bin\Debug\Totó.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Totó\bin\Debug\Totó.pdb
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Totó\obj\Debug\Totó.exe
+C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\Totó\obj\Debug\Totó.pdb
