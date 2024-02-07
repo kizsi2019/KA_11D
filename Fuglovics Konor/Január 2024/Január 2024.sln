@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nobel-DíjGUI", "..\Nobel-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarácsonyCLI", "..\KarácsonyCLI\KarácsonyCLI.csproj", "{90940DCC-77FF-434C-89C0-2328143D880C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarácsonyGUI", "..\KarácsonyGUI\KarácsonyGUI.csproj", "{CD3B2FCD-285A-4235-9BC7-01D59497E9A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarácsonyGUI", "..\KarácsonyGUI\KarácsonyGUI.csproj", "{CD3B2FCD-285A-4235-9BC7-01D59497E9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Totó", "..\Totó\Totó.csproj", "{363766BC-C648-4A56-99B9-D30616E86867}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CD3B2FCD-285A-4235-9BC7-01D59497E9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3B2FCD-285A-4235-9BC7-01D59497E9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3B2FCD-285A-4235-9BC7-01D59497E9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363766BC-C648-4A56-99B9-D30616E86867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363766BC-C648-4A56-99B9-D30616E86867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363766BC-C648-4A56-99B9-D30616E86867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363766BC-C648-4A56-99B9-D30616E86867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
