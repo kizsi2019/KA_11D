@@ -1,0 +1,12 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\bin\Debug\Toto.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\bin\Debug\Toto.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\bin\Debug\Toto.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.pdb
+C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.pdb
