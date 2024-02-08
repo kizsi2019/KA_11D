@@ -1,0 +1,19 @@
+﻿<Window x:Class="TotóGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TotóGUI"
+        mc:Ignorable="d"
+        Title="Toto Result Checker" Height="210" Width="262">
+    <Grid>
+        <Label Content="Enter a result:" HorizontalAlignment="Left" Height="30" Margin="23,11,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="tbResult" HorizontalAlignment="Left" Height="24" Margin="23,38,0,0" Text="12X12X12X12X12" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="TextBox_TextChanged"/>
+        <CheckBox Name="cbLength" Content="Invalid chars:" HorizontalAlignment="Left" Height="24" Margin="23,70,0,0" VerticalAlignment="Top" Width="90" IsEnabled="False"/>
+        <CheckBox Name="cbBadChar" Content="Incorrect chars:" HorizontalAlignment="Left" Height="24" Margin="23,94,0,0" VerticalAlignment="Top" Width="98" IsEnabled="False"/>
+        <Button Name="btnSave" Content="Save Results" HorizontalAlignment="Left" Height="24" Margin="87,119,0,0" VerticalAlignment="Top" Width="82" Click="btnSave_Click"/>
+        <Label Name="lblInvlChar" Content="" HorizontalAlignment="Left" Height="30" Margin="109,65,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label Name="lblIncrtChar" Content="" HorizontalAlignment="Left" Height="30" Margin="121,89,0,0" VerticalAlignment="Top" Width="52"/>
+
+    </Grid>
+</Window>
