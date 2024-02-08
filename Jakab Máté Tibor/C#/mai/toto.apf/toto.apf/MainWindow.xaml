@@ -11,7 +11,7 @@
         <CheckBox x:Name="cbxHossz" Content="Nem megfelelő a karakterek száma(14)" HorizontalAlignment="Left" Margin="20,120,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" IsEnabled="False" Height="20" Width="245"/>
         <CheckBox x:Name="cbxKarakter" Content="Helytelen karakter az eredményekben()" HorizontalAlignment="Left" Margin="20,145,0,0" VerticalAlignment="Top" IsEnabled="False" Height="26" Width="233"/>
         <Button x:Name="btnMentes" Content="Eredmények mentése" HorizontalAlignment="Left" Margin="20,192,0,0" VerticalAlignment="Top" Width="233" Height="37"/>
-        <TextBox HorizontalAlignment="Left" Margin="22,77,0,0" TextWrapping="Wrap" Text="12x12x12x12x12" VerticalAlignment="Top" Width="353" Height="25" FontSize="15" TextChanged=""/>
+        <TextBox HorizontalAlignment="Left" Margin="22,77,0,0" TextWrapping="Wrap" Text="12x12x12x12x12" VerticalAlignment="Top" Width="353" Height="25" FontSize="15" TextChanged="txbInput_TextChanged"/>
 
     </Grid>
 </Window>
