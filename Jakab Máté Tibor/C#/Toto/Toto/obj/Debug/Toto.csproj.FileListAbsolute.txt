@@ -10,3 +10,7 @@ C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.csproj.AssemblyRef
 C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
 C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.exe
 C:\Users\jakab\OneDrive\Asztali gép\Toto\Toto\obj\Debug\Toto.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\Toto\Toto\obj\Debug\Toto.pdb
