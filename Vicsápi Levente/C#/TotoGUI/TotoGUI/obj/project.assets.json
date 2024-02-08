@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\levju\\.nuget\\packages\\": {}
+    "C:\\Users\\FeketeZoltan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\iskola\\info\\aaf3\\KA_11D\\Vicsápi Levente\\C#\\TotoGUI\\TotoGUI\\TotoGUI.csproj",
+      "projectUniqueName": "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Vicsápi Levente\\C#\\TotoGUI\\TotoGUI\\TotoGUI.csproj",
       "projectName": "TotoGUI",
-      "projectPath": "C:\\iskola\\info\\aaf3\\KA_11D\\Vicsápi Levente\\C#\\TotoGUI\\TotoGUI\\TotoGUI.csproj",
-      "packagesPath": "C:\\Users\\levju\\.nuget\\packages\\",
-      "outputPath": "C:\\iskola\\info\\aaf3\\KA_11D\\Vicsápi Levente\\C#\\TotoGUI\\TotoGUI\\obj\\",
+      "projectPath": "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Vicsápi Levente\\C#\\TotoGUI\\TotoGUI\\TotoGUI.csproj",
+      "packagesPath": "C:\\Users\\FeketeZoltan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Vicsápi Levente\\C#\\TotoGUI\\TotoGUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\levju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FeketeZoltan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
