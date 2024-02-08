@@ -19,8 +19,6 @@ namespace Totó
 
             Console.WriteLine($"Total rounds: {statistic.Count()}");
 
-            int hit = 0;
-            
 
             Console.WriteLine($"{hit}");
             Console.ReadKey();
