@@ -1,0 +1,175 @@
+// Objektum létrehozása
+/*
+var odon = {
+nev: 'Ödön',
+születésÉv:  1978,
+ foglalkozás: 'grafikus'
+};
+
+var Szemely = function(nev, születésÉv, foglalkozás) {
+this.nev = nev
+this.születésÉv = születésÉv
+this.foglalkozás = foglalkozás
+
+};
+Szemely.prototype.Korszamitas = function() {
+    console.log(2024 - this.születésÉv)
+}
+Szemely.prototype.teszt = 'teszt';
+
+var odon = new Szemely('ödön', 1978, 'grafikus');
+odon.Korszamitas();
+
+var  erzsi = new Szemely('Erzsi', 1950, 'nyugdíjas')
+erzsi.Korszamitas();
+
+console.log(Szemely);
+console.log(odon);
+console.log(odon.teszt)
+s
+*/
+// Visszaadott fügvények
+/*
+function interjuKerdes(foglalkozás) {
+    if (foglalkozás == 'tanar') {
+        return function(nev) {
+            console.log(nev + ', meg tudná mondani, hogy milyen tárgyakat tanít?')
+        }
+    } else if (foglalkozás == 'elado') {
+        return function(nev) {
+            console.log(nev + ',hogyan kezel egy vevő reklamációt?')
+        }
+    } else {
+        return function(nev) {
+            console.log('Mi a foglalkozása kedves ' +  nev + '?')
+        }
+    }
+}
+
+
+
+var kerdesTanaroknak = interjuKerdes('tanar');
+kerdesTanaroknak('pál')
+var kerdesEladoknak = interjuKerdes('elado')
+kerdesEladoknak('Teri')
+kerdesEladoknak('Feri')
+kerdesEladoknak('Ági')
+
+interjuKerdes('tanar')('Péter')
+interjuKerdes('programozo')('Ödön')
+
+*/
+/*
+function jatek() {
+    var pont = Math.random() * 10;
+    console.log(pont >= 5);
+    
+}
+
+
+jatek();
+*/
+/*
+(function () {
+    var pont = Math.random() * 10;
+    console.log(pont >= 5);
+})();
+*/
+/*
+(function(teszt) {
+    var pont = Math.random() * 10;
+    console.log(pont >= 5);
+    console.log(teszt);
+}) ('Hello');
+*/
+// Closere-ök
+
+function nyugdíj(ev) {
+    var szoveg = "A nyugdíjazásig háralévő évek száma:"
+    return function(szuletesíEv) {
+        var dataumOjectum = new Date();
+        var aktualisEv = dataumOjectum.getFullYear();
+        var kor = aktualisEv - szuletesíEv;
+        console.log(szoveg + (ev - kor));
+    }
+
+}
+/*
+var nyugdijazasUSA = nyugdíj(66);
+nyugdijazasUSA(2005);
+nyugdíj(66)(2005);
+
+/* Clousere öszefoglaló
+Egy belső függvény mindig képes hozzáférni az őt tartalmazó 
+külső függvény paramétereihez és változóihoz, még azután is,
+hogy a külső függvény befejezte futását.
+
+*/
+/*
+var nyugdijazasHun = nyugdíj(65)
+var nyugdijazasIZL = nyugdíj(67)
+nyugdijazasHun(2005)
+nyugdijazasIZL(2005)
+*/
+
+//////////////////////////////////////////////////////////////////////////////
+//// BOSS INCUMING AHHH //////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+/*
+var szamlalo = 0;
+function leptet() {
+    szamlalo++;
+    console.log(szamlalo);
+}
+leptet();
+leptet();
+leptet();
+*/
+/* var szamlalo = 0;
+
+*/
+/*
+var szamlalo = 0;
+function leptet() {
+    var szamlalo = 0;
+    szamlalo++;
+    console.log(szamlalo);
+}
+leptet();
+leptet();
+leptet();
+
+*/
+/*
+var szamlalo = 0;
+function leptet() {
+    var szamlalo = 0;
+    return function() {
+    szamlalo++;
+    console.log(szamlalo);
+}
+
+}
+var hozzaad = leptet();
+hozzaad();
+hozzaad();
+hozzaad();
+*/
+
+var leptet = (
+function() {
+    var szamlalo = 0;
+    return function() {
+    szamlalo++;
+    console.log(szamlalo);
+}
+}
+)();
+
+
+leptet();
+leptet();
+leptet();
+leptet();
+leptet();
+leptet();
