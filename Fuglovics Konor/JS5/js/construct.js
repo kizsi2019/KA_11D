@@ -1,5 +1,5 @@
 //Given back functions
-function InterviewQuestion(work){
+/*function InterviewQuestion(work){
     if (work == 'teacher'){
         return function(name){
             console.log(name + ", can you explain what subjects do you teach?")
@@ -26,4 +26,4 @@ QuestionsForSalesmen('Harold');
 QuestionsForSalesmen('Anna');
 
 InterviewQuestion('teacher')('Peter');
-InterviewQuestion('programmer')('Connor');
+InterviewQuestion('programmer')('Connor');*/
