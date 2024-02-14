@@ -1,0 +1,17 @@
+﻿<Window x:Class="Toto2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toto2"
+        mc:Ignorable="d"
+        Title="Totó eredmény ellenörző" Height="274" Width="792">
+    <Grid RenderTransformOrigin="0.509,0.501" Height="440" VerticalAlignment="Top">
+        <Label Content="Kérem a forduló eredményeit [1,2,x]:" Height="29" Width="204" Margin="10,50,583,361"/>
+        <CheckBox x:Name="cbxHossz" Content="Nem megfelelő a karakterek száma (14)" HorizontalAlignment= "Left" Margin ="10,139,0,274" Width="241" VerticalAlignment="Top" IsEnabled="False"></CheckBox>
+        <CheckBox x:Name="cbxKarakter" Content="Helytelen karakter az eredményekben()" HorizontalAlignment= "Left" Margin ="10,165,0,251" Width="241" VerticalAlignment="Top" IsEnabled="False"></CheckBox>
+        <Button x:Name="btnMnetes" Content="Eredmények mentése" HorizontalAlignment="Left" Margin="10,194,0,204" Width="166" VerticalAlignment="Top"></Button>
+        <TextBox x:Name="txbInput" HorizontalAlignment = "Left" Margin="19,79,0,0" Text="12X12X12X12X12" TextWrapping = "Wrap" VerticalAlignment= "Top" Height="36" Width="232" TextChanged="Ellenorzes"></TextBox>
+
+    </Grid>
+</Window>

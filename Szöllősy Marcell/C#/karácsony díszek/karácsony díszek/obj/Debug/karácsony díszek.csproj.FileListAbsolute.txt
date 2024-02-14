@@ -1,0 +1,7 @@
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\bakonyi kerékpár versenly\karácsony díszek\karácsony díszek\obj\Debug\karácsony díszek.csproj.AssemblyReference.cache
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\bakonyi kerékpár versenly\karácsony díszek\karácsony díszek\obj\Debug\karácsony díszek.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\bakonyi kerékpár versenly\karácsony díszek\karácsony díszek\bin\Debug\karácsony díszek.exe.config
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\bakonyi kerékpár versenly\karácsony díszek\karácsony díszek\bin\Debug\karácsony díszek.exe
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\bakonyi kerékpár versenly\karácsony díszek\karácsony díszek\bin\Debug\karácsony díszek.pdb
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\bakonyi kerékpár versenly\karácsony díszek\karácsony díszek\obj\Debug\karácsony díszek.exe
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\bakonyi kerékpár versenly\karácsony díszek\karácsony díszek\obj\Debug\karácsony díszek.pdb
