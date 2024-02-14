@@ -127,7 +127,7 @@ console.log(teszt);
 })("Hello"); */
 
 //Closure-ők
-function nyugdíj(ev) {
+/*function nyugdíj(ev) {
     var szoveg = "A nyugdíjazásig hátralévő évek száma: "
     return function (szuletesiEv) {
         var datumOvjektum = new Date();
@@ -139,4 +139,43 @@ function nyugdíj(ev) {
 
 var nyugdíjazasUSA = nyugdíj(66);
 nyugdíjazasUSA(1959);
-nyugdíj(66)(1959);
+nyugdíj(66)(1959); 
+/* Closure összefoglaló
+Egy belső fügvény mindig képes hozzáférni az öt tartalmazó
+külső függvény paramétereihez és változóihoz, még azután is,
+hogy a külső függvény befejezte futását
+
+
+var nyugdíjazasHUN = nyugdíj(65);
+var nyugdíjazasIZL = nyugdíj(67);
+nyugdíjazasHUN(1959);
+nyugdíjazasIZL(1959);
+
+////////
+var szamlalo = 0;
+
+function leptet() {
+    szamlalo++;
+    console.log(szamlalo);
+}
+leptet();
+leptet();
+leptet();
+*/
+
+//var szamlalo = 0
+
+var leptet = (
+    function() {
+        var szamlalo = 0;
+
+        return function() {
+            szamlalo++;
+            console.log(szamlalo);
+        }
+    }
+)();
+
+leptet();
+leptet();
+leptet();

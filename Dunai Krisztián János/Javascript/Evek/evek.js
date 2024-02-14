@@ -23,11 +23,10 @@ console.log(korok);
 
 var felnottek = tombMuvelet(korok, felnott);
 console.log(felnottek);
-*/
+
 
 //Visszaadott függvények
 
-/*
 function interjuKerdes(foglalkozas){
     if (foglalkozas == 'tanar'){
         return function(nev){
@@ -60,106 +59,64 @@ kerdesEladoknak('Ági');
 
 interjuKerdes('tanar')('Péter');
 interjuKerdes('programozó')('Ödön');
-*/
 
-/*
-function jatek(){
+
+function jatek() 
+{
     var pont = Math.random() * 10;
     console.log(pont >= 5);
 }
 
 jatek();
-(function(){
+(function() {
     var pont = Math.random() * 10;
     console.log(pont >= 5);
 })();
 
-(function(teszt){
+(function(teszt) {
     var pont = Math.random() * 10;
     console.log(pont >= 5);
     console.log(teszt);
-})('Hello');
+})("Hello");
+
 */
 
-//Clousure-ök
-
-
-function nyugdij(ev){
-    var szoveg = "A nyugdíjazásig hátralévő évek szánma: "
-    return function(szuletisiEv){
-        var datumObjektum = new Date();
-        var aktualisEv = datumObjektum.getFullYear();
-        var kor = aktualisEv - szuletisiEv;
-        console.log(szoveg + (ev - kor))
+//Closure-ök
+function nyugdij(ev) {
+    var szoveg = "A nyugdíjazásig hátralévő évek száma: "
+    return function (szuletesiEv) {
+        var datumOvjektum = new Date();
+        var aktualisEv = datumOvjektum.getFullYear();
+        var kor = aktualisEv - szuletesiEv;
+        console.log(szoveg + (ev - kor));
     }
 }
 
-
-
 var nyugdijazasUSA = nyugdij(66);
-nyugdij(66)(2004);
+nyugdijazasUSA(1959);
+nyugdij(66)(1959);
 
-
-/* Clousure összefoglaló
-Egy belső függvény mindig képes hozzáférni az őt tartalmazó
-külső függvény paramétereihez és változóhoz, még azután is,
-hogy a külső függvény befejezte futásait
-*/
-
+// closure összefoglaló
+// egy belső függvény mindig képest hozzáférni az őt tartalmazó külső függvny paramétereihez
+// még aztuán is hogy a külső függvény befejezte a futtatását
 
 var nyugdijazasHUN = nyugdij(65);
 var nyugdijazasIZL = nyugdij(67);
-nyugdijazasHUN(2004);
-nyugdijazasIZL(2004);
+nyugdijazasHUN(1959);
+nyugdijazasIZL(1959);
 
-/*
 var szamlalo = 0;
 
-function leptet(){
-    szamlalo++;
-    console.log(szamlalo);
-}*/
-
-/*
-var szamlalo = 0;
-function leptet(){
-    var szamlalo = 0;
-    szamlalo++;
-    console.log(szamlalo);
-}
-*/
-
-/*
-var szamlalo = 0;
-function leptet(){
+function leptet() {
     var szamlalo = 0;
 
-    return function(){
+    return function() {
         szamlalo++;
         console.log(szamlalo);
     }
 }
 
 var hozzaad = leptet();
-*/
-/*
-hozzaad();
-hozzaad();
-hozzaad();
-*/
-
-
-var leptet = (
-    function(){
-        var szamlalo = 0;
-
-        return function(){
-            szamlalo++;
-            console.log(szamlalo);
-        }
-    }
-)();
-
 leptet();
 leptet();
 leptet();
