@@ -20,3 +20,16 @@ kerdesTanaroknak('Pál');
 var kerdesEladoknak = interjuKerdes('elado');
 kerdesEladoknak('Teri');
 kerdesEladoknak('Feri');
+
+
+function jatek(){
+    var pont = Math.random() * 10;
+    console.log(pont >= 5);
+}
+
+jatek();
+(function() {
+    var pont = Math.random() * 10;
+    console.log(pont >= 5);
+})();
+
