@@ -20,14 +20,21 @@ namespace toto.apf
     /// </summary>
     public partial class MainWindow : Window
     {
+        private object txbInput;
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        private void Ellenorzes(object sender, RoutedEventArgs e)
         {
-
+            int hossz = txbInput.Text.Length;
+            if (hossz != 14)
+            {
+                cbxHossz.IsChecked = true;
+            }
+            cbxHossz.Content = $"Nem megfelelő a karakterek száma({hossz})";
         }
     }
 }

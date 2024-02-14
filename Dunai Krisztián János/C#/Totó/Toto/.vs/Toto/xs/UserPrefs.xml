@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{C5195F89-327A-4639-9527-6E8880604C1B}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Toto/Program.cs">
+    <Files>
+      <File FileName="Toto/Program.cs" Line="31" Column="1" />
+      <File FileName="Toto/Fordulo.cs" />
+      <File FileName="Toto/EredmenyElemzo.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Toto" expanded="True">
+            <Node name="Toto" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Toto FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Toto PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
