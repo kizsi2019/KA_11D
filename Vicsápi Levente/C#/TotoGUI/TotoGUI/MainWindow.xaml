@@ -11,6 +11,6 @@
         <CheckBox Name="cbHibasKarakter" Content="Helytelen a karakter az eredményekben" IsEnabled="False" HorizontalAlignment="Left" Height="20" Margin="84,207,0,0" VerticalAlignment="Top" Width="211"/>
         <Label Content="Kérem a foduló eredményeit [1, 2, X]:" HorizontalAlignment="Left" Height="38" Margin="84,38,0,0" VerticalAlignment="Top" Width="211"/>
         <TextBox Name="tbEredmenyek" HorizontalAlignment="Left" Height="29" Margin="84,101,0,0" TextWrapping="Wrap" Text="12x12x12x12x12" VerticalAlignment="Top" Width="211" TextChanged="tbEredmynek_TextChanged"/>
-        <Button Name="btnMentes" Content="Eredmények mentése" HorizontalAlignment="Left" Height="29" Margin="84,281,0,0" VerticalAlignment="Top" Width="211" Click="btnMentes_Click"/>
+        <Button Name="btnMentes" Content="Eredmények mentése" HorizontalAlignment="Left" Height="29" Margin="84,264,0,0" VerticalAlignment="Top" Width="211" Click="btnMentes_Click"/>
     </Grid>
 </Window>

@@ -33,6 +33,7 @@ namespace TotoGUI
         private void tbEredmynek_TextChanged(object sender, TextChangedEventArgs e)
         {
             cbHossz.IsChecked = tbEredmenyek.Text.Length != 14;
+            cbHossz.Content = $"Nem megfelelő a karakterek száma ({tbEredmenyek.Text.Length})";
         }
     }
 }
