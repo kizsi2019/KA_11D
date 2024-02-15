@@ -4,10 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP
+namespace Oroklodes
 {
+    //absztrakt ősosztály. A többi objektum őse
     public abstract class Ososztaly
     {
+        static void Main(string[] args)
+        {
+            Teglalap t = new Teglalap(0, 0, 12, 10);
+            Negyzet n = new Negyzet(0, 11, 6);
+            t.Rajzol();
+            n.Rajzol();
+            Console.ReadKey();
+        }
+
         //x és y koordináták, tulajdonságok, amiket csak olvasni lehet
         //viszont az ősosztály írhatja is őket
         public int X { get; private set; }
@@ -26,7 +36,7 @@ namespace OOP
 
     //teglalap, ami az ősosztályból származik.
     //definiálja a Rajzol metódust, illetve két új tulajdonságot is
-    public class Teglalap: Ososztaly
+    public class Teglalap : Ososztaly
     {
         //Téglalap méretetét beállító tulajdonságok
         public int Szelesseg { get; private set; }
@@ -47,10 +57,10 @@ namespace OOP
             {
                 for (int j = 0; j < Szelesseg; j++)
                 {
-                    if (i == 0 || i == Magassag-1) Console.Write("-");
+                    if (i == 0 || i == Magassag - 1) Console.Write("-");
                     else
                     {
-                        if (j == 0 || j==Szelesseg-1) Console.Write("|");
+                        if (j == 0 || j == Szelesseg - 1) Console.Write("|");
                         else Console.Write(" ");
                     }
                 }
@@ -58,20 +68,10 @@ namespace OOP
             }
         }
     }
-    public sealed class Negyzet: Teglalap
+
+    //A négyzet megvalósítása
+    public sealed class Negyzet : Teglalap
     {
         public Negyzet(int x, int y, int meret) : base(x, y, meret, meret) { }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Teglalap t = new Teglalap(0, 0, 12, 10);
-            Negyzet n = new Negyzet(0, 11, 6);
-            t.Rajzol();
-            n.Rajzol();
-            Console.ReadKey();
-        }
     }
 }
