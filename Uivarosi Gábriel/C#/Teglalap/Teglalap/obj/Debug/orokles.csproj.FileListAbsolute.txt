@@ -1,0 +1,2 @@
+C:\Users\UivarosiGabriel\Desktop\Teglalap\Teglalap\obj\Debug\orokles.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\Teglalap\Teglalap\obj\Debug\orokles.csproj.CoreCompileInputs.cache
