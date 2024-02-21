@@ -1,0 +1,20 @@
+--1. feladat
+SELECT versenyzok.nev, versenyzok.szul_dat FROM `versenyzok` WHERE YEAR(szul_dat) >= 1980 AND szul_hely = "Szeged" AND egyen_csapat = "e";
+--2. feladat
+SELECT versenyszamok.versenyszam, eredmenyek.helyezes, eredmenyek.megjegyzes AS 'időeredmény' FROM eredmenyek, versenyzok, versenyszamok WHERE eredmenyek.versenyzo_azon = versenyzok.azon AND eredmenyek.versenyszam_azon = versenyszamok.azon AND versenyzok.nev = "Vajda Attila";
+--3. feladat
+SELECT DISTINCT orszagok.orszag FROM orszagok, versenyzok, eredmenyek WHERE versenyzok.orszag_azon = orszagok.azon AND versenyzok.azon = eredmenyek.versenyzo_azon AND eredmenyek.helyezes = 1;
+--4. feladat
+SELECT versenyzok.nev, versenyzok.szul_hely, versenyzok.szul_dat FROM versenyzok WHERE DATE(versenyzok.szul_dat) > "1985-12-03";
+--5. feladat, itt megnéztem a megoldást mert még nem találkoztam a NOT IN paraméterrel, de a végén kívül én írtam a kódot
+SELECT * FROM orszagok WHERE orszagok.foldresz = "Európa" AND orszagok.azon NOT IN (SELECT versenyzok.orszag_azon FROM versenyzok);
+--6. feladat
+
+--7. feladat
+
+--8. feladat
+
+--9. feladat
+
+--10. feladat
+	
