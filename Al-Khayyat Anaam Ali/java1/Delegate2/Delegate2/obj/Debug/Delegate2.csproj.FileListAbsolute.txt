@@ -1,0 +1,2 @@
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\java1\Delegate2\Delegate2\obj\Debug\Delegate2.csproj.AssemblyReference.cache
+C:\Users\Al-KhayyatAnaamAli\Desktop\euf\KA_11D\Al-Khayyat Anaam Ali\java1\Delegate2\Delegate2\obj\Debug\Delegate2.csproj.CoreCompileInputs.cache
