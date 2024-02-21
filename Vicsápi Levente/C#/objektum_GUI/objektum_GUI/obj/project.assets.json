@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\iskola\\info\\aaf3\\KA_11D\\Vicsápi Levente\\C#\\objektum_GUI\\objektum_GUI\\objektum_GUI.csproj",
+      "projectUniqueName": "C:\\iskola\\informatika\\KA_11D\\Vicsápi Levente\\C#\\objektum_GUI\\objektum_GUI\\objektum_GUI.csproj",
       "projectName": "objektum_GUI",
-      "projectPath": "C:\\iskola\\info\\aaf3\\KA_11D\\Vicsápi Levente\\C#\\objektum_GUI\\objektum_GUI\\objektum_GUI.csproj",
+      "projectPath": "C:\\iskola\\informatika\\KA_11D\\Vicsápi Levente\\C#\\objektum_GUI\\objektum_GUI\\objektum_GUI.csproj",
       "packagesPath": "C:\\Users\\levju\\.nuget\\packages\\",
-      "outputPath": "C:\\iskola\\info\\aaf3\\KA_11D\\Vicsápi Levente\\C#\\objektum_GUI\\objektum_GUI\\obj\\",
+      "outputPath": "C:\\iskola\\informatika\\KA_11D\\Vicsápi Levente\\C#\\objektum_GUI\\objektum_GUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\levju\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
