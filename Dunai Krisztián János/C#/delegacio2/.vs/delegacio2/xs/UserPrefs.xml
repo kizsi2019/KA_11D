@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{DC09F43E-904A-4135-85F0-BE590CD933B5}|Default">
+  <MonoDevelop.Ide.ItemProperties.delegacio2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="delegacio2/Program.cs">
+    <Files>
+      <File FileName="delegacio2/Program.cs" Line="16" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="delegacio2" expanded="True">
+            <Node name="delegacio2">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

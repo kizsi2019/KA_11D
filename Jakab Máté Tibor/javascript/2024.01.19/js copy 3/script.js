@@ -127,7 +127,7 @@ console.log(teszt);
 })("Hello"); */
 
 //Closure-ők
-function nyugdíj(ev) {
+/*function nyugdíj(ev) {
     var szoveg = "A nyugdíjazásig hátralévő évek száma: "
     return function (szuletesiEv) {
         var datumOvjektum = new Date();
@@ -139,4 +139,83 @@ function nyugdíj(ev) {
 
 var nyugdíjazasUSA = nyugdíj(66);
 nyugdíjazasUSA(1959);
-nyugdíj(66)(1959);
+nyugdíj(66)(1959); 
+/* Closure összefoglaló
+Egy belső fügvény mindig képes hozzáférni az öt tartalmazó
+külső függvény paramétereihez és változóihoz, még azután is,
+hogy a külső függvény befejezte futását
+
+
+var nyugdíjazasHUN = nyugdíj(65);
+var nyugdíjazasIZL = nyugdíj(67);
+nyugdíjazasHUN(1959);
+nyugdíjazasIZL(1959);
+
+////////
+var szamlalo = 0;
+
+function leptet() {
+    szamlalo++;
+    console.log(szamlalo);
+}
+leptet();
+leptet();
+leptet();
+*/
+
+//var szamlalo = 0
+
+/*var leptet = (
+    function() {
+        var szamlalo = 0;
+
+        return function() {
+            szamlalo++;
+            console.log(szamlalo);
+        }
+    }
+)();
+
+leptet();
+leptet();
+leptet();
+*/
+
+var odon = {
+    nev: "Ödön",
+    kor : 45,
+    foglalkozas: 'Csillagász',
+    udvozlet: function (stílus, napszak) {
+        if (stílus === 'hivatalos') {
+            console.log('Üdvözlöm, jó' + napszak + 'kívánok' + this.nev + 'vagyok')
+        } else if (stílus === 'baráti') {
+            console.log('Szia, jó' + napszak + '!');
+        }
+    }
+}
+
+odon.udvozlet('hivatalos', 'hajnal');
+odon.udvozlet('baráti', 'estét');
+
+var bela = {
+    nev: 'Béla',
+    kor: 62,
+    foglalkozas: 'portás'
+}
+
+// call metódus
+odon.udvozlet.call(bela, 'baráti', 'estét');
+
+// aply metódus
+odon.udvozlet.apply(bela, ['baráti', 'estét']);
+
+// bind
+var odonBarati = odon.udvozlet.bind(odon, 'baráti');
+odonBarati('napot');
+odonBarati('estét');
+
+var belaHivatalos = odon.udvozlet.bind(bela, 'hivatalos');
+var belaHivatalosReggeli = odon.udvozlet.bind(bela, 'hivatalos', 'regelt');
+
+belaHivatalos("estét");
+belaHivatalosReggeli('baráti', 'estét');

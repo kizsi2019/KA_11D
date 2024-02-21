@@ -1,0 +1,7 @@
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\del3\del3\bin\Debug\del3.exe.config
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\del3\del3\bin\Debug\del3.exe
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\del3\del3\bin\Debug\del3.pdb
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\del3\del3\obj\Debug\del3.csproj.AssemblyReference.cache
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\del3\del3\obj\Debug\del3.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\del3\del3\obj\Debug\del3.exe
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\del3\del3\obj\Debug\del3.pdb
