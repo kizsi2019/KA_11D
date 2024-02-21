@@ -1,0 +1,7 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Oroklodes\Oroklodes\bin\Debug\Oroklodes.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Oroklodes\Oroklodes\bin\Debug\Oroklodes.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Oroklodes\Oroklodes\bin\Debug\Oroklodes.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Oroklodes\Oroklodes\obj\Debug\Oroklodes.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Oroklodes\Oroklodes\obj\Debug\Oroklodes.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Oroklodes\Oroklodes\obj\Debug\Oroklodes.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Oroklodes\Oroklodes\obj\Debug\Oroklodes.pdb

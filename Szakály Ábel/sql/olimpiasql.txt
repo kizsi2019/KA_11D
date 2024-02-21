@@ -1,0 +1,99 @@
+1. FELADAT MEGOLDAS
+
+    SELECT versenyzok.nev, versenyzok.szul_dat 
+    FROM versenyzok 
+    WHERE versenyzok.szul_hely = 'Szeged' AND versenyzok.egyen_csapat = 'e' 
+      AND versenyzok.szul_dat >= '1981-01-01' 
+    ORDER BY nev;
+
+2. FELADAT MEGOLDAS 
+
+    SELECT vs.versenyszam, e.helyezes, e.megjegyzes 
+    FROM versenyzok v
+    JOIN eredmenyek e ON v.azon = e.versenyzo_azon
+    JOIN versenyszamok vs ON e.versenyszam_azon = vs.azon
+    WHERE v.nev = 'Vajda Attila';
+
+3. FELADAT MEGOLDAS
+
+SELECT DISTINCT o.orszag 
+FROM eredmenyek e
+JOIN versenyzok v ON e.versenyzo_azon = v.azon
+JOIN orszagok o ON v.orszag_azon = o.azon
+WHERE e.helyezes = 1;
+
+
+4. FELADAT MEGOLDAS
+
+
+SELECT v.nev, v.szul_hely, v.szul_dat 
+FROM versenyzok v
+WHERE v.szul_dat > 
+  (SELECT v2.szul_dat FROM versenyzok v2 WHERE v2.nev='Cseh László');
+
+
+5. FELADAT MEGOLDAS
+
+SELECT FROM orszagok o
+WHERE o.foldresz = 'Európa' 
+  AND NOT EXISTS (
+      SELECT 1 
+      FROM versenyzok v 
+      WHERE v.orszag_azon = o.azon
+  );
+
+6. FELADAT MEGOLDAS
+
+SELECT o.foldresz, 
+       COUNT(*) AS orszagok_szama, 
+       SUM(o.lakossag) AS osszes_lakossag, 
+       AVG(o.terulet) AS atlagos_terulet
+FROM orszagok o
+WHERE o.foldresz IS NOT NULL 
+GROUP BY o.foldresz;
+
+
+7. FELADAT MEGOLDAS
+
+SELECT o.orszag 
+FROM orszagok o
+JOIN versenyzok v ON o.azon = v.orszag_azon
+WHERE v.szul_dat = (SELECT MAX(szul_dat) FROM versenyzok);
+
+
+8. FELADAT MEGOLDAS
+
+CREATE TABLE pont_tabla AS
+SELECT o.orszag, (et.arany * 3 + et.ezust * 2 + et.bronz) AS pont 
+FROM orszagok o
+JOIN erem_tabla et ON o.azon = et.orszag_azon
+GROUP BY o.orszag
+HAVING pont >= 20;
+
+
+9. FELADAT MEGOLDAS
+
+SELECT v.nev 
+FROM versenyzok v
+WHERE v.azon IN (
+    SELECT ct.versenyzo_azon 
+    FROM csapattagok ct
+    WHERE ct.csapat_azon = (
+        SELECT v2.azon 
+        FROM versenyzok v2
+        JOIN orszagok o ON v2.orszag_azon = o.azon 
+        WHERE v2.nev = 'Kézilabda női' AND o.orszag = 'Magyarország'
+    )
+) 
+ORDER BY v.szul_dat DESC;
+
+
+10. FELADAT MEGOLDAS
+
+UPDATE versenyzok v
+SET szul_hely = (
+    SELECT o.fovaros 
+    FROM orszagok o
+    WHERE o.azon = v.orszag_azon
+)
+WHERE v.egyen_csapat = 'c';

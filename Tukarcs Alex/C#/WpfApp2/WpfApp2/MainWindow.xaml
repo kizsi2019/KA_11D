@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Eladás" Height="450" Width="800">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="712*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="tbElkeszitett" HorizontalAlignment="Left" Height="24" Margin="232,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="106" TextAlignment="Center" Grid.Column="3"/>
+        <TextBox Name="tbEladott" HorizontalAlignment="Left" Height="24" Margin="424,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108" TextAlignment="Center" Grid.Column="3"/>
+        <ComboBox Name="cbNap" HorizontalAlignment="Left" Margin="16,41,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.357,-0.102" SelectionChanged="ComboBox_SelectionChanged" Grid.Column="3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67" Height="22" Grid.ColumnSpan="3" Grid.Column="1"><Run Text="Nap szám"/><Run Language="hu-hu" Text="a"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="165,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67" Height="22" Grid.Column="3"><Run Language="hu-hu" Text="Elkészített:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="377,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67" Height="22" Grid.Column="3"><Run Language="hu-hu" Text="Eladott"/><Run Text=":"/></TextBlock>
+        <Button Name="btnHozzaad" Content="Hozzáad" HorizontalAlignment="Left" Height="22" Margin="549,41,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click" Background="#FFBDBDBD" Grid.Column="3"/>
+        <TextBox Name="tbKimenet" TextWrapping="Wrap" Text="" Margin="22,89,180,43" ScrollViewer.PanningMode="VerticalOnly" ScrollViewer.HorizontalScrollBarVisibility="Auto" IsReadOnly="True" Grid.ColumnSpan="3" Grid.Column="1"/>
+        <Label Name="lblHiba" Content="" HorizontalAlignment="Left" Margin="424,10,0,0" VerticalAlignment="Top" Width="267" Foreground="Red" Grid.Column="3" Height="26"/>
+
+    </Grid>
+</Window>
