@@ -25,13 +25,12 @@ namespace Toto
 
             //4. feladat miben megszámoljuk összesen hány telitalálatos szelvények voltak
             int OsszesTelitalalat = 0;
-            foreach (var ny in fogasaoklista)
+            for (int i = 0; i < fogasaoklista.Count; i++)
             {
-                //OsszesTelitalalat =+ ny.Telitalalat;    
-                Console.WriteLine(ny);
+                OsszesTelitalalat += fogasaoklista[i].Telitalalat;
             }
 
-            //Console.WriteLine($"(4. Feladat) --- Összesen ennyi telitalálat volt: {OsszesTelitalalat}");
+            Console.WriteLine($"(4. Feladat) --- Összesen ennyi telitalálat volt: {OsszesTelitalalat}");
 
             //5. feladat
 
