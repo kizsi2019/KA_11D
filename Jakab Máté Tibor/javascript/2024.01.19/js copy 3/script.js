@@ -87,7 +87,7 @@ mondosit(a, o);
 console.log(a);
 console.log(o.nev);*/
 
-var evek = [1954, 1990, 1963, 200, 2010];
+/*var evek = [1954, 1990, 1963, 200, 2010];
 
 function tombMuvelet(tomb, fv) {
     var eredmeny = [];
@@ -106,4 +106,116 @@ var korok = tombMuvelet(evek, korszamitas);
 console.log(korok);
 
 var felnottek = tombMuvelet(korok, felnott);
-console.log(felnottek);
+console.log(felnottek);    */
+
+/*function jatek() 
+{
+    var pont = Math.random()* 10;
+    console.log.pont >= 5;
+}
+jatek();
+(function() {
+    var pont = Math.random()*10;
+    console.log(pont >= 5);
+})();
+
+(function(teszt)
+{
+var pont = Math.random() * 10;
+console.log(pont >=5);
+console.log(teszt);
+})("Hello"); */
+
+//Closure-ők
+/*function nyugdíj(ev) {
+    var szoveg = "A nyugdíjazásig hátralévő évek száma: "
+    return function (szuletesiEv) {
+        var datumOvjektum = new Date();
+        var aktualisEv = datumOvjektum.getFullYear();
+        var kor = aktualisEv - szuletesiEv;
+        console.log(szoveg + (ev - kor));
+    }
+}
+
+var nyugdíjazasUSA = nyugdíj(66);
+nyugdíjazasUSA(1959);
+nyugdíj(66)(1959); 
+/* Closure összefoglaló
+Egy belső fügvény mindig képes hozzáférni az öt tartalmazó
+külső függvény paramétereihez és változóihoz, még azután is,
+hogy a külső függvény befejezte futását
+
+
+var nyugdíjazasHUN = nyugdíj(65);
+var nyugdíjazasIZL = nyugdíj(67);
+nyugdíjazasHUN(1959);
+nyugdíjazasIZL(1959);
+
+////////
+var szamlalo = 0;
+
+function leptet() {
+    szamlalo++;
+    console.log(szamlalo);
+}
+leptet();
+leptet();
+leptet();
+*/
+
+//var szamlalo = 0
+
+/*var leptet = (
+    function() {
+        var szamlalo = 0;
+
+        return function() {
+            szamlalo++;
+            console.log(szamlalo);
+        }
+    }
+)();
+
+leptet();
+leptet();
+leptet();
+*/
+
+var odon = {
+    nev: "Ödön",
+    kor : 45,
+    foglalkozas: 'Csillagász',
+    udvozlet: function (stílus, napszak) {
+        if (stílus === 'hivatalos') {
+            console.log('Üdvözlöm, jó' + napszak + 'kívánok' + this.nev + 'vagyok')
+        } else if (stílus === 'baráti') {
+            console.log('Szia, jó' + napszak + '!');
+        }
+    }
+}
+
+odon.udvozlet('hivatalos', 'hajnal');
+odon.udvozlet('baráti', 'estét');
+
+var bela = {
+    nev: 'Béla',
+    kor: 62,
+    foglalkozas: 'portás'
+}
+
+// call metódus
+odon.udvozlet.call(bela, 'baráti', 'estét');
+
+// aply metódus
+odon.udvozlet.apply(bela, ['baráti', 'estét']);
+
+// bind
+var odonBarati = odon.udvozlet.bind(odon, 'baráti');
+odonBarati('napot');
+odonBarati('estét');
+
+var belaHivatalos = odon.udvozlet.bind(bela, 'hivatalos');
+var belaHivatalosReggeli = odon.udvozlet.bind(bela, 'hivatalos', 'regelt');
+
+belaHivatalos("estét");
+belaHivatalosReggeli('baráti', 'estét');

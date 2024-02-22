@@ -1,0 +1,17 @@
+﻿<Window x:Class="totoGui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:totoGui"
+        mc:Ignorable="d"
+        Title="Totó Eredmény ellenőrző" Height="450" Width="800">
+    <Grid>
+        <CheckBox IsEnabled="False" Name="Caracter_szám_X" Content="Nem megfelelő a Karacterek száma(14)" HorizontalAlignment="Left" Height="43" Margin="38,260,0,0" VerticalAlignment="Top" Width="261"/>
+        <CheckBox IsEnabled="False" Content="Helytelen Karacter()" Name="Caracter_helyeség_X" HorizontalAlignment="Left" Margin="38,308,0,0" VerticalAlignment="Top" Height="48" Width="214"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="38,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="673" Name="Input_box" TextChanged="Input_box_TextChanged"/>
+        <Label Content="Kérem a forduló eredményeit" HorizontalAlignment="Left" Height="39" Margin="38,95,0,0" VerticalAlignment="Top" Width="214"/>
+        <Button Content="Eredmények mentése" HorizontalAlignment="Left" Height="46" Margin="38,378,0,0" VerticalAlignment="Top" Width="362" Name="Save_button" Click="Save_button_Click"/>
+
+    </Grid>
+</Window>

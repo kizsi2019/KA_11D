@@ -1,0 +1,7 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Toto\Toto\bin\Debug\Toto.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Toto\Toto\bin\Debug\Toto.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Toto\Toto\bin\Debug\Toto.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\Toto\Toto\obj\Debug\Toto.pdb

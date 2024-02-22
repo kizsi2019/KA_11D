@@ -17,8 +17,8 @@ function adult(elem){
     return elem >= 18;
 }
 
-var ages = BlockCalculation(ages, AgeCalculate);
+var ages = BlockCalculation(years, AgeCalculate);
 console.log(ages);
 
-var adults = BlockCalculation(ages, AgeCalculate);
+var adults = BlockCalculation(ages, adult);
 console.log(adults);

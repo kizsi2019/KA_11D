@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Totó\orokles\orokles\obj\Debug\orokles.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Totó\orokles\orokles\obj\Debug\orokles.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Totó\orokles\orokles\bin\Debug\orokles.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Totó\orokles\orokles\bin\Debug\orokles.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Totó\orokles\orokles\bin\Debug\orokles.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Totó\orokles\orokles\obj\Debug\orokles.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\dot net\Totó\orokles\orokles\obj\Debug\orokles.pdb

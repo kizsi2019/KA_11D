@@ -1,0 +1,7 @@
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Delegate 4\Delegate 4\bin\Debug\Delegate 4.exe.config
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Delegate 4\Delegate 4\bin\Debug\Delegate 4.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Delegate 4\Delegate 4\bin\Debug\Delegate 4.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Delegate 4\Delegate 4\obj\Debug\Delegate 4.csproj.AssemblyReference.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Delegate 4\Delegate 4\obj\Debug\Delegate 4.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Delegate 4\Delegate 4\obj\Debug\Delegate 4.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Delegate 4\Delegate 4\obj\Debug\Delegate 4.pdb

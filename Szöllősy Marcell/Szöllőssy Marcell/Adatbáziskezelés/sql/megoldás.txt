@@ -1,0 +1,70 @@
+1.
+SELECT versenyzok.nev, versenyzok.szul_dat 
+    FROM versenyzok 
+    WHERE versenyzok.szul_hely = 'Szeged' AND versenyzok.egyen_csapat = 'e' 
+      AND versenyzok.szul_dat >= '1981-01-01' 
+    ORDER BY nev;
+(A lekérdezés visszaadja azoknak a versenyzőknek a nevét és születési dátumát, akik Szegeden születtek, egyéni csapatban versenyeznek, és 1981. január 1. után születtek, név szerint rendezve.)
+
+2.
+SELECT versenyszamok.versenyszam, eredmenyek.helyezes, eredmenyek.megjegyzes 
+    FROM versenyzok, eredmenyek, versenyszamok 
+    WHERE versenyzok.azon = eredmenyek.versenyzo_azon 
+        AND eredmenyek.versenyszam_azon = versenyszamok.azon 
+        AND versenyzok.nev = 'Vajda Attila';
+(A lekérdezés visszaadja Vajda Attila versenyző összes versenyén elért eredményét, beleértve a versenyszám nevét, helyezését és megjegyzését.)
+
+3.
+SELECT DISTINCT orszagok.orszag 
+    FROM eredmenyek, versenyzok, orszagok 
+    WHERE eredmenyek.helyezes = 1 AND eredmenyek.versenyzo_azon = versenyzok.azon 
+      AND versenyzok.orszag_azon = orszagok.azon;
+(A lekérdezés visszaadja azoknak az országoknak a listáját, amelyekből versenyzők kerültek ki, és első helyezést értek el valamely versenyen. Az eredményben minden ország csak egyszer szerepel, mivel a DISTINCT kulcsszó megszünteti az esetleges ismétlődéseket.)
+4.
+SELECT versenyzok.nev, versenyzok.szul_hely, versenyzok.szul_dat 
+    FROM versenyzok 
+    WHERE versenyzok.szul_dat > 
+      (SELECT versenyzok.szul_dat FROM versenyzok WHERE versenyzok.nev='Cseh László');
+(A fő lekérdezés visszaadja azoknak a versenyzőknek a nevét, születési helyét és születési dátumát, akiknek a születési dátuma később van, mint Cseh László születési dátuma.)
+5.
+SELECT * FROM orszagok 
+    WHERE orszagok.foldresz = 'Európa' 
+      AND orszagok.azon NOT IN (SELECT versenyzok.orszag_azon FROM versenyzok);
+(Ez a lekérdezés gyakorlatilag azon európai országokat listázza ki, amelyekből nincs egyetlen versenyző sem az adatbázisban.) 
+6.
+SELECT orszagok.foldresz, COUNT(*), SUM(orszagok.lakossag), AVG(orszagok.terulet) 
+    FROM orszagok 
+    WHERE orszagok.foldresz IS NOT NULL 
+    GROUP BY orszagok.foldresz;
+(A lekérdezés visszaadja az egyes földrészekhez tartozó országok számát, összlakosságát és átlagos területét az adatbázisban.)
+7.
+SELECT orszagok.orszag 
+    FROM orszagok, versenyzok  
+    WHERE orszagok.azon = versenyzok.orszag_azon 
+      AND versenyzok.szul_dat = (SELECT MAX(versenyzok.szul_dat) FROM versenyzok);
+(A lekérdezés visszaadja azoknak az országoknak a nevét, ahol olyan versenyzők születtek, akiknek a születési dátuma a legnagyobb az összes születési dátum között a versenyzok táblában.)
+8.
+CREATE TABLE pont_tabla 
+    SELECT orszagok.orszag, erem_tabla.arany*3+erem_tabla.ezust*2+erem_tabla.bronz AS pont 
+    FROM orszagok, erem_tabla 
+    WHERE orszagok.azon = erem_tabla.orszag_azon 
+    HAVING pont >= 20;
+(Ez a lekérdezés létrehoz egy új pont_tabla nevű táblát, amely tartalmazza az orszagok és erem_tabla táblák adatainak alapján kiszámolt pontszámokat.)
+9.
+SELECT versenyzok.nev FROM versenyzok WHERE versenyzok.azon IN (
+	    SELECT csapattagok.versenyzo_azon FROM csapattagok
+        WHERE csapattagok.csapat_azon = (
+            SELECT versenyzok.azon FROM versenyzok, orszagok
+            WHERE versenyzok.orszag_azon = orszagok.azon 
+                AND versenyzok.nev = 'Kézilabda női' AND orszagok.orszag = 'Magyarország'
+        )
+    ) ORDER BY versenyzok.szul_dat DESC;
+(A lekérdezés visszaadja azoknak a versenyzőknek a nevét, akik a 'Kézilabda női' csapatban vannak Magyarországról, és a születési dátumuk szerint csökkenő sorrendben jelennek meg.)
+10.
+UPDATE versenyzok 
+    SET szul_hely = (
+        SELECT orszagok.fovaros FROM orszagok 
+        WHERE orszagok.azon = versenyzok.orszag_azon) 
+    WHERE versenyzok.egyen_csapat = 'c';
+(A lekérdezés az adatbázisban a 'c' típusú csapatok tagjainak születési helyét frissíti az ország fővárosával, amennyiben az adott ország azonosítóját tartalmazza a versenyzok tábla orszag_azon oszlopában.)
+

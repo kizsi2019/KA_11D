@@ -1,0 +1,7 @@
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\OrvosiNobeldijas\OrvosiNobeldijas\bin\Debug\OrvosiNobeldijas.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\OrvosiNobeldijas\OrvosiNobeldijas\bin\Debug\OrvosiNobeldijas.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\OrvosiNobeldijas\OrvosiNobeldijas\bin\Debug\OrvosiNobeldijas.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\OrvosiNobeldijas\OrvosiNobeldijas\obj\Debug\OrvosiNobeldijas.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\OrvosiNobeldijas\OrvosiNobeldijas\obj\Debug\OrvosiNobeldijas.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\OrvosiNobeldijas\OrvosiNobeldijas\obj\Debug\OrvosiNobeldijas.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\bükk keriversi\Informatikai_ism_forrasok_K2211\2_feladat\OrvosiNobeldijas\OrvosiNobeldijas\obj\Debug\OrvosiNobeldijas.pdb

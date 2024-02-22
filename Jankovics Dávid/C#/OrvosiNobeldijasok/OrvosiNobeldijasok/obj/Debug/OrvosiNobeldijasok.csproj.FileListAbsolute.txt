@@ -1,0 +1,15 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.pdb
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe.config
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\bin\Debug\OrvosiNobeldijasok.pdb
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.AssemblyReference.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.csproj.CoreCompileInputs.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasok\OrvosiNobeldijasok\obj\Debug\OrvosiNobeldijasok.pdb
