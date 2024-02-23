@@ -35,5 +35,5 @@ nyugdij(66)(1959);
 /* Closure összefoglaló
 Egy belső függvény mindig képes hozzáférni az öt tartalmazó
 külső függvény paraméteréhez és változóihoz, még aztuán is,
-hogy a külő függvény befejezte futását.
+hogy a külső függvény befejezte futását.
 */
