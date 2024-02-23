@@ -203,13 +203,13 @@ var bela = {
     foglalkozas: 'portás'
 }
 
-// call metódus
+// call metódus egy függvényt azonnal meghívunk és beálítsuk az értékét egy másik objektumra
 odon.udvozlet.call(bela, 'baráti', 'estét');
 
-// aply metódus
+// aply metódus ugyanaz mint a call csak itt tömböt használ
 odon.udvozlet.apply(bela, ['baráti', 'estét']);
 
-// bind
+// bind egy objektumhoz társit egy függvényt
 var odonBarati = odon.udvozlet.bind(odon, 'baráti');
 odonBarati('napot');
 odonBarati('estét');
