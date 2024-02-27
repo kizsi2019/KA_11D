@@ -1,8 +1,0 @@
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\bin\Debug\összetett.exe.config
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\bin\Debug\összetett.exe
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\bin\Debug\összetett.pdb
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\obj\Debug\összetett.csproj.AssemblyReference.cache
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\obj\Debug\összetett.csproj.SuggestedBindingRedirects.cache
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\obj\Debug\összetett.csproj.CoreCompileInputs.cache
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\obj\Debug\összetett.exe
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\csharp\összetett\összetett\obj\Debug\összetett.pdb

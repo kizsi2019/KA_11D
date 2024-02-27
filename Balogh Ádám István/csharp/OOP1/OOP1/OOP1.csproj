@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{07D643B4-0649-4790-99E4-0F60FE1210A5}</ProjectGuid>
+    <ProjectGuid>{20797C74-B47F-4221-9D33-DD7D69849F2C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>OOP1</RootNamespace>
     <AssemblyName>OOP1</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ember.cs" />
+    <Compile Include="Ember.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

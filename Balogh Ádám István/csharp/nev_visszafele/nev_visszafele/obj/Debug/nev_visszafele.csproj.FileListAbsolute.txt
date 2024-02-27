@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\bin\Debug\nev_visszafele.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\bin\Debug\nev_visszafele.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\bin\Debug\nev_visszafele.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\obj\Debug\nev_visszafele.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\obj\Debug\nev_visszafele.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\obj\Debug\nev_visszafele.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\obj\Debug\nev_visszafele.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\nev_visszafele\nev_visszafele\obj\Debug\nev_visszafele.pdb

@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\bin\Debug\szoveg_es_oop.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\bin\Debug\szoveg_es_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\bin\Debug\szoveg_es_oop.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\obj\Debug\szoveg_es_oop.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\obj\Debug\szoveg_es_oop.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\obj\Debug\szoveg_es_oop.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\obj\Debug\szoveg_es_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szoveg_es_oop\szoveg_es_oop\obj\Debug\szoveg_es_oop.pdb

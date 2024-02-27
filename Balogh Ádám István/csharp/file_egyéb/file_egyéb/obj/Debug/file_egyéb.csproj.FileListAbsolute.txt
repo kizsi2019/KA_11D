@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\bin\Debug\file_egyéb.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\bin\Debug\file_egyéb.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\bin\Debug\file_egyéb.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\obj\Debug\file_egyéb.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\obj\Debug\file_egyéb.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\obj\Debug\file_egyéb.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\obj\Debug\file_egyéb.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\file_egyéb\file_egyéb\obj\Debug\file_egyéb.pdb

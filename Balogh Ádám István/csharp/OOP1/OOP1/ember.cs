@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOP1
 {
-    public class ember
+    public class Ember
     {
-        public ember(string n, int é, int isz) 
+        public Ember(string n, int e, int isz)
         {
             Név = n;
-            Életkor = é;
+            Életkor = e;
             Irányítószám = isz;
         }
         private string név;
@@ -24,7 +24,7 @@ namespace OOP1
             set
             {
                 if (value.Length != 0) név = value;
-                else Exception("A név méző nem lehet üres!");
+                else Exception("A név mező nem lehet üres!");
             }
         }
         private int életkor;
@@ -37,9 +37,8 @@ namespace OOP1
             set
             {
                 if (value >= 0) életkor = value;
-                else Exception("Az életkor mező nem lehet negatív");
+                else Exception("Az életkor mező nem lehet negatív!");
             }
-       
         }
         private int irányítószám;
         public int Irányítószám
@@ -51,14 +50,12 @@ namespace OOP1
             set
             {
                 if (value.ToString().Length == 4) irányítószám = value;
-                else Exception("Az irányítószám helytelen");
+                else Exception("Az irányítószám helytelen!");
             }
         }
         private void Exception(string s)
         {
             throw new FormatException(s);
         }
-        
     }
-
 }

@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\bin\Debug\csak.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\bin\Debug\csak.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\bin\Debug\csak.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\obj\Debug\csak.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\obj\Debug\csak.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\obj\Debug\csak.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\obj\Debug\csak.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\csak\csak\obj\Debug\csak.pdb
