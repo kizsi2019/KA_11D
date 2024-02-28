@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bükk keriversi",
-    "\\bükk keriversi\\Informatikai_ism_forrasok_K2211",
-    "\\bükk keriversi\\Informatikai_ism_forrasok_K2211\\2_feladat",
-    "\\bükk keriversi\\Informatikai_ism_forrasok_K2211\\2_feladat\\BukkMaraton2019",
-    "\\bükk keriversi\\Informatikai_ism_forrasok_K2211\\2_feladat\\BukkMaraton2019\\BukkMaraton2019",
-    "\\dot net"
+    "\\dot net",
+    "\\dot net\\OrvosiNobeldijas",
+    "\\dot net\\OrvosiNobeldijas\\OrvosiNobeldijas",
+    "\\Java",
+    "\\Java\\34",
+    "\\Java\\40",
+    "\\SQL"
   ],
-  "SelectedNode": "\\bükk keriversi\\Informatikai_ism_forrasok_K2211\\2_feladat\\BukkMaraton2019\\BukkMaraton2019\\Program.cs",
+  "SelectedNode": "\\Java\\40\\script.js",
   "PreviewInSolutionExplorer": false
 }
