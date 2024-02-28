@@ -1,0 +1,7 @@
+C:\Users\JakabMateTibor\source\repos\2023.12.13 c# 2\2023.12.13 c# 2\bin\Debug\2023.12.13 c# 2.exe.config
+C:\Users\JakabMateTibor\source\repos\2023.12.13 c# 2\2023.12.13 c# 2\bin\Debug\2023.12.13 c# 2.exe
+C:\Users\JakabMateTibor\source\repos\2023.12.13 c# 2\2023.12.13 c# 2\bin\Debug\2023.12.13 c# 2.pdb
+C:\Users\JakabMateTibor\source\repos\2023.12.13 c# 2\2023.12.13 c# 2\obj\Debug\2023.12.13 c# 2.csproj.AssemblyReference.cache
+C:\Users\JakabMateTibor\source\repos\2023.12.13 c# 2\2023.12.13 c# 2\obj\Debug\2023.12.13 c# 2.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\source\repos\2023.12.13 c# 2\2023.12.13 c# 2\obj\Debug\2023.12.13 c# 2.exe
+C:\Users\JakabMateTibor\source\repos\2023.12.13 c# 2\2023.12.13 c# 2\obj\Debug\2023.12.13 c# 2.pdb
