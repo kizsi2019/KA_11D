@@ -1,0 +1,2 @@
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\delegacio3\delegacio3\obj\Debug\delegacio3.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\fos\KA_11D\Balogh Ádám István\csharp\delegacio3\delegacio3\obj\Debug\delegacio3.csproj.CoreCompileInputs.cache

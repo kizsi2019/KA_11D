@@ -1,0 +1,7 @@
+C:\Users\UivarosiGabriel\Desktop\Delegate3\Delegate3\bin\Debug\Delegate3.exe.config
+C:\Users\UivarosiGabriel\Desktop\Delegate3\Delegate3\bin\Debug\Delegate3.exe
+C:\Users\UivarosiGabriel\Desktop\Delegate3\Delegate3\bin\Debug\Delegate3.pdb
+C:\Users\UivarosiGabriel\Desktop\Delegate3\Delegate3\obj\Debug\Delegate3.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\Delegate3\Delegate3\obj\Debug\Delegate3.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\Delegate3\Delegate3\obj\Debug\Delegate3.exe
+C:\Users\UivarosiGabriel\Desktop\Delegate3\Delegate3\obj\Debug\Delegate3.pdb

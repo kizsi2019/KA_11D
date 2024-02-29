@@ -1,0 +1,18 @@
+﻿<Window x:Class="emberekGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:emberekGUI"
+        mc:Ignorable="d"
+        Title="Fájlba író progi" Height="450" Width="800">
+    <Grid>
+        <Label Content="Név:" HorizontalAlignment="Left" Height="38" Margin="54,50,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Kor:" HorizontalAlignment="Left" Height="38" Margin="54,100,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Város:" HorizontalAlignment="Left" Height="38" Margin="54,150,0,0" VerticalAlignment="Top" Width="96"/>
+        <TextBox Name="tbNev" HorizontalAlignment="Left" Height="31" Margin="150,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
+        <TextBox Name="tbKor" HorizontalAlignment="Left" Height="31" Margin="150,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
+        <TextBox Name="tbVáros" HorizontalAlignment="Left" Height="31" Margin="150,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
+        <Button Content="Fájlba írás" HorizontalAlignment="Left" Height="44" Margin="54,217,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click"/>
+    </Grid>
+</Window>

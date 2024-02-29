@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first_class_függvények", "first_class_függvények\first_class_függvények.csproj", "{B879D2BE-F5C4-4EF6-BC7A-E4BAC12107CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B879D2BE-F5C4-4EF6-BC7A-E4BAC12107CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B879D2BE-F5C4-4EF6-BC7A-E4BAC12107CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B879D2BE-F5C4-4EF6-BC7A-E4BAC12107CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B879D2BE-F5C4-4EF6-BC7A-E4BAC12107CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {340FA154-ABCA-4605-BF3B-3A5D31CCEA08}
+	EndGlobalSection
+EndGlobal

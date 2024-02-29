@@ -1,0 +1,19 @@
+﻿<Window x:Class="ora_szamitas_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ora_szamitas_GUI"
+        mc:Ignorable="d"
+        Title="Óra-perc számítás" Height="450" Width="800">
+    <Grid>
+        <Label Content="Idő:" HorizontalAlignment="Left" Height="32" Margin="44,50,0,0" VerticalAlignment="Top" Width="134"/>
+        <Label Content="perc:" HorizontalAlignment="Left" Height="32" Margin="44,100,0,0" VerticalAlignment="Top" Width="134"/>
+        <Label Content="másodperc:" HorizontalAlignment="Left" Height="32" Margin="44,150,0,0" VerticalAlignment="Top" Width="134"/>
+        <TextBlock TextWrapping="Wrap"/>
+        <TextBlock Name="Perc" HorizontalAlignment="Left" Height="16" Margin="226,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <TextBlock Name="Mp" HorizontalAlignment="Left" Height="16" Margin="226,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <Button Content="Kiszámol" HorizontalAlignment="Left" Height="166" Margin="477,62,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click"/>
+        <TextBox Name = "Ido" HorizontalAlignment="Left" Height="32" Margin="226,50,0,0" TextWrapping="Wrap" Text="1:00:00" VerticalAlignment="Top" Width="93"/>
+    </Grid>
+</Window>
