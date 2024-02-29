@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\rajzolás\rajzolás\obj\Debug\rajzolás.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\rajzolás\rajzolás\obj\Debug\rajzolás.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\rajzolás\rajzolás\bin\Debug\rajzolás.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\rajzolás\rajzolás\bin\Debug\rajzolás.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\rajzolás\rajzolás\bin\Debug\rajzolás.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\rajzolás\rajzolás\obj\Debug\rajzolás.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\rajzolás\rajzolás\obj\Debug\rajzolás.pdb

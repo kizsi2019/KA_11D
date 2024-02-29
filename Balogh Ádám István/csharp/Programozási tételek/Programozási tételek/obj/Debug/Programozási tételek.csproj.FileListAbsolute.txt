@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\bin\Debug\Programozási tételek.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\bin\Debug\Programozási tételek.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\bin\Debug\Programozási tételek.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\obj\Debug\Programozási tételek.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\obj\Debug\Programozási tételek.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\obj\Debug\Programozási tételek.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\obj\Debug\Programozási tételek.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Programozási tételek\Programozási tételek\obj\Debug\Programozási tételek.pdb

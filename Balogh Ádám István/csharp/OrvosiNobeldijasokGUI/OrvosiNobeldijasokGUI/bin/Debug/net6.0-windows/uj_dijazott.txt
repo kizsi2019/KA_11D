@@ -1,0 +1,2 @@
+Év;Név;SzületésHalálozás;Országkód
+2000;Vicsápi Levente;2004;H

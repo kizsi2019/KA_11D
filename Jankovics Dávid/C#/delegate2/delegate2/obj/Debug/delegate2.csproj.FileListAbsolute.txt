@@ -1,0 +1,7 @@
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\delegate2\delegate2\bin\Debug\delegate2.exe.config
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\delegate2\delegate2\bin\Debug\delegate2.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\delegate2\delegate2\bin\Debug\delegate2.pdb
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\delegate2\delegate2\obj\Debug\delegate2.csproj.AssemblyReference.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\delegate2\delegate2\obj\Debug\delegate2.csproj.CoreCompileInputs.cache
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\delegate2\delegate2\obj\Debug\delegate2.exe
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\delegate2\delegate2\obj\Debug\delegate2.pdb

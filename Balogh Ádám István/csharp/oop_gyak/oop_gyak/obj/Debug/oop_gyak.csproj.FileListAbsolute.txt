@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\obj\Debug\oop_gyak.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\obj\Debug\oop_gyak.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\obj\Debug\oop_gyak.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\bin\Debug\oop_gyak.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\bin\Debug\oop_gyak.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\bin\Debug\oop_gyak.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\obj\Debug\oop_gyak.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_gyak\oop_gyak\obj\Debug\oop_gyak.pdb

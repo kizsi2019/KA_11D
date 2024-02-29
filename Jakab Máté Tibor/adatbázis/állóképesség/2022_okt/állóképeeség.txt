@@ -1,0 +1,3 @@
+1.feladat:SELECT letszam from megye WHERE nev LIKE 'Vas';
+2.feladat:SELECT COUNT(azon) as 'tanulók száma', nev FROM aerob, megye
+WHERE megye.kod = aerob.mkod AND nev LIKE '%Somogy%';

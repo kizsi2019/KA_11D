@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\bin\Debug\bináris_keresés.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\bin\Debug\bináris_keresés.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\bin\Debug\bináris_keresés.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\obj\Debug\bináris_keresés.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\obj\Debug\bináris_keresés.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\obj\Debug\bináris_keresés.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\obj\Debug\bináris_keresés.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\bináris_keresés\bináris_keresés\obj\Debug\bináris_keresés.pdb

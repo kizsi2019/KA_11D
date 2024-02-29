@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\bin\Debug\lista_osztaly.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\bin\Debug\lista_osztaly.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\bin\Debug\lista_osztaly.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\obj\Debug\lista_osztaly.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\obj\Debug\lista_osztaly.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\obj\Debug\lista_osztaly.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\obj\Debug\lista_osztaly.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\lista_osztaly\lista_osztaly\obj\Debug\lista_osztaly.pdb

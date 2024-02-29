@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\obj\Debug\oop_adatbekeres.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\obj\Debug\oop_adatbekeres.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\obj\Debug\oop_adatbekeres.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\bin\Debug\oop_adatbekeres.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\bin\Debug\oop_adatbekeres.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\bin\Debug\oop_adatbekeres.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\obj\Debug\oop_adatbekeres.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\oop_adatbekeres\oop_adatbekeres\obj\Debug\oop_adatbekeres.pdb
