@@ -65,9 +65,9 @@ namespace Forms
             // 
             this.button3.Location = new System.Drawing.Point(27, 92);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 24);
+            this.button3.Size = new System.Drawing.Size(128, 24);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "Read Data From Table";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -90,21 +90,21 @@ namespace Forms
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(143, 34);
+            this.textBox1.Location = new System.Drawing.Point(171, 34);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(150, 20);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(143, 64);
+            this.textBox2.Location = new System.Drawing.Point(171, 64);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(150, 20);
             this.textBox2.TabIndex = 6;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(143, 94);
+            this.textBox4.Location = new System.Drawing.Point(171, 94);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(150, 20);
             this.textBox4.TabIndex = 7;
