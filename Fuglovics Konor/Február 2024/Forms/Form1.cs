@@ -31,6 +31,8 @@ namespace Forms
             MySqlCommand cmd = new MySqlCommand(InsertTable, con);
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show(i.ToString);
+            //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            //FUCK THIS SHIT I GIVE UP!!
         }
     }
 }
