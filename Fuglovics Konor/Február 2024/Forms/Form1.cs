@@ -17,12 +17,12 @@ namespace Forms
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Create_Click(object sender, EventArgs e)
         {
             //MI A FASZT KELL ÍRNI!?!?!?!
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Insert_Click(object sender, EventArgs e)
         {
             string conString = "server" + ??? +";uid" + ??? +";pwd" + ??? +";database" + ???;
             MySqlConnection con = new MySqlConnection(conString);
@@ -33,6 +33,16 @@ namespace Forms
             MessageBox.Show(i.ToString);
             //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
             //FUCK THIS SHIT I GIVE UP!!
+        }
+
+        private void Read_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Update_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
