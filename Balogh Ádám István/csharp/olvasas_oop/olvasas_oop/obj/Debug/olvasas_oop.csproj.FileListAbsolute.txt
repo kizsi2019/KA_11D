@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\obj\Debug\olvasas_oop.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\obj\Debug\olvasas_oop.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\obj\Debug\olvasas_oop.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\bin\Debug\olvasas_oop.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\bin\Debug\olvasas_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\bin\Debug\olvasas_oop.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\obj\Debug\olvasas_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\olvasas_oop\olvasas_oop\obj\Debug\olvasas_oop.pdb

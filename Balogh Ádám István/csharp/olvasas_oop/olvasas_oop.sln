@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olvasas_oop", "olvasas_oop\olvasas_oop.csproj", "{0179F4F1-D9F4-4EC5-8F60-6FDEC988C513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0179F4F1-D9F4-4EC5-8F60-6FDEC988C513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0179F4F1-D9F4-4EC5-8F60-6FDEC988C513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0179F4F1-D9F4-4EC5-8F60-6FDEC988C513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0179F4F1-D9F4-4EC5-8F60-6FDEC988C513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D25BD8B-EC6B-4E0D-9D3C-7D60B85A357E}
+	EndGlobalSection
+EndGlobal

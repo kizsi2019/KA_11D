@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\bin\Debug\tarsalgo.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\bin\Debug\tarsalgo.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\bin\Debug\tarsalgo.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\obj\Debug\tarsalgo.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\obj\Debug\tarsalgo.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\obj\Debug\tarsalgo.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\obj\Debug\tarsalgo.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\tarsalgo\tarsalgo\obj\Debug\tarsalgo.pdb

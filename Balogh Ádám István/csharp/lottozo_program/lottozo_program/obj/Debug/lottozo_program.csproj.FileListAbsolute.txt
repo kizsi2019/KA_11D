@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\obj\Debug\lottozo_program.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\obj\Debug\lottozo_program.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\obj\Debug\lottozo_program.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\bin\Debug\lottozo_program.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\bin\Debug\lottozo_program.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\bin\Debug\lottozo_program.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\obj\Debug\lottozo_program.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lottozo_program\lottozo_program\obj\Debug\lottozo_program.pdb

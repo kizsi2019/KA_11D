@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\bin\Debug\gyakorlo_feladat.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\bin\Debug\gyakorlo_feladat.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\bin\Debug\gyakorlo_feladat.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\gyakorlo_feladat\gyakorlo_feladat\obj\Debug\gyakorlo_feladat.pdb

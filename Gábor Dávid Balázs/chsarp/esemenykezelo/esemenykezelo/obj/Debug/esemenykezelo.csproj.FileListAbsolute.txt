@@ -1,0 +1,7 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\esemenykezelo\esemenykezelo\bin\Debug\esemenykezelo.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\esemenykezelo\esemenykezelo\bin\Debug\esemenykezelo.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\esemenykezelo\esemenykezelo\bin\Debug\esemenykezelo.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\esemenykezelo\esemenykezelo\obj\Debug\esemenykezelo.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\esemenykezelo\esemenykezelo\obj\Debug\esemenykezelo.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\esemenykezelo\esemenykezelo\obj\Debug\esemenykezelo.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\esemenykezelo\esemenykezelo\obj\Debug\esemenykezelo.pdb

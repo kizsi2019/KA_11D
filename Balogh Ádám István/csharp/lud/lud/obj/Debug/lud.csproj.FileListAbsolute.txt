@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\bin\Debug\lud.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\bin\Debug\lud.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\bin\Debug\lud.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\obj\Debug\lud.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\obj\Debug\lud.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\obj\Debug\lud.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\obj\Debug\lud.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lud\lud\obj\Debug\lud.pdb

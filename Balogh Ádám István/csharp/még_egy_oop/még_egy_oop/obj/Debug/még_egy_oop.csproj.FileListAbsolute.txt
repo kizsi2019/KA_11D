@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\obj\Debug\még_egy_oop.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\obj\Debug\még_egy_oop.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\obj\Debug\még_egy_oop.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\bin\Debug\még_egy_oop.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\bin\Debug\még_egy_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\bin\Debug\még_egy_oop.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\obj\Debug\még_egy_oop.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\még_egy_oop\még_egy_oop\obj\Debug\még_egy_oop.pdb
