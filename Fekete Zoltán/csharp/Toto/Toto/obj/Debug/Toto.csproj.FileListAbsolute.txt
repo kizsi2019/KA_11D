@@ -6,3 +6,10 @@ C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.csproj.S
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.exe
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Toto\Toto\obj\Debug\Toto.pdb
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\Toto\Toto\bin\Debug\Toto.exe.config
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\Toto\Toto\bin\Debug\Toto.exe
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\Toto\Toto\bin\Debug\Toto.pdb
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\Toto\Toto\obj\Debug\Toto.csproj.AssemblyReference.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\Toto\Toto\obj\Debug\Toto.csproj.CoreCompileInputs.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\Toto\Toto\obj\Debug\Toto.exe
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\csharp\Toto\Toto\obj\Debug\Toto.pdb
