@@ -155,7 +155,8 @@ hozzaad();
 hozzaad();
 hozzaad();
 */
-
+// 39 //
+/*
 var leptet = (
 function() {
     var szamlalo = 0;
@@ -173,3 +174,77 @@ leptet();
 leptet();
 leptet();
 leptet();
+*/
+
+// 40
+
+/*
+var odon = {
+    nev: 'Ödön' ,
+    kor: 45,
+    foglalkozás: 'csillagász',
+    üdvözlet: function(stilus, napszak) {
+        if (stilus == 'hivatalos ') {
+            console.log('Üdvözlöm, jó' + napszak + 'kívánok' + this.nev + 'Vagyok')
+        } else if (stilus === 'baráti') {
+            console.log('Szia, Jó '  + napszak + '!');
+        }
+        
+    }
+}
+
+// odon.üdvözlet('hivalatos', 'Hajnalt')
+// odon.üdvözlet('baráti', 'HMMMMT')
+
+var béla = {
+    nev: 'Béla',
+    kor: 62,
+    foglalkozás: 'portás'
+
+}
+
+// Call metódus
+ //odon.üdvözlet.call(béla, 'baráti', 'Palacsintát')
+/*
+// apply 
+odon.üdvözlet.apply(béla, ['baráti', 'Palacsintát'])
+
+//bind
+var odonBarati = odon.üdvözlet.bind(odon, 'baráti');
+odonBarati('Palacsintát')
+odonBarati('sexet')
+
+ var belaHívatalos = odon.üdvözlet.bind(béla, 'hivatalos');
+ var belaHívatalosNappszaki = odon.üdvözlet.bind(béla, 'hivatalos' , 'világvégét');
+
+belaHívatalos('estét');
+belaHívatalosNappszaki();
+*/
+
+var evek = [1954, 1990, 1990, 1963, 2000 , 2010];
+
+function tombMuvelet(tomb, fv) {
+    var eredmény = [];
+
+    for (var i = 0; i < tomb.length; i++) {
+        eredmény.push(fv(tomb[i]));
+    }
+    return eredmény;
+};
+
+function korszamitas(elem) {
+    return 2024 - elem;
+};
+
+// console.log(korok) után
+function felnott(korhatar, elem) {
+    return elem >= korhatar;
+};
+
+var korok = tombMuvelet(evek, korszamitas);
+console.log(evek);
+console.log(korok);
+
+var felnottkorJapanban = tombMuvelet(korok, felnott.bind(this, 20));
+
+console.log(felnottkorJapanban);

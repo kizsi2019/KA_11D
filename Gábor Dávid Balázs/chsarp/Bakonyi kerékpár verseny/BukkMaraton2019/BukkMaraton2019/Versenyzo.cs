@@ -37,9 +37,9 @@ namespace BukkMaraton2019
             Kategoria = m[1];
             Nev = m[2];
             Egyesulet = m[3];
-            int ora = int.Parse(m[4].Split(';')[0]);
-            int perc = int.Parse(m[4].Split(';')[1]);
-            int mp = int.Parse(m[4].Split(';')[2]);
+            int ora = int.Parse(m[4].Split(':')[0]);
+            int perc = int.Parse(m[4].Split(':')[1]);
+            int mp = int.Parse(m[4].Split(':')[2]);
             Ido = new TimeSpan(ora, perc, mp);
             Tav = new Versenytav(Rajtszam).Tav;
         } 

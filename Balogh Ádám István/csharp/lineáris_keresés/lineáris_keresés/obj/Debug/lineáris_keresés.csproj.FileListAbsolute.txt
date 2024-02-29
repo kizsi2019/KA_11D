@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\bin\Debug\lineáris_keresés.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\bin\Debug\lineáris_keresés.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\bin\Debug\lineáris_keresés.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\obj\Debug\lineáris_keresés.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\obj\Debug\lineáris_keresés.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\obj\Debug\lineáris_keresés.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\obj\Debug\lineáris_keresés.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lineáris_keresés\lineáris_keresés\obj\Debug\lineáris_keresés.pdb

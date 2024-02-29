@@ -1,0 +1,7 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\delegate1\delegate1\bin\Debug\delegate1.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\delegate1\delegate1\bin\Debug\delegate1.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\delegate1\delegate1\bin\Debug\delegate1.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\delegate1\delegate1\obj\Debug\delegate1.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\delegate1\delegate1\obj\Debug\delegate1.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\delegate1\delegate1\obj\Debug\delegate1.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\delegate1\delegate1\obj\Debug\delegate1.pdb

@@ -1,0 +1,8 @@
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\bin\Debug\halmaz_kulonbseg.exe.config
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\bin\Debug\halmaz_kulonbseg.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\bin\Debug\halmaz_kulonbseg.pdb
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\obj\Debug\halmaz_kulonbseg.csproj.AssemblyReference.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\obj\Debug\halmaz_kulonbseg.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\obj\Debug\halmaz_kulonbseg.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\obj\Debug\halmaz_kulonbseg.exe
+C:\iskola\info\aaf2\KA_11D\Vicsápi Levente\C#\halmaz_kulonbseg\halmaz_kulonbseg\obj\Debug\halmaz_kulonbseg.pdb

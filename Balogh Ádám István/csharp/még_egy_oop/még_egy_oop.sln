@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "még_egy_oop", "még_egy_oop\még_egy_oop.csproj", "{05E35A2F-1DB0-42DF-9C1E-C6B007D82A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E35A2F-1DB0-42DF-9C1E-C6B007D82A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E35A2F-1DB0-42DF-9C1E-C6B007D82A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E35A2F-1DB0-42DF-9C1E-C6B007D82A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E35A2F-1DB0-42DF-9C1E-C6B007D82A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10A88B62-17A0-4488-B29B-A10CDB349137}
+	EndGlobalSection
+EndGlobal

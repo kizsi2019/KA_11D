@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\bin\Debug\lista bejaras.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\bin\Debug\lista bejaras.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\bin\Debug\lista bejaras.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\obj\Debug\lista bejaras.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\obj\Debug\lista bejaras.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\obj\Debug\lista bejaras.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\obj\Debug\lista bejaras.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\lista bejaras\lista bejaras\obj\Debug\lista bejaras.pdb

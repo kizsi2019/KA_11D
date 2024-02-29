@@ -1,0 +1,5 @@
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\Dunno\Dunno\obj\Debug\net8.0\Dunno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\Dunno\Dunno\obj\Debug\net8.0\Dunno.AssemblyInfoInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\Dunno\Dunno\obj\Debug\net8.0\Dunno.AssemblyInfo.cs
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\Dunno\Dunno\obj\Debug\net8.0\Dunno.csproj.CoreCompileInputs.cache
+C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\2. Totó\Dunno\Dunno\obj\Debug\net8.0\Dunno.sourcelink.json

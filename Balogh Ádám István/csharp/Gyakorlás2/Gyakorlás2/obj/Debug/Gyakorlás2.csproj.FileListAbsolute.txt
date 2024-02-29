@@ -1,8 +1,0 @@
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\bin\Debug\Gyakorlás2.exe.config
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\bin\Debug\Gyakorlás2.exe
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\bin\Debug\Gyakorlás2.pdb
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.csproj.AssemblyReference.cache
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.csproj.SuggestedBindingRedirects.cache
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.csproj.CoreCompileInputs.cache
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.exe
-C:\Users\AdamBalogh\Desktop\gitbub\KA_11D\Balogh Ádám István\Gyakorlás2\Gyakorlás2\obj\Debug\Gyakorlás2.pdb
