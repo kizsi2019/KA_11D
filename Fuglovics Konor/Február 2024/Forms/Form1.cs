@@ -19,7 +19,18 @@ namespace Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //MI A FASZT KELL ÍRNI!?!?!?!
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string conString = "server" + ??? +";uid" + ??? +";pwd" + ??? +";database" + ???;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string InsertTable = "Insert into test_table(id, name, fname) values(" +???.text+ ",'" +???.text+ "','" ???.text+"')";
+            MySqlCommand cmd = new MySqlCommand(InsertTable, con);
+            int i = cmd.ExecuteNonQuery();
+            MessageBox.Show(i.ToString);
         }
     }
 }
