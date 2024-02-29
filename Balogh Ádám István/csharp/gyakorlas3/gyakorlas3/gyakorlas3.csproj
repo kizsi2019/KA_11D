@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA62FC95-0BC9-4DA2-AB5E-332E4FAD2243}</ProjectGuid>
+    <ProjectGuid>{68CEEDC5-DA8B-40C5-ADFF-E99368703E8D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>gyakorlas3</RootNamespace>
     <AssemblyName>gyakorlas3</AssemblyName>

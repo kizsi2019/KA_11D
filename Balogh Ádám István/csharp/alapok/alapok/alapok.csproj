@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A02CCCB5-C636-47AB-B9D2-6A0101F4CA82}</ProjectGuid>
+    <ProjectGuid>{775161EB-10CC-4223-884E-6E83F6BDC947}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>alapok</RootNamespace>
     <AssemblyName>alapok</AssemblyName>

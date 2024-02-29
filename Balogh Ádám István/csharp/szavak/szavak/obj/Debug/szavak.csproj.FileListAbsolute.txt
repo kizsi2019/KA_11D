@@ -1,8 +1,0 @@
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\bin\Debug\szavak.exe.config
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\bin\Debug\szavak.exe
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\bin\Debug\szavak.pdb
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\obj\Debug\szavak.csproj.AssemblyReference.cache
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\obj\Debug\szavak.csproj.SuggestedBindingRedirects.cache
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\obj\Debug\szavak.csproj.CoreCompileInputs.cache
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\obj\Debug\szavak.exe
-C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\szavak\szavak\obj\Debug\szavak.pdb

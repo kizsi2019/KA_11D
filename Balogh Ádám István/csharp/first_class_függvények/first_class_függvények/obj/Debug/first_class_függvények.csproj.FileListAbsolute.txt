@@ -1,0 +1,8 @@
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\obj\Debug\first_class_függvények.csproj.AssemblyReference.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\obj\Debug\first_class_függvények.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\obj\Debug\first_class_függvények.csproj.CoreCompileInputs.cache
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\bin\Debug\first_class_függvények.exe.config
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\bin\Debug\first_class_függvények.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\bin\Debug\first_class_függvények.pdb
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\obj\Debug\first_class_függvények.exe
+C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\first_class_függvények\first_class_függvények\obj\Debug\first_class_függvények.pdb
