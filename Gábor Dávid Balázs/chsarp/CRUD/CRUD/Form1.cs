@@ -16,7 +16,7 @@ namespace CRUD
         string server = "localhost";
         string uid = "root";
         string password = "";
-        string database = "crud_muveletek";
+        string database = "oscar";
         public Form1()
         {
             InitializeComponent();
@@ -50,6 +50,45 @@ namespace CRUD
             MySqlConnection con = new MySqlConnection(conString);
             con.Open();
             string SQL = "select * from test_table";
+            MySqlCommand cmd = new MySqlCommand(SQL, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            string conString = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string updateTable = "Update test_table set name='Gyula' where id = 1";
+            MySqlCommand cmd = new MySqlCommand(updateTable, con);
+            int i = cmd.ExecuteNonQuery();
+            MessageBox.Show(i.ToString());
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string conString = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string delete = "Delete from test_table where id = 3";
+            MySqlCommand cmd = new MySqlCommand(delete, con);
+            int i = cmd.ExecuteNonQuery();
+            MessageBox.Show(i.ToString());
+        }
+        private void kilep_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            string conString = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string SQL = "SELECT film.ev, film.cim FROM film WHERE nyert ORDER BY ev;";
             MySqlCommand cmd = new MySqlCommand(SQL, con);
             MySqlDataReader reader = cmd.ExecuteReader();
             DataTable dt = new DataTable();
