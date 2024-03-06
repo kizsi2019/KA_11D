@@ -16,7 +16,7 @@ namespace CRUD
         string server = "localhost";
         string uid = "root";
         string password = "";
-        string database = "crud_muveletek";
+        string database = "oscar";
             
         public Form1()
         {
@@ -83,6 +83,21 @@ namespace CRUD
             MySqlCommand cmd = new MySqlCommand(delete, con);
             int i = cmd.ExecuteNonQuery();
             MessageBox.Show(i.ToString());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            string conString = "server=" + server + ";uid=" + uid +
+";pwd=" + password + ";database=" + database;
+            MySqlConnection con = new MySqlConnection(conString);
+            con.Open();
+            string SQL = "";
+            MySqlCommand cmd = new MySqlCommand(SQL, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
         }
     }
 }
