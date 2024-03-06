@@ -5,3 +5,10 @@ C:\Users\zsomb\source\repos\Bevezetes\Bevezetes\obj\Debug\Bevezetes.csproj.Assem
 C:\Users\zsomb\source\repos\Bevezetes\Bevezetes\obj\Debug\Bevezetes.csproj.CoreCompileInputs.cache
 C:\Users\zsomb\source\repos\Bevezetes\Bevezetes\obj\Debug\Bevezetes.exe
 C:\Users\zsomb\source\repos\Bevezetes\Bevezetes\obj\Debug\Bevezetes.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\C#\Bevezetes\Bevezetes\bin\Debug\Bevezetes.exe.config
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\C#\Bevezetes\Bevezetes\bin\Debug\Bevezetes.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\C#\Bevezetes\Bevezetes\bin\Debug\Bevezetes.pdb
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\C#\Bevezetes\Bevezetes\obj\Debug\Bevezetes.csproj.AssemblyReference.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\C#\Bevezetes\Bevezetes\obj\Debug\Bevezetes.csproj.CoreCompileInputs.cache
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\C#\Bevezetes\Bevezetes\obj\Debug\Bevezetes.exe
+C:\Users\zsomb\OneDrive\Asztali gép\school\school\informatika\KA_11D\Kiss-Fodor Zsombor\C#\Bevezetes\Bevezetes\obj\Debug\Bevezetes.pdb
