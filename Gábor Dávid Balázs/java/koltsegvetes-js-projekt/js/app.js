@@ -1,5 +1,26 @@
 // Költségvetés vezérlés
 var koltsegvetesVezerlo = (function() {
+    var Kiadas = function(id, leiras, ertek) {
+        this.leiras = leiras;
+        this.id = id;
+        this.ertek = ertek;
+    }
+    var Bevetel = function(id, leiras, ertek) {
+        this.leiras = leiras;
+        this.id = id;
+        this.ertek = ertek;
+    }
+
+    var adat = {
+        tetelek: {
+            kia: [],
+            bev: []
+        },
+        osszegek: {
+            kia: 0,
+            bev: 0
+        },
+    }
     
 })();
 
@@ -30,12 +51,25 @@ var feluletVezerlo = (function() {
 // Alkalmazás vezérlés
 var vezerlo = (function(koltsegvetesVez, feluletVez) {
 
-    var DOM = feluletVezerlo.getDOMelemek();
+    var esemenykezeloBeallit = function() {
+        var DOM = feluletVezerlo.getDOMelemek();
+        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
+
+
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key !== undefined && event.key === 'Enter') {
+                vezTetelHozzaadas();
+            }
+            else if (event.keyCode !== undefined && event.keyCode === 13) {
+                vezTetelHozzaadas();
+            }
+        });
+    }
 
     var vezTetelHozzaadas = function() {
         // 1. bevitt adatok megszerzeése
         var input = feluletVezerlo.getInput();
-        console.log(input);
 
         // 2. adatok átadása a koltsegvetesVezerlo modulnak
 
@@ -45,17 +79,13 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
 
         // 5. összeg megjelenítése a felületen
 
-        console.log('Mukodik')
-
     }
-    document.querySelector('.hozzaad__gomb').addEventListener('click', vezTetelHozzaadas);
-
-    document.addEventListener('keydown', function(event) {
-        if (event.key !== undefined && event.key === 'Enter') {
-            vezTetelHozzaadas();
+    return {
+        init: function() {
+            console.log('Az alkalmazas fut');
+            esemenykezeloBeallit();
         }
-        else if (event.keyCode !== undefined && event.keyCode === 13) {
-            vezTetelHozzaadas();
-        }
-    });
+    }
 })(koltsegvetesVezerlo, feluletVezerlo);
+
+vezerlo.init();
