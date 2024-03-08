@@ -28,12 +28,12 @@ var koltsegvetesVezerlo = (function() {
 
     return {
         tetelHozzaad: function(tip, lei, ert) {
-            var ujTetel;
+            var ujTetel, ID;
             ID = 0;
 
             // ID létrehozása
-            if (adat.teteleky[tip].lenght > 0) {
-                ID = adat.tetelek[tip][adat.tetelek[tip].lenght - 1].id + 1;
+            if (adat.tetelek[tip].length > 0) {
+                ID = adat.tetelek[tip][adat.tetelek[tip].length - 1].id + 1;
             } else {
                 ID = 0;
             }
