@@ -1,0 +1,2 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate4\delegate4\obj\Debug\delegate4.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate4\delegate4\obj\Debug\delegate4.csproj.CoreCompileInputs.cache

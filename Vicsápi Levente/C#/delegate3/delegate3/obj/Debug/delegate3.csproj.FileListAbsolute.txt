@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate3\delegate3\bin\Debug\delegate3.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate3\delegate3\bin\Debug\delegate3.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate3\delegate3\bin\Debug\delegate3.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate3\delegate3\obj\Debug\delegate3.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate3\delegate3\obj\Debug\delegate3.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate3\delegate3\obj\Debug\delegate3.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate3\delegate3\obj\Debug\delegate3.pdb
