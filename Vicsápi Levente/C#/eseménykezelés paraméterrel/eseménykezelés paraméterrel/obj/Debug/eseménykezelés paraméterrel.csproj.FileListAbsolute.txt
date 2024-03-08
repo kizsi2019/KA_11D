@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\eseménykezelés paraméterrel\eseménykezelés paraméterrel\bin\Debug\eseménykezelés paraméterrel.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\eseménykezelés paraméterrel\eseménykezelés paraméterrel\bin\Debug\eseménykezelés paraméterrel.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\eseménykezelés paraméterrel\eseménykezelés paraméterrel\bin\Debug\eseménykezelés paraméterrel.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\eseménykezelés paraméterrel\eseménykezelés paraméterrel\obj\Debug\eseménykezelés paraméterrel.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\eseménykezelés paraméterrel\eseménykezelés paraméterrel\obj\Debug\eseménykezelés paraméterrel.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\eseménykezelés paraméterrel\eseménykezelés paraméterrel\obj\Debug\eseménykezelés paraméterrel.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\eseménykezelés paraméterrel\eseménykezelés paraméterrel\obj\Debug\eseménykezelés paraméterrel.pdb

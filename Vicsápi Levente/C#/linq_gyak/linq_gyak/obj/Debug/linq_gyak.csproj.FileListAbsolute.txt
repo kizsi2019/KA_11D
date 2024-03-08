@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\linq_gyak\linq_gyak\bin\Debug\linq_gyak.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\linq_gyak\linq_gyak\bin\Debug\linq_gyak.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\linq_gyak\linq_gyak\bin\Debug\linq_gyak.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\linq_gyak\linq_gyak\obj\Debug\linq_gyak.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\linq_gyak\linq_gyak\obj\Debug\linq_gyak.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\linq_gyak\linq_gyak\obj\Debug\linq_gyak.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\linq_gyak\linq_gyak\obj\Debug\linq_gyak.pdb

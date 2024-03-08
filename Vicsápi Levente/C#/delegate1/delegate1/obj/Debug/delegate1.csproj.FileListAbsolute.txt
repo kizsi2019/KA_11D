@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate1\delegate1\bin\Debug\delegate1.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate1\delegate1\bin\Debug\delegate1.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate1\delegate1\bin\Debug\delegate1.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate1\delegate1\obj\Debug\delegate1.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate1\delegate1\obj\Debug\delegate1.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate1\delegate1\obj\Debug\delegate1.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate1\delegate1\obj\Debug\delegate1.pdb
