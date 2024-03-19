@@ -13,7 +13,7 @@ Ki írta "A Gyűrűk Ura" trilógiát?;J.K. Rowling;J.R.R. Tolkien ;C.S. Lewis;2
 Melyik állam az USA-ban a "Kőkorszak állama" néven is ismert?;Arizona;Alaska;New Mexico ;3
 Ki volt az első ember az űrben?;Neil Armstrong;Yuri Gagarin ;Buzz Aldrin;2
 Melyik állat a legnagyobb a Földön?;Elefánt;Bálna;Gorilla;2
-Köszönjük  a részvételt.;Köszönjük  a részvételt.;Köszönjük  a részvételt.;Köszönniük a részvételt.;1
+Köszönjük  a részvételt.;Köszönjük  a részvételt.;Köszönjük  a részvételt.;Köszönjük a részvételt.;1
 
 
 
