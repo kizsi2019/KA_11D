@@ -16,7 +16,7 @@
         <TextBox Name="Textbox_A" IsReadOnly="True" HorizontalAlignment="Left" Height="50" Margin="73,137,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="188"/>
         <TextBox Name="Textbox_B" IsReadOnly="True" HorizontalAlignment="Left" Height="50" Margin="73,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="188"/>
         <TextBox Name="Textbox_C" IsReadOnly="True" HorizontalAlignment="Left" Height="50" Margin="73,247,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="188"/>
-        <TextBox Name="Correct_ans_text" HorizontalAlignment="Left" Height="41" Margin="18,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243"/>
-        <TextBox Name="Correct_ans_num" HorizontalAlignment="Left" Height="41" Margin="266,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="93"/>
+        <TextBox IsReadOnly="True" Name="Correct_ans_text" HorizontalAlignment="Left" Height="41" Margin="18,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243"/>
+        <TextBox IsReadOnly="True" Name="Correct_ans_num" HorizontalAlignment="Left" Height="41" Margin="266,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="93"/>
     </Grid>
 </Window>
