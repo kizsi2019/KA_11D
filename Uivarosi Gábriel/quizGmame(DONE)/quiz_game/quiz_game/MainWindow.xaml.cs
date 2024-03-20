@@ -116,7 +116,7 @@ namespace quiz_game
                     Ki_írás();
                 } 
                 
-                if (kérdés_szám >= 15)
+                if (kérdés_szám >= 14)
                 {
                     tesz_kész = true;
                     százalék_kiírás();
