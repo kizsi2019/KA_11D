@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.BTNCreate = new System.Windows.Forms.Button();
             this.BTNInsert = new System.Windows.Forms.Button();
             this.BTNRead = new System.Windows.Forms.Button();
@@ -49,56 +50,62 @@
             // 
             // BTNCreate
             // 
+            this.BTNCreate.BackColor = System.Drawing.Color.Red;
             this.BTNCreate.Location = new System.Drawing.Point(12, 12);
             this.BTNCreate.Name = "BTNCreate";
             this.BTNCreate.Size = new System.Drawing.Size(137, 70);
             this.BTNCreate.TabIndex = 0;
             this.BTNCreate.Text = "Create Table";
-            this.BTNCreate.UseVisualStyleBackColor = true;
+            this.BTNCreate.UseVisualStyleBackColor = false;
             this.BTNCreate.Click += new System.EventHandler(this.BTNCreate_Click);
             // 
             // BTNInsert
             // 
+            this.BTNInsert.BackColor = System.Drawing.Color.Red;
             this.BTNInsert.Location = new System.Drawing.Point(12, 88);
             this.BTNInsert.Name = "BTNInsert";
             this.BTNInsert.Size = new System.Drawing.Size(137, 70);
             this.BTNInsert.TabIndex = 1;
             this.BTNInsert.Text = "Insert Data In Table";
-            this.BTNInsert.UseVisualStyleBackColor = true;
+            this.BTNInsert.UseVisualStyleBackColor = false;
             this.BTNInsert.Click += new System.EventHandler(this.BTNInsert_Click);
             // 
             // BTNRead
             // 
+            this.BTNRead.BackColor = System.Drawing.Color.Red;
             this.BTNRead.Location = new System.Drawing.Point(12, 164);
             this.BTNRead.Name = "BTNRead";
             this.BTNRead.Size = new System.Drawing.Size(137, 70);
             this.BTNRead.TabIndex = 2;
             this.BTNRead.Text = "Read Data From Table";
-            this.BTNRead.UseVisualStyleBackColor = true;
+            this.BTNRead.UseVisualStyleBackColor = false;
             this.BTNRead.Click += new System.EventHandler(this.BTNRead_Click);
             // 
             // BTNUpdate
             // 
+            this.BTNUpdate.BackColor = System.Drawing.Color.Red;
             this.BTNUpdate.Location = new System.Drawing.Point(12, 240);
             this.BTNUpdate.Name = "BTNUpdate";
             this.BTNUpdate.Size = new System.Drawing.Size(137, 70);
             this.BTNUpdate.TabIndex = 3;
             this.BTNUpdate.Text = "Update Table";
-            this.BTNUpdate.UseVisualStyleBackColor = true;
+            this.BTNUpdate.UseVisualStyleBackColor = false;
             this.BTNUpdate.Click += new System.EventHandler(this.BTNUpdate_Click);
             // 
             // BTNDelete
             // 
+            this.BTNDelete.BackColor = System.Drawing.Color.Red;
             this.BTNDelete.Location = new System.Drawing.Point(12, 316);
             this.BTNDelete.Name = "BTNDelete";
             this.BTNDelete.Size = new System.Drawing.Size(137, 70);
             this.BTNDelete.TabIndex = 4;
             this.BTNDelete.Text = "Delete Record";
-            this.BTNDelete.UseVisualStyleBackColor = true;
+            this.BTNDelete.UseVisualStyleBackColor = false;
             this.BTNDelete.Click += new System.EventHandler(this.BTNDelete_Click);
             // 
             // TB2
             // 
+            this.TB2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.TB2.Location = new System.Drawing.Point(199, 108);
             this.TB2.Name = "TB2";
             this.TB2.Size = new System.Drawing.Size(231, 29);
@@ -106,6 +113,7 @@
             // 
             // TB3
             // 
+            this.TB3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.TB3.Location = new System.Drawing.Point(199, 184);
             this.TB3.Name = "TB3";
             this.TB3.Size = new System.Drawing.Size(231, 29);
@@ -118,11 +126,12 @@
             this.DGV.Name = "DGV";
             this.DGV.RowHeadersWidth = 72;
             this.DGV.RowTemplate.Height = 31;
-            this.DGV.Size = new System.Drawing.Size(431, 318);
+            this.DGV.Size = new System.Drawing.Size(655, 538);
             this.DGV.TabIndex = 8;
             // 
             // TB1
             // 
+            this.TB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.TB1.Location = new System.Drawing.Point(199, 41);
             this.TB1.Name = "TB1";
             this.TB1.Size = new System.Drawing.Size(231, 29);
@@ -130,79 +139,88 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Yellow;
             this.button1.Location = new System.Drawing.Point(821, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(53, 38);
             this.button1.TabIndex = 10;
             this.button1.Text = "8";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Yellow;
             this.button2.Location = new System.Drawing.Point(467, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(53, 38);
             this.button2.TabIndex = 11;
             this.button2.Text = "2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Yellow;
             this.button3.Location = new System.Drawing.Point(526, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(53, 38);
             this.button3.TabIndex = 12;
             this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Yellow;
             this.button4.Location = new System.Drawing.Point(585, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(53, 38);
             this.button4.TabIndex = 13;
             this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.Yellow;
             this.button5.Location = new System.Drawing.Point(644, 12);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(53, 38);
             this.button5.TabIndex = 14;
             this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.Color.Yellow;
             this.button6.Location = new System.Drawing.Point(703, 12);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(53, 38);
             this.button6.TabIndex = 15;
             this.button6.Text = "6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
+            this.button7.BackColor = System.Drawing.Color.Yellow;
             this.button7.Location = new System.Drawing.Point(762, 12);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(53, 38);
             this.button7.TabIndex = 16;
             this.button7.Text = "7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(890, 450);
+            this.BackColor = System.Drawing.Color.Cyan;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1114, 670);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);

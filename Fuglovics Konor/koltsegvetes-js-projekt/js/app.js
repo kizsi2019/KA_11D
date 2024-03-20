@@ -22,9 +22,15 @@ var manager = (function(BudgetMan, SurfMan){
     }
     document.querySelector('.hozzaad__gomb').addEventListener('click', ManTitleAdd);
     document.addEventListener('keydown', function(event){
-        if (event.keyCode === 13)
+        if (event.key !== undefined && event.key === "Enter")
         {
             ManTitleAdd();
+            console.log(event);
         }
+        /*if (event.keyCode === 13 && event.which === 13) //Deprecated
+        {
+            ManTitleAdd();
+            console.log(event);
+        }*/
     })
 })(budget_manager, surface_manager);
