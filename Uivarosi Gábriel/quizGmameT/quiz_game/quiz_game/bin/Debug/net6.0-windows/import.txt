@@ -1,0 +1,17 @@
+Mi a Föld legnagyobb óceánja?;Atlanti-óceán;Indiai-óceán;Csendes-óceán \\(Helyes válasz);3
+Melyik évben kezdődött az Amerikai Függetlenségi Háború?;1773;1776 \\(Helyes válasz);1789;2
+Ki írta a "Rómeó és Júlia" című drámát?;William Shakespeare \\ (Helyes válasz);Charles Dickens;Jane Austen;1
+Melyik bolygó a Naprendszer legnagyobbja?;Merkúr;Jupiter \\(Helyes válasz);Mars;2
+Melyik a világ legmagasabb hegycsúcsa?;Mount Everest \\(Helyes válasz);Kilimandzsáró;Mont Blanc;1
+Melyik állam a legnagyobb területű az USA-ban?;Texas \\(Helyes válasz);Kalifornia;Florida;1
+Ki festette a "Mona Lisát"?;Vincent van Gogh; Leonardo da Vinci \\(Helyes válasz);Pablo Picasso;2
+Mi a legnagyobb kontinens a Földön?;Afrika;Ázsia \\(Helyes válasz);Ausztrália;2
+Melyik évben volt az első ember a Holdon?;1969 \\(Helyes válasz);1972;1961;1
+Ki volt az első nő, aki megkapta a Nobel-békedíjat?;Marie Curie;Jane Addams \\(Helyes válasz);Mother Teresa;2
+Melyik város a világ legnépesebb?;Peking;Tokió;Shanghai \\(Helyes válasz);3 
+Ki írta "A Gyűrűk Ura" trilógiát?;J.K. Rowling;J.R.R. Tolkien \\(Helyes válasz);C.S. Lewis;2
+Melyik állam az USA-ban a "Kőkorszak állama" néven is ismert?;Arizona;Alaska;New Mexico \\(Helyes válasz);3
+Ki volt az első ember az űrben?;Neil Armstrong;Yuri Gagarin \\(Helyes válasz);Buzz Aldrin;2
+Melyik állat a legnagyobb a Földön?;Elefánt;Bálna\\ (Helyes válasz);Gorilla;2
+
+
