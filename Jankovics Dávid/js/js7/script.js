@@ -8,6 +8,8 @@ jatek();
     var pont = Math.random() * 10;
     console.log(pont >= 5);
 })();
+
+
 (function(teszt) {
     var pont = Math.random() * 10;
     console.log(pont >= 5);

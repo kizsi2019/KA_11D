@@ -1,0 +1,18 @@
+Melyik kifejezés írja le legjobban az objektumorientált programozás alapelveit?;Strukturált programozás;Adatok és műveletek elválasztása;Objektumok és osztályok ;3
+Mi az az osztály az objektumorientált programozásban?;Egy darab adat;Adatstruktúra ;Sablon az objektumok létrehozásához;3
+Melyik kulcsszó segítségével öröklődés valósul meg a Java nyelvben?;inherit;extends ;inheritFrom;2
+Melyik az alapvető egység az objektumorientált programozásban?;Osztály;Függvény ;Változó;1
+Mi a 'this' kulcsszó jelentése az objektumorientált programozásban?;Az aktuális osztály példánya ;Az örökölt osztály;A szülőosztály;1
+Melyik elv szerint van adatai és műveletei egy objektumnak az objektumorientált programozásban?;Adat rejtés ;Öröklődés ;Tárolás;1
+Melyik nyelv rendelkezik a 'super' kulcsszóval az öröklődés során?;Python; Java  ; C++;2
+Melyik alapelv szerint kerüljük a kódduplikációt az objektumorientált programozásban?;Öröklődés;Egységbezárási elv ;Polimorfizmus;2
+Melyik fogalom arra utal, hogy egy osztály kiterjeszti egy másik osztály tulajdonságait és viselkedését?;Polimorfizmus;Túlterhelés;Öröklődés ;3
+Melyik fogalom az osztályok és az objektumok közötti kapcsolatot írja le;Használat;Öröklődés;Absztrakció;3
+Melyik alapelv szerint az objektumorientált programozásban egy osztálynak csak egy felelőssége kell legyen?;Egységbezárási elv;Nyitott/zárt elv;Egyetlen felelősség elve ;3
+Melyik fogalom az, amikor több metódus azonos néven, de különböző paraméterezéssel rendelkezik?;Absztrakció;Polimorfizmus  ;Encapsulation;2
+Melyik kulcsszóval deklarálhatunk egy metódust, amely nem ad vissza értéket?;void;null;empty ;1
+Melyik az a folyamat, amelynek során egy objektum egy másik objektum szolgáltatásait és viselkedését használja, anélkül hogy annak belső működésébe beavatkozna?;Öröklődés;Absztrakció ;Delegálás;3
+Köszönjük  a részvételt.;Köszönjük  a részvételt.;Köszönjük  a részvételt.;Köszönjük a részvételt.;1
+
+
+

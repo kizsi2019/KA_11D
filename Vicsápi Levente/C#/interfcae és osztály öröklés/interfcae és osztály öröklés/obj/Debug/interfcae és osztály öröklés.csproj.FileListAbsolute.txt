@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\interfcae és osztály öröklés\interfcae és osztály öröklés\bin\Debug\interfcae és osztály öröklés.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\interfcae és osztály öröklés\interfcae és osztály öröklés\bin\Debug\interfcae és osztály öröklés.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\interfcae és osztály öröklés\interfcae és osztály öröklés\bin\Debug\interfcae és osztály öröklés.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\interfcae és osztály öröklés\interfcae és osztály öröklés\obj\Debug\interfcae és osztály öröklés.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\interfcae és osztály öröklés\interfcae és osztály öröklés\obj\Debug\interfcae és osztály öröklés.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\interfcae és osztály öröklés\interfcae és osztály öröklés\obj\Debug\interfcae és osztály öröklés.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\interfcae és osztály öröklés\interfcae és osztály öröklés\obj\Debug\interfcae és osztály öröklés.pdb

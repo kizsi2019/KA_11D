@@ -44,7 +44,7 @@ namespace Bevezetes
             byte tulcsordulas = byte.MaxValue;
             tulcsordulas++;
             Console.WriteLine(tulcsordulas);
-            */
+           
 
             string beker = Console.ReadLine();
             int szam1 = int.Parse(beker);
@@ -52,6 +52,17 @@ namespace Bevezetes
             int szam2 = Convert.ToInt32(beker);
             int osszeg = szam1 + szam2;
             Console.WriteLine(osszeg);
+            Console.ReadKey();
+             */
+            List<int> list = new List<int> { 1,2,3};
+
+            list.AddRange(new List<int> { 4,5,6});
+
+            foreach (int i in list)
+            {
+                Console.WriteLine(i);
+            }
+
             Console.ReadKey();
 
         }
