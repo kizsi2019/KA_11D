@@ -1,0 +1,7 @@
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Delegate 2\Delegate 2\bin\Debug\Delegate 2.exe.config
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Delegate 2\Delegate 2\bin\Debug\Delegate 2.exe
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Delegate 2\Delegate 2\bin\Debug\Delegate 2.pdb
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Delegate 2\Delegate 2\obj\Debug\Delegate 2.csproj.AssemblyReference.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Delegate 2\Delegate 2\obj\Debug\Delegate 2.csproj.CoreCompileInputs.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Delegate 2\Delegate 2\obj\Debug\Delegate 2.exe
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Delegate 2\Delegate 2\obj\Debug\Delegate 2.pdb

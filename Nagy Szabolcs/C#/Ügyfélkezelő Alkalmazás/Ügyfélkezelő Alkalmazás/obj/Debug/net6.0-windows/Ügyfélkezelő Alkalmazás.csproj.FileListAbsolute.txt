@@ -1,0 +1,19 @@
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás_MarkupCompile.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\bin\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.exe
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\bin\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.deps.json
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\bin\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.runtimeconfig.json
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\bin\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.dll
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\bin\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.pdb
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.g.resources
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.AssemblyInfoInputs.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.AssemblyInfo.cs
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.csproj.CoreCompileInputs.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.dll
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\refint\Ügyfélkezelő Alkalmazás.dll
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.pdb
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\Ügyfélkezelő Alkalmazás.genruntimeconfig.cache
+C:\Users\SzabolcsNagy\Desktop\github\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\ref\Ügyfélkezelő Alkalmazás.dll
