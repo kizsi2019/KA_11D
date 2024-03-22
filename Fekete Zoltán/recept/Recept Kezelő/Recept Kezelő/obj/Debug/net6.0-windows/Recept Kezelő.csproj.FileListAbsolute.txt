@@ -1,0 +1,20 @@
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\bin\Debug\net6.0-windows\Recept Kezelő.exe
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\bin\Debug\net6.0-windows\Recept Kezelő.deps.json
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\bin\Debug\net6.0-windows\Recept Kezelő.runtimeconfig.json
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\bin\Debug\net6.0-windows\Recept Kezelő.dll
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\bin\Debug\net6.0-windows\Recept Kezelő.pdb
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő_MarkupCompile.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő_MarkupCompile.lref
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.g.resources
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.AssemblyInfoInputs.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.AssemblyInfo.cs
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.csproj.CoreCompileInputs.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.dll
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\refint\Recept Kezelő.dll
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.pdb
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\Recept Kezelő.genruntimeconfig.cache
+C:\Users\FeketeZoltan\Desktop\git\KA_11D\Fekete Zoltán\recept\Recept Kezelő\Recept Kezelő\obj\Debug\net6.0-windows\ref\Recept Kezelő.dll

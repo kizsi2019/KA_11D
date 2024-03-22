@@ -17,3 +17,12 @@ C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezel�
 C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.pdb
 C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.genruntimeconfig.cache
 C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\ref\Jegyzetkezelő alkalmazás.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\Shade.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.csproj.CopyComplete
