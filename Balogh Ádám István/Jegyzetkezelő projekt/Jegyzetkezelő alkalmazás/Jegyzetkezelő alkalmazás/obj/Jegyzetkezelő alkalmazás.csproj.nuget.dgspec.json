@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MaterialDesignThemes.Wpf": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Shade.WPF.Controls": {
+              "target": "Package",
+              "version": "[1.46.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

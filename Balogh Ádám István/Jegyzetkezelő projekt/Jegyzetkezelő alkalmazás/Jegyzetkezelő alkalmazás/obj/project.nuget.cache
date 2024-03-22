@@ -1,8 +1,39 @@
 {
   "version": 2,
-  "dgSpecHash": "mcNPTIL3ile7ZeaDlrJe7BVSshOIoqMW58fXPampFlNKU/hVaiYjTE4JFtzR0iaDGFEeqeekU7sp81y1MS7Yeg==",
+  "dgSpecHash": "wlXKPAy1CnauU8lgAKLx0+55mbEmQUVoguiTqWeOPGSbgEqZzBNbM1wZ9eJ35a4jaefpqVCWfnYDRy2tykFe2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\AdamBalogh\\Desktop\\fosgithub\\KA_11D\\Balogh Ádám István\\Jegyzetkezelő projekt\\Jegyzetkezelő alkalmazás\\Jegyzetkezelő alkalmazás\\Jegyzetkezelő alkalmazás.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\materialdesigncolors\\1.1.0\\materialdesigncolors.1.1.0.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\materialdesignthemes.wpf\\1.0.1\\materialdesignthemes.wpf.1.0.1.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\shade.wpf.controls\\1.46.6\\shade.wpf.controls.1.46.6.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\system.data.datasetextensions\\4.6.0-preview3.19128.7\\system.data.datasetextensions.4.6.0-preview3.19128.7.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\AdamBalogh\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "MaterialDesignThemes.Wpf 1.0.1 depends on MaterialDesignColors (>= 1.0.1) but MaterialDesignColors 1.0.1 was not found. An approximate best match of MaterialDesignColors 1.1.0 was resolved.",
+      "libraryId": "MaterialDesignColors",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MaterialDesignColors 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MaterialDesignColors",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }
