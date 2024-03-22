@@ -12,7 +12,10 @@
         <TextBlock HorizontalAlignment="Left" Height="22" Margin="46,125,0,0" Text="Összesen:" TextWrapping="Wrap" VerticalAlignment="Top" Width="56"/>
         <Label Name="LblTotal" Content="Szám" HorizontalAlignment="Left" Height="32" Margin="102,120,0,0" VerticalAlignment="Top" Width="61"/>
         <Button Content="Hozzáadás" HorizontalAlignment="Left" Height="24" Margin="74,152,0,0" VerticalAlignment="Top" Width="140" Click="Button_Click"/>
-        <ComboBox Name="CbType" HorizontalAlignment="Left" Height="24" Margin="102,61,0,0" VerticalAlignment="Top" Width="146"/>
+        <ComboBox Name="CbType" HorizontalAlignment="Left" Height="24" Margin="102,61,0,0" VerticalAlignment="Top" Width="146">
+            <ComboBoxItem Content="Bevétel" IsSelected="True"/>
+            <ComboBoxItem Content="Kiadás"/>
+        </ComboBox>
         <TextBox Name="TbDesc" HorizontalAlignment="Left" Height="24" Margin="102,90,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
         <TextBlock HorizontalAlignment="Left" Height="21" Margin="63,93,0,0" Text="Leírás:" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"/>
         <DataGrid Name="DataGrid" HorizontalAlignment="Left" Height="253" Margin="282,32,0,0" VerticalAlignment="Top" Width="188"/>

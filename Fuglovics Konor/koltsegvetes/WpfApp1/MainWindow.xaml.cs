@@ -23,7 +23,7 @@ namespace WpfApp1
     {
         public class BudgetItem
         {
-            public decimal Amount { get; set; }
+            public int Amount { get; set; }
             public string Type { get; set; }
             public string Description { get; set; }
         }
@@ -33,6 +33,9 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            TbMoney.Text = "";
+            CbType.SelectedIndex = -1;
+            TbDesc.Text = "";
             DataGrid.ItemsSource = budgetItems;
         }
 
@@ -40,7 +43,7 @@ namespace WpfApp1
         {
             BudgetItem newItem = new BudgetItem
             {
-                Amount = decimal.Parse(TbMoney.Text),
+                Amount = int.Parse(TbMoney.Text),
                 Type = CbType.Text,
                 Description = TbDesc.Text
             };
