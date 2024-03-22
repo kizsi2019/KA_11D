@@ -1,0 +1,19 @@
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás_MarkupCompile.cache
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.g.resources
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.AssemblyInfoInputs.cache
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.AssemblyInfo.cs
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.exe
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.deps.json
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.runtimeconfig.json
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\bin\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.pdb
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\refint\Jegyzetkezelő alkalmazás.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.pdb
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\Jegyzetkezelő alkalmazás.genruntimeconfig.cache
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\Jegyzetkezelő projekt\Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás\obj\Debug\net6.0-windows\ref\Jegyzetkezelő alkalmazás.dll
