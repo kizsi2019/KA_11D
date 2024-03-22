@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Bükkmaraton2019GUI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BükkMaraton2019GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Bükkmaraton2019GUI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Bükkmaraton2019GUI")]
+[assembly: System.Reflection.AssemblyProductAttribute("BükkMaraton2019GUI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BükkMaraton2019GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

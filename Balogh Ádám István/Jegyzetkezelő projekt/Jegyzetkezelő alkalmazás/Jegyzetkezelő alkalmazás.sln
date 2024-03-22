@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jegyzetkezelő alkalmazás", "Jegyzetkezelő alkalmazás\Jegyzetkezelő alkalmazás.csproj", "{013DBF89-04C2-4EF9-B6D8-46602C0B222F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{013DBF89-04C2-4EF9-B6D8-46602C0B222F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013DBF89-04C2-4EF9-B6D8-46602C0B222F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013DBF89-04C2-4EF9-B6D8-46602C0B222F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013DBF89-04C2-4EF9-B6D8-46602C0B222F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2711A25-0113-4315-A663-6CB3EDA38CB9}
+	EndGlobalSection
+EndGlobal

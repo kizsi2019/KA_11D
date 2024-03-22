@@ -1,14 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\dot net",
-    "\\dot net\\OrvosiNobeldijas",
-    "\\dot net\\OrvosiNobeldijas\\OrvosiNobeldijas",
-    "\\Java",
-    "\\Java\\34",
-    "\\Java\\40",
+    "\\C#",
+    "\\C#\\Bevezetes",
+    "\\C#\\Bevezetes\\Bevezetes",
     "\\SQL"
   ],
-  "SelectedNode": "\\Java\\40\\script.js",
+  "SelectedNode": "\\C#\\Bevezetes\\Bevezetes\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

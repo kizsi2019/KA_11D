@@ -1,0 +1,4 @@
+C:\Users\UivarosiGabriel\Desktop\quiz Game\quiz Game\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\UivarosiGabriel\Desktop\quiz Game\quiz Game\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\UivarosiGabriel\Desktop\quiz Game\quiz Game\obj\Debug\net6.0-windows\quiz Game_MarkupCompile.cache
+C:\Users\UivarosiGabriel\Desktop\quiz Game\quiz Game\obj\Debug\net6.0-windows\quiz Game_MarkupCompile.lref

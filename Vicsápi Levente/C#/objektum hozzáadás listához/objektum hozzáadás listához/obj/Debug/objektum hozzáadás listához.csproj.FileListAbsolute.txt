@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\objektum hozzáadás listához\objektum hozzáadás listához\bin\Debug\objektum hozzáadás listához.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\objektum hozzáadás listához\objektum hozzáadás listához\bin\Debug\objektum hozzáadás listához.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\objektum hozzáadás listához\objektum hozzáadás listához\bin\Debug\objektum hozzáadás listához.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\objektum hozzáadás listához\objektum hozzáadás listához\obj\Debug\objektum hozzáadás listához.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\objektum hozzáadás listához\objektum hozzáadás listához\obj\Debug\objektum hozzáadás listához.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\objektum hozzáadás listához\objektum hozzáadás listához\obj\Debug\objektum hozzáadás listához.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\objektum hozzáadás listához\objektum hozzáadás listához\obj\Debug\objektum hozzáadás listához.pdb

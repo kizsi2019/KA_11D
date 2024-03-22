@@ -1,0 +1,12 @@
+SELECT cim, ev FROM film WHERE nyert = 1 ORDER BY ev;
+SELECT film.ev
+FROM film
+GROUP BY film.ev
+HAVING COUNT(id)>=10;
+SELECT film.cim FROM film WHERE film.ev BETWEEN 1939 AND 1945 AND film.bemutato BETWEEN "1939-1-1" AND "1945-12-31";
+SELECT film.cim FROM film WHERE year(film.bemutato) - film.ev >= 10;
+SELECT keszito.nev, max(film.ev)-min(film.ev) as eltelt, COUNT(film.id)
+FROM film, keszito, kapcsolat
+WHERE film.id=kapcsolat.filmid and keszito.id = kapcsolat.keszitoid
+and keszito.producer GROUP BY keszito.nev 
+HAVING COUNT(film.id) > 1;
