@@ -84,9 +84,79 @@ namespace Recept_Kezelő
 
 
             }
+            string[] tag_split_keres;
+            string tag_ker;
+            bool ilyen_tag_van;
+            bool ilyen_recept_van = false;
+            string jelenlegi_recept_Keresés;
+            string jelenlegi_tag_keresés;
+            Keresés_button.Click += (sender, e) =>
+            {
+               
+                Keresés();
+            };
+
+           void Keresés()
+            {
+
+                 ilyen_recept_van = false;
+                foreach (string item in File.ReadLines("receptek_listája.txt"))
+                {
+                    if (Keresési_mező_txBox.Text == item)
+                    {
+                        jelenlegi_recept_Keresés = item;
+                        ilyen_recept_van = true;
+                        MessageBox.Show("Recept");
+                        recept_megnyitás();
+                        break;
+                    }
+                }
+                
+                if (ilyen_recept_van == false) { 
+                    foreach (string tag in File.ReadLines("tagek.txt"))
+                    {
+                      
+                        tag_split_keres = tag.Split(";");
+                       
+                        tag_ker = tag_split_keres[0];
+                        if (tag_ker == Keresési_mező_txBox.Text)
+                        {
+                            ilyen_tag_van = true;
+                            jelenlegi_tag_keresés = tag_ker;
+                            tag_ajánlások();
+                            MessageBox.Show("Tag");
+                            break;
+                            
+                        }
+                    }
+                }
+                if (ilyen_recept_van == false && ilyen_recept_van == false)
+                    {
+                        MessageBox.Show("Ilyen Receptet vagy címkét nem Találtunk :(");
+                    }
 
 
-        }
+                 
+                    
+                
+
+
+
+            }
+            string recept_path;
+            string recept_szöveg;
+            string[] recept_split;
+            void recept_megnyitás()
+            {
+                recept_path = "";
+                recept_split = File.ReadAllText("").Split(";");
+            }
+
+            void tag_ajánlások()
+            {
+
+            }
+        }///
 
 
     }
