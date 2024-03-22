@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Bükkmaraton2019GUI/1.0.0": {
+      "BükkMaraton2019GUI/1.0.0": {
         "runtime": {
-          "Bükkmaraton2019GUI.dll": {}
+          "BükkMaraton2019GUI.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Bükkmaraton2019GUI/1.0.0": {
+    "BükkMaraton2019GUI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

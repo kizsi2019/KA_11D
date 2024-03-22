@@ -13,10 +13,13 @@
         <TextBlock HorizontalAlignment="Left" Height="65" Margin="338,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="325"><Run Language="hu-hu" Text="Recept"/></TextBlock>
         <TextBlock  HorizontalAlignment="Left" Height="43" Margin="533,69,0,0" TextWrapping="Wrap" Text="Categória:" VerticalAlignment="Top" Width="59"/>
         <TextBlock Name="Categóri_txBlock" HorizontalAlignment="Left" Height="43" Margin="597,69,0,0" TextWrapping="Wrap" Text="Estebéd" VerticalAlignment="Top" Width="99"/>
-        <Image HorizontalAlignment="Left" Height="66" Margin="323,24,0,0" VerticalAlignment="Top" Width="77"/>
-        <TextBlock Name="Felhasználó_Név_txBlock" HorizontalAlignment="Left" Height="25" Margin="413,37,0,0" TextWrapping="Wrap" Text="Béla23" VerticalAlignment="Top" Width="115"/>
-        <TextBlock HorizontalAlignment="Left" Height="49" Margin="10,105,0,0" TextWrapping="Wrap" Text="Előzmények" VerticalAlignment="Top" Width="287"/>
-        <Button Name="Felhasználó_váltás_Button" Content="Belépés/Felhasználó Váltás" HorizontalAlignment="Left" Height="40" Margin="500,10,0,0" VerticalAlignment="Top" Width="146"/>
-        <TextBlock Name="Előzmények_txBlock" HorizontalAlignment="Left" Height="270" Margin="10,154,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="313"/>
+        <TextBlock Name="Felhasználó_Név_txBlock" HorizontalAlignment="Left" Height="25" Margin="326,17,0,0" TextWrapping="Wrap" Text="Béla23" VerticalAlignment="Top" Width="115"/>
+        <TextBlock HorizontalAlignment="Left" Height="49" Margin="10,132,0,0" TextWrapping="Wrap" Text="Előzmények" VerticalAlignment="Top" Width="287"/>
+        <Button Name="Felhasználó_váltás_Button" Content="Belépés/Felhasználó Váltás" HorizontalAlignment="Left" Height="40" Margin="384,12,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.271,0.315"/>
+        <TextBlock Name="Előzmények_txBlock" HorizontalAlignment="Left" Height="270" Margin="10,187,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="313"/>
+        <TextBox Name="Bejelt_Név_TxBlox" HorizontalAlignment="Left" Height="28" Margin="535,2,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="257"/>
+        <TextBox Name="Jelszó_txbox" HorizontalAlignment="Left" Height="34" Margin="535,35,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="257"/>
+        <TextBlock Name="Error_txblock" HorizontalAlignment="Left" Height="38" Margin="646,74,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="144"/>
+        <ComboBox HorizontalAlignment="Left" Height="34" Margin="10,93,0,0" VerticalAlignment="Top" Width="287"/>
     </Grid>
 </Window>
