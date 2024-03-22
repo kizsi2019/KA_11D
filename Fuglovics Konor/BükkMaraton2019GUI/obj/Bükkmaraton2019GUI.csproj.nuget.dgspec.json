@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\Bükkmaraton2019GUI\\Bükkmaraton2019GUI.csproj": {}
+    "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\BükkMaraton2019GUI\\BükkMaraton2019GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\Bükkmaraton2019GUI\\Bükkmaraton2019GUI.csproj": {
+    "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\BükkMaraton2019GUI\\BükkMaraton2019GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\Bükkmaraton2019GUI\\Bükkmaraton2019GUI.csproj",
-        "projectName": "Bükkmaraton2019GUI",
-        "projectPath": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\Bükkmaraton2019GUI\\Bükkmaraton2019GUI.csproj",
+        "projectUniqueName": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\BükkMaraton2019GUI\\BükkMaraton2019GUI.csproj",
+        "projectName": "BükkMaraton2019GUI",
+        "projectPath": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\BükkMaraton2019GUI\\BükkMaraton2019GUI.csproj",
         "packagesPath": "C:\\Users\\Sound Crafter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\Bükkmaraton2019GUI\\obj\\",
+        "outputPath": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\BükkMaraton2019GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
