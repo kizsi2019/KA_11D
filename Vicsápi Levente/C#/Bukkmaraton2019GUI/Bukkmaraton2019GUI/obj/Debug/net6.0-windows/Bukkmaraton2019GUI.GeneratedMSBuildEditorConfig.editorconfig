@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bukkmaraton2019GUI
-build_property.ProjectDir = C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019GUI\Bukkmaraton2019GUI\
+build_property.ProjectDir = C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\Bukkmaraton2019GUI\Bukkmaraton2019GUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
