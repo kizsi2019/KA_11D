@@ -146,10 +146,23 @@ namespace Recept_Kezelő
             string recept_path;
             string recept_szöveg;
             string[] recept_split;
+            string recept_név;
+            string recept_fogás;
+            string recept_tag;
             void recept_megnyitás()
             {
-                recept_path = "";
-                recept_split = File.ReadAllText("").Split(";");
+                recept_path = "./Receptek/" + jelenlegi_recept_Keresés + ".txt";
+                recept_split = File.ReadAllText(recept_path).Split(";");
+                recept_név = recept_split[0];
+                recept_fogás = recept_split[1];
+                recept_tag = recept_split[2];
+                recept_szöveg = recept_split[3];
+
+
+                Recept_Mező_Textbox.Text = recept_szöveg;
+                Categóri_txBlock.Text = recept_fogás;
+                Recept_tag_tblock.Text = recept_tag;
+
             }
 
             void tag_ajánlások()
