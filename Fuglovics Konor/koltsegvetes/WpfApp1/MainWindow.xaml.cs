@@ -23,9 +23,9 @@ namespace WpfApp1
     {
         public class BudgetItem
         {
-            public int Amount { get; set; }
-            public string Type { get; set; }
-            public string Description { get; set; }
+            public int Mennyiség { get; set; }
+            public string Típus { get; set; }
+            public string Leírás { get; set; }
         }
 
         private ObservableCollection<BudgetItem> budgetItems = new ObservableCollection<BudgetItem>();
@@ -41,21 +41,49 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            BudgetItem newItem = new BudgetItem
+            BudgetItem newItem = null;
+            try
             {
-                Amount = int.Parse(TbMoney.Text),
-                Type = CbType.Text,
-                Description = TbDesc.Text
-            };
+                newItem = new BudgetItem
+                {
+                    Mennyiség = int.Parse(TbMoney.Text),
+                    Típus = CbType.Text,
+                    Leírás = TbDesc.Text
+                };
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show($"A mezők nem lehetnek üresek!.", "Hiba!", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
 
             // Add hozzá az új tételt az adatforráshoz
             budgetItems.Add(newItem);
+            UpdateTotalAmount();
 
             // Töröld ki a TextBox-ok tartalmát
             TbMoney.Text = "";
             CbType.SelectedIndex = -1;
             TbDesc.Text = "";
 
+            void UpdateTotalAmount()
+            {
+                int totalAmount = 0;
+
+                foreach (var item in budgetItems)
+                {
+                    if (item.Típus == "Bevétel")
+                    {
+                        totalAmount += item.Mennyiség;
+                    }
+                    if (item.Típus == "Kiadás")
+                    {
+                        totalAmount -= item.Mennyiség;
+                    }
+                }
+
+                LblTotal.Content = $"{totalAmount.ToString()} Ft";
+            }
         }
     }
 }
