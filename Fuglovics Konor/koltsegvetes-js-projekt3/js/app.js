@@ -12,14 +12,30 @@ var budget_manager = (function(){
     }
     var data = {
         items: {
-            out: [],
-            in: []
+            out: [{id: 0}],
+            in: [{id: 0}]
         },
         totals: {
             out: 0,
             in: 0
         },
 
+    }
+    return {
+        ItemAdd: function(typ, id, dsc) {
+            var NewItem, ID;
+            ID = 0;
+
+            if (data.items[typ] !== undefined && data.items[typ].length > 0) {
+                ID = data.items[typ][data.items[typ].length - 1].id + 1;
+            }else{
+                ID = 0;
+            }
+
+            if (typ === "in"){
+                NewItem = new.Income(ID, desc, value);
+            }
+        }
     }
 })();
 //Surface manager
