@@ -39,7 +39,10 @@ var koltsegvezetesVezerlo = (function(){
                 ujTetel = new Bevetel(ID, lei, ert);
             } else if (tip === 'kia') {
                 ujTetel = new Kiadas(ID, lei, ert);
+            } else {
+                throw new Error('Invalid tip: ' +tip);
             }
+           
 
             if (adat.tetelek[tip] !== undefined) {
                 adat.tetelek[tip].push(ujTetel)
@@ -63,7 +66,7 @@ var feluletVezerlo = (function(){
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo:'.bevetelek__lista',
-        kiadasTarolor:'.kiadas__lista'
+        kiadasTarolo:'.kiadasok__lista'
     };
 
     return {
@@ -86,34 +89,22 @@ var feluletVezerlo = (function(){
             if (tipus === 'bev') {
                 elem = DOMelemek.bevetelTarolo;
 
-                html = '<div class="tetel clearfix" id="bevetelek-0"><div class="tetel__leiras">Fizetés</div><div class="right clearfix"><div class="tetel__ertek">+ 2,100.00</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+                html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div  class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
             } else if (tipus === 'kia') {
-                elem = DOMelemek.kiadasTarolorTarolo;
+                elem = DOMelemek.kiadasTarolo;
 
-                html = '<div class="tetel clearfix" id="bevetelek-1"><div class="tetel__leiras">Autó eladás</div><div class="right clearfix"><div class="tetel__ertek">+ 1,500.00</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+                html = '<div class="tetel clearfix" id="expense-%id%"> <div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div> ';
             }
 
-            ujHtml = html.replace('%id%', onj.id);
-            ujHtml = ujHtml.replace('%leiras%', onj.id);
-            ujHtml = ujHtml.replace('%ertek%', onj.id);
 
+            ujHtml = html.replace('%id%', obj.id);
+            ujHtml = ujHtml.replace('%leiras%', obj.leiras);
+            ujHtml = ujHtml.replace('%ertek%', obj.ertek);
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
 
         },
 
-        urlapTorles: function(){
-            var mezok, mezoktomb;
-
-            mezok = document.querySelector(DOMelemek.inputLeiras + ', ' + DOMelemek.inputErtek);
-            mezoktomb = Array.prototype.slice.call(mezok);
-
-            mezoktomb.forEach(function(currentValue, index, array) {
-                currentValue.value = '';
-            });
-            mezoktomb[0].focus();
-
-            
-        }
+        
 
     }
 
@@ -125,14 +116,14 @@ var vezerlo = (function(koltsegvezetesVez, feluletVez){
 
         var DOM = feluletVezerlo.getDOMelemek();
 
-        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetekHozzadas);
+        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzadas);
 
         document.addEventListener('keydown', function(event){
         if (event.key !== undefined && event.key === 'enter'){
-        
+            vezTetelHozzadas();
         }    
         else if (event.keyCode !== undefined && event.keyCode === 13){
-            vezTetekHozzadas();
+            vezTetelHozzadas();
 
         }
         });
@@ -140,7 +131,7 @@ var vezerlo = (function(koltsegvezetesVez, feluletVez){
     }
 
 
-    var vezTetekHozzadas = function() {
+    var vezTetelHozzadas = function() {
         var input, ujTetel;
 
         input = feluletVezerlo.getInput();
@@ -149,7 +140,7 @@ var vezerlo = (function(koltsegvezetesVez, feluletVez){
 
         feluletVezerlo.tetelekMegjelenites(ujTetel, input.tipus); 
 
-        feluletVezerlo.urlapTorles();
+        
 
 
     }
