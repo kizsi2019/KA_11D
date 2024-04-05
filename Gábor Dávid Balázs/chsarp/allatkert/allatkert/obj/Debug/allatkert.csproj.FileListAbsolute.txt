@@ -1,0 +1,10 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\obj\Debug\allatkert.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\obj\Debug\allatkert.Form1.resources
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\obj\Debug\allatkert.Properties.Resources.resources
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\obj\Debug\allatkert.csproj.GenerateResource.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\obj\Debug\allatkert.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\bin\Debug\allatkert.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\bin\Debug\allatkert.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\bin\Debug\allatkert.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\obj\Debug\allatkert.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\allatkert\allatkert\obj\Debug\allatkert.pdb
