@@ -15,8 +15,8 @@ var koltsegvezetesVezerlo = (function(){
     var adat = {
 
         tetelek: {
-            bev: [],
-            kia: []
+            bev: [{id: 0}],
+            kia: [{id: 0}]
         },
         osszegek: {
             bev: 0,
@@ -41,7 +41,9 @@ var koltsegvezetesVezerlo = (function(){
                 ujTetel = new Kiadas(ID, lei, ert);
             }
 
-            adat.tetelek[tip].push(ujTetel);
+            if (adat.tetelek[tip] !== undefined) {
+                adat.tetelek[tip].push(ujTetel)
+            }
 
             return ujTetel
         },
@@ -56,12 +58,12 @@ var koltsegvezetesVezerlo = (function(){
 var feluletVezerlo = (function(){
 
     var DOMelemek = {
-        inputTipus: 'hozzaad_tipus',
-        inputLeiras: 'hozzaad_leiras',
-        inputErtek: 'hozzaad_ertek',
-        inputGomb: 'hozzaad_gomb',
-        bevetelTarolo:'bevetelek_lista',
-        kiadasTarolor:'kiadas_lista'
+        inputTipus: '.hozzaad__tipus',
+        inputLeiras: '.hozzaad__leiras',
+        inputErtek: '.hozzaad__ertek',
+        inputGomb: '.hozzaad__gomb',
+        bevetelTarolo:'.bevetelek__lista',
+        kiadasTarolor:'.kiadas__lista'
     };
 
     return {
@@ -143,7 +145,7 @@ var vezerlo = (function(koltsegvezetesVez, feluletVez){
 
         input = feluletVezerlo.getInput();
 
-        ujTetel = koltsegvezetesVezerlo-tetelekHozzaad(input.tipus, input.leiras, input.ertek);
+        ujTetel = koltsegvezetesVezerlo.tetelekHozzaad(input.tipus, input.leiras, input.ertek);
 
         feluletVezerlo.tetelekMegjelenites(ujTetel, input.tipus); 
 

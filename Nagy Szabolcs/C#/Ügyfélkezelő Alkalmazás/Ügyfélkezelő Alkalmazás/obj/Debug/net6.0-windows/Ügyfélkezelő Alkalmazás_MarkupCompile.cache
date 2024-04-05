@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\
+=======
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\obj\Debug\net6.0-windows\
+>>>>>>> e8fe3b9b11c09baa608dfa1b2a7b4f2b056c411c
 Ügyfélkezelő_Alkalmazás
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\App.xaml
+=======
+C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Nagy Szabolcs\C#\Ügyfélkezelő Alkalmazás\Ügyfélkezelő Alkalmazás\App.xaml
+>>>>>>> e8fe3b9b11c09baa608dfa1b2a7b4f2b056c411c
 11407045341
 
 3-1233169557

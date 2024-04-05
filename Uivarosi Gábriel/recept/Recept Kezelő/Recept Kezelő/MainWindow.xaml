@@ -24,7 +24,7 @@
         <TextBox Name="Bejelt_Név_TxBlox" HorizontalAlignment="Left" Height="28" Margin="399,2,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="257" Grid.Column="1"/>
         <TextBox Name="Jelszó_txbox" HorizontalAlignment="Left" Height="34" Margin="399,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="257" Grid.Column="1"/>
         <TextBlock Name="Error_txblock" HorizontalAlignment="Left" Height="38" Margin="510,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" Grid.Column="1"/>
-        <ComboBox HorizontalAlignment="Left" Height="34" Margin="10,93,0,0" VerticalAlignment="Top" Width="287" Grid.ColumnSpan="2"/>
+        <ComboBox Name="Combo_box" HorizontalAlignment="Left" Height="34" Margin="10,93,0,0" VerticalAlignment="Top" Width="287" Grid.ColumnSpan="2"/>
         <Button Name="Keresés_button" Content="Keresés" HorizontalAlignment="Left" Height="40" Margin="111,42,0,0" VerticalAlignment="Top" Width="50" Grid.Column="1"/>
         <TextBlock Name="Recept_tag_tblock" Grid.Column="1" HorizontalAlignment="Left" Height="19" Margin="510,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="122"/>
     </Grid>
