@@ -32,9 +32,24 @@ var budget_manager = (function(){
                 ID = 0;
             }
 
-            if (typ === "in"){
-                NewItem = new.Income(ID, desc, value);
+            if (typ === "in")
+            {
+                NewItem = new Income(ID, desc, value);
+            }else if (typ === "out")
+            {
+                NewItem = new Outcome(ID, desc, value);
             }
+            //Add the new item to the data structure
+            if (data.items[typ] !== undefined)
+            {
+                data.items[typ].push(NewItem);
+            }
+            //Return the new item
+            return NewItem;
+        },
+        test: function()
+        {
+            console.log(data);
         }
     }
 })();
@@ -83,6 +98,7 @@ var manager = (function(BudgetMan, SurfMan){
         var input = surface_manager.getInput();
     
         // 2 - Giving the data to the budget manager module
+        NewItem = budget_manager.ItemAdd(input.type, input.description, input.value);
 
         // 3 - Appearance in UI
 
