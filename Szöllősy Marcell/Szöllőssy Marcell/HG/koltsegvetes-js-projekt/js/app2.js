@@ -1,151 +1,145 @@
-var koltsegvetesVezerlo = (function() {
-    var Kiadas = function(id, leiras, ertek) {
-        this.leiras = leiras;
+//Budget manager
+var budget_manager = (function(){
+    var Outcome = function(id, desc, value){
+        this.desc = desc;
         this.id = id;
-        this.ertek = ertek;
+        this.value = value;
     }
-    var Bevetel = function(id, leiras, ertek) {
-        this.leiras = leiras;
+    var Income = function(id, desc, value){
+        this.desc = desc;
         this.id = id;
-        this.ertek = ertek;
+        this.value = value;
     }
-
-    var adat = {
-        tetelek: {
-            kia: [{ id: 0 }],
-            bev: [{ id: 0 }]
+    var data = {
+        items: {
+            out: [{id: 0}],
+            in: [{id: 0}]
         },
-        osszegek: {
-            kia: 0,
-            bev: 0
-        }
-    }
+        totals: {
+            out: 0,
+            in: 0
+        },
 
+    }
     return {
-        tetelHozzaad: function(tip, lei, ert) {
-            var ujTetel, ID;
+        ItemAdd: function(typ, desc, value) {
+            var NewItem, ID;
             ID = 0;
 
-            // ID létrehozása
-            if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
-                ID = adat.tetelek[tip][adat.tetelek[tip].length - 1].id + 1;
-            } else {
+            if (data.items[typ] !== undefined && data.items[typ].length > 0) {
+                ID = data.items[typ][data.items[typ].length - 1].id + 1;
+            }else{
                 ID = 0;
             }
 
-            // Új kiadás vagy bevétel létrehozás
-            if (tip === 'bev') {
-                ujTetel = new Bevetel(ID, lei, ert);
-            } else if (tip === 'kia') {
-                ujTetel = new Kiadas(ID, lei, ert);
-            } else {
-                // kezeld a hibát, például dobjon hibát vagy állitsa 'ujtetel'-t 'null'-ra
-                throw new Error('Invalid tip: ' + tip);
+            if (typ === "bev")
+            {
+                NewItem = new Income(ID, desc, value);
+            }else if (typ === "kia")
+            {
+                NewItem = new Outcome(ID, desc, value);
+            }else
+            {
+                throw new Error("Invalid: ${tip}");
             }
-
-            // Új tétel hozzáadása az adatszerkezethez
-            if (adat.tetelek[tip] !== undefined) {
-                adat.tetelek[tip].push(ujTetel);
+            //Add the new item to the data structure
+            if (data.items[typ] !== undefined)
+            {
+                data.items[typ].push(NewItem);
             }
-
-            // Új tétel visszadása
-            return ujTetel;
+            //Return the new item
+            return NewItem;
         },
-
-        teszt: function() {
-            console.log(adat);
+        test: function()
+        {
+            console.log(data);
         }
     }
 })();
-
-// Felület vezérlés
-var feluletVezerlo = (function() {
-    var DOMelemek = {
-        inputTipus: '.hozzaad__tipus',
-        inputLeiras: '.hozzaad__leiras',
-        inputErtek: '.hozzaad__ertek',
-        inputGomb: '.hozzaad__gomb',
-        bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista'
-    };
-
+//Surface manager
+var surface_manager = (function(){
+    var DOMelement = {
+        inputType: '.hozzaad__tipus',
+        inputDescription: '.hozzaad__leiras',
+        inputValue: '.hozzaad__ertek',
+        inputButton: '.hozzaad__gomb',
+        incomeStorage: '.bevetelek__lista',
+        outcomeStorage: '.kiadasok__lista'
+    }
     return {
-        getInput: function() {
+        getInput: function(){
             return {
-                tipus: document.querySelector(DOMelemek.inputTipus).value,
-                leiras: document.querySelector(DOMelemek.inputLeiras).value,
-                ertek: document.querySelector(DOMelemek.inputErtek).value
-            };
+                type: document.querySelector(DOMelement.inputType).value,
+                description: document.querySelector(DOMelement.inputDescription).value,
+                value: document.querySelector(DOMelement.inputValue).value
+            }
         },
-
-        getDOMelemek: function() {
-            return DOMelemek;
+        getDOMelement: function(){
+            return DOMelement;
         },
+        itemDisplay: function(obj, type){
+            var html, newHtml, element;
 
-        tetelMegjelenites: function(obj, tipus) {
-            var html, ujHtml, elem;
-
-            // HTML string létrehozása placeholder értékekkel
-            if (tipus === 'bev') {
-                elem = DOMelemek.bevetelTarolo;
-                html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
-            } else if (tipus === 'kia') {
-                elem = DOMelemek.kiadasTarolo;
-                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            //Creating HTML strings with placeholder values
+            if (type === 'bev')
+            {
+                element = DOMelement.incomeStorage;
+                html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            }else if (type === 'kia')
+            {
+                element = DOMelement.outcomeStorage;
+                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
             }
 
-            // HTML string placeholder értékekkel cseréje
-            ujHtml = html.replace('%id%', obj.id);
-            ujHtml = ujHtml.replace('%leiras%', obj.leiras);
-            ujHtml = ujHtml.replace('%ertek%', obj.ertek);
+            //Replacing the HTML placeholder strings
+            newHtml = html.replace('%id%', obj.id);
+            newHtml = newHtml.replace('%desc%', obj.desc);
+            newHtml = newHtml.replace('%value%', obj.value);
 
-            // HTML beszúrása a DOM-ba
-            document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
+            //Inserting the HTML into DOM
+            document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
         }
-    };
+    }
 })();
+//App manager
+var manager = (function(BudgetMan, SurfMan){
+    var EventManagerSet = function(){
+        var DOM = surface_manager.getDOMelement();
+        document.querySelector(DOM.inputButton).addEventListener('click', ManItemAdd);
+    }
 
-// Alkalmazás vezérlés
-var vezerlo = (function(koltsegvetesVez, feluletVez) {
-    var esemenykezeloBeallit = function() {
-        var DOM = feluletVezerlo.getDOMelemek();
-
-        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
-
-        document.addEventListener('keydown', function(event) {
-            if (event.key !== undefined && event.key === 'Enter') {
-                vezTetelHozzaadas();
-            } else if (event.keyCode !== undefined && event.keyCode === 13) {
-                vezTetelHozzaadas();
-            }
-        });
-    };
-
-    var vezTetelHozzaadas = function() {
-        var input, ujTetel;
-
-        // 1. bevitt adatok megszerzeése
-        input = feluletVezerlo.getInput();
-
-        // 2. adatok átadása a koltsegvetés vezérlő modulnak
-        ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
-
-        // 3. megjelenítés a felületen
-        feluletVezerlo.tetelMegjelenites(ujTetel, input.tipus);
-
-        // 4. Kültségvetés újraszámolása
-
-        // 5. megjelenítés a felületen
-
-        // 6. összeg megjelenítése a felületen
-    };
-
-    return {
-        init: function() {
-            console.log('Az alkalmazas fut');
-            esemenykezeloBeallit();
+    document.addEventListener('keydown', function(event){
+        if (event.key !== undefined && event.key === "Enter")
+        {
+            ManItemAdd();
+            console.log(event);
         }
-    };
-})(koltsegvetesVezerlo, feluletVezerlo);
+        else if (event.keyCode !== undefined && event.keyCode === 13) //Deprecated
+        {
+            ManItemAdd();
+            console.log(event);
+        }
+    })
+    var ManItemAdd = function(){
+        // 1 - Capturing imported data
+        var input = surface_manager.getInput();
+    
+        // 2 - Giving the data to the budget manager module
+        NewItem = budget_manager.ItemAdd(input.type, input.description, input.value);
 
-vezerlo.init();
+        // 3 - Appearance in UI
+        surface_manager.itemDisplay(NewItem, input.type);
+
+        // 4 - Re-calculating the budget
+
+        // 5 - Total amount on the interface
+    }
+    return {
+        init: function(){
+            console.log("Working!");
+            EventManagerSet();
+        }
+    }
+
+})(budget_manager, surface_manager);
+manager.init();
