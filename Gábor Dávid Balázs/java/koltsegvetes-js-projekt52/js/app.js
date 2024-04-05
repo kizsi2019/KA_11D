@@ -39,6 +39,9 @@ var koltsegvetesVezerlo = (function() {
                 ujTetel = new Bevetel(ID, lei, ert);
             } else if (tip === 'kia') {
                 ujTetel = new Kiadas(ID, lei, ert);
+            } else {
+                // kezeld a hibát, például dobjon hibát vagy állitsa 'ujtetel'-t 'null'-ra
+                throw new Error('Invalid tip: ' + tip);
             }
 
             // Új tétel hozzáadása az adatszerkezethez
@@ -62,7 +65,9 @@ var feluletVezerlo = (function() {
         inputTipus: '.hozzaad__tipus',
         inputLeiras: '.hozzaad__leiras',
         inputErtek: '.hozzaad__ertek',
-        inputGomb: '.hozzaad__gomb'
+        inputGomb: '.hozzaad__gomb',
+        bevetelTarolo: '.bevetelek__lista',
+        kiadasTarolo: '.kiadasok__lista'
     };
 
     return {
@@ -78,8 +83,27 @@ var feluletVezerlo = (function() {
             return DOMelemek;
         },
 
+        tetelMegjelenites: function(obj, tipus) {
+            var html, ujHtml, elem;
 
-    }
+            // HTML string létrehozása placeholder értékekkel
+            if (tipus === 'bev') {
+                elem = DOMelemek.bevetelTarolo;
+                html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            } else if (tipus === 'kia') {
+                elem = DOMelemek.kiadasTarolo;
+                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            }
+
+            // HTML string placeholder értékekkel cseréje
+            ujHtml = html.replace('%id%', obj.id);
+            ujHtml = ujHtml.replace('%leiras%', obj.leiras);
+            ujHtml = ujHtml.replace('%ertek%', obj.ertek);
+
+            // HTML beszúrása a DOM-ba
+            document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
+        }
+    };
 })();
 
 // Alkalmazás vezérlés
@@ -107,9 +131,10 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         // 2. adatok átadása a koltsegvetés vezérlő modulnak
         ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
 
-        // 3. ?
+        // 3. megjelenítés a felületen
+        feluletVezerlo.tetelMegjelenites(ujTetel, input.tipus);
 
-        // 4. mezök törlése
+        // 4. Kültségvetés újraszámolása
 
         // 5. megjelenítés a felületen
 
