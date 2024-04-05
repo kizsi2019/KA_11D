@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("objektum_GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92d0e97e93e45bfbf9c38d18951039335cc8df2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("objektum_GUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("objektum_GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

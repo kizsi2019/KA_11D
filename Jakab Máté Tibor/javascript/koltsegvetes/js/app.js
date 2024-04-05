@@ -16,8 +16,8 @@ var koltsegvetesVezerlo = (function() {
     var adat = {
 
         tetelek: {
-            bev: [],
-            kia: []
+            bev: [{  id: 0 }],
+            kia: [{  id: 0 }]
         },
 
         osszegek: {
@@ -46,7 +46,9 @@ var koltsegvetesVezerlo = (function() {
             }
 
             // új tétel hozzáadsa az adatszerkezethez
-            adat.tetelek[tip].push(ujTetel);
+           if(adat.tetelek[tip] !== undefined){
+            adat.tetelek[tip].push(ujTetel)
+           };
 
             // új tétel vissuadása
             return ujTetel;
@@ -118,7 +120,7 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
 
         var input, ujTetel;
 
-        // 1. vecitt adat megszerzése
+        // 1. bevitt adat megszerzése
         input = feluletVezerlo.getInput();
 
         // 2. adatok átadása a költségvetésvezérlő modulnak.
