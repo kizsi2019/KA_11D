@@ -104,7 +104,7 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         // 1. bevitt adatok megszerzeése
         input = feluletVezerlo.getInput();
 
-        // 2. adatok átadása a koltsegvetesVezerlo modulnak
+        // 2. adatok átadása a koltsegvetés vezérlő modulnak
         ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
 
         // 3. ?
