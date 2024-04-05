@@ -38,6 +38,9 @@ var budget_manager = (function(){
             }else if (typ === "kia")
             {
                 NewItem = new Outcome(ID, desc, value);
+            }else
+            {
+                throw new Error("Invalid: ${tip}");
             }
             //Add the new item to the data structure
             if (data.items[typ] !== undefined)
@@ -59,7 +62,9 @@ var surface_manager = (function(){
         inputType: '.hozzaad__tipus',
         inputDescription: '.hozzaad__leiras',
         inputValue: '.hozzaad__ertek',
-        inputButton: '.hozzaad__gomb'
+        inputButton: '.hozzaad__gomb',
+        incomeStorage: '.bevetelek__lista',
+        outcomeStorage: '.kiadasok__lista'
     }
     return {
         getInput: function(){
@@ -71,6 +76,28 @@ var surface_manager = (function(){
         },
         getDOMelement: function(){
             return DOMelement;
+        },
+        itemDisplay: function(obj, type){
+            var html, newHtml, element;
+
+            //Creating HTML strings with placeholder values
+            if (type === 'bev')
+            {
+                element = DOMelement.incomeStorage;
+                html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            }else if (type === 'kia')
+            {
+                element = DOMelement.outcomeStorage;
+                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+            }
+
+            //Replacing the HTML placeholder strings
+            newHtml = html.replace('%id%', obj.id);
+            newHtml = newHtml.replace('%desc%', obj.desc);
+            newHtml = newHtml.replace('%value%', obj.value);
+
+            //Inserting the HTML into DOM
+            document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
         }
     }
 })();
@@ -101,6 +128,7 @@ var manager = (function(BudgetMan, SurfMan){
         NewItem = budget_manager.ItemAdd(input.type, input.description, input.value);
 
         // 3 - Appearance in UI
+        surface_manager.itemDisplay(NewItem, input.type);
 
         // 4 - Re-calculating the budget
 
