@@ -1,0 +1,9 @@
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\SHADY WITH THE MELODY_MarkupCompile.cache
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\SHADY WITH THE MELODY.g.resources
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\SHADY WITH THE MELODY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\SHADY WITH THE MELODY.AssemblyInfoInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\SHADY WITH THE MELODY.AssemblyInfo.cs
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\SHADY WITH THE MELODY\SHADY WITH THE MELODY\obj\Debug\net6.0-windows\SHADY WITH THE MELODY.csproj.CoreCompileInputs.cache

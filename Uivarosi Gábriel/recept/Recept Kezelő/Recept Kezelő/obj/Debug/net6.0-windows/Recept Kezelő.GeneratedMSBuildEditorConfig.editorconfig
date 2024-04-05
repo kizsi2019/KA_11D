@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Recept_Kezelő
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\FeketeZoltan\Desktop\git\KA_11D\Uivarosi Gábriel\recept\Recept Kezelő\Recept Kezelő\
+=======
+build_property.ProjectDir = C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Uivarosi Gábriel\recept\Recept Kezelő\Recept Kezelő\
+>>>>>>> e3637a3d7cbd5192fe34ffff358efe0b2e3f358e
