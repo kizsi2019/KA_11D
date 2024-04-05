@@ -22,7 +22,7 @@ var budget_manager = (function(){
 
     }
     return {
-        ItemAdd: function(typ, id, dsc) {
+        ItemAdd: function(typ, desc, value) {
             var NewItem, ID;
             ID = 0;
 
@@ -32,10 +32,10 @@ var budget_manager = (function(){
                 ID = 0;
             }
 
-            if (typ === "in")
+            if (typ === "bev")
             {
                 NewItem = new Income(ID, desc, value);
-            }else if (typ === "out")
+            }else if (typ === "kia")
             {
                 NewItem = new Outcome(ID, desc, value);
             }
