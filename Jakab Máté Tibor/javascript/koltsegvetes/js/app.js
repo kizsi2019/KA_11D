@@ -43,6 +43,9 @@ var koltsegvetesVezerlo = (function() {
                 ujTetel = new Bevetel(ID, lei, ert);
             } else if (tip === 'kia') {
                 ujTetel = new Kiadas(ID, lei, ert);
+            }else {
+                /*kezeld a hibát, például dobjon hibát vagy állitsa
+                ujTelet-t null-ra*/
             }
 
             // új tétel hozzáadsa az adatszerkezethez
@@ -74,7 +77,9 @@ var feluletVezerlo = (function() {
         inputTipus: '.hozzaad__tipus',
         inputLeiras: '.hozzaad__leiras',
         inputErtek: '.hozzaad__ertek',
-        inputGomb: '.hozzaad__gomb'
+        inputGomb: '.hozzaad__gomb',
+        bevetelTarolo: '.bevetelek_lista',
+        KiadasTarolo: 'kiadas_lista'
     };
 
     return {
@@ -88,9 +93,28 @@ var feluletVezerlo = (function() {
 
         getDOMelemek: function() {
             return DOMelemek;
+        },
+        tetelMegjelentítes: function(obj, tipus) {
+            var html, ujHtmly, elem
+
+            //Html string letrehozasa placeholder értékekkel
+            if (tipus === 'bev') {
+                elem = DOMelemek.bevetelTarolo;
+                html = '<div class="tetel clearfix" id="bevetelek-0">';
+            } else if (tipus === 'kia') {
+                elem = DOMelemek.KiadasTarolo
+                html = ''
+            }
+            //Html string placeholder értékekkel cseréje
+            ujHtml = html.replace('%id%', obj.id);
+            ujHtml = ujHtml.replace('%leuras%',obj.leiras);
+            ujHtml = ujHtml.replace('%ertek%', obj.ertek);
+
+            //HTML beszurása a DOM-ba
+            document.querySelector(elem).insertAdjacentHTML
+            ('beforeend', ujHtml);
         }
     }
-
 })();
 
 
@@ -127,7 +151,8 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
         ujTetel =  koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
 
         // 3. megjelenités a ui-n
-
+        feluletVezerlo.tetelMegjelentítes(ujTetel, input.tipus)
+        
         // 4. költségvetés újraszámolása
 
         // 5. összeg mejelenítése a felületen
