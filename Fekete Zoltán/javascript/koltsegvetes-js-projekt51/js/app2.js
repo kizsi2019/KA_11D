@@ -15,8 +15,8 @@ var koltsegvezetesVezerlo = (function(){
     var adat = {
 
         tetelek: {
-            bev: [{id: 0}],
-            kia: [{id: 0}]
+            bev: [{ id: 0 }],
+            kia: [{ id: 0 }]
         },
         osszegek: {
             bev: 0,
@@ -41,9 +41,7 @@ var koltsegvezetesVezerlo = (function(){
                 ujTetel = new Kiadas(ID, lei, ert);
             }
 
-            if (adat.tetelek[tip] !== undefined) {
-                adat.tetelek[tip].push(ujTetel)
-            }
+            adat.tetelek[tip].push(ujTetel);
 
             return ujTetel
         },
@@ -58,12 +56,12 @@ var koltsegvezetesVezerlo = (function(){
 var feluletVezerlo = (function(){
 
     var DOMelemek = {
-        inputTipus: '.hozzaad__tipus',
-        inputLeiras: '.hozzaad__leiras',
-        inputErtek: '.hozzaad__ertek',
-        inputGomb: '.hozzaad__gomb',
-        bevetelTarolo:'.bevetelek__lista',
-        kiadasTarolor:'.kiadas__lista'
+        inputTipus: 'hozzaad_tipus',
+        inputLeiras: 'hozzaad_leiras',
+        inputErtek: 'hozzaad_ertek',
+        inputGomb: 'hozzaad_gomb',
+        bevetelTarolo:'bevetelek_lista',
+        kiadasTarolor:'kiadas_lista'
     };
 
     return {
@@ -125,27 +123,25 @@ var vezerlo = (function(koltsegvezetesVez, feluletVez){
 
         var DOM = feluletVezerlo.getDOMelemek();
 
-        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetekHozzadas);
+        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzadas);
 
         document.addEventListener('keydown', function(event){
         if (event.key !== undefined && event.key === 'enter'){
-        
-        }    
-        else if (event.keyCode !== undefined && event.keyCode === 13){
-            vezTetekHozzadas();
 
+        } else if (event.keyCode !== undefined && event.keyCode === 13){
+            vezTetelHozzadas();
         }
         });
 
     }
 
 
-    var vezTetekHozzadas = function() {
+    var vezTetelHozzadas = function() {
         var input, ujTetel;
 
         input = feluletVezerlo.getInput();
 
-        ujTetel = koltsegvezetesVezerlo.tetelekHozzaad(input.tipus, input.leiras, input.ertek);
+        ujTetel = koltsegvezetesVezerlo-tetelekHozzaad(input.tipus, input.leiras, input.ertek);
 
         feluletVezerlo.tetelekMegjelenites(ujTetel, input.tipus); 
 
