@@ -1,0 +1,41 @@
+﻿<Window x:Class="TodoListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="To-Do List" Height="450" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBox Text="{Binding NewTodoText}" Width="200" />
+            <Button Command="{Binding AddTodoCommand}" Content="Hozzáadás" Margin="5,0,0,0" />
+            <CheckBox IsChecked="{Binding FilterCompleted}" Content="Befejezettek szűrése" Margin="10,0,0,0" />
+        </StackPanel>
+        <ListView Grid.Row="1" ItemsSource="{Binding TodoItems}">
+<ListView.ItemContainerStyle>
+  <Style TargetType="ListViewItem">
+    <Setter Property="Visibility" Value="Visible" />
+    <Style.Triggers>
+      <DataTrigger Binding="{Binding IsCompleted}" Value="True">
+        <Setter Property="Visibility" Value="{Binding FilterCompleted, Converter={StaticResource InvertedBooleanConverter}}" /> </DataTrigger>
+    </Style.Triggers>
+  </Style>
+</ListView.ItemContainerStyle>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <CheckBox IsChecked="{Binding IsCompleted}" Command="{Binding MarkTodoCompleteCommand}" />
+                        <TextBlock Text="{Binding Text}" Margin="10,0,0,0" TextDecorations="{Binding IsCompleted, Converter={StaticResource CompletedTextDecorationConverter}}" Foreground="{Binding IsCompleted, Converter={StaticResource CompletedTextBrushConverter}}" />
+                        <Button Command="{Binding DeleteTodoCommand}" Content="Törlés" HorizontalAlignment="Right" Margin="0,0,10,0" />
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>

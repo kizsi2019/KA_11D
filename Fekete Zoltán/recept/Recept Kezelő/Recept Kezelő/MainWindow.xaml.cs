@@ -23,32 +23,7 @@ namespace Recept_Kezelő
         public MainWindow()
         {
             InitializeComponent();
-            Recept_Mező_List.Items.Add("recept 1");
-
-            foreach (var item in Recept_Mező_List.Items)
-            {
-                if (item is Button button)
-                {
-                    button.Click += Button_Click;
-                }
-            }
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var button = (Button)sender;
-            string selectedData = button.Content.ToString();
-            var popupWindow = new PopupWindow();
-            popupWindow.Show();
-        }
-
-        private class PopupWindow
-        {
-            internal void Show()
-            {
-                throw new NotImplementedException();
-            }
         }
     }
 }
-
 
