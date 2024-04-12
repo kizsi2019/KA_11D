@@ -75,12 +75,14 @@ var koltsegvetesVezerlo = (function() {
         },
 
 koltsegvetesSzamolas: function() {
-
+ // 1. Bevétel s kiadások összegének kiszánitsa
     vegosszegSzamolas('bev');
     vegosszegSzamolas('kia');
+ // 2. Költsévetés kiszámitások: betétel - kiadások
 
-    adat.koltsegvetes = adat.osszeg.bev - adat.osszegek.kia;
 
+    adat.koltsegvetes = adat.osszegek.bev - adat.osszegek.kia;
+// 3. Százalák számolása / betétel - kiadások
     if (adat.osszegek.bev > 0) {
         adat.szazalek = Math.round((adat.osszegek.kia / adat.osszegek.bev) * 100);
     } else {
@@ -191,10 +193,11 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
 
 
 var összegFrissitese = function() {
+    // 1  Költségvetés újraszámolása
  koltsegvetesVezerlo.koltsegvetesSzamolas();
-
+ //2 Összeg visszaadása
  var koltsegvetes = koltsegvetesVezerlo.getkoltsevgetes();
-
+//3 Összeg megjelenítése a felületen
  console.log(koltsegvetes)
 
 }
