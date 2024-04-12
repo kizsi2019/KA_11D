@@ -129,7 +129,7 @@ var feluletVezerlo = (function() {
             return {
                 tipus: document.querySelector(DOMelemek.inputTipus).value,
                 leiras: document.querySelector(DOMelemek.inputLeiras).value,
-                ertke: document.querySelector(DOMelemek.inputErtek).value,
+                ertek: document.querySelector(DOMelemek.inputErtek).value,
             };
         },
 
@@ -140,10 +140,10 @@ var feluletVezerlo = (function() {
             var html, ujHtml, elem;
             if (tipus === 'bev') {
                 elem = DOMelemek.bevetelTarolo;
-                html = '<div class="tetel clearfix" id="bevetelek-%id%">  <div class="tetel__leiras">Fizetés</div>        <div class="right clearfix">       <div class="tetel__ertek">+ 2,100.00</div>       <div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button>           </div>        </div>  </div>     <div class="tetel clearfix" id="bevetelek-1">    <div class="tetel__leiras">Autó eladás</div>       <div class="right clearfix">     <div class="tetel__ertek">+ 1,500.00</div>     <div class="tetel__torol">  <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button>       </div>  </div>      </div>'     }
+                html = '<div class="tetel clearfix" id="bevetelek-%id%">  <div class="tetel__leiras">%leírás%</div>        <div class="right clearfix">       <div class="tetel__ertek">%ertek%</div>       <div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button>           </div>        </div>  </div>     '     }
                  else if(tipus === 'kia')
                   {            elem = DOMelemek.kiadasTarolo;         
-                     html = '<div class="tetel clearfix" id="expense-%id%"> <div class="tetel__leiras">Lakás bérleti díj</div>     <div class="right clearfix">     <div class="tetel__ertek">- 900.00</div>       <div class="tetel__szazalek">21%</div> <div class="tetel__torol">        <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button>        </>div         </div>     </div>     <div class="tetel clearfix" id="expense-1">        <div class="tetel__leiras">Bevásárlás</div>      <div class="right clearfix">       <div class="tetel__ertek">- 435.28</div>      <div class="tetel__szazalek">10%</div>          <div class="tetel__torol">        <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button>     </div>          </div>      </div>'
+                     html = '<div class="tetel clearfix" id="expense-%id%"> <div class="tetel__leiras">%leírás%</div>     <div class="right clearfix">     <div class="tetel__ertek">%ertek%</div>       <div class="tetel__szazalek">21%</div> <div class="tetel__torol">        <button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button>        </>div         </div>     </div>'
                     }
         ujHtml = html.replace('%id%', obj.id);
         ujHtml = ujHtml.replace('%leírás%', obj.leiras);
@@ -190,7 +190,14 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
 
 
 
+var összegFrissitese = function() {
+ koltsegvetesVezerlo.koltsegvetesSzamolas();
 
+ var koltsegvetes = koltsegvetesVezerlo.getkoltsevgetes();
+
+ console.log(koltsegvetes)
+
+}
 
 
 
@@ -200,7 +207,7 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
 
         // 1. vecitt adat megszerzése
         input = feluletVezerlo.getInput();
-
+if (input.leiras !== "" && !isNaN(input.ertek) && input.ertek > 0) {
         // 2. adatok átadása a költségvetésvezérlő modulnak.
         ujTetel =  koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
 
@@ -209,7 +216,8 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
         // 4. költségvetés újraszámolása
             feluletVezerlo.urlapTorles();
         // 5. összeg mejelenítése a felületen
-
+        összegFrissitese();
+}
     }
 
     return {
