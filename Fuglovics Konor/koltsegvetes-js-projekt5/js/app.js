@@ -56,7 +56,7 @@ var budget_manager = (function(){
                 NewItem = new Outcome(ID, desc, value);
             }else
             {
-                throw new Error("Invalid: ${tip}");
+                throw new Error("Invalid: ${typ}");
             }
             //Add the new item to the data structure
             if (data.items[typ] !== undefined)
@@ -86,17 +86,14 @@ var budget_manager = (function(){
         },
         GetBudget: function()
         {
-            return
+            //Tudod mit, hagyjuk a picsába!
+            /*return
             {
                 total: data.budget,
-                in: data.totala.in,
+                in: data.totals.in,
                 out: data.totals.out,
                 percent: data.percent
-            }
-        },
-        test: function()
-        {
-            console.log(data);
+            };*/
         }
     }
 })();
@@ -163,6 +160,19 @@ var manager = (function(BudgetMan, SurfMan){
         document.querySelector(DOM.inputButton).addEventListener('click', ManItemAdd);
     }
 
+    var TotalRefresh = function()
+    {
+        // 1 - Re-calculating the budget
+        budget_manager.BudgetCalculate();
+
+        // 2 - Giving back the total
+        var budget = budget_manager.GetBudget();
+
+        // 3 - Total amount on the interface
+        console.log(budget);
+
+    }
+
     document.addEventListener('keydown', function(event){
         if (event.key !== undefined && event.key === "Enter")
         {
@@ -172,21 +182,12 @@ var manager = (function(BudgetMan, SurfMan){
         {
             ManItemAdd();
         }
-        var TotalRefresh = function()
-        {
-            // 1 - Re-calculating the budget
-            budget_manager.BudgetCalculate();
-
-            // 2 - Giving back the total
-            var budget = budget_manager.GetBudget();
-
-            // 3 - Total amount on the interface
-            console.log(budget);
-        }
     })
     var ManItemAdd = function(){
         // 1 - Capturing imported data
-        var input = surface_manager.getInput();
+        var input, NewItem;
+
+        input = surface_manager.getInput();
         if (input.description !== '' && !isNaN(input.value) && input.value > 0)
         {
             // 2 - Giving the data to the budget manager module

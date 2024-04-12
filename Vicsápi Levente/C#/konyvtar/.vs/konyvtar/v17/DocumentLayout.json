@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\konyvtar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{937F6199-9D7E-4C88-B2A5-639E3175AB7D}|konyvtar\\konyvtar.csproj|c:\\iskola\\informatika\\ka_11d\\vics\u00E1pi levente\\c#\\konyvtar\\konyvtar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{937F6199-9D7E-4C88-B2A5-639E3175AB7D}|konyvtar\\konyvtar.csproj|solutionrelative:konyvtar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937F6199-9D7E-4C88-B2A5-639E3175AB7D}|konyvtar\\konyvtar.csproj|c:\\iskola\\informatika\\ka_11d\\vics\u00E1pi levente\\c#\\konyvtar\\konyvtar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937F6199-9D7E-4C88-B2A5-639E3175AB7D}|konyvtar\\konyvtar.csproj|solutionrelative:konyvtar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\konyvtar\\konyvtar\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "konyvtar\\MainWindow.xaml",
+              "ToolTip": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\konyvtar\\konyvtar\\MainWindow.xaml",
+              "RelativeToolTip": "konyvtar\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-22T15:09:20.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\konyvtar\\konyvtar\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "konyvtar\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\konyvtar\\konyvtar\\MainWindow.xaml.cs",
+              "RelativeToolTip": "konyvtar\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:09:19.129Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

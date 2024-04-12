@@ -4,20 +4,20 @@ var koltsegvetesVezerlo = (function() {
     var Kiadas = function(id, leiras, ertek) {
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek =parseInt( ertek);
     }
 
     var Bevetel = function(id, leiras, ertek) {
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek =ertek;
     }
 
 
 
     var vegosszegSzamolas = function(tip)  {
         var osszeg = 0;
-        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].lenght > 0) {
+        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
             adat.tetelek[tip].forEach(function(currentValue) {
                 if (!isNaN(currentValue.ertek)) {
                     osszeg += currentValue.ertek;
@@ -48,8 +48,8 @@ var koltsegvetesVezerlo = (function() {
             ID = 0;
 
             // ID létrehozása
-            if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].lenght > 0) {
-                ID = adat.tetelek[tip][adat.tetelek[tip].lenght - 1].id + 1;
+            if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
+                ID = adat.tetelek[tip][adat.tetelek[tip].length - 1].id + 1;
             } else {
                 ID = 0;
             }
@@ -66,7 +66,7 @@ var koltsegvetesVezerlo = (function() {
 
             // új tétel hozzáadsa az adatszerkezethez
            
-            if (adat.tetelek[tip !== undefined]) {
+            if (adat.tetelek[tip] !== undefined) {
                 adat.tetelek[tip].push(ujTetel);
             }
 
@@ -75,12 +75,14 @@ var koltsegvetesVezerlo = (function() {
         },
 
 koltsegvetesSzamolas: function() {
-
+ // 1. Bevétel s kiadások összegének kiszánitsa
     vegosszegSzamolas('bev');
     vegosszegSzamolas('kia');
+ // 2. Költsévetés kiszámitások: betétel - kiadások
 
-    adat.koltsegvetes = adat.osszeg.bev - adat.osszegek.kia;
 
+    adat.koltsegvetes = adat.osszegek.bev - adat.osszegek.kia;
+// 3. Százalák számolása / betétel - kiadások
     if (adat.osszegek.bev > 0) {
         adat.szazalek = Math.round((adat.osszegek.kia / adat.osszegek.bev) * 100);
     } else {
@@ -129,7 +131,7 @@ var feluletVezerlo = (function() {
             return {
                 tipus: document.querySelector(DOMelemek.inputTipus).value,
                 leiras: document.querySelector(DOMelemek.inputLeiras).value,
-                ertek: document.querySelector(DOMelemek.inputErtek).value,
+                ertek: parseInt( document.querySelector(DOMelemek.inputErtek).value)
             };
         },
 
@@ -191,10 +193,11 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
 
 
 var összegFrissitese = function() {
+    // 1  Költségvetés újraszámolása
  koltsegvetesVezerlo.koltsegvetesSzamolas();
-
+ //2 Összeg visszaadása
  var koltsegvetes = koltsegvetesVezerlo.getkoltsevgetes();
-
+//3 Összeg megjelenítése a felületen
  console.log(koltsegvetes)
 
 }

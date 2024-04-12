@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\iskola\\informatika\\KA_11D\\Fuglovics Konor\\CRUDDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03D5DB77-8339-4AC7-AA9D-0131CCAF3798}|CRUD\\CRUD.csproj|C:\\iskola\\informatika\\KA_11D\\Fuglovics Konor\\CRUDDB\\crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03D5DB77-8339-4AC7-AA9D-0131CCAF3798}|CRUD\\CRUD.csproj|solutionrelative:crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D5DB77-8339-4AC7-AA9D-0131CCAF3798}|CRUD\\CRUD.csproj|c:\\iskola\\informatika\\ka_11d\\fuglovics konor\\cruddb\\crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D5DB77-8339-4AC7-AA9D-0131CCAF3798}|CRUD\\CRUD.csproj|solutionrelative:crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\iskola\\informatika\\KA_11D\\Fuglovics Konor\\CRUDDB\\CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "CRUD\\Form1.cs",
+              "ToolTip": "C:\\iskola\\informatika\\KA_11D\\Fuglovics Konor\\CRUDDB\\CRUD\\Form1.cs",
+              "RelativeToolTip": "CRUD\\Form1.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAIwLsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T21:06:30.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\iskola\\informatika\\KA_11D\\Fuglovics Konor\\CRUDDB\\CRUD\\Form1.cs",
+              "RelativeDocumentMoniker": "CRUD\\Form1.cs",
+              "ToolTip": "C:\\iskola\\informatika\\KA_11D\\Fuglovics Konor\\CRUDDB\\CRUD\\Form1.cs [Design]",
+              "RelativeToolTip": "CRUD\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T21:06:30.995Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

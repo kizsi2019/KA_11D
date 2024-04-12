@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bukkmaraton2019GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0ee7a29e1cd58ee6ee321fc4922580be2d21b84")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bukkmaraton2019GUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bukkmaraton2019GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
