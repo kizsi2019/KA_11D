@@ -98,6 +98,17 @@ var surface_manager = (function(){
 
             //Inserting the HTML into DOM
             document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
+        },
+        DeleteForm: function()
+        {
+            var areas, areasBlock;
+            areas = document.querySelectorAll(DOMelement.inputDescription + "," + DOMelement.inputValue);
+            areasBlock = Array.prototype.slice.call(areas);
+            areasBlock.forEach(function(currentValue, index, array)
+            {
+                currentValue.value = '';
+            });
+            areasBlock[0].focus();
         }
     }
 })();
@@ -130,9 +141,15 @@ var manager = (function(BudgetMan, SurfMan){
         // 3 - Appearance in UI
         surface_manager.itemDisplay(NewItem, input.type);
 
-        // 4 - Re-calculating the budget
+        // 4 - Deleting the areas
+        SurfMan.DeleteForm();
 
-        // 5 - Total amount on the interface
+        // 5 - Re-calculating the budget
+
+
+        // 6 - Total amount on the interface
+
+
     }
     return {
         init: function(){
