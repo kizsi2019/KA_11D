@@ -3,19 +3,19 @@ var koltsegvetesVezerlo = (function() {
     var Kiadas = function(id, leiras, ertek) {
         this.leiras = leiras;
         this.id = id;
-        this.ertek = ertek;
+        this.ertek = parseInt(ertek);
     }
     var Bevetel = function(id, leiras, ertek) {
         this.leiras = leiras;
         this.id = id;
-        this.ertek = ertek;
+        this.ertek = parseInt(ertek);
     }
 
-    var vegosszegSzamolas = function(tip){
+    var vegosszegSzamolas = function(tip) {
         var osszeg = 0;
-        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0){
-            adat.tetelek[tip].forEach(function(currentValue){
-                if (!isNaN(currentValue.ertek)){
+        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
+            adat.tetelek[tip].forEach(function(currentValue) {
+                if (!isNaN(currentValue.ertek)) {
                     osszeg += currentValue.ertek;
                 }
             });
@@ -67,25 +67,26 @@ var koltsegvetesVezerlo = (function() {
             return ujTetel;
         },
 
-        koltsegvetesSzamolas: function(){
-            //1. Bevétel és Kiadás összegének kiszámítása
+        koltsegvetesSzamolas: function() {
+            // 1. Bevétel és kiadások összegének kiszámítása
+
             vegosszegSzamolas('bev');
-            vegosszegSzamolas('kiv');
+            vegosszegSzamolas('kia');
 
-            //2. Költségvetés kiszámítása: kiadások / bevétel * 100
-            adat.koltsegvetes = adat.osszegek.bev - adaz.osszegek.kia;
+            // 2. Költségvetés kiszámítása: bevétel - kiadások
+            adat.koltsegvetes = adat.osszegek.bev - adat.osszegek.kia;
 
-            //3. Százalék számolása: kiadások / bevétel * 100
-
-            if(adat.osszegek.bev > 0){
-                adat.szazalek = Math.round((adat.osszegek.kia / adat.osszegek.bev) *100);
-            } else{
+            // 3. Százalék számolása: kiadások / bevétel * 100
+            if (adat.osszegek.bev > 0) {
+                adat.szazalek = Math.round((adat.osszegek.kia / adat.osszegek.bev) * 100);
+            } else {
                 adat.szazalek = -1;
             }
+
         },
 
-        getkoltsegvetes: function(){
-            return{
+        getkoltsegvetes: function() {
+            return {
                 osszeg: adat.koltsegvetes,
                 bev: adat.osszegek.bev,
                 kia: adat.osszegek.kia,
@@ -107,7 +108,11 @@ var feluletVezerlo = (function() {
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista'
+        kiadasTarolo: '.kiadasok__lista',
+        koltsegvetesCimke: '.koltsegvetes__ertek',
+        osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
+        osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
     };
 
     return {
@@ -124,7 +129,6 @@ var feluletVezerlo = (function() {
         },
 
         tetelMegjelenites: function(obj, tipus) {
-            
             var html, ujHtml, elem;
 
             // HTML string létrehozása placeholder értékekkel
@@ -143,16 +147,28 @@ var feluletVezerlo = (function() {
 
             // HTML beszúrása a DOM-ba
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
-
-        },        urlapTorles: function(){
+        },
+        urlapTorles: function() {
             var mezok, mezokTomb;
-            mezok = document.querySelectorAll(DOMelemek.inputLeiras + ',' + DOMelemek.inputErtek);
+            mezok = document.querySelectorAll(DOMelemek.inputLeiras + ', ' + DOMelemek.inputErtek);
             mezokTomb = Array.prototype.slice.call(mezok);
 
-            mezokTomb.forEach(function(currentValue, index, array){
+            mezokTomb.forEach(function(currentValue, index, array) {
                 currentValue.value = '';
             });
             mezokTomb[0].focus();
+        },
+
+        koltsegvetesMegjelenites: function(obj) {
+            document.querySelector(DOMelemek.koltsegvetesCimke).textContent = obj.osszeg;
+            document.querySelector(DOMelemek.osszbevetelCimke).textContent = obj.bev;
+            document.querySelector(DOMelemek.osszkiadasCimke).textContent = obj.kia;
+
+            if (obj.szazalek > 0) {
+                document.querySelector(DOMelemek.szazalekCimke).textContent = obj.szazalek + '%';
+            } else {
+                document.querySelector(DOMelemek.szazalekCimke).textContent = '---';
+            }
         }
     };
 })();
@@ -173,38 +189,37 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         });
     };
 
-    var osszegFrissitese = function(){
+    var osszegFrissitese = function() {
+        // 1. költségvetés újraszámolása
+        koltsegvetesVezerlo.koltsegvetesSzamolas();
 
-        //1. Költségvetés újraszámolása
+        // 2. Összeg visszaadása
+        var koltsegvetes = koltsegvetesVezerlo.getkoltsegvetes();
 
-        //2. Összeg visszaadása
-
-        //3. Összeg megjelnítése a felületen
-    };
+        // 3. Összeg megjelenítése a felületen
+        feluletVezerlo.koltsegvetesMegjelenites(koltsegvetes);
+    }
 
     var vezTetelHozzaadas = function() {
         var input, ujTetel;
 
-        // 1. bevitt adatok megszerzeése
+        // 1. Bevitt adatok megszerzeése
         input = feluletVezerlo.getInput();
 
-        if (input.leiras !== '' && !isNaN(input.ertek) && input.ertek > 0)
-        {
+        if (input.leiras !== '' && !isNaN(input.ertek) && input.ertek > 0) {
 
-        
-
-        // 2. adatok átadása a koltsegvetés vezérlő modulnak
+        // 2. Adatok átadása a koltsegvetés vezérlő modulnak
         ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
 
-        // 3. megjelenítés a felületen
+        // 3. Megjelenítés a felületen
         feluletVezerlo.tetelMegjelenites(ujTetel, input.tipus);
-
-        // 4. Kültségvetés újraszámolása
+        // 4. Mezők törlése
         feluletVezerlo.urlapTorles();
-        // 5. megjelenítés a felületen
-            osszegFrissitese();
-        };
-        // 6. összeg megjelenítése a felületen
+        // 5. Költségvetés újraszámolása
+        osszegFrissitese();
+        }
+
+        
     };
 
     return {
