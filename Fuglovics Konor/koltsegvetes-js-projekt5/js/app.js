@@ -3,12 +3,12 @@ var budget_manager = (function(){
     var Outcome = function(id, desc, value){
         this.desc = desc;
         this.id = id;
-        this.value = ParseInt(value);
+        this.value = value;
     }
     var Income = function(id, desc, value){
         this.desc = desc;
         this.id = id;
-        this.value = ParseInt(value);
+        this.value = value;
     }
     var CalculateTotal = function(typ)
     {
@@ -40,7 +40,7 @@ var budget_manager = (function(){
     return {
         ItemAdd: function(typ, desc, value) {
             var NewItem, ID;
-            ID = 0;
+            
 
             if (data.items[typ] !== undefined && data.items[typ].length > 0) {
                 ID = data.items[typ][data.items[typ].length - 1].id + 1;
@@ -86,14 +86,12 @@ var budget_manager = (function(){
         },
         GetBudget: function()
         {
-            //Tudod mit, hagyjuk a picsába!
-            /*return
-            {
+            return {
                 total: data.budget,
                 in: data.totals.in,
                 out: data.totals.out,
                 percent: data.percent
-            };*/
+            }
         }
     }
 })();
@@ -105,7 +103,11 @@ var surface_manager = (function(){
         inputValue: '.hozzaad__ertek',
         inputButton: '.hozzaad__gomb',
         incomeStorage: '.bevetelek__lista',
-        outcomeStorage: '.kiadasok__lista'
+        outcomeStorage: '.kiadasok__lista',
+        budgetTag: '.koltsegvetes__ertek',
+        totalincomeTag: '.koltsegvetes__bevetelek--ertek',
+        totaloutcomeTag: '.koltsegvetes__kiadasok--ertek',
+        percentTag: '.koltsegvetes__kiadasok--szazalek'
     }
     return {
         getInput: function(){
@@ -150,6 +152,19 @@ var surface_manager = (function(){
                 currentValue.value = '';
             });
             areasBlock[0].focus();
+        },
+        DisplayBudget: function(obj)
+        {
+            document.querySelector(DOMelement.budgetTag).textContent = obj.total;
+            document.querySelector(DOMelement.totalincomeTag).textContent = obj.in;
+            document.querySelector(DOMelement.totaloutcomeTag).textContent = obj.out;
+            if (obj.percent > 0)
+            {
+                document.querySelector(DOMelement.percentTag).textContent = obj.percent + "%";
+            }else
+            {
+                document.querySelector(DOMelement.percentTag).textContent = "-";
+            }
         }
     }
 })();
@@ -168,9 +183,11 @@ var manager = (function(BudgetMan, SurfMan){
         // 2 - Giving back the total
         var budget = budget_manager.GetBudget();
 
-        // 3 - Total amount on the interface
-        console.log(budget);
+        console.log("Költség: ", budget);
 
+        // 3 - Total amount on the interface
+        surface_manager.DisplayBudget(budget);
+        console.log(budget);
     }
 
     document.addEventListener('keydown', function(event){
@@ -185,6 +202,7 @@ var manager = (function(BudgetMan, SurfMan){
     })
     var ManItemAdd = function(){
         // 1 - Capturing imported data
+        console.log("ManItemAdd function called");
         var input, NewItem;
 
         input = surface_manager.getInput();
@@ -202,11 +220,18 @@ var manager = (function(BudgetMan, SurfMan){
             // 5 - Re-calculating and refreshing the budget on the interface
             TotalRefresh();
         }
-        // 6 - Total amount on the interface
     }
     return {
         init: function(){
             console.log("Working!");
+            surface_manager.DisplayBudget(
+            {
+                total: 0,
+                in: 0,
+                out: 0,
+                percent: -1
+            }
+            );
             EventManagerSet();
         }
     }
