@@ -1,24 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GaborDavidBalazs\\Desktop\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj": {}
+    "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GaborDavidBalazs\\Desktop\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj": {
+    "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GaborDavidBalazs\\Desktop\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "C:\\Users\\GaborDavidBalazs\\Desktop\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj",
-        "packagesPath": "C:\\Users\\GaborDavidBalazs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GaborDavidBalazs\\Desktop\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\obj\\",
+        "projectPath": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\WpfApp1.csproj",
+        "packagesPath": "C:\\Users\\Sound Crafter\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sound Crafter\\Documents\\KA_11D\\Fuglovics Konor\\koltsegvetes\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\GaborDavidBalazs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sound Crafter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows"
+          "net5.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -45,29 +49,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -76,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
