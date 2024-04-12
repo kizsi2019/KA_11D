@@ -88,8 +88,9 @@ var budget_manager = (function(){
         {
             return
             {
+                //Mi a faszért nem működik ez a szar?!
                 total: data.budget,
-                in: data.totala.in,
+                in: data.totals.in,
                 out: data.totals.out,
                 percent: data.percent
             }
@@ -163,6 +164,19 @@ var manager = (function(BudgetMan, SurfMan){
         document.querySelector(DOM.inputButton).addEventListener('click', ManItemAdd);
     }
 
+    var TotalRefresh = function()
+    {
+        // 1 - Re-calculating the budget
+        budget_manager.BudgetCalculate();
+
+        // 2 - Giving back the total
+        var budget = budget_manager.GetBudget();
+
+        // 3 - Total amount on the interface
+        console.log(budget);
+
+    }
+
     document.addEventListener('keydown', function(event){
         if (event.key !== undefined && event.key === "Enter")
         {
@@ -172,21 +186,12 @@ var manager = (function(BudgetMan, SurfMan){
         {
             ManItemAdd();
         }
-        var TotalRefresh = function()
-        {
-            // 1 - Re-calculating the budget
-            budget_manager.BudgetCalculate();
-
-            // 2 - Giving back the total
-            var budget = budget_manager.GetBudget();
-
-            // 3 - Total amount on the interface
-            console.log(budget);
-        }
     })
     var ManItemAdd = function(){
         // 1 - Capturing imported data
-        var input = surface_manager.getInput();
+        var input, NewItem;
+
+        input = surface_manager.getInput();
         if (input.description !== '' && !isNaN(input.value) && input.value > 0)
         {
             // 2 - Giving the data to the budget manager module
