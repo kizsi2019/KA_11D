@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\szám_változás_delegate_\szám_változás_delegate_\obj\Debug\szám_változás_delegate_.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\szám_változás_delegate_\szám_változás_delegate_\obj\Debug\szám_változás_delegate_.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\szám_változás_delegate_\szám_változás_delegate_\bin\Debug\szám_változás_delegate_.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\szám_változás_delegate_\szám_változás_delegate_\bin\Debug\szám_változás_delegate_.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\szám_változás_delegate_\szám_változás_delegate_\bin\Debug\szám_változás_delegate_.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\szám_változás_delegate_\szám_változás_delegate_\obj\Debug\szám_változás_delegate_.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\szám_változás_delegate_\szám_változás_delegate_\obj\Debug\szám_változás_delegate_.pdb

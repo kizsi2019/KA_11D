@@ -1,0 +1,34 @@
+﻿<Window x:Class="TodoListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="To-Do List" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBox Text="{Binding NewTodoText, UpdateSourceTrigger=PropertyChanged}" />
+            <Button Content="Hozzáad" Command="{Binding AddTodoCommand}" />
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <ListView ItemsSource="{Binding TodoItems}" 
+                SelectedItem="{Binding SelectedTodoItem}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <TextBlock Text="{Binding Text}" />
+                            <CheckBox IsChecked="{Binding IsCompleted, Mode=TwoWay}" 
+                        Command="{Binding RelativeSource={RelativeSource FindAncestor}, Path=MarkTodoCompleteCommand}" />
+                            <Button Content="Törlés" Command="{Binding RelativeSource={RelativeSource FindAncestor}, Path=DeleteTodoCommand}" CommandParameter="{Binding}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>
+
