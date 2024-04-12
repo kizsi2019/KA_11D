@@ -56,7 +56,7 @@ var budget_manager = (function(){
                 NewItem = new Outcome(ID, desc, value);
             }else
             {
-                throw new Error("Invalid: ${tip}");
+                throw new Error("Invalid: ${typ}");
             }
             //Add the new item to the data structure
             if (data.items[typ] !== undefined)
@@ -86,18 +86,14 @@ var budget_manager = (function(){
         },
         GetBudget: function()
         {
-            return
+            //Tudod mit, hagyjuk a picsába!
+            /*return
             {
-                //Mi a faszért nem működik ez a szar?!
                 total: data.budget,
                 in: data.totals.in,
                 out: data.totals.out,
                 percent: data.percent
-            }
-        },
-        test: function()
-        {
-            console.log(data);
+            };*/
         }
     }
 })();
