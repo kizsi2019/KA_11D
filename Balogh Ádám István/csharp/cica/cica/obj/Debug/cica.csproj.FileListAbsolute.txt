@@ -1,0 +1,10 @@
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\obj\Debug\cica.csproj.AssemblyReference.cache
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\obj\Debug\cica.csproj.CoreCompileInputs.cache
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\bin\Debug\cica.exe.config
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\bin\Debug\cica.exe
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\bin\Debug\cica.pdb
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\obj\Debug\cica.csproj.CopyComplete
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\obj\Debug\cica.exe
+C:\Users\AdamBalogh\Desktop\fosgithub\KA_11D\Balogh Ádám István\csharp\cica\cica\obj\Debug\cica.pdb
