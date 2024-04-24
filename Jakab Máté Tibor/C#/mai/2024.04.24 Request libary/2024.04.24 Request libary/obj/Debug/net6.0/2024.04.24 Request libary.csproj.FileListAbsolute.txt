@@ -1,0 +1,4 @@
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\2024.04.24 Request libary\2024.04.24 Request libary\obj\Debug\net6.0\2024.04.24 Request libary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\2024.04.24 Request libary\2024.04.24 Request libary\obj\Debug\net6.0\2024.04.24 Request libary.AssemblyInfoInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\2024.04.24 Request libary\2024.04.24 Request libary\obj\Debug\net6.0\2024.04.24 Request libary.AssemblyInfo.cs
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Jakab Máté Tibor\C#\mai\2024.04.24 Request libary\2024.04.24 Request libary\obj\Debug\net6.0\2024.04.24 Request libary.csproj.CoreCompileInputs.cache
