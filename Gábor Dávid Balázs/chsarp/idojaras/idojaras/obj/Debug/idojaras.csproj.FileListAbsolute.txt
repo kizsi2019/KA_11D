@@ -1,0 +1,10 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\bin\Debug\idojaras.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\bin\Debug\idojaras.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\bin\Debug\idojaras.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\obj\Debug\idojaras.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\obj\Debug\idojaras.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\obj\Debug\idojaras.csproj.CopyComplete
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\obj\Debug\idojaras.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\idojaras\idojaras\obj\Debug\idojaras.pdb
