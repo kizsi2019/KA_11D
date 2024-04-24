@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Toto2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2595b2d28803e4f7895d2840849f3b525b1951f7")]
+=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> 24324ea80b7189c34069c38e61225623a2d6c351
 [assembly: System.Reflection.AssemblyProductAttribute("Toto2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Toto2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

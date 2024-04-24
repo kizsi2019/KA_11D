@@ -1,0 +1,10 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\bin\Debug\cica.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\bin\Debug\cica.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\bin\Debug\cica.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\obj\Debug\cica.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\obj\Debug\cica.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\obj\Debug\cica.csproj.CopyComplete
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\obj\Debug\cica.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\cica\cica\obj\Debug\cica.pdb
