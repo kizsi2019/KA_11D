@@ -148,7 +148,9 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
     var DOM = feluletVezerlo.getDOMelemek();
 
 
+    var osszegFrissitese = function () {
 
+    }
 
 
 
@@ -168,6 +170,7 @@ var vezerlo = (function(koltsegvetesVez, feluletVez){
         // 4. költségvetés újraszámolása
             feluletVezerlo.urlapTorles();
         // 5. összeg mejelenítése a felületen
+        osszegFrissitese();
 
     }
 
