@@ -1,0 +1,10 @@
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\bin\Debug\REAL ALLATKERT FUSS.exe.config
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\bin\Debug\REAL ALLATKERT FUSS.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\bin\Debug\REAL ALLATKERT FUSS.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\obj\Debug\REAL ALLATKERT FUSS.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\obj\Debug\REAL_ALLATKERT_FUSS.Form1.resources
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\obj\Debug\REAL_ALLATKERT_FUSS.Properties.Resources.resources
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\obj\Debug\REAL ALLATKERT FUSS.csproj.GenerateResource.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\obj\Debug\REAL ALLATKERT FUSS.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\obj\Debug\REAL ALLATKERT FUSS.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Gábor Dávid Balázs\chsarp\REAL ALLATKERT FUSS\REAL ALLATKERT FUSS\obj\Debug\REAL ALLATKERT FUSS.pdb

@@ -84,21 +84,23 @@ namespace Recept_Kezelő
 
 
             }
+            string Előzmények_tx = "";
             string[] tag_split_keres;
             string tag_ker;
             bool ilyen_tag_van;
             bool ilyen_recept_van = false;
             string jelenlegi_recept_Keresés;
             string jelenlegi_tag_keresés;
+            string tages_receptek;
             Keresés_button.Click += (sender, e) =>
             {
-               
+                Combo_box.Items.Clear();
                 Keresés();
             };
 
            void Keresés()
             {
-
+                ilyen_tag_van = false;
                  ilyen_recept_van = false;
                 foreach (string item in File.ReadLines("receptek_listája.txt"))
                 {
@@ -106,7 +108,7 @@ namespace Recept_Kezelő
                     {
                         jelenlegi_recept_Keresés = item;
                         ilyen_recept_van = true;
-                        MessageBox.Show("Recept");
+                        
                         recept_megnyitás();
                         break;
                     }
@@ -121,26 +123,33 @@ namespace Recept_Kezelő
                         tag_ker = tag_split_keres[0];
                         if (tag_ker == Keresési_mező_txBox.Text)
                         {
+                            tages_receptek = tag_split_keres[1];
                             ilyen_tag_van = true;
                             jelenlegi_tag_keresés = tag_ker;
                             tag_ajánlások();
-                            MessageBox.Show("Tag");
+              
                             break;
                             
                         }
                     }
                 }
-                if (ilyen_recept_van == false && ilyen_recept_van == false)
+                if (ilyen_recept_van == false && ilyen_tag_van == false)
                     {
                         MessageBox.Show("Ilyen Receptet vagy címkét nem Találtunk :(");
                     }
 
 
-                 
-                    
-                
 
 
+
+                Előzmények();
+
+
+            }
+            void Előzmények()
+            {
+                Előzmények_tx =  Előzmények_tx + " " + Keresési_mező_txBox.Text;
+                Előzmények_txBlock.Text = Előzmények_tx;
 
             }
             string recept_path;
@@ -167,7 +176,12 @@ namespace Recept_Kezelő
 
             void tag_ajánlások()
             {
-
+                string[] combo_split = tages_receptek.Split(",");
+                int combo_count = tages_receptek.Split(",").Count();
+                for (int i =  0; i < combo_count; i++)
+                {
+                    Combo_box.Items.Add(combo_split[i]);
+                }
             }
         }///
 

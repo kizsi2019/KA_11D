@@ -20,3 +20,25 @@ C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj
 C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\ref\WpfApp1.dll
 C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.pdb
 C:\Users\Sound Crafter\Documents\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.exe
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.deps.json
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.runtimeconfig.dev.json
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.dll
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\bin\Debug\net5.0-windows\WpfApp1.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.g.resources
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.dll
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\refint\WpfApp1.dll
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.pdb
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\GaborDavidBalazs\Desktop\KA_11D\Fuglovics Konor\koltsegvetes\WpfApp1\obj\Debug\net5.0-windows\ref\WpfApp1.dll

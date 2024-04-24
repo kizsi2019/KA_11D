@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UivarosiGabriel\\Desktop\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj": {}
+    "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Uivarosi Gábriel\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UivarosiGabriel\\Desktop\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj": {
+    "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Uivarosi Gábriel\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UivarosiGabriel\\Desktop\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj",
+        "projectUniqueName": "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Uivarosi Gábriel\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj",
         "projectName": "Recept Kezelő",
-        "projectPath": "C:\\Users\\UivarosiGabriel\\Desktop\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj",
-        "packagesPath": "C:\\Users\\UivarosiGabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UivarosiGabriel\\Desktop\\recept\\Recept Kezelő\\Recept Kezelő\\obj\\",
+        "projectPath": "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Uivarosi Gábriel\\recept\\Recept Kezelő\\Recept Kezelő\\Recept Kezelő.csproj",
+        "packagesPath": "C:\\Users\\FeketeZoltan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FeketeZoltan\\Desktop\\git\\KA_11D\\Uivarosi Gábriel\\recept\\Recept Kezelő\\Recept Kezelő\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UivarosiGabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FeketeZoltan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

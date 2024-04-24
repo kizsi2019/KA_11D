@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\
+=======
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Szöllősy Marcell\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\
+>>>>>>> 24324ea80b7189c34069c38e61225623a2d6c351
 OrvosiNobeldijasokGUI
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\App.xaml
 11407045341
 
 3-1233169557
 194258113564
+=======
+C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Szöllősy Marcell\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\App.xaml
+11407045341
+
+3-1233169557
+194183970531
+>>>>>>> 24324ea80b7189c34069c38e61225623a2d6c351
 MainWindow.xaml;
 
 True

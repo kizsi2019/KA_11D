@@ -9,7 +9,9 @@ con = sqlite3.connect("tutorial.db")
 cur = con.cursor()
 
 # Nem feltétlenül szükséges megadni az oszlop típusát!
+cur.execute("DROP TABLE IF EXISTS movie")
 cur.execute("CREATE TABLE movie(title, year, score)")
+
 # cur.execute('DROP TABLE movie')
 
 

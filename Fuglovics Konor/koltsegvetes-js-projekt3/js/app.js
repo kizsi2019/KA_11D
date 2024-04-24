@@ -12,14 +12,45 @@ var budget_manager = (function(){
     }
     var data = {
         items: {
-            out: [],
-            in: []
+            out: [{id: 0}],
+            in: [{id: 0}]
         },
         totals: {
             out: 0,
             in: 0
         },
 
+    }
+    return {
+        ItemAdd: function(typ, desc, value) {
+            var NewItem, ID;
+            ID = 0;
+
+            if (data.items[typ] !== undefined && data.items[typ].length > 0) {
+                ID = data.items[typ][data.items[typ].length - 1].id + 1;
+            }else{
+                ID = 0;
+            }
+
+            if (typ === "bev")
+            {
+                NewItem = new Income(ID, desc, value);
+            }else if (typ === "kia")
+            {
+                NewItem = new Outcome(ID, desc, value);
+            }
+            //Add the new item to the data structure
+            if (data.items[typ] !== undefined)
+            {
+                data.items[typ].push(NewItem);
+            }
+            //Return the new item
+            return NewItem;
+        },
+        test: function()
+        {
+            console.log(data);
+        }
     }
 })();
 //Surface manager
@@ -67,6 +98,7 @@ var manager = (function(BudgetMan, SurfMan){
         var input = surface_manager.getInput();
     
         // 2 - Giving the data to the budget manager module
+        NewItem = budget_manager.ItemAdd(input.type, input.description, input.value);
 
         // 3 - Appearance in UI
 

@@ -49,9 +49,10 @@
             // 
             // BTNCreate
             // 
-            this.BTNCreate.Location = new System.Drawing.Point(27, 22);
+            this.BTNCreate.Location = new System.Drawing.Point(36, 27);
+            this.BTNCreate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BTNCreate.Name = "BTNCreate";
-            this.BTNCreate.Size = new System.Drawing.Size(108, 24);
+            this.BTNCreate.Size = new System.Drawing.Size(144, 30);
             this.BTNCreate.TabIndex = 0;
             this.BTNCreate.Text = "Create table";
             this.BTNCreate.UseVisualStyleBackColor = true;
@@ -59,9 +60,10 @@
             // 
             // BTNInsert
             // 
-            this.BTNInsert.Location = new System.Drawing.Point(27, 52);
+            this.BTNInsert.Location = new System.Drawing.Point(36, 64);
+            this.BTNInsert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BTNInsert.Name = "BTNInsert";
-            this.BTNInsert.Size = new System.Drawing.Size(108, 24);
+            this.BTNInsert.Size = new System.Drawing.Size(144, 30);
             this.BTNInsert.TabIndex = 1;
             this.BTNInsert.Text = "Insert data in table";
             this.BTNInsert.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             // 
             // BTNRead
             // 
-            this.BTNRead.Location = new System.Drawing.Point(27, 82);
+            this.BTNRead.Location = new System.Drawing.Point(36, 101);
+            this.BTNRead.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BTNRead.Name = "BTNRead";
-            this.BTNRead.Size = new System.Drawing.Size(108, 24);
+            this.BTNRead.Size = new System.Drawing.Size(144, 30);
             this.BTNRead.TabIndex = 2;
             this.BTNRead.Text = "Read data from table";
             this.BTNRead.UseVisualStyleBackColor = true;
@@ -79,9 +82,10 @@
             // 
             // BTNUpdate
             // 
-            this.BTNUpdate.Location = new System.Drawing.Point(27, 112);
+            this.BTNUpdate.Location = new System.Drawing.Point(36, 138);
+            this.BTNUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BTNUpdate.Name = "BTNUpdate";
-            this.BTNUpdate.Size = new System.Drawing.Size(108, 24);
+            this.BTNUpdate.Size = new System.Drawing.Size(144, 30);
             this.BTNUpdate.TabIndex = 3;
             this.BTNUpdate.Text = "Update table";
             this.BTNUpdate.UseVisualStyleBackColor = true;
@@ -89,9 +93,10 @@
             // 
             // BTNDelete
             // 
-            this.BTNDelete.Location = new System.Drawing.Point(27, 142);
+            this.BTNDelete.Location = new System.Drawing.Point(36, 175);
+            this.BTNDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BTNDelete.Name = "BTNDelete";
-            this.BTNDelete.Size = new System.Drawing.Size(108, 24);
+            this.BTNDelete.Size = new System.Drawing.Size(144, 30);
             this.BTNDelete.TabIndex = 4;
             this.BTNDelete.Text = "Delete record";
             this.BTNDelete.UseVisualStyleBackColor = true;
@@ -99,39 +104,45 @@
             // 
             // TB1
             // 
-            this.TB1.Location = new System.Drawing.Point(141, 24);
+            this.TB1.Location = new System.Drawing.Point(188, 30);
+            this.TB1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TB1.Name = "TB1";
-            this.TB1.Size = new System.Drawing.Size(96, 20);
+            this.TB1.Size = new System.Drawing.Size(127, 22);
             this.TB1.TabIndex = 5;
             // 
             // TB3
             // 
-            this.TB3.Location = new System.Drawing.Point(141, 84);
+            this.TB3.Location = new System.Drawing.Point(188, 103);
+            this.TB3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TB3.Name = "TB3";
-            this.TB3.Size = new System.Drawing.Size(96, 20);
+            this.TB3.Size = new System.Drawing.Size(127, 22);
             this.TB3.TabIndex = 8;
             // 
             // TB2
             // 
-            this.TB2.Location = new System.Drawing.Point(141, 54);
+            this.TB2.Location = new System.Drawing.Point(188, 66);
+            this.TB2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TB2.Name = "TB2";
-            this.TB2.Size = new System.Drawing.Size(96, 20);
+            this.TB2.Size = new System.Drawing.Size(127, 22);
             this.TB2.TabIndex = 9;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(141, 112);
+            this.dataGridView1.Location = new System.Drawing.Point(188, 138);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(420, 328);
+            this.dataGridView1.Size = new System.Drawing.Size(560, 404);
             this.dataGridView1.TabIndex = 10;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // SQL2
             // 
-            this.SQL2.Location = new System.Drawing.Point(243, 22);
+            this.SQL2.Location = new System.Drawing.Point(324, 27);
+            this.SQL2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SQL2.Name = "SQL2";
-            this.SQL2.Size = new System.Drawing.Size(31, 24);
+            this.SQL2.Size = new System.Drawing.Size(41, 30);
             this.SQL2.TabIndex = 11;
             this.SQL2.Text = "2";
             this.SQL2.UseVisualStyleBackColor = true;
@@ -139,9 +150,10 @@
             // 
             // SQL3
             // 
-            this.SQL3.Location = new System.Drawing.Point(280, 22);
+            this.SQL3.Location = new System.Drawing.Point(373, 27);
+            this.SQL3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SQL3.Name = "SQL3";
-            this.SQL3.Size = new System.Drawing.Size(31, 24);
+            this.SQL3.Size = new System.Drawing.Size(41, 30);
             this.SQL3.TabIndex = 12;
             this.SQL3.Text = "3";
             this.SQL3.UseVisualStyleBackColor = true;
@@ -149,9 +161,10 @@
             // 
             // SQL4
             // 
-            this.SQL4.Location = new System.Drawing.Point(317, 22);
+            this.SQL4.Location = new System.Drawing.Point(423, 27);
+            this.SQL4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SQL4.Name = "SQL4";
-            this.SQL4.Size = new System.Drawing.Size(31, 24);
+            this.SQL4.Size = new System.Drawing.Size(41, 30);
             this.SQL4.TabIndex = 13;
             this.SQL4.Text = "4";
             this.SQL4.UseVisualStyleBackColor = true;
@@ -159,9 +172,10 @@
             // 
             // SQL7
             // 
-            this.SQL7.Location = new System.Drawing.Point(317, 52);
+            this.SQL7.Location = new System.Drawing.Point(423, 64);
+            this.SQL7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SQL7.Name = "SQL7";
-            this.SQL7.Size = new System.Drawing.Size(31, 24);
+            this.SQL7.Size = new System.Drawing.Size(41, 30);
             this.SQL7.TabIndex = 16;
             this.SQL7.Text = "7";
             this.SQL7.UseVisualStyleBackColor = true;
@@ -169,9 +183,10 @@
             // 
             // SQL6
             // 
-            this.SQL6.Location = new System.Drawing.Point(280, 52);
+            this.SQL6.Location = new System.Drawing.Point(373, 64);
+            this.SQL6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SQL6.Name = "SQL6";
-            this.SQL6.Size = new System.Drawing.Size(31, 24);
+            this.SQL6.Size = new System.Drawing.Size(41, 30);
             this.SQL6.TabIndex = 15;
             this.SQL6.Text = "6";
             this.SQL6.UseVisualStyleBackColor = true;
@@ -179,9 +194,10 @@
             // 
             // SQL5
             // 
-            this.SQL5.Location = new System.Drawing.Point(243, 52);
+            this.SQL5.Location = new System.Drawing.Point(324, 64);
+            this.SQL5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SQL5.Name = "SQL5";
-            this.SQL5.Size = new System.Drawing.Size(31, 24);
+            this.SQL5.Size = new System.Drawing.Size(41, 30);
             this.SQL5.TabIndex = 14;
             this.SQL5.Text = "5";
             this.SQL5.UseVisualStyleBackColor = true;
@@ -189,9 +205,10 @@
             // 
             // SQL8
             // 
-            this.SQL8.Location = new System.Drawing.Point(354, 52);
+            this.SQL8.Location = new System.Drawing.Point(472, 64);
+            this.SQL8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SQL8.Name = "SQL8";
-            this.SQL8.Size = new System.Drawing.Size(31, 24);
+            this.SQL8.Size = new System.Drawing.Size(41, 30);
             this.SQL8.TabIndex = 17;
             this.SQL8.Text = "8";
             this.SQL8.UseVisualStyleBackColor = true;
@@ -199,9 +216,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(573, 452);
+            this.ClientSize = new System.Drawing.Size(764, 556);
             this.Controls.Add(this.SQL8);
             this.Controls.Add(this.SQL7);
             this.Controls.Add(this.SQL6);
@@ -218,6 +235,7 @@
             this.Controls.Add(this.BTNRead);
             this.Controls.Add(this.BTNInsert);
             this.Controls.Add(this.BTNCreate);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Crud műveletek";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

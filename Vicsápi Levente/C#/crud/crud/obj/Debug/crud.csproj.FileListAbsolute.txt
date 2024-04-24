@@ -36,7 +36,7 @@ C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.csproj
 C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.Properties.Resources.resources
 C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.csproj.GenerateResource.cache
 C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
-C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.csproj.CopyComplete
 C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.exe
 C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.pdb
 C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.Form1.resources
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\crud\crud\obj\Debug\crud.csproj.Up2Date

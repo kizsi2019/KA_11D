@@ -1,0 +1,7 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate_gyakorlás_magamtól\delegate_gyakorlás_magamtól\bin\Debug\delegate_gyakorlás_magamtól.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate_gyakorlás_magamtól\delegate_gyakorlás_magamtól\bin\Debug\delegate_gyakorlás_magamtól.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate_gyakorlás_magamtól\delegate_gyakorlás_magamtól\bin\Debug\delegate_gyakorlás_magamtól.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate_gyakorlás_magamtól\delegate_gyakorlás_magamtól\obj\Debug\delegate_gyakorlás_magamtól.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate_gyakorlás_magamtól\delegate_gyakorlás_magamtól\obj\Debug\delegate_gyakorlás_magamtól.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate_gyakorlás_magamtól\delegate_gyakorlás_magamtól\obj\Debug\delegate_gyakorlás_magamtól.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\delegate_gyakorlás_magamtól\delegate_gyakorlás_magamtól\obj\Debug\delegate_gyakorlás_magamtól.pdb
