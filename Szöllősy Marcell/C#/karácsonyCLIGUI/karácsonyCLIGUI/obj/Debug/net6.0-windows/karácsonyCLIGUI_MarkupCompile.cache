@@ -5,15 +5,15 @@ winexe
 C#
 .cs
 C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\
-karácsonyCLIGUI_hjrdnh25_wpftmp
+karácsonyCLIGUI
 none
 false
-TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\karácsonyCLIGUI\karácsonyCLIGUI\App.xaml
 11407045341
 
-72086431682
-388516227128
+5-1620819640
+194258113564
 MainWindow.xaml;
 
 True

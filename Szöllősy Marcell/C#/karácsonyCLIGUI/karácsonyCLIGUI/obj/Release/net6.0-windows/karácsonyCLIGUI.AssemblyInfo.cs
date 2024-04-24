@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("karácsonyCLIGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c7d4f7fbeb57664b6c347dce44c1ddf145cae68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2595b2d28803e4f7895d2840849f3b525b1951f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("karácsonyCLIGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("karácsonyCLIGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
