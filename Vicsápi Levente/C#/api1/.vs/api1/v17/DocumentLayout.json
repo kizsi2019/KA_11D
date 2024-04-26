@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\api1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82742233-619D-4AC1-9394-1035AA285CD6}|api1\\api1.csproj|c:\\iskola\\informatika\\ka_11d\\vics\u00E1pi levente\\c#\\api1\\api1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82742233-619D-4AC1-9394-1035AA285CD6}|api1\\api1.csproj|solutionrelative:api1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\api1\\api1\\Program.cs",
+              "RelativeDocumentMoniker": "api1\\Program.cs",
+              "ToolTip": "C:\\iskola\\informatika\\KA_11D\\Vics\u00E1pi Levente\\C#\\api1\\api1\\Program.cs",
+              "RelativeToolTip": "api1\\Program.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAQwFsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T11:00:20.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

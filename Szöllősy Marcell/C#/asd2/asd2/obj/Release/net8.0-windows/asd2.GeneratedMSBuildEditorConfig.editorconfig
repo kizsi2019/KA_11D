@@ -14,4 +14,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = asd2
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\MarcellSzollosy\Desktop\Oreo\Github\KA_11D\Szöllősy Marcell\C#\asd2\asd2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+=======
 build_property.ProjectDir = C:\Users\JakabMateTibor\Desktop\11.d\KA_11D\Szöllősy Marcell\C#\asd2\asd2\
+>>>>>>> 24324ea80b7189c34069c38e61225623a2d6c351

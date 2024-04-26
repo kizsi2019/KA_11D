@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrvosiNobeldijasokGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2595b2d28803e4f7895d2840849f3b525b1951f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrvosiNobeldijasokGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrvosiNobeldijasokGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
