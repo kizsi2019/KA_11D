@@ -1,0 +1,10 @@
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\bin\Debug\api1.exe.config
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\bin\Debug\api1.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\bin\Debug\api1.pdb
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\bin\Debug\Newtonsoft.Json.dll
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\bin\Debug\Newtonsoft.Json.xml
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\obj\Debug\api1.csproj.AssemblyReference.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\obj\Debug\api1.csproj.CoreCompileInputs.cache
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\obj\Debug\api1.csproj.Up2Date
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\obj\Debug\api1.exe
+C:\iskola\informatika\KA_11D\Vicsápi Levente\C#\api1\api1\obj\Debug\api1.pdb
