@@ -1,40 +1,36 @@
-// KÖLTSÉGVETÉSVEZÉRLŐ
+// Költségvetés vezérlés
 var koltsegvetesVezerlo = (function() {
-
     var Kiadas = function(id, leiras, ertek) {
-        this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.id = id;
+        this.ertek = parseInt(ertek);
     }
-
     var Bevetel = function(id, leiras, ertek) {
-        this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.id = id;
+        this.ertek = parseInt(ertek);
     }
 
-    var vegosszegSzamlalo = function(tip) {
+    var vegosszegSzamolas = function(tip) {
         var osszeg = 0;
-        if (adat.tetelek[tip] !== undefined  && adat.tetelek [tip].lenght > 0){
-            adat.tetelek[tip].Foreach(function(currentValue){
-                if(!isNaN(currentValue.ertek)) {
+        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
+            adat.tetelek[tip].forEach(function(currentValue) {
+                if (!isNaN(currentValue.ertek)) {
                     osszeg += currentValue.ertek;
                 }
             });
-            adat.osszegek[tip] = osszeg
+            adat.osszegek[tip] = osszeg;
+        }
     }
-}
 
     var adat = {
-
         tetelek: {
-            bev: [{  id: 0 }],
-            kia: [{  id: 0 }]
+            kia: [{ id: 0 }],
+            bev: [{ id: 0 }]
         },
-
         osszegek: {
-            bev: 0,
-            kia: 0
+            kia: 0,
+            bev: 0
         },
         koltsegvetes: 0,
         szazalek: -1
@@ -42,67 +38,82 @@ var koltsegvetesVezerlo = (function() {
 
     return {
         tetelHozzaad: function(tip, lei, ert) {
-            var ujTetel;
+            var ujTetel, ID;
             ID = 0;
 
             // ID létrehozása
-            if (adat.tetelek[tip]!==undefined&&adat.tetelek[tip].lenght > 0) {
-                ID = adat.tetelek[tip][adat.tetelek[tip].lenght - 1].id + 1;
+            if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
+                ID = adat.tetelek[tip][adat.tetelek[tip].length - 1].id + 1;
             } else {
                 ID = 0;
             }
 
-            /// új kiadás v beevétel létrehozása
+            // Új kiadás vagy bevétel létrehozás
             if (tip === 'bev') {
                 ujTetel = new Bevetel(ID, lei, ert);
             } else if (tip === 'kia') {
                 ujTetel = new Kiadas(ID, lei, ert);
-            }else {
-                /*kezeld a hibát, például dobjon hibát vagy állitsa
-                ujTelet-t null-ra*/
-                throw new console.error('hiabas tip: '+ tip);
+            } else {
+                // kezeld a hibát, például dobjon hibát vagy állitsa 'ujtetel'-t 'null'-ra
+                throw new Error('Invalid tip: ' + tip);
             }
 
-            // új tétel hozzáadsa az adatszerkezethez
-           if(adat.tetelek[tip] !== undefined){
-            adat.tetelek[tip].push(ujTetel)
-           };
+            // Új tétel hozzáadása az adatszerkezethez
+            if (adat.tetelek[tip] !== undefined) {
+                adat.tetelek[tip].push(ujTetel);
+            }
 
-            // új tétel vissuadása
+            // Új tétel visszadása
             return ujTetel;
         },
-koltsegvetesSzamolas: function(){
-        // 1. Bevétel és kiadások összegének kiszámítása
 
-        vegosszegSzamolas('bev');
-        vegosszegSzamolas('kia');
+        koltsegvetesSzamolas: function() {
+            // 1. Bevétel és kiadások összegének kiszámítása
 
-        //2. Költségvetés kiszámítása: bevétel - kiadások
-        adat.koltsegvetes = adat.osszegek.bev - adat.osszegek.kia
-        
-        //
-}
+            vegosszegSzamolas('bev');
+            vegosszegSzamolas('kia');
 
-        teszt: function(){
+            // 2. Költségvetés kiszámítása: bevétel - kiadások
+            adat.koltsegvetes = adat.osszegek.bev - adat.osszegek.kia;
+
+            // 3. Százalék számolása: kiadások / bevétel * 100
+            if (adat.osszegek.bev > 0) {
+                adat.szazalek = Math.round((adat.osszegek.kia / adat.osszegek.bev) * 100);
+            } else {
+                adat.szazalek = -1;
+            }
+
+        },
+
+        getkoltsegvetes: function() {
+            return {
+                osszeg: adat.koltsegvetes,
+                bev: adat.osszegek.bev,
+                kia: adat.osszegek.kia,
+                szazalek: adat.szazalek
+            }
+        },
+
+        teszt: function() {
             console.log(adat);
         }
     }
-
 })();
 
-
-
-// FELÜLET VEZÉRLŐ
-var feluletVezerlo = (function() 
-{
-
+// Felület vezérlés
+var feluletVezerlo = (function() {
     var DOMelemek = {
         inputTipus: '.hozzaad__tipus',
         inputLeiras: '.hozzaad__leiras',
         inputErtek: '.hozzaad__ertek',
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
-        kiadasTarolo: '.kiadasok__lista'
+        kiadasTarolo: '.kiadasok__lista',
+        koltsegvetesCimke: '.koltsegvetes__bevetelek--ertek',
+        osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
+        osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek',
+        kontener: '.kontener'
     };
 
     return {
@@ -111,101 +122,129 @@ var feluletVezerlo = (function()
                 tipus: document.querySelector(DOMelemek.inputTipus).value,
                 leiras: document.querySelector(DOMelemek.inputLeiras).value,
                 ertek: document.querySelector(DOMelemek.inputErtek).value
-            }
+            };
         },
 
         getDOMelemek: function() {
             return DOMelemek;
         },
-        tetelMegjelentítes: function(obj, tipus) {
-            var html, ujHtml, elem
 
-            //Html string letrehozasa placeholder értékekkel
+        tetelMegjelenites: function(obj, tipus) {
+            var html, ujHtml, elem;
+
+            // HTML string létrehozása placeholder értékekkel
             if (tipus === 'bev') {
                 elem = DOMelemek.bevetelTarolo;
                 html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
             } else if (tipus === 'kia') {
-                elem = DOMelemek.kiadasTarolo
-                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+                elem = DOMelemek.kiadasTarolo;
+                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%leiras%</div><div class="right clearfix"><div class="tetel__ertek">%ertek%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
             }
 
-             //Html string placeholder értékekkel cseréje
-             ujHtml = html.replace('%id%', obj.id);
-             ujHtml = ujHtml.replace('%leiras%',obj.leiras);
-             ujHtml = ujHtml.replace('%ertek%', obj.ertek);
- 
-             //HTML beszurása a DOM-ba
-             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
-           
-            },
-            urlapTorles: function () {
-                var mezok, mezokTomb;
-                mezok = document.querySelectorAll(DOMelemek.inputLeiras +', '+ DOMelemek.inputErtek);
-                mezokTomb = Array.prototype.slice.call(mezok);
-    
-                mezokTomb.Foreach(function(currentValue, index, array) {
-                    currentValue.value = '';
-                });
-                mezokTomb[0].focus();
-            }   
-        }
+            // HTML string placeholder értékekkel cseréje
+            ujHtml = html.replace('%id%', obj.id);
+            ujHtml = ujHtml.replace('%leiras%', obj.leiras);
+            ujHtml = ujHtml.replace('%ertek%', obj.ertek);
+
+            // HTML beszúrása a DOM-ba
+            document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
+        },
+
+        tetelTorol: function(tetelID){
+            var elem = document.querySelector(selectorID);
+            elem.parentNode.removeChild(elem);
+        },
+
+        urlapTorles: function() {
+            var mezok, mezokTomb;
+            mezok = document.querySelectorAll(DOMelemek.inputLeiras + ', ' + DOMelemek.inputErtek);
+            mezokTomb = Array.prototype.slice.call(mezok);
+
+            mezokTomb.forEach(function(currentValue, index, array) {
+                currentValue.value = '';
+            });
+            mezokTomb[0].focus();
+        },
+
+        koltsegvetesMegjelenites: function(obj){
+            document.querySelector(DOMelemek.koltsegvetesCimke).textContent = obj.osszeg;
+            document.querySelector(DOMelemek.osszbevetelCimke).textContent = obj.bev;
+            document.querySelector(DOMelemek.osszkiadasCimke).textContent = obj.kia;
+
+            if (obj.szazalek > 0){
+                document.querySelector(DOMelemek.szazalekCimke).textContent = obj.szazalek + '%';
+            } else{
+                document.querySelector(DOMelemek.szazalekCimke).textContent = '---'
+            }
+        } 
+    };
 })();
 
-
-// ALKALMAZÁS VEZÉRLŐ
-var vezerlo = (function(koltsegvetesVez, feluletVez){
-
-    var esemenykezelokBeallit = function() {
-
+// Alkalmazás vezérlés
+var vezerlo = (function(koltsegvetesVez, feluletVez) {
+    var esemenykezeloBeallit = function() {
         var DOM = feluletVezerlo.getDOMelemek();
 
-        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzadas);
+        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzaadas);
 
-        document.addEventListener('keydown', function(event){
-
+        document.addEventListener('keydown', function(event) {
             if (event.key !== undefined && event.key === 'Enter') {
-                vezTetelHozzadas();
+                vezTetelHozzaadas();
+            } else if (event.keyCode !== undefined && event.keyCode === 13) {
+                vezTetelHozzaadas();
             }
-            else if (event.keyCode !== undefined && event.keyCode === 13) {
-                vezTetelHozzadas();
-            }
-    });
-}
+        });
+    };
 
-    var DOM = feluletVezerlo.getDOMelemek();
+    var osszegFrissitese = function() {
+        // 1. költségvetés újraszámolása
+        koltsegvetesVezerlo.koltsegvetesSzamolas();
 
-    var vezTetelHozzadas = function() {
+        // 2. Összeg visszaadása
+        var koltsegvetes = koltsegvetesVezerlo.getkoltsegvetes();
 
+        // 3. Összeg megjelenítése a felületen
+        feluletVezerlo.koltsegvetesMegjelenites(koltsegvetes);
+    }
+
+    var vezTetelHozzaadas = function() {
         var input, ujTetel;
 
-        // 1. bevitt adat megszerzése
+        // 1. Bevitt adatok megszerzeése
         input = feluletVezerlo.getInput();
 
         if (input.leiras !== '' && !isNaN(input.ertek) && input.ertek > 0) {
 
-    
+        // 2. Adatok átadása a koltsegvetés vezérlő modulnak
+        ujTetel = koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
 
-        // 2. adatok átadása a költségvetésvezérlő modulnak.
-        ujTetel =  koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
+        // 3. Megjelenítés a felületen
+        feluletVezerlo.tetelMegjelenites(ujTetel, input.tipus);
+        // 4. Mezők törlése
+        feluletVezerlo.urlapTorles();
+        // 5. Költségvetés újraszámolása
+        osszegFrissitese();
+        }
 
-        // 3. megjelenités a ui-n
-        feluletVezerlo.tetelMegjelentítes(ujTetel, input.tipus)
         
-        // 4. költségvetés újraszámolása
+    };
 
-
-        // 5. összeg mejelenítése a felületen
-
-    }}
-
-    return {
-        init: function() {
-            console.log('Alkalmazás fut');
-            esemenykezelokBeallit();
+    var vezTetelTorles = function(event){
+        var tetelID, splitID, tipus, ID
+        tetelID = event.target.parentNode.parentNode.parentNode.parentNode.id;
+        if (tetelID){
+            splitID = tetelID.split('-');
+            tipus = splitID[0];
+            ID = splitID[1];
         }
     }
 
-
+    return {
+        init: function() {
+            console.log('Az alkalmazas fut');
+            esemenykezeloBeallit();
+        }
+    };
 })(koltsegvetesVezerlo, feluletVezerlo);
 
 vezerlo.init();
