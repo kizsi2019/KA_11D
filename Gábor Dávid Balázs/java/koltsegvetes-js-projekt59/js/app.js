@@ -39,7 +39,7 @@ var koltsegvetesVezerlo = (function() {
     return {
         tetelHozzaad: function(tip, lei, ert) {
             var ujTetel, ID;
-            
+            ID = 0;
 
             // ID létrehozása
             if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
@@ -70,6 +70,7 @@ var koltsegvetesVezerlo = (function() {
         tetelTorol: function(tip, id) {
             var idTomb, index;
 
+            // Ellenőrzés, hogy a tetelek objektum és a tip kulcs létezik
             if (adat.tetelek && adat.tetelek[tip]) {
                 idTomb = adat.tetelek[tip].map(function(aktualis) {
                     return aktualis.id;
@@ -100,7 +101,6 @@ var koltsegvetesVezerlo = (function() {
                 adat.szazalek = -1;
             }
 
-            
         },
 
         getkoltsegvetes: function() {
@@ -127,11 +127,11 @@ var feluletVezerlo = (function() {
         inputGomb: '.hozzaad__gomb',
         bevetelTarolo: '.bevetelek__lista',
         kiadasTarolo: '.kiadasok__lista',
-        koltsegvetesCimke: '.koltsegvetes__bevetelek--ertek',
+        koltsegvetesCimke: '.koltsegvetes__ertek',
         osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
         osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
         szazalekCimke: '.koltsegvetes__kiadasok--szazalek',
-        konetener: '.kontener'
+        kontener: '.kontener'
     };
 
     return {
@@ -169,7 +169,8 @@ var feluletVezerlo = (function() {
         },
 
         tetelTorles: function(tetelID) {
-            var elem = document.getElementById(selectorID);
+
+            var elem = document.getElementById(tetelID);
             elem.parentNode.removeChild(elem);
         },
 
@@ -184,17 +185,17 @@ var feluletVezerlo = (function() {
             mezokTomb[0].focus();
         },
 
-        koltsegvetesMegjelenites: function(obj){
+        koltsegvetesMegjelenites: function(obj) {
             document.querySelector(DOMelemek.koltsegvetesCimke).textContent = obj.osszeg;
             document.querySelector(DOMelemek.osszbevetelCimke).textContent = obj.bev;
             document.querySelector(DOMelemek.osszkiadasCimke).textContent = obj.kia;
 
-            if (obj.szazalek > 0){
+            if (obj.szazalek > 0) {
                 document.querySelector(DOMelemek.szazalekCimke).textContent = obj.szazalek + '%';
-            } else{
-                document.querySelector(DOMelemek.szazalekCimke).textContent = '---'
+            } else {
+                document.querySelector(DOMelemek.szazalekCimke).textContent = '---';
             }
-        } 
+        }
     };
 })();
 
@@ -250,30 +251,26 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
     };
 
     var vezTetelTorles = function(event) {
-        var tetelId, splitID, tip, ID; 
-        
-        
-        tetelId= event.target.parentNode.parentNode.parentNode.parentNode.id;
-        
-        if (tetelId) {
-            splitID = tetelId.split('-')
+        //console.log(event.taget.parentNode.parentNode.parentNode.parentNode);
+        var tetelID, splitID, tip, ID
+
+        tetelID = event.target.parentNode.parentNode.parentNode.parentNode.id;
+
+        if (tetelID) {
+            splitID = tetelID.split('-');
             tip = splitID[0];
             ID = parseInt(splitID[1]);
 
-            koltsegvetesVezerlo.tetelTorol(tip, ID);
+        // 1. tétel törlése az adat obj-ból
+        koltsegvetesVezerlo.tetelTorol(tip, ID);
 
-            feluletVezerlo.tetelTorles(tetelID);
-
-            osszegFrissitese();
-        }
-
-        // 1. tetel törlése az adat obj-nol
-
-        // 2. tetel törlese a felületröl
-
-        // 3. összegek ujraszamolasa és megjelnítese a felületen
-
-    }
+        // 2. tétel törlése a felületről
+        feluletVezerlo.tetelTorles(tetelID);
+        
+        // 3. összegek újraszámolása és megjelenítése a felületen
+        osszegFrissitese();
+    };
+}
 
     return {
         init: function() {
@@ -283,9 +280,8 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
                 bev: 0,
                 kia: 0,
                 szazalek: -1
-           
+                
             });
-
             esemenykezeloBeallit();
         }
     };
