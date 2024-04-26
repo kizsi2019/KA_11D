@@ -4,20 +4,20 @@ var koltsegvetesVezerlo = (function() {
     var Kiadas = function(id, leiras, ertek) {
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek =parseInt( ertek);
     }
 
     var Bevetel = function(id, leiras, ertek) {
         this.id = id;
         this.leiras = leiras;
-        this.ertek = ertek;
+        this.ertek =ertek;
     }
 
 
 
     var vegosszegSzamolas = function(tip)  {
         var osszeg = 0;
-        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].lenght > 0) {
+        if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
             adat.tetelek[tip].forEach(function(currentValue) {
                 if (!isNaN(currentValue.ertek)) {
                     osszeg += currentValue.ertek;
@@ -48,8 +48,8 @@ var koltsegvetesVezerlo = (function() {
             ID = 0;
 
             // ID létrehozása
-            if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].lenght > 0) {
-                ID = adat.tetelek[tip][adat.tetelek[tip].lenght - 1].id + 1;
+            if (adat.tetelek[tip] !== undefined && adat.tetelek[tip].length > 0) {
+                ID = adat.tetelek[tip][adat.tetelek[tip].length - 1].id + 1;
             } else {
                 ID = 0;
             }
@@ -66,7 +66,7 @@ var koltsegvetesVezerlo = (function() {
 
             // új tétel hozzáadsa az adatszerkezethez
            
-            if (adat.tetelek[tip !== undefined]) {
+            if (adat.tetelek[tip] !== undefined) {
                 adat.tetelek[tip].push(ujTetel);
             }
 
@@ -131,7 +131,7 @@ var feluletVezerlo = (function() {
             return {
                 tipus: document.querySelector(DOMelemek.inputTipus).value,
                 leiras: document.querySelector(DOMelemek.inputLeiras).value,
-                ertek: document.querySelector(DOMelemek.inputErtek).value,
+                ertek: parseInt( document.querySelector(DOMelemek.inputErtek).value)
             };
         },
 

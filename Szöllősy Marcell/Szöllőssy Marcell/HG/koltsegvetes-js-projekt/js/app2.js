@@ -1,164 +1,145 @@
-var koltsegvezetesVezerlo = (function(){
-
-    var Kiadas = function(id, leiras, ertek) {
+//Budget manager
+var budget_manager = (function(){
+    var Outcome = function(id, desc, value){
+        this.desc = desc;
         this.id = id;
-        this.leiras = leiras;
-        this.ertek = ertek;
+        this.value = value;
     }
-
-    var Bevetel = function(id, leiras, ertek) {
+    var Income = function(id, desc, value){
+        this.desc = desc;
         this.id = id;
-        this.leiras = leiras;
-        this.ertek = ertek;    
+        this.value = value;
     }
-
-    var adat = {
-
-        tetelek: {
-            bev: [],
-            kia: []
+    var data = {
+        items: {
+            out: [{id: 0}],
+            in: [{id: 0}]
         },
-        osszegek: {
-            bev: 0,
-            kia: 0
-        }
+        totals: {
+            out: 0,
+            in: 0
+        },
+
     }
+    return {
+        ItemAdd: function(typ, desc, value) {
+            var NewItem, ID;
+            ID = 0;
 
-    return{
-        tetelekHozzaad: function(tip, lei, ert) {
-            var ujTetel, ID;
-            ID = 0
-
-            if(adat.tetelek[tip].length > 0) {
-                ID = adat.tetelek[tip][adat.tetelek[tip].length - 1].id + 1;
-            } else {
+            if (data.items[typ] !== undefined && data.items[typ].length > 0) {
+                ID = data.items[typ][data.items[typ].length - 1].id + 1;
+            }else{
                 ID = 0;
             }
 
-            if (tip === 'bev') {
-                ujTetel = new Bevetel(ID, lei, ert);
-            } else if (tip === 'kia') {
-                ujTetel = new Kiadas(ID, lei, ert);
+            if (typ === "bev")
+            {
+                NewItem = new Income(ID, desc, value);
+            }else if (typ === "kia")
+            {
+                NewItem = new Outcome(ID, desc, value);
+            }else
+            {
+                throw new Error("Invalid: ${tip}");
             }
-
-            adat.tetelek[tip].push(ujTetel);
-
-            return ujTetel
+            //Add the new item to the data structure
+            if (data.items[typ] !== undefined)
+            {
+                data.items[typ].push(NewItem);
+            }
+            //Return the new item
+            return NewItem;
         },
-
-        teszt: function(){
-            console.log(adat);
+        test: function()
+        {
+            console.log(data);
         }
     }
-
 })();
-
-var feluletVezerlo = (function(){
-
-    var DOMelemek = {
-        inputTipus: 'hozzaad_tipus',
-        inputLeiras: 'hozzaad_leiras',
-        inputErtek: 'hozzaad_ertek',
-        inputGomb: 'hozzaad_gomb',
-        bevetelTarolo:'bevetelek_lista',
-        kiadasTarolor:'kiadas_lista'
-    };
-
+//Surface manager
+var surface_manager = (function(){
+    var DOMelement = {
+        inputType: '.hozzaad__tipus',
+        inputDescription: '.hozzaad__leiras',
+        inputValue: '.hozzaad__ertek',
+        inputButton: '.hozzaad__gomb',
+        incomeStorage: '.bevetelek__lista',
+        outcomeStorage: '.kiadasok__lista'
+    }
     return {
         getInput: function(){
-            return{
-            tipus: document.querySelector(DOMelemek.inputTipus).value,
-            leiras: document.querySelector(DOMelemek.inputLeiras).value,
-            ertek:  document.querySelector(DOMelemek.inputErtek).value
+            return {
+                type: document.querySelector(DOMelement.inputType).value,
+                description: document.querySelector(DOMelement.inputDescription).value,
+                value: document.querySelector(DOMelement.inputValue).value
+            }
+        },
+        getDOMelement: function(){
+            return DOMelement;
+        },
+        itemDisplay: function(obj, type){
+            var html, newHtml, element;
+
+            //Creating HTML strings with placeholder values
+            if (type === 'bev')
+            {
+                element = DOMelement.incomeStorage;
+                html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            }else if (type === 'kia')
+            {
+                element = DOMelement.outcomeStorage;
+                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
             }
 
-        },
-        getDOMelemek: function(){
-            return DOMelemek;
-        },
+            //Replacing the HTML placeholder strings
+            newHtml = html.replace('%id%', obj.id);
+            newHtml = newHtml.replace('%desc%', obj.desc);
+            newHtml = newHtml.replace('%value%', obj.value);
 
-        tetelekMegjelenites: function(obj, tipus) {
-                var html, ujHtml, elem;
-                console.log(obj);
-
-            if (tipus === 'bev') {
-                elem = DOMelemek.bevetelTarolo;
-
-                html = '<div class="tetel clearfix" id="bevetelek-0"><div class="tetel__leiras">Fizetés</div><div class="right clearfix"><div class="tetel__ertek">+ 2,100.00</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
-            } else if (tipus === 'kia') {
-                elem = DOMelemek.kiadasTarolorTarolo;
-
-                html = '<div class="tetel clearfix" id="bevetelek-1"><div class="tetel__leiras">Autó eladás</div><div class="right clearfix"><div class="tetel__ertek">+ 1,500.00</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
-            }
-
-            ujHtml = html.replace('%id%', onj.id);
-            ujHtml = ujHtml.replace('%leiras%', onj.id);
-            ujHtml = ujHtml.replace('%ertek%', onj.id);
-
-            document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
-
-        },
-
-        urlapTorles: function(){
-            var mezok, mezoktomb;
-
-            mezok = document.querySelector(DOMelemek.inputLeiras + ', ' + DOMelemek.inputErtek);
-            mezoktomb = Array.prototype.slice.call(mezok);
-
-            mezoktomb.forEach(function(currentValue, index, array) {
-                currentValue.value = '';
-            });
-            mezoktomb[0].focus();
-
-            
+            //Inserting the HTML into DOM
+            document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
         }
-
     }
-
 })();
-
-var vezerlo = (function(koltsegvezetesVez, feluletVez){
-
-    var esemenykezeloBeallit = function(){
-
-        var DOM = feluletVezerlo.getDOMelemek();
-
-        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetekHozzadas);
-
-        document.addEventListener('keydown', function(event){
-        if (event.key !== undefined && event.key === 'enter'){
-        
-        }    
-        else if (event.keyCode !== undefined && event.keyCode === 13){
-            vezTetekHozzadas();
-
-        }
-        });
-
+//App manager
+var manager = (function(BudgetMan, SurfMan){
+    var EventManagerSet = function(){
+        var DOM = surface_manager.getDOMelement();
+        document.querySelector(DOM.inputButton).addEventListener('click', ManItemAdd);
     }
 
+    document.addEventListener('keydown', function(event){
+        if (event.key !== undefined && event.key === "Enter")
+        {
+            ManItemAdd();
+            console.log(event);
+        }
+        else if (event.keyCode !== undefined && event.keyCode === 13) //Deprecated
+        {
+            ManItemAdd();
+            console.log(event);
+        }
+    })
+    var ManItemAdd = function(){
+        // 1 - Capturing imported data
+        var input = surface_manager.getInput();
+    
+        // 2 - Giving the data to the budget manager module
+        NewItem = budget_manager.ItemAdd(input.type, input.description, input.value);
 
-    var vezTetekHozzadas = function() {
-        var input, ujTetel;
+        // 3 - Appearance in UI
+        surface_manager.itemDisplay(NewItem, input.type);
 
-        input = feluletVezerlo.getInput();
+        // 4 - Re-calculating the budget
 
-        ujTetel = koltsegvezetesVezerlo-tetelekHozzaad(input.tipus, input.leiras, input.ertek);
-
-        feluletVezerlo.tetelekMegjelenites(ujTetel, input.tipus); 
-
-        feluletVezerlo.urlapTorles();
-
-
+        // 5 - Total amount on the interface
     }
     return {
-        init: function() {
-            console.log('Alkalmazás fut');
-            esemenykezeloBeallit();
+        init: function(){
+            console.log("Working!");
+            EventManagerSet();
         }
     }
 
-
-})(koltsegvezetesVezerlo, feluletVezerlo);
-
-vezerlo.init();
+})(budget_manager, surface_manager);
+manager.init();
