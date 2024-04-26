@@ -67,24 +67,6 @@ var koltsegvetesVezerlo = (function() {
             return ujTetel;
         },
 
-        tetelTorol: function(tip, id) {
-            var idTomb, index;
-
-            // Ellenőrzés, hogy a tetelek objektum és a tip kulcs létezik
-            if (adat.tetelek && adat.tetelek[tip]) {
-                idTomb = adat.tetelek[tip].map(function(aktualis) {
-                    return aktualis.id;
-                });
-                index = idTomb.indexOf(id);
-
-                if (index !== -1) {
-                    adat.tetelek[tip].splice(index, 1);
-                }
-            } else {
-                console.error('A tetelek objektum vagy a tip kulcs nem létezik.');
-            }
-        },
-
         koltsegvetesSzamolas: function() {
             // 1. Bevétel és kiadások összegének kiszámítása
 
@@ -168,9 +150,8 @@ var feluletVezerlo = (function() {
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         },
 
-        tetelTorles: function(tetelID) {
-
-            var elem = document.getElementById(tetelID);
+        tetelTorol: function(tetelID) {
+            var elem = document.querySelector(selectorID);
             elem.parentNode.removeChild(elem);
         },
 
@@ -213,8 +194,6 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
                 vezTetelHozzaadas();
             }
         });
-
-        document.querySelector(DOM.kontener).addEventListener('click', vezTetelTorles);
     };
 
     var osszegFrissitese = function() {
@@ -252,37 +231,28 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
 
     var vezTetelTorles = function(event) {
         //console.log(event.taget.parentNode.parentNode.parentNode.parentNode);
-        var tetelID, splitID, tip, ID
-
+        var tetelID, splitID, tipus, ID
         tetelID = event.target.parentNode.parentNode.parentNode.parentNode.id;
-
+        //console.log(tetelID);
         if (tetelID) {
+            //bev-0
             splitID = tetelID.split('-');
-            tip = splitID[0];
-            ID = parseInt(splitID[1]);
+            tipus = splitID[0];
+            ID = splitID[1];
+        }
 
         // 1. tétel törlése az adat obj-ból
-        koltsegvetesVezerlo.tetelTorol(tip, ID);
+
 
         // 2. tétel törlése a felületről
-        feluletVezerlo.tetelTorles(tetelID);
-        
-        // 3. összegek újraszámolása és megjelenítése a felületena
-        osszegFrissitese();
-    };
-}
 
+        
+        // 3. összegek újraszámolása és megjelenítése a felületen
+    }
 
     return {
         init: function() {
             console.log('Az alkalmazas fut');
-            feluletVezerlo.koltsegvetesMegjelenites({
-                osszeg: 0,
-                bev: 0,
-                kia: 0,
-                szazalek: -1
-                
-            });
             esemenykezeloBeallit();
         }
     };

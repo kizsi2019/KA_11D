@@ -267,11 +267,10 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         // 2. tétel törlése a felületről
         feluletVezerlo.tetelTorles(tetelID);
         
-        // 3. összegek újraszámolása és megjelenítése a felületena
+        // 3. összegek újraszámolása és megjelenítése a felületen
         osszegFrissitese();
     };
 }
-
 
     return {
         init: function() {
