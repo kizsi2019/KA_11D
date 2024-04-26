@@ -112,7 +112,8 @@ var feluletVezerlo = (function() {
         koltsegvetesCimke: '.koltsegvetes__bevetelek--ertek',
         osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
         osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
-        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek',
+        kontener: '.kontener'
     };
 
     return {
@@ -148,6 +149,12 @@ var feluletVezerlo = (function() {
             // HTML beszúrása a DOM-ba
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         },
+
+        tetelTorol: function(tetelID){
+            var elem = document.querySelector(selectorID);
+            elem.parentNode.removeChild(elem);
+        },
+
         urlapTorles: function() {
             var mezok, mezokTomb;
             mezok = document.querySelectorAll(DOMelemek.inputLeiras + ', ' + DOMelemek.inputErtek);
@@ -221,6 +228,16 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
 
         
     };
+
+    var vezTetelTorles = function(event){
+        var tetelID, splitID, tipus, ID
+        tetelID = event.target.parentNode.parentNode.parentNode.parentNode.id;
+        if (tetelID){
+            splitID = tetelID.split('-');
+            tipus = splitID[0];
+            ID = splitID[1];
+        }
+    }
 
     return {
         init: function() {
