@@ -170,7 +170,7 @@ var feluletVezerlo = (function() {
         },
 
         tetelTorol: function (tetelID) {
-            var elem = document.querySelector(selectorID)
+            var elem = document.getElementById(tetelID)
                 elem.parentNode.removeChild(elem);
         },
         urlapTorles: function() {
@@ -262,8 +262,10 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
 
 
         //2. tétel törlése a felületről
+        feluletVezerlo.tetelToroles(tetelID);
 
         //3. összegek újraszámolása és megjelenítése a felületen
+        osszegFrissitese();
     }
 
     return {
