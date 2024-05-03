@@ -3,12 +3,12 @@ var budget_manager = (function(){
     var Outcome = function(id, desc, value){
         this.desc = desc;
         this.id = id;
-        this.value = value;
+        this.value = parseInt(value);
     }
     var Income = function(id, desc, value){
         this.desc = desc;
         this.id = id;
-        this.value = value;
+        this.value = ParseInt(value);
     }
     var CalculateTotal = function(typ)
     {
@@ -66,6 +66,28 @@ var budget_manager = (function(){
             //Return the new item
             return NewItem;
         },
+        TitleDelete: function(typ, id)
+        {
+            var IdBlock, index;
+
+            if (data.items && data.items[typ])
+            {
+                IdBlock = data.items[typ].map(function(actual)
+                {
+                    return actual.id;
+                });
+                index = IdBlock.indexOf(id);
+
+                if (index !== -1)
+                {
+                    data.items[typ].splice(index, 1);
+                }
+            }
+            else
+            {
+                console.error("The title's object or type key doesn't exist.");
+            }
+        },
         BudgetCalculate: function()
         {
             // 1 - Calculate the total of income and outcome
@@ -107,7 +129,8 @@ var surface_manager = (function(){
         budgetTag: '.koltsegvetes__ertek',
         totalincomeTag: '.koltsegvetes__bevetelek--ertek',
         totaloutcomeTag: '.koltsegvetes__kiadasok--ertek',
-        percentTag: '.koltsegvetes__kiadasok--szazalek'
+        percentTag: '.koltsegvetes__kiadasok--szazalek',
+        container: '.kontener'
     }
     return {
         getInput: function(){
@@ -141,6 +164,11 @@ var surface_manager = (function(){
 
             //Inserting the HTML into DOM
             document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
+        },
+        TitleDeleting: function(titleID)
+        {
+            var element = document.getElementById(titleID);
+            element.parentNode.removeChild(element);
         },
         DeleteForm: function()
         {
@@ -219,6 +247,23 @@ var manager = (function(BudgetMan, SurfMan){
 
             // 5 - Re-calculating and refreshing the budget on the interface
             TotalRefresh();
+        }
+    };
+    var ManItemDelete = function(event)
+    {
+        var titleID, splitId, typ, ID
+
+        titleID = event.target.parentNode.parentNode.parentNode.parentNode.id;
+
+        if (titleID)
+        {
+            splitId = titleID.split('-');
+            typ = splitID[0];
+            ID = parseInt(splitID[1]);
+
+            budget_manager.TitleDelete(typ.ID);
+
+            surface_manager.TitleDelete
         }
     }
     return {
