@@ -280,7 +280,6 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
                 bev: 0,
                 kia: 0,
                 szazalek: -1
-                
             });
             esemenykezeloBeallit();
         }
