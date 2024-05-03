@@ -1,145 +1,185 @@
-//Budget manager
-var budget_manager = (function(){
-    var Outcome = function(id, desc, value){
-        this.desc = desc;
+// KÖLTSÉGVETÉSVEZÉRLŐ
+var koltsegvetesVezerlo = (function() {
+
+    var Kiadas = function(id, leiras, ertek) {
         this.id = id;
-        this.value = value;
+        this.leiras = leiras;
+        this.ertek = ertek;
     }
-    var Income = function(id, desc, value){
-        this.desc = desc;
+
+    var Bevetel = function(id, leiras, ertek) {
         this.id = id;
-        this.value = value;
+        this.leiras = leiras;
+        this.ertek = ertek;
     }
-    var data = {
-        items: {
-            out: [{id: 0}],
-            in: [{id: 0}]
-        },
-        totals: {
-            out: 0,
-            in: 0
+
+    var adat = {
+
+        tetelek: {
+            bev: [{  id: 0 }],
+            kia: [{  id: 0 }]
         },
 
+        osszegek: {
+            bev: 0,
+            kia: 0
+        }
     }
+
     return {
-        ItemAdd: function(typ, desc, value) {
-            var NewItem, ID;
+        tetelHozzaad: function(tip, lei, ert) {
+            var ujTetel;
             ID = 0;
 
-            if (data.items[typ] !== undefined && data.items[typ].length > 0) {
-                ID = data.items[typ][data.items[typ].length - 1].id + 1;
-            }else{
+            // ID létrehozása
+            if (adat.teteleky[tip].lenght > 0) {
+                ID = adat.tetelek[tip][adat.tetelek[tip].lenght - 1].id + 1;
+            } else {
                 ID = 0;
             }
 
-            if (typ === "bev")
-            {
-                NewItem = new Income(ID, desc, value);
-            }else if (typ === "kia")
-            {
-                NewItem = new Outcome(ID, desc, value);
-            }else
-            {
-                throw new Error("Invalid: ${tip}");
+            /// új kiadás v beevétel létrehozása
+            if (tip === 'bev') {
+                ujTetel = new Bevetel(ID, lei, ert);
+            } else if (tip === 'kia') {
+                ujTetel = new Kiadas(ID, lei, ert);
+            }else {
+                /*kezeld a hibát, például dobjon hibát vagy állitsa
+                ujTelet-t null-ra*/
             }
-            //Add the new item to the data structure
-            if (data.items[typ] !== undefined)
-            {
-                data.items[typ].push(NewItem);
-            }
-            //Return the new item
-            return NewItem;
+
+            // új tétel hozzáadsa az adatszerkezethez
+           if(adat.tetelek[tip] !== undefined){
+            adat.tetelek[tip].push(ujTetel)
+           };
+
+            // új tétel vissuadása
+            return ujTetel;
         },
-        test: function()
-        {
-            console.log(data);
+
+        teszt: function(){
+            console.log(adat);
         }
     }
+
 })();
-//Surface manager
-var surface_manager = (function(){
-    var DOMelement = {
-        inputType: '.hozzaad__tipus',
-        inputDescription: '.hozzaad__leiras',
-        inputValue: '.hozzaad__ertek',
-        inputButton: '.hozzaad__gomb',
-        incomeStorage: '.bevetelek__lista',
-        outcomeStorage: '.kiadasok__lista'
-    }
+
+var Bevetel = function(id, leiras, ertek) {
+    this.id = id;
+    this.leiras = leiras;
+    this.ertek = ertek;
+}
+
+// FELÜLET VEZÉRLŐ
+var feluletVezerlo = (function() {
+
+    var DOMelemek = {
+        inputTipus: '.hozzaad__tipus',
+        inputLeiras: '.hozzaad__leiras',
+        inputErtek: '.hozzaad__ertek',
+        inputGomb: '.hozzaad__gomb',
+        bevetelTarolo: '.bevetelek_lista',
+        KiadasTarolo: 'kiadas_lista'
+    };
+
     return {
-        getInput: function(){
+        getInput: function() {
             return {
-                type: document.querySelector(DOMelement.inputType).value,
-                description: document.querySelector(DOMelement.inputDescription).value,
-                value: document.querySelector(DOMelement.inputValue).value
+                tipus: document.querySelector(DOMelemek.inputTipus).value,
+                leiras: document.querySelector(DOMelemek.inputLeiras).value,
+                ertke: document.querySelector(DOMelemek.inputErtek).value,
             }
         },
-        getDOMelement: function(){
-            return DOMelement;
+
+        getDOMelemek: function() {
+            return DOMelemek;
         },
-        itemDisplay: function(obj, type){
-            var html, newHtml, element;
+        tetelMegjelentítes: function(obj, tipus) {
+            var html, ujHtmly, elem
 
-            //Creating HTML strings with placeholder values
-            if (type === 'bev')
-            {
-                element = DOMelement.incomeStorage;
-                html = '<div class="tetel clearfix" id="bevetelek-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>';
-            }else if (type === 'kia')
-            {
-                element = DOMelement.outcomeStorage;
-                html = '<div class="tetel clearfix" id="expense-%id%"><div class="tetel__leiras">%desc%</div><div class="right clearfix"><div class="tetel__ertek">%value%</div><div class="tetel__szazalek">21%</div><div class="tetel__torol"><button class="tetel__torol--gomb"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+            //Html string letrehozasa placeholder értékekkel
+            if (tipus === 'bev') {
+                elem = DOMelemek.bevetelTarolo;
+                html = '<div class="tetel clearfix" id="bevetelek-0">';
+            } else if (tipus === 'kia') {
+                elem = DOMelemek.KiadasTarolo
+                html = ''
             }
+            //Html string placeholder értékekkel cseréje
+            ujHtml = html.replace('%id%', obj.id);
+            ujHtml = ujHtml.replace('%leuras%',obj.leiras);
+            ujHtml = ujHtml.replace('%ertek%', obj.ertek);
 
-            //Replacing the HTML placeholder strings
-            newHtml = html.replace('%id%', obj.id);
-            newHtml = newHtml.replace('%desc%', obj.desc);
-            newHtml = newHtml.replace('%value%', obj.value);
+            //HTML beszurása a DOM-ba
+            document.querySelector(elem).insertAdjacentHTML
+            ('beforeend', ujHtml);
+        },
+        urlapTorles: function() {
+            var mezok, mezokTomb;
+            mezok = document.querySelectorAll(DOMElemek.inputLeiras + ', ' + DOMElemek.inputErtek);
+            mezokTomb = Array.prototype.slice.call(mezok);
 
-            //Inserting the HTML into DOM
-            document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
+            mezokTomb.forEach(function(currentValue, index, array) {
+                currentValue.value = ';'
+            });
+            mezokTomb[0].focus();
         }
     }
 })();
-//App manager
-var manager = (function(BudgetMan, SurfMan){
-    var EventManagerSet = function(){
-        var DOM = surface_manager.getDOMelement();
-        document.querySelector(DOM.inputButton).addEventListener('click', ManItemAdd);
+
+
+// ALKALMAZÁS VEZÉRLŐ
+var vezerlo = (function(koltsegvetesVez, feluletVez){
+
+    var esemenykezelokBeallit = function() {
+
+        var DOM = feluletVezerlo.getDOMelemek();
+
+        document.querySelector(DOM.inputGomb).addEventListener('click', vezTetelHozzadas);
+
+        document.addEventListener('keydown', function(event){
+
+            if (event.key !== undefined && event.key === 'Enter') {
+                vezTetelHozzadas();
+            }
+            else if (event.keyCode !== undefined && event.keyCode === 13) {
+                vezTetelHozzadas();
+            }
+    });
+}
+
+    var DOM = feluletVezerlo.getDOMelemek();
+
+    var vezTetelHozzadas = function() {
+
+        var input, ujTetel;
+
+        // 1. bevitt adat megszerzése
+        input = feluletVezerlo.getInput();
+
+        // 2. adatok átadása a költségvetésvezérlő modulnak.
+        ujTetel =  koltsegvetesVezerlo.tetelHozzaad(input.tipus, input.leiras, input.ertek);
+
+        // 3. megjelenités a ui-n
+        feluletVezerlo.tetelMegjelentítes(ujTetel, input.tipus)
+        
+        // 4. költségvetés újraszámolása
+        feluletVezerlo.urlapTorles();
+
+        // 5. összeg mejelenítése a felületen
+
+        // 6. Összeg megjelenítése a felületen
+
     }
 
-    document.addEventListener('keydown', function(event){
-        if (event.key !== undefined && event.key === "Enter")
-        {
-            ManItemAdd();
-            console.log(event);
-        }
-        else if (event.keyCode !== undefined && event.keyCode === 13) //Deprecated
-        {
-            ManItemAdd();
-            console.log(event);
-        }
-    })
-    var ManItemAdd = function(){
-        // 1 - Capturing imported data
-        var input = surface_manager.getInput();
-    
-        // 2 - Giving the data to the budget manager module
-        NewItem = budget_manager.ItemAdd(input.type, input.description, input.value);
-
-        // 3 - Appearance in UI
-        surface_manager.itemDisplay(NewItem, input.type);
-
-        // 4 - Re-calculating the budget
-
-        // 5 - Total amount on the interface
-    }
     return {
-        init: function(){
-            console.log("Working!");
-            EventManagerSet();
+        init: function() {
+            console.log('Alkalmazás fut');
+            esemenykezelokBeallit();
         }
     }
 
-})(budget_manager, surface_manager);
-manager.init();
+
+})(koltsegvetesVezerlo, feluletVezerlo);
+
+vezerlo.init();
