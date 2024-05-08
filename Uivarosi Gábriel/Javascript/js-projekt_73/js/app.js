@@ -141,13 +141,17 @@ var dobozES5 = {
     szin: 'zöld',
     pozicio: 1,
     KattinsRám: function() {
+        var objektum = this;
         console.log(this.szin);
-
+       
         document.querySelector('.green').addEventListener('click', function() {
-            var szoveg = 'Én vagyok a(z) ' + this.pozicio + '. doboz és a színem ' + this.szin + '.'
+         
+            var szoveg = 'Én vagyok a(z) ' + objektum.pozicio + '. doboz és a színem ' + objektum.szin + '.';
             alert(szoveg);
         })
     }
-}
+};
+
+
 
 dobozES5.KattinsRám();
