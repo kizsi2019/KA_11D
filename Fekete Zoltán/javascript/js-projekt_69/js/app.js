@@ -67,6 +67,24 @@ var koltsegvetesVezerlo = (function() {
             return ujTetel;
         },
 
+        tetelTorol: function(tip, id) {
+            var idTomb, index;
+
+            // Ellenőrzés, hogy a tetelek objektum és a tip kulcs létezik
+            if (adat.tetelek && adat.tetelek[tip]) {
+                idTomb = adat.tetelek[tip].map(function(aktualis) {
+                    return aktualis.id;
+                });
+                index = idTomb.indexOf(id);
+
+                if (index !== -1) {
+                    adat.tetelek[tip].splice(index, 1);
+                }
+            } else {
+                console.error('A tetelek objektum vagy a tip kulcs nem létezik.');
+            }
+        },
+
         koltsegvetesSzamolas: function() {
             // 1. Bevétel és kiadások összegének kiszámítása
 
@@ -112,7 +130,8 @@ var feluletVezerlo = (function() {
         koltsegvetesCimke: '.koltsegvetes__ertek',
         osszbevetelCimke: '.koltsegvetes__bevetelek--ertek',
         osszkiadasCimke: '.koltsegvetes__kiadasok--ertek',
-        szazalekCimke: '.koltsegvetes__kiadasok--szazalek'
+        szazalekCimke: '.koltsegvetes__kiadasok--szazalek',
+        kontener: '.kontener'
     };
 
     return {
@@ -148,6 +167,13 @@ var feluletVezerlo = (function() {
             // HTML beszúrása a DOM-ba
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         },
+
+        tetelTorles: function(tetelID) {
+
+            var elem = document.getElementById(tetelID);
+            elem.parentNode.removeChild(elem);
+        },
+
         urlapTorles: function() {
             var mezok, mezokTomb;
             mezok = document.querySelectorAll(DOMelemek.inputLeiras + ', ' + DOMelemek.inputErtek);
@@ -187,6 +213,8 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
                 vezTetelHozzaadas();
             }
         });
+
+        document.querySelector(DOM.kontener).addEventListener('click', vezTetelTorles);
     };
 
     var osszegFrissitese = function() {
@@ -222,9 +250,38 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
         
     };
 
+    var vezTetelTorles = function(event) {
+        //console.log(event.taget.parentNode.parentNode.parentNode.parentNode);
+        var tetelID, splitID, tip, ID
+
+        tetelID = event.target.parentNode.parentNode.parentNode.parentNode.id;
+
+        if (tetelID) {
+            splitID = tetelID.split('-');
+            tip = splitID[0];
+            ID = parseInt(splitID[1]);
+
+        // 1. tétel törlése az adat obj-ból
+        koltsegvetesVezerlo.tetelTorol(tip, ID);
+
+        // 2. tétel törlése a felületről
+        feluletVezerlo.tetelTorles(tetelID);
+        
+        // 3. összegek újraszámolása és megjelenítése a felületen
+        osszegFrissitese();
+    };
+}
+
     return {
         init: function() {
             console.log('Az alkalmazas fut');
+            feluletVezerlo.koltsegvetesMegjelenites({
+                osszeg: 0,
+                bev: 0,
+                kia: 0,
+                szazalek: -1
+                
+            });
             esemenykezeloBeallit();
         }
     };
