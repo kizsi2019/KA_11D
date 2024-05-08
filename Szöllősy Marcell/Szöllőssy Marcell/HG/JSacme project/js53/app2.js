@@ -110,7 +110,7 @@ var korokES5 = evek.map(function(elem) {
 console.log(korokES5);
 
 // es6
-
+/*
 let korokES6 = evek.map(elem => 2024 - elem);
 
 console.log(korokES6);
@@ -126,18 +126,65 @@ korokES6 = evek.map((elem, index) => {
 });
 
 console.log(korokES6)
-
-
+*/
+/*
 var dobozES5 = {
     szin: 'zöld',
     pozicio: 1,
     kattintsRam: function() {
-        console.log(this.szin);
+        var objektum = this;
 
         document.querySelector('.green').addEventListener('click', function(){
+            var szoveg = 'Én vagyok a(z) ' + objektum.pozicio + '. doboz és a szinem ' + objektum.szin + '.';
+            alert(szoveg)
+        })
+    }
+};
+
+dobozES5.kattintsRam();
+*/
+/*
+var dobozES6 = {
+    szin: 'zöld',
+    pozicio: 1,
+    kattintsRam: function() {
+
+        document.querySelector('.green').addEventListener('click', () => {
             var szoveg = 'Én vagyok a(z) ' + this.pozicio + '. doboz és a szinem ' + this.szin + '.';
             alert(szoveg)
         })
     }
 };
+
+dobozES6.kattintsRam();
+*/
+/*
+function Szemely(nev) {
+    this.nev = nev;
+}
+
+Szemely.prototype.barataimES5 = function(haverok) {
+    var obj = this
+    var tomb = haverok.map(function(elem) {
+        return obj.nev + ' barátja' + elem + '.';
+    });
+    console.log(tomb)
+}
+
+var haverok = ['Jóska', 'Pista', 'Ödön'];
+new Szemely('Géza').barataimES5(haverok);
+*/
+//ES6
+
+Szemely.prototype.barataimES6 = function(haverok) {
+
+    const tomb = haverok.map(elem => `${this.nve} baratja ${elem}.`);
+    console.log(tomb);
+}
+
+
+var haverok = ['Jóska', 'Pista', 'Ödön'];
+new Szemely('Géze').barataimES6(haverok);
+
+
 
