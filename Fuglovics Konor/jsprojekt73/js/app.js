@@ -28,17 +28,36 @@ agesES6 = years.map((element, index) =>
 
 console.log(agesES6);*/ 
 
-var boxES5 = 
+/*var boxES5 = 
 {
     color: 'zöld',
     position: 1,
     clickMe: function()
     {
-       // console.log(this.color);
-        document.querySelector('.green').addEventListener("click", function()
+        var object = this;
+        document.querySelector('.green').addEventListener('click', function()
+        {       //Ez nem megy valamiért...
+            var text = `Én vagyok a(z) ${object.position}. doboz és a színem ${object.color}.`;
+            alert(text);
+        })
+    }
+};
+boxES5.clickMe();*/
+
+//ES6
+
+const boxES6 = 
+{
+    color: "zöld",
+    position: 1,
+    clickMe: function()
+    {
+        document.querySelector('.green').addEventListener('click', () =>
         {
             var text = `Én vagyok a(z) ${this.position}. doboz és a színem ${this.color}.`;
             alert(text);
         })
     }
 };
+
+boxES6.clickMe();
