@@ -287,7 +287,7 @@ console.log(felnottek.indexOf(true));
 //es6
 console.log(korok.findIndex(aktualis => aktualis >= 18));
 console.log(korok.find(aktualis => aktualis >= 18));
-*/
+
 
 ///////////////////////////////////////////
 // Spread operátor
@@ -321,6 +321,95 @@ const htmlElemek = [cimsor, ...dobozok];
 Array.from(htmlElemek).forEach(aktualisElem => aktualisElem.style.color = 'purple');
 
 
+//////////////////////////////////////////////////////////////////////////////////////
+// Rest paratméterek
+
+//es5
+
+function parosVagyParatlanES5() {
+    console.log(arguements);
+    var argumentumokTomb = Arra.prototype.slice.call(arguements);
+    console.log(argumentumokTomb);
+    argumentumokTomb.forEach(function(aktualisElem) {
+        if (aktualisElem % 2 === 0) {
+            console.log('Paros');
+        } else {
+            console.log('paratlan');
+        }
+    });
+        
+    
+}
+
+parosVagyParatlanES5(1, 2, 3);
+
+//ES6
+
+function parosVagyParatlanES6(...szamok) {
+    console.log(szamok);
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem === 0){
+            console.log(paros);
+        } else {
+            console.log('Paratlan')
+        }
+    })
+}
+
+parosVagyParatlanES6(1, 2, 3);
+
+function parosVagyParatlanES5() {
+
+    var argumentumokTomb = Array.prototype.slice.call(arguments, 1);
+    //console.log(argumentumokTomb);
+    argumentumokTomb.forEach(function(aktualisElem) {
+        if (aktualisElem % 2 === 0) {
+            console.log('Paros');
+        } else {
+            console.log('Paratlan');
+        }
+    });
+}
+parosVagyParatlanES5('teszt', 1, 2, 3, 100, 5, 20);
+
+function parosVagyParatlanES6(teszt, ...szamok) {
+    //console.log(szamok);
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem % 2 === 0) {
+            console.log('Paros');
+        } else {
+            console.log('Paratlan')
+        }
+    })
+}
+
+parosVagyParatlanES5('teszt', 1, 2, 3, 10, 20, 25);
+
+
+
+function AdamsFamily(keresztNev, szuletesiEv, csaladiNev) {
+    csaladiNev === undefined ? csaladiNev = 'Adams' : csaladiNev = csaladiNev;
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this.csaladiNev = csaladiNev;
+}
+
+var fester = new AdamsFamily('Fester', 1940);
+var morthisa = new AdamsFamily('Mortisha', 1965);
+var kuzin = new AdamsFamily('Kuzin', 1800, 'Hogyishivják');
+
+//es6
+
+function AdamsFamily(keresztNev, szuletesiEv, csaladiNev = 'Adams') {
+
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this.csaladiNev = csaladiNev;
+}
+var fester = new AdamsFamily('Fester', 1940);
+var morthisa = new AdamsFamily('Mortisha', 1965);
+var kuzin = new AdamsFamily('Kuzin', 1800, 'Hogyishivják');
+*/
 
 
 
