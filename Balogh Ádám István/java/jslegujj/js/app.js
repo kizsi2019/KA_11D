@@ -67,6 +67,23 @@ var koltsegvetesVezerlo = (function() {
             return ujTetel;
         },
 
+        tetelTorol: function (tip, id) {
+            var idTomb, index;
+
+            if (adat.tetelek && adat.tetelek[tip]) {
+                idTomb = adat.tetelek[tip].map(function (aktualis) {
+                    return aktualis.id;
+                });
+                index = idTomb.indexOf(id);
+
+                if (index !== -1) {
+                    adat.tetelek[tip].splice(index, 1);
+                }
+            } else {
+                console.error('A tételek objektum vagy a tip kulcs nem létezik.');
+            }
+        },
+
         koltsegvetesSzamolas: function() {
             // 1. Bevétel és kiadások összegének kiszámítása
 
@@ -151,8 +168,8 @@ var feluletVezerlo = (function() {
             document.querySelector(elem).insertAdjacentHTML('beforeend', ujHtml);
         },
 
-        tetelTorol: function (tetelID) {
-            var elem = document.querySelector(selectorID):
+        tetelToroles: function (tetelID) {
+            var elem = document.getElementById(tetelID):
                 elem.parentNode.removeChild(elem);
         },
         urlapTorles: function() {
@@ -244,8 +261,9 @@ var vezerlo = (function(koltsegvetesVez, feluletVez) {
 
 
         //2. tétel törlése a felületről
-
+        feluletVezerlo.TetelTorles(tetelID);
         //3. összegek újraszámolása és megjelenítése a felületen
+        osszegFrissitese();
     }
 
     return {
