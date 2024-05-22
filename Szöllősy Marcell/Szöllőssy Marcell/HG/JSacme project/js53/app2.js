@@ -287,7 +287,7 @@ console.log(felnottek.indexOf(true));
 //es6
 console.log(korok.findIndex(aktualis => aktualis >= 18));
 console.log(korok.find(aktualis => aktualis >= 18));
-*/
+
 
 ///////////////////////////////////////////
 // Spread operátor
@@ -321,9 +321,155 @@ const htmlElemek = [cimsor, ...dobozok];
 Array.from(htmlElemek).forEach(aktualisElem => aktualisElem.style.color = 'purple');
 
 
+//////////////////////////////////////////////////////////////////////////////////////
+// Rest paratméterek
+
+//es5
+
+function parosVagyParatlanES5() {
+    console.log(arguements);
+    var argumentumokTomb = Arra.prototype.slice.call(arguements);
+    console.log(argumentumokTomb);
+    argumentumokTomb.forEach(function(aktualisElem) {
+        if (aktualisElem % 2 === 0) {
+            console.log('Paros');
+        } else {
+            console.log('paratlan');
+        }
+    });
+        
+    
+}
+
+parosVagyParatlanES5(1, 2, 3);
+
+//ES6
+
+function parosVagyParatlanES6(...szamok) {
+    console.log(szamok);
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem === 0){
+            console.log(paros);
+        } else {
+            console.log('Paratlan')
+        }
+    })
+}
+
+parosVagyParatlanES6(1, 2, 3);
+
+function parosVagyParatlanES5() {
+
+    var argumentumokTomb = Array.prototype.slice.call(arguments, 1);
+    //console.log(argumentumokTomb);
+    argumentumokTomb.forEach(function(aktualisElem) {
+        if (aktualisElem % 2 === 0) {
+            console.log('Paros');
+        } else {
+            console.log('Paratlan');
+        }
+    });
+}
+parosVagyParatlanES5('teszt', 1, 2, 3, 100, 5, 20);
+
+function parosVagyParatlanES6(teszt, ...szamok) {
+    //console.log(szamok);
+    szamok.forEach(aktualisElem => {
+        if (aktualisElem % 2 === 0) {
+            console.log('Paros');
+        } else {
+            console.log('Paratlan')
+        }
+    })
+}
+
+parosVagyParatlanES5('teszt', 1, 2, 3, 10, 20, 25);
 
 
 
+function AdamsFamily(keresztNev, szuletesiEv, csaladiNev) {
+    csaladiNev === undefined ? csaladiNev = 'Adams' : csaladiNev = csaladiNev;
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this.csaladiNev = csaladiNev;
+}
+
+var fester = new AdamsFamily('Fester', 1940);
+var morthisa = new AdamsFamily('Mortisha', 1965);
+var kuzin = new AdamsFamily('Kuzin', 1800, 'Hogyishivják');
+
+//es6
+
+function AdamsFamily(keresztNev, szuletesiEv, csaladiNev = 'Adams') {
+
+    this.keresztNev = keresztNev;
+    this.szuletesiEv = szuletesiEv;
+    this.csaladiNev = csaladiNev;
+}
+var fester = new AdamsFamily('Fester', 1940);
+var morthisa = new AdamsFamily('Mortisha', 1965);
+var kuzin = new AdamsFamily('Kuzin', 1800, 'Hogyishivják');
+*/
+
+///////////////////////////////////////////////////////////
+// Map
+/*
+const kerdes = new Map();
+kerdes.set('kerdes', 'Hogy hivják a de miééért reklámban szereplő kisfiút?');
+kerdes.set(1, 'Ödön');
+kerdes.set(2, 'Ábel');
+kerdes.set(3, 'Miklóska');
+kerdes.set(4, 'Nándi');
+
+kerdes.set('helyes', 2);
+
+kerdes.set(true, 'Helye Válasz');
+kerdes.set(false, 'Nem talált');
+
+console.log(kerdes.get('Kerdes'));
+console.log(kerdes.size);
+
+kerdes.delete(4);
+
+if (kerdes.has(3)) {
+    kerdes.delete(3);
+}
+
+kerdes.clear();
+
+kerdes.forEach(
+    (kulcs, ertek) => console.log(`Kulcs: ${kulcs}, ertek: ${ertek}`));
+    for (let [kulcs, ertek] of kerdes.entries()) {
+        if (typeof(kulcs) === 'number') {
+            console.log(`Kulcs: ${kulcs}, ertek: ${ertek}`);
+        }
+    }
+const valasz = parseInt(prompt('Add meg a helyes választ'));
+console.log(kerdes.get(valasz === kerdes.get('helyes')));
+*/
+
+
+///////////////////////////
+//Osztályok
+
+//es5
+var SzemelyES5 = function(nev, szuletesiEv, foglalkozas) {
+    this.nev = nev;
+    this.szuletesiEv = szuletesiEv;
+    this.foglalkozas= foglalkozas;
+}
+
+SzemelyES5.prototype.korszamitas = function() {
+    var kor = new Date().getFullYear - this.szuletesiEv;
+    console.log(kor);
+}
+
+var odon = new SzemelyES5('Ödön', 1810, 'kisértet');
+
+//es6
+class SzemelyES6{
+    
+}
 
 
 

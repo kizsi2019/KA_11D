@@ -66,8 +66,6 @@ const [kor3, nyugdij] = koresnyugdij(1970);
 console.log(kor3);
 console.log(nyugdij); */
 
-const doboz = document.querySelectorAll('.rectangle');
-
 //es5
 
 /*var doboztombES5 = Array.prototype.slice.call(dobozok)
@@ -108,7 +106,7 @@ for (const aktualis of dobozokTombES6) {
     }
 }  */
 
-var korok = [2, 10, 20, 27, 14]
+/*var korok = [2, 10, 20, 27, 14]
 
 console.log(korok);
 
@@ -152,3 +150,20 @@ const cimsor = document.querySelector('h1');
 const htmlElemek = [cimsor,...dobozok];
 
 Array.from(htmlElemek).forEach(aktualisElem => aktualisElem.style.color = 'purple');
+*/
+
+function parosVagyParatlanES5() {
+    console.log(arguments);
+    var argumentumokTomb = Array.prototype.slice.call(arguments);
+    console.log(argumentumokTomb);
+    argumentumokTomb.forEach(aktualisElem {
+        if (aktualisElem % 2 ===0)
+
+        }else{
+            console.log('Paratlan');
+        }
+    });
+} 
+
+
+parosVagyParatlanES5(1, 2, 3); 
