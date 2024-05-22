@@ -411,8 +411,65 @@ var morthisa = new AdamsFamily('Mortisha', 1965);
 var kuzin = new AdamsFamily('Kuzin', 1800, 'Hogyishivják');
 */
 
+///////////////////////////////////////////////////////////
+// Map
+/*
+const kerdes = new Map();
+kerdes.set('kerdes', 'Hogy hivják a de miééért reklámban szereplő kisfiút?');
+kerdes.set(1, 'Ödön');
+kerdes.set(2, 'Ábel');
+kerdes.set(3, 'Miklóska');
+kerdes.set(4, 'Nándi');
+
+kerdes.set('helyes', 2);
+
+kerdes.set(true, 'Helye Válasz');
+kerdes.set(false, 'Nem talált');
+
+console.log(kerdes.get('Kerdes'));
+console.log(kerdes.size);
+
+kerdes.delete(4);
+
+if (kerdes.has(3)) {
+    kerdes.delete(3);
+}
+
+kerdes.clear();
+
+kerdes.forEach(
+    (kulcs, ertek) => console.log(`Kulcs: ${kulcs}, ertek: ${ertek}`));
+    for (let [kulcs, ertek] of kerdes.entries()) {
+        if (typeof(kulcs) === 'number') {
+            console.log(`Kulcs: ${kulcs}, ertek: ${ertek}`);
+        }
+    }
+const valasz = parseInt(prompt('Add meg a helyes választ'));
+console.log(kerdes.get(valasz === kerdes.get('helyes')));
+*/
 
 
+///////////////////////////
+//Osztályok
+
+//es5
+var SzemelyES5 = function(nev, szuletesiEv, foglalkozas) {
+    this.nev = nev;
+    this.szuletesiEv = szuletesiEv;
+    this.foglalkozas= foglalkozas;
+}
+
+SzemelyES5.prototype.korszamitas = function() {
+    var kor = new Date().getFullYear - this.szuletesiEv;
+    console.log(kor);
+}
+
+var odon = new SzemelyES5('Ödön', 1810, 'kisértet');
+
+//es6
+class SzemelyES6{
+    
+}
 
 
 
