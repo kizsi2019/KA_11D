@@ -473,6 +473,7 @@ SzemelyES5.prototype.korszamitas = function() {
 var odon = new SzemelyES5('Ödön', 1810, 'Kísértet')
 */
 //Es6
+/*
 class SzemelyES6 {
 constructor(nev, szuletesiEv, foglalkozas) {
     this.nev = nev
@@ -492,3 +493,59 @@ static udvozlet() {
 const nandi = new SzemelyES6('Nándi, 1960')
 
 SzemelyES6.udvozlet();
+*/
+/*
+var SzemelyES5 = function(nev, szuletesiEv, foglalkozas) {
+    this.nev = nev
+    this.szuletesiEv = szuletesiEv
+    this.foglalkozas = foglalkozas
+}
+SzemelyES5.prototype.korszamitas = function() {
+    var kor = new Date().getFullYear - this.szuletesiEv
+    console.log(kor)
+}
+
+var KatonaES5 = function(nev, szuletesiEv, foglalkozas, rendfokozat, osztag ) {
+    SzemelyES5.call(this, nev, szuletesiEv, foglalkozas)
+    this.rendfokozat = rendfokozat;
+    this.osztag = osztag;
+}
+
+KatonaES5.prototype.rangszerzes = function(rang) {
+    this.rendfokozat = rang;
+    console.log(this.rendfokozat);
+}
+
+var odonKatona = new KatonaES5('Ödön', 1970, 'Pék', 'közlegény', 'Öngyilkos alakulat');
+odonKatona.rangszerzes('szazados');
+//odonKatona.korszamitas();
+*/
+class SzemelyES6 {
+    constructor(nev, szuletesiEv, foglalkozas) {
+        this.nev = nev
+        this.szuletesiEv = szuletesiEv
+        this.foglalkozas = foglalkozas
+    
+    }
+    korszamitas() {
+        let kor = new Date().getFullYear - this.szuletesiEv
+        console.log(kor)
+    }
+}
+
+class KatonaES6 extends SzemelyES6 {
+    constructor(nev, szuletesiEv, foglalkozas, rendfokozat, osztag) {
+        super(nev, szuletesiEv, foglalkozas)
+        this.rendfokozat = rendfokozat;
+        this.osztag = osztag;
+
+    }
+    rangszerzes(rang) {
+        this.rendfokozat = rang
+        console.log(this.rendfokozat);
+    }
+}
+
+const NándiKatona = new KatonaES6('Nándi', 1960, 'Katona', 'Tiszt', 'Öngyilkos alakulat')
+NándiKatona.rangszerzes('szazados')
+NándiKatona.korszamitas();
