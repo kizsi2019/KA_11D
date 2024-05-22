@@ -256,7 +256,7 @@ for( let [kulcs, ertek] of kerdes.entries()){
 
 const valasz = parseInt(prompt('Add meg a helyes választ'));
 console.log(kerdes.get(valasz === kerdes.get('helyes')));
-*/
+
 
 
 //ES5
@@ -285,8 +285,103 @@ class SzemelyES6{
         let kor = new Date().getFullYear - this.szuletesiev;
         console.log(kor);
     }
+
+
+    static udvozlet(){
+        console.log('Hello');
+    }
 }
 
-static udvozlet(){
-    console.log('Hello');
+const nandi = new SzemelyES6('Nándi', 1960, 'Pék');
+SzemelyES6.udvozlet();
+
+
+var SzemelyES5 = function(nev, szuletesiev, foglalkozas){
+    this.nev = nev;
+    this.szuletesiev = szuletesiev;
+    this.foglalkozas = foglalkozas;
 }
+
+SzemelyES5.prototype.korszamitas = function(){
+    var kor = new Date().getFullYear() - this.szuletesiev;
+    console.log(kor);
+}
+
+var KatonaES5 = function(nev, szuletesiev, foglalkozas, rendfokozat, osztag){
+    SzemelyES5.call(this, nev, szuletesiev, foglalkozas)
+    this.rendfokozat = rendfokozat;
+    this.osztag = osztag;
+}
+
+KatonaES5.prototype = Object.create(SzemelyES5.prototype);
+
+KatonaES5.prototype.rangszerzes = function(rang){
+    this.rendfokozat = rang;
+    console.log(this.rendfokozat);
+}
+
+var odonKatona = new KatonaES5('Ödön', 1970, 'Pék', 'közlegény', 'harcosok');
+
+odonKatona.korszamitas();
+odonKatona.rangszerzes('szazados');
+
+//ES6
+
+class SzemelyES6 {
+    constructor(nev, szuletesiev, foglalkozas){
+        this.nev = nev;
+        this.szuletesiev = szuletesiev;
+        this.foglalkozas = foglalkozas;
+    }
+    korszamitas(){
+        let kor = new Date().getFullYear() - this.szuletesiev;
+        console.log(kor);
+    }
+}
+
+
+class KatonaES6 extends SzemelyES6{
+    constructor(nev, szuletesiev, foglalkozas, rendfokozat, osztag){
+        super(nev, szuletesiev, foglalkozas);
+        this.rendfokozat = rendfokozat;
+        this.osztag = osztag;
+    }
+
+    rangszerzes(rang){
+        this.rendfokozat = rang;
+        console.log(this.rendfokozat);
+    }
+}
+
+const nandiKatona = new KatonaES6('Nándi', 1960, 'Tiszt', 'harcosok osztaga');
+
+nandiKatona.rangszerzes('szazados');
+nandiKatona.korszamitas();
+
+
+const masodik = () => {
+    console.log('masodik')
+};
+
+const elso = () => {
+    console.log('elso')
+    masodik();
+    console.log('harmadik')
+};
+
+elso();
+*/
+
+const masodik = () =>{
+    setTimeout(() => {
+        console.log('Asszinkron masodik')
+    }, 6000);
+};
+
+const elso = () => {
+    console.log('elso')
+    masodik();
+    console.log('harmadik')
+};
+
+elso();
