@@ -562,7 +562,7 @@ const elso = () => {
 }
 elso();
 */
-
+/*
 const masodik = () => {
     setTimeout(() => {
         console.log('Asszikorn második')
@@ -576,3 +576,30 @@ const elso = () => {
 };
 
 elso();
+*/
+
+function receptLekerdez() {
+    setTimeout (() => {
+        const receptID = [676, 102, 34, 1489, 321]
+        console.log(receptID)
+
+        setTimeout((id) => {
+            const recept = {
+                cím: 'Gulyás leves',
+                kategoria: 'Levesek'
+            }
+            console.log(`${id}: ${recept.cím}`);
+
+            setTimeout(kategoria => {
+                const levesek = [
+                    { cim: 'Nyirségi gombócleves', kategoria: 'Levesek'},
+                    { cim: 'Borsóleves', kategoria: 'Levesek'}
+                ];
+                console.log(levesek);
+
+            }, 2000, recept.kategoria);
+        }, 2000, receptID[1])
+    }, 3000)
+}
+
+receptLekerdez();
