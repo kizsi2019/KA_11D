@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback hell</title>
+
+    <script>
+        /*function receptLekerdez() {
+            setTimeout(()=> {
+                const receptID = [676, 102, 34, 1089, 321];
+                console.log(receptID);
+
+                setTimeout((id) => {
+                    const recept = {
+                        cim: 'Gulyás leves',
+                        kategoria: 'Levesek'
+                    }
+                    console.log(`${id}: ${recept.cim}`);
+
+                    setTimeout(kategoria => {
+                        const levesek = [
+                            { cim: 'Nyírségi gómbócleves', kategoria: 'Levesek' },
+                            { cim: 'Borsóleves', kategoria: 'Levesek' }
+                        ];
+
+                        console.log(levesek);
+                    }, 1500, recept.kategoria);
+                }, 1500, receptID[1]);
+
+           }, 2000);
+        }
+
+        receptLekerdez();*/
+
+        const azonositokLekerdezese = new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                resolve([676, 102, 34, 1089, 321]);
+            }, 2000);
+        });
+
+        const receptLekeres = (receptID) => {
+            return new Promise((resolve, reject) => {
+                setTimeout((id) => {
+                    const recept = {
+                        cim: 'Gulyás leves',
+                        kategoria: 'Levesek'
+                    };
+
+                    resolve(`${id}: ${recept.cim}`);
+                },  1500, receptID);
+
+            });
+        };
+
+        const kategorialekeres = (kategoria) => {
+            return new Promise((resolve, reject) => {
+                setTimeout((kat) => {
+                    const levesek = [
+                        { cim: 'Tökleves', kategoria: 'Levesek'},
+                        { cim: 'Húsleves', kategoria: 'Levesek'}
+                    ];
+                    resolve(levesek);
+                }, 1500, kategoria)
+            });
+        };
+
+
+
+
+
+        azonositokLekerdezese.then(azonositok => {
+            console.log(azonositok);
+            return receptLekeres(azonositok[2]);
+        })
+        .then((recept) => {
+            console.log(recept);
+            return kategorialekeres(recept.kategoria);
+        })
+        .then((kategoria) => {
+            console.log(kategoria);
+        })
+        .catch(hiba => {
+            console.log(hiba);
+        });
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
