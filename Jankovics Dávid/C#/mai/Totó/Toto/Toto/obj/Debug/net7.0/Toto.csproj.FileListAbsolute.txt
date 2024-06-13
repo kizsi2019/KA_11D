@@ -1,0 +1,29 @@
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/bin/Debug/net7.0/Toto
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/bin/Debug/net7.0/Toto.deps.json
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/bin/Debug/net7.0/Toto.runtimeconfig.json
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/bin/Debug/net7.0/Toto.dll
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/bin/Debug/net7.0/Toto.pdb
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.csproj.AssemblyReference.cache
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.AssemblyInfoInputs.cache
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.AssemblyInfo.cs
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.csproj.CoreCompileInputs.cache
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.dll
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/refint/Toto.dll
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.pdb
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/Toto.genruntimeconfig.cache
+/Users/dunaikrisztian/Desktop/Programozás 11D/KA_11D/Dunai Krisztián János/C#/Totó/Toto/Toto/obj/Debug/net7.0/ref/Toto.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\bin\Debug\net7.0\Toto.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\bin\Debug\net7.0\Toto.deps.json
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\bin\Debug\net7.0\Toto.runtimeconfig.json
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\bin\Debug\net7.0\Toto.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\bin\Debug\net7.0\Toto.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\Toto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\Toto.AssemblyInfoInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\Toto.AssemblyInfo.cs
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\Toto.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\Toto.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\refint\Toto.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\Toto.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\Toto.genruntimeconfig.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\mai\Totó\Toto\Toto\obj\Debug\net7.0\ref\Toto.dll

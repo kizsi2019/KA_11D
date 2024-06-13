@@ -1,0 +1,8 @@
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\obj\Debug\tömb 2.csproj.AssemblyReference.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\obj\Debug\tömb 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\obj\Debug\tömb 2.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\bin\Debug\tömb 2.exe.config
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\bin\Debug\tömb 2.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\bin\Debug\tömb 2.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\obj\Debug\tömb 2.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\tömb 2\tömb 2\obj\Debug\tömb 2.pdb
