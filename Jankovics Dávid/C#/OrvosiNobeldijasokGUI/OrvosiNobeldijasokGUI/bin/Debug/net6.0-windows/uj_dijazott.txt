@@ -1,2 +1,2 @@
 Év;Név;SzületésHalálozás;Országkód
-2024;Gazsika Gazsi;1999/2020;H
+1900;Vicsápi Levente ;2004;H

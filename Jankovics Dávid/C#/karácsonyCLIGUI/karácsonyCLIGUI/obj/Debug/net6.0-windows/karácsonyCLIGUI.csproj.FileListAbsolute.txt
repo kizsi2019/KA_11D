@@ -19,23 +19,23 @@ C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karácsonyCLIGUI\karácsonyCLIGUI
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.pdb
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.genruntimeconfig.cache
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\ref\karácsonyCLIGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.exe
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.deps.json
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.runtimeconfig.json
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.pdb
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI_MarkupCompile.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI_MarkupCompile.lref
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.g.resources
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.AssemblyInfoInputs.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.AssemblyInfo.cs
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.csproj.CoreCompileInputs.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\refint\karácsonyCLIGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.pdb
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.genruntimeconfig.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\ref\karácsonyCLIGUI.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.exe
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.deps.json
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.runtimeconfig.json
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\bin\Debug\net6.0-windows\karácsonyCLIGUI.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI_MarkupCompile.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI_MarkupCompile.lref
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.g.resources
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.AssemblyInfoInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.AssemblyInfo.cs
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.csproj.CoreCompileInputs.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\refint\karácsonyCLIGUI.dll
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.pdb
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\karácsonyCLIGUI.genruntimeconfig.cache
+C:\Users\JakabMateTibor\Desktop\11.D\KA_11D\Jakab Máté Tibor\C#\karácsonyCLIGUI\karácsonyCLIGUI\obj\Debug\net6.0-windows\ref\karácsonyCLIGUI.dll
