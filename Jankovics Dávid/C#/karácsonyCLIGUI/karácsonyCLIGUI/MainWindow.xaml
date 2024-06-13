@@ -21,7 +21,6 @@
             <ComboBoxItem Content="9"/>
             <ComboBoxItem Content="10"/>
             <ComboBoxItem Content="11"/>
-            <ComboBoxItem Content="12"/>
             <ComboBoxItem Content="13"/>
             <ComboBoxItem Content="14"/>
             <ComboBoxItem Content="15"/>
@@ -56,6 +55,6 @@
         <Label Content="Eladott:" HorizontalAlignment="Left" Height="24" Margin="462,50,0,0" VerticalAlignment="Top" Width="94"/>
         <Button Content="Hozzáad" HorizontalAlignment="Left" Height="25" Margin="666,53,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
         <TextBlock Name="errorText" HorizontalAlignment="Left" Height="20" Margin="556,92,0,0" TextWrapping="Wrap" Text="" Foreground="Red" VerticalAlignment="Top" Width="197"/>
-        <TextBox Name="tbEredmeny" HorizontalAlignment="Left" Height="277" Margin="60,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="693" ScrollViewer.PanningMode="VerticalOnly" ScrollViewer.VerticalScrollBarVisibility="Visible" IsReadOnly="True"/>
+        <TextBox Name="tbEredmeny" HorizontalAlignment="Left" Height="277" Margin="60,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="693"/>
     </Grid>
 </Window>

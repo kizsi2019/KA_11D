@@ -19,23 +19,3 @@ C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasokGUI\OrvosiNobel
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.pdb
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.genruntimeconfig.cache
 C:\iskola\info\aaf3\KA_11D\Vicsápi Levente\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\ref\OrvosiNobeldijasokGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\bin\Debug\net6.0-windows\OrvosiNobeldijasokGUI.exe
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\bin\Debug\net6.0-windows\OrvosiNobeldijasokGUI.deps.json
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\bin\Debug\net6.0-windows\OrvosiNobeldijasokGUI.runtimeconfig.json
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\bin\Debug\net6.0-windows\OrvosiNobeldijasokGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\bin\Debug\net6.0-windows\OrvosiNobeldijasokGUI.pdb
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI_MarkupCompile.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI_MarkupCompile.lref
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.g.resources
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.AssemblyInfoInputs.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.AssemblyInfo.cs
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.csproj.CoreCompileInputs.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\refint\OrvosiNobeldijasokGUI.dll
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.pdb
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\OrvosiNobeldijasokGUI.genruntimeconfig.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\OrvosiNobeldijasokGUI\OrvosiNobeldijasokGUI\obj\Debug\net6.0-windows\ref\OrvosiNobeldijasokGUI.dll

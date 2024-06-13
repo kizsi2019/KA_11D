@@ -69,7 +69,28 @@ namespace Bukkmaraton2019
             Console.WriteLine($"\tNév: {gyoztesFerfiRovidTav.Nev}");
             Console.WriteLine($"\tEgyesület: {gyoztesFerfiRovidTav.Egyesulet}");
             Console.WriteLine($"\tIdő: {gyoztesFerfiRovidTav.Ido}");
-            
+
+            Console.WriteLine("8.feladat: Statisztika");
+            Dictionary<string, int> stat = new Dictionary<string, int>();
+            foreach (var v in versenyzok)
+            {
+                if (!v.NoiVersenyzo)
+                {
+                    if (stat.ContainsKey(v.Kategoria))
+                    {
+                        stat[v.Kategoria]++;
+                    }
+
+                    else
+                    {
+                        stat.Add(v.Kategoria, 1);
+                    }
+                }
+            }
+            foreach(var s in stat)
+            {
+                Console.WriteLine($"\t{s.Key} - {s.Value}fő");
+            }
 
             Console.ReadKey();
         }
