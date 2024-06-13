@@ -8,6 +8,7 @@ namespace Bukkmaraton2019
 {
     public class Versenyzo
     {
+        //Atributomok
         public string Rajtszam { get; private set; }
         public string Kategoria { get; private set; }
         public string Nev { get; private set; }
@@ -28,7 +29,7 @@ namespace Bukkmaraton2019
                 return Ido > new TimeSpan(6,0,0);
             }
         }
-
+        //konstruktor
         public Versenyzo(string sor) 
         {
             string[] m = sor.Split(';');

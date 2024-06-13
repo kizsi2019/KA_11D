@@ -1,0 +1,7 @@
+1.feladat: SELECT nev, szul_dat FROM versenyzok WHERE YEAR(szul_dat) >= 1980-01-01 AND szul_hely LIKE 'Szeged' AND egyen_csapat LIKE 'e' ORDER BY nev;
+2.feladat: SELECT azon, nev, megjegyzes FROM versenyzok JOIN eredmenyek ON versenyzok.azon = eredmenyek.versenyzo_azon WHERE nev LIKE 'Vajda Attila';
+3.feladat: SELECT DISTINCT orszagok.orszag 
+FROM eredmenyek, versenyzok, orszagok 
+WHERE eredmenyek.helyezes = 1 AND eredmenyek.versenyzo_azon = versenyzok.azon 
+AND versenyzok.orszag_azon = orszagok.azon;
+4.feladat: SELECT nev, szul_hely, szul_dat FROM versenyzok WHERE YEAR(szul_dat) > "1985-12-03";

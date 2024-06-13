@@ -1,7 +1,0 @@
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\nkrgew\nkrgew\bin\Debug\nkrgew.exe.config
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\nkrgew\nkrgew\bin\Debug\nkrgew.exe
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\nkrgew\nkrgew\bin\Debug\nkrgew.pdb
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\nkrgew\nkrgew\obj\Debug\nkrgew.csproj.AssemblyReference.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\nkrgew\nkrgew\obj\Debug\nkrgew.csproj.CoreCompileInputs.cache
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\nkrgew\nkrgew\obj\Debug\nkrgew.exe
-C:\Users\JankovicsDavid\Desktop\Új mappa\KA_11D\Jankovics Dávid\C#\nkrgew\nkrgew\obj\Debug\nkrgew.pdb

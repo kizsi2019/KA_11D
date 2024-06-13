@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JankovicsDavid\\Desktop\\Új mappa\\KA_11D\\Jankovics Dávid\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj": {}
+    "C:\\Users\\JakabMateTibor\\Desktop\\11.D\\KA_11D\\Jakab Máté Tibor\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JankovicsDavid\\Desktop\\Új mappa\\KA_11D\\Jankovics Dávid\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj": {
+    "C:\\Users\\JakabMateTibor\\Desktop\\11.D\\KA_11D\\Jakab Máté Tibor\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JankovicsDavid\\Desktop\\Új mappa\\KA_11D\\Jankovics Dávid\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj",
+        "projectUniqueName": "C:\\Users\\JakabMateTibor\\Desktop\\11.D\\KA_11D\\Jakab Máté Tibor\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj",
         "projectName": "OrvosiNobeldijasokGUI",
-        "projectPath": "C:\\Users\\JankovicsDavid\\Desktop\\Új mappa\\KA_11D\\Jankovics Dávid\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj",
-        "packagesPath": "C:\\Users\\JankovicsDavid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JankovicsDavid\\Desktop\\Új mappa\\KA_11D\\Jankovics Dávid\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\obj\\",
+        "projectPath": "C:\\Users\\JakabMateTibor\\Desktop\\11.D\\KA_11D\\Jakab Máté Tibor\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI.csproj",
+        "packagesPath": "C:\\Users\\JakabMateTibor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JakabMateTibor\\Desktop\\11.D\\KA_11D\\Jakab Máté Tibor\\C#\\OrvosiNobeldijasokGUI\\OrvosiNobeldijasokGUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JankovicsDavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JakabMateTibor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

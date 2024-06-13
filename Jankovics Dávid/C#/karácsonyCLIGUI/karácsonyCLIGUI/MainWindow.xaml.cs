@@ -52,7 +52,6 @@ namespace karácsonyCLIGUI
 
             
         }
-        
 
         private void UpdateEredmenyekTextBox()
         {
