@@ -11,46 +11,104 @@ Játék szabályok:
 
 */
 
-var pontszam, korpontszam, aktívjátékos, kocka;
+// változók létrehozása és adatainak megadása
+var pontszamok, korpontszam, aktivjatekos, jatekFolyamatban;
 
-pontszam = [0,0];
-korpontszam = 0;
-aktívjátékos = 1;
+init();
 
 
-//document.querySelector('#current-' + aktívjátékos).textContent = kocka;
-//document.queryselector('#current-' + aktívjátékos).textContent= '<u>' + kocka + '</u>';
 
-document.queryselector('.dice').style.display = 'none'; 
-document.getElementById('score-0').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-0').textContent = '0';
+//document.querySelector('#current-' + aktivjatekos).textContent = kocka;
 
-document.queryselector('.btn-roll').addEventListener('click', function()
+//var nev = document.querySelector('#name-1').textContent;
+
+
+document.querySelector('.btn-roll').addEventListener('click', function()
 {
+  //
+  if (jatekFolyamatban) 
+  {
+  //
   var kocka = Math.floor(Math.random() * 6) + 1;
 
-  var kockaDOM = document.querySelector('.dice');
-  kockaDOM.style.display = 'block';
-  kockaDOM.src = 'img/dice-' + kocka + '.png';
 
-  if (kocka |= 1) {
+  //
+  var kockadom = document.querySelector('.dice');
+
+  //
+  kockadom.style.display = 'block';
+  kockadom.src = 'img/dice-' + kocka + '.png';
+  
+  //ha a dobásunk nem 1
+  if (kocka !==1){
+    //dobásunkat hozza ádjuk az aktív játékos pontjaihoz
     korpontszam += kocka;
-    document.querySelector('#current' + aktívjátékos).textContent = korpontszam;
-  } else {
-    aktívjátékos === 0 ? aktívjátékos = 1: aktívjátékos = 0;
-    korpontszam = 0;
-
-    document.getElementById('current-0').textContent = '0';
-    document.getElementById('current-1').textContent = '0';
-
-    document.querySelector('player-0-panel').classList.toggle('active');
-    document.querySelector('player-1-panel').classList.toggle('active');
-
-    document.querySelector('.dice').style
-
+    document.querySelector('#current-' + aktivjatekos).textContent = korpontszam;
+  } 
+  //ha viszont 1 akkor ezt csinálja
+  else {
+    //
+    Kovetekzojatekos();
   }
+  }
+});
 
+//megtartjuk a dobást
+document.querySelector('.btn-hold').addEventListener('click', function() {
+  if (jatekFolyamatban) {
+    //
+  pontszamok[aktivjatekos] += korpontszam;
 
-})
+  //
+  document.querySelector('#score-' + aktivjatekos).textContent = pontszamok[aktivjatekos];
+
+  //
+  if (pontszamok[aktivjatekos] >= 10) {
+    document.querySelector('#name-' + aktivjatekos).textContent = "Győztes!";
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.add('winner')
+    document.querySelector('.player-' + aktivjatekos + '-panel').classList.remove('active')
+    jatekFolyamatban = false;
+  }
+  else {
+    //
+  Kovetekzojatekos();
+  }
+  }
+});
+
+//
+function Kovetekzojatekos() {
+  aktivjatekos === 0 ? aktivjatekos = 1 : aktivjatekos = 0;
+  korpontszam = 0;
+
+  document.getElementById('current-0').textContent = '0';
+  document.getElementById('current-1').textContent = '1';
+
+  document.querySelector('.player-0-panel').classList.toggle('active');
+  document.querySelector('.player-1-panel').classList.toggle('active');
+
+  document.querySelector('.dice').style.display = 'none';
+}
+
+document.querySelector('.btn-new').addEventListener('click', init);
+
+function init()
+{
+  pontszamok = [0,0];
+  aktivjatekos = 0;
+  korpontszam = 0;
+  jatekFolyamatban = true;
+
+  document.querySelector('.dice').style.display = 'none';
+  document.getElementById('score-0').textContent = '0';
+  document.getElementById('score-1').textContent = '0';
+  document.getElementById('current-0').textContent = '0';
+  document.getElementById('current-1').textContent = '0';
+
+  document.getElementById('name-0').textContent = "Frodó";
+  document.getElementById('name-1').textContent = "Samu";
+  document.querySelector('.player-0-panel').classList.remove('winner');
+  document.querySelector('.player-1-panel').classList.remove('winner');
+  document.querySelector('.player-0-panel').classList.remove('active');
+  document.querySelector('.player-1-panel').classList.add('active');
+}
