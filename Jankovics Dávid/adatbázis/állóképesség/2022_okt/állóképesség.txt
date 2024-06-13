@@ -1,0 +1,17 @@
+2.feladat: SELECT letszam from megye WHERE nev LIKE 'Vas';
+
+3.feladat: SELECT COUNT(azon) as 'tanulók száma', nev FROM aerob, megye
+WHERE megye.kod = aerob.mkod AND nev LIKE '%Somogy%';
+
+4.feladat:SELECT megye.letszam FROM aerob, megye, allapot
+WHERE megye.kod = aerob.mkod AND allapot.kod = aerob.allkod
+AND megye.nev LIKE '%Zala%' AND aerob.nem = 1 AND allapot.kod = 1;
+
+5.feladat: SELECT COUNT(letszam) as létszám FROM megye
+WHERE letszam < (SELECT letszam FROM megye WHERE nev LIKE 'Heves');
+
+6.feladat: 
+
+7.feladat: SELECT aerob.azon as darab FROM aerob, allapot, megye
+WHERE aerob.mkod = megye.kod AND allapot.kod = aerob.allkod
+AND aerob.nem = 0 AND allapot.kod = 1;
