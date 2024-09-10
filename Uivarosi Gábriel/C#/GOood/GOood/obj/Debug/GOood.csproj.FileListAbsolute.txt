@@ -1,0 +1,7 @@
+C:\Users\UivarosiGabriel\Desktop\C#\GOood\GOood\bin\Debug\GOood.exe.config
+C:\Users\UivarosiGabriel\Desktop\C#\GOood\GOood\bin\Debug\GOood.exe
+C:\Users\UivarosiGabriel\Desktop\C#\GOood\GOood\bin\Debug\GOood.pdb
+C:\Users\UivarosiGabriel\Desktop\C#\GOood\GOood\obj\Debug\GOood.csproj.AssemblyReference.cache
+C:\Users\UivarosiGabriel\Desktop\C#\GOood\GOood\obj\Debug\GOood.csproj.CoreCompileInputs.cache
+C:\Users\UivarosiGabriel\Desktop\C#\GOood\GOood\obj\Debug\GOood.exe
+C:\Users\UivarosiGabriel\Desktop\C#\GOood\GOood\obj\Debug\GOood.pdb
