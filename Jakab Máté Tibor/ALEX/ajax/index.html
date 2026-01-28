@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Adatkezelő</title>
+
+    <style>
+        /* Modern betűtípus importálása */
+        @import url('https://fonts.googleapis.com');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            /* Elegáns sötét színátmenetes háttér */
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f1f5f9;
+        }
+
+        .kontener {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 40px;
+            /* Üvegszerű panel hatás */
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+            border-radius: 12px;
+            background: rgba(15, 23, 42, 0.6);
+        }
+
+        th {
+            background: linear-gradient(90deg, #334155, #475569);
+            color: #38bdf8; /* Modern cián kiemelés */
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            color: #cbd5e1;
+            font-size: 0.95rem;
+            /* Megjelenési animáció az új soroknak */
+            animation: fadeIn 0.4s ease forwards;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        button {
+            cursor: pointer;
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            /* Vibráló kék színátmenet a gombon */
+            background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(37, 99, 235, 0.5);
+            filter: brightness(1.1);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        /* Finom animáció az új sorokhoz */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="kontener">
+    <table id="targetTable">
+        <thead>
+            <tr>
+                <th>Oszlop 1</th>
+                <th>Oszlop 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- A sorok ide kerülnek -->
+        </tbody>
+    </table>
+
+    <button id="addRowBtn">Új sor hozzáadása</button>
+</div>
+
+<script>
+    // Modern JavaScript eseménykezelés
+    const btn = document.getElementById('addRowBtn');
+    const tableBody = document.querySelector('#targetTable tbody');
+
+    btn.addEventListener('click', () => {
+        const row = tableBody.insertRow();
+        
+        const cell1 = row.insertCell(0);
+        const cell2 = row.insertCell(1);
+
+        cell1.textContent = "Első oszlop";
+        cell2.textContent = "Második oszlop";
+    });
+</script>
+
+</body>
+</html>
